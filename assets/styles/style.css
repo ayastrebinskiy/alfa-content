@@ -8,3 +8,7 @@
 .step-indicator__bubble{
     cursor: pointer;
 }
+
+.ac-popup-modal .some-tariffs .some-tariff__block.selected {
+  border-color: #39dd00;
+}

@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="/assets/styles/style.css">
     <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
-    <script type="text/javascript" src="/assets/scripts/main-min.js?"></script>
-    <script type="text/javascript" src="/assets/scripts/engine.js?"></script>
+    <script type="text/javascript" src="/assets/scripts/main.js?"></script>
+    <script type="text/javascript" src="/assets/scripts/engine.js"></script>
     <script src="assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
-    <script src="assets/scripts/owl.carousel.2.1.0/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/plugins.js"></script>
     <link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
     <link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
     <link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">
@@ -760,7 +760,7 @@
             <div class="some-tariffs">
               <div class="col-tariff">
                 <div class="some-tariff">
-                  <div class="some-tariff__block">
+                  <div class="some-tariff__block selected">
                     <div class="some-tariff__block-header">
                       <div class="waterlemon-o"><img src="../assets/images/tariff/watermelon_36.png" alt=""></div>
                       <h2 class="some-tariff__head">Широкое покрытие</h2>
@@ -899,22 +899,22 @@
       </div>
       <div class="ac-popup-modal__footer">
         <form id="ac-order-form" action="request.php" method="post" class="order-form-wapr">
-          <input type="hidden" id="company" name="Client[company]" value="1"/>
+          <input type="hidden" id="tariff" name="Client[tariff]" value=""/>
           <div class="container-modal">
             <div class="row">
               <div class="col-4">
                 <div class="form-group">
-                  <input type="text" id="ac-who" name="Client[name]" placeholder="Контактное лицо" class="form-control">
+                  <input type="text" id="name" name="Client[name]" placeholder="Контактное лицо" class="form-control">
                 </div>
               </div>
               <div class="col-4">
                 <div class="form-group">
-                  <input type="email" placeholder="E-mail" name="Client[email]" class="form-control error">
+                  <input type="email" id="email" placeholder="E-mail" name="Client[email]" class="form-control">
                 </div>
               </div>
               <div class="col-4">
                 <div class="form-group">
-                  <input type="text" placeholder="Телефон" name="Client[phone]" class="form-control">
+                  <input type="text" id="phone" placeholder="Телефон" name="Client[phone]" class="form-control">
                 </div>
               </div>
             </div>
@@ -937,7 +937,7 @@
               <h2 class="modal-ok-header">Спасибо! Мы приняли вашу заявку!<br>Менеджер свяжется с вами в ближайшее время!</h2>
             </div>
             <div class="ok-close-block">
-              <button title="Закрыть (Esc)" type="button" class="ok-close-btn"><span class="ok-close-btn-cross">×</span> Закрыть</button>
+                <button title="Закрыть (Esc)" type="button" class="ok-close-btn" onclick="$.magnificPopup.close();"><span class="ok-close-btn-cross">×</span> Закрыть</button>
             </div>
           </div>
         </div>

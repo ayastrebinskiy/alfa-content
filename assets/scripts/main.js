@@ -45,13 +45,8 @@ $(document).ready(function(){
     type: 'inline',
     preloader: false,
     focus: '#ac-who',
-    closeOnBgClick: false
+    closeOnBgClick: true
   });
 
-  $('.popup-modal__ok').magnificPopup({
-    type: 'inline',
-    preloader: false,
-    closeOnBgClick: false
-  });
-
+  
 });
