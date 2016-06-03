@@ -1,3 +1,10 @@
 #sliderTop .owl-stage-outer{
     height: 800px;
 }
+
+.step-blocks.owl-carousel .step-block{
+        margin-left: 240px;
+}
+.step-indicator__bubble{
+    cursor: pointer;
+}
