@@ -3,6 +3,7 @@ $(document).ready(function () {
     var $btn = $('button', $form);
     var $sliderTop = $('#sliderTop');
     var $sliderStep = $('#sliderStep');
+    var $sliderTariff = $('#tariffSlider');
     var $popup = $('#ac-popup-order');
 
     function init() {
@@ -103,10 +104,6 @@ $(document).ready(function () {
         items: 1,
         loop: true,
         dots: false,
-        //margin: 200,
-        //autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true
     });
 
     $('.step-indicator__bubble', '.step-indicator').on('click', function (e) {
@@ -123,12 +120,45 @@ $(document).ready(function () {
                 .append($rocket.clone());
         $rocket.remove();
     });
+    
+    //slider tariff
+    $sliderTariff.owlCarousel({
+        items: 1,
+        loop: true,
+        dots: false,
+        stagePadding:300
+    });
+    
+    $('.tariff-navigator__item.next_tariff').on('click', function(e){
+        $sliderTariff.trigger('next.owl.carousel');
+    });
+    
+    $('.tariff-navigator__item.previous_tariff').on('click', function(e){
+        $sliderTariff.trigger('prev.owl.carousel');
+    });
 
     //popup
     $('.some-tariff__block', $popup).on('click', function (e) {
         $('.some-tariff__block.selected', $popup).removeClass('selected');
         $(this).addClass('selected');
         $('#tariff').val($('.some-tariff__head', $(this)).text());
+    });
+    
+    
+    //wait popup
+    $('.whatformats-block .ac-more-link').on('click', function(e){
+        var block = $(this).closest('.whatformats-block');
+        var clone = block.clone();
+        
+        e.preventDefault();
+        clone.addClass('expand');
+        block.addClass('no-border');
+        block.append(clone);
+        
+        clone.on('mouseout', function(e){            
+            block.removeClass('no-border');
+            $(this).remove();
+        });
     });
 
 

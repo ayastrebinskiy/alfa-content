@@ -3,12 +3,72 @@
 }
 
 .step-blocks.owl-carousel .step-block{
-        margin-left: 240px;
+    margin-left: 240px;
 }
 .step-indicator__bubble{
     cursor: pointer;
 }
 
 .ac-popup-modal .some-tariffs .some-tariff__block.selected {
-  border-color: #39dd00;
+    border-color: #39dd00;
+}
+
+.tariff-navigator__item{
+    cursor: pointer;
+}
+
+.tariff-navigator__item.next_tariff{
+    margin-left: 190px;
+}
+
+#tariffSlider .tariff-block{
+    position: relative;
+}
+
+#tariffSlider .tariff-navigator__ico{
+    position: absolute;
+    top: -140px;
+    left: 300px;
+}
+#tariffSlider .owl-stage-outer{
+    overflow: visible;
+}
+
+#tariffSlider .owl-item{
+    opacity: 0.7;
+}
+#tariffSlider .owl-item.active{
+    opacity: 1;
+}
+
+.whatformats-block{
+    position: relative;
+    cursor: default;
+}
+
+.ac-more-link{
+    cursor: pointer;
+}
+
+.whatformats-block__description-text{
+    max-height: 90px;
+    overflow: hidden;
+}
+
+
+.whatformats-block.expand{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+.whatformats-block.no-border:hover{
+    border-width: 0;
+    transition:none;
+}
+
+.whatformats-block.expand .whatformats-block__description-text{
+    max-height: 400px;
+    overflow: visible;
 }
