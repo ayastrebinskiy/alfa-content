@@ -627,6 +627,7 @@ table {
   border-top-right-radius: 0;
   position: relative;
   top: 0;
+  z-index: 1;
 }
 .ac-header .header__bg-warp0 {
   position: relative;
@@ -673,6 +674,46 @@ table {
   height: 885px;
   overflow: visible;
 }
+
+.ac-header .slider-container {
+  position: relative;
+}
+.ac-header .slider-container .slider-button-prev,
+.ac-header .slider-container .slider-button-next {
+  position: absolute;
+  display: block;
+  z-index: 12;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.ac-header .slider-container .slider-button-prev {
+  background: transparent url('../images/slider/h-left.png') 0 0 no-repeat;
+  width: 26px;
+  height: 40px;
+  left: 140px;
+  top: 40%;
+}
+.ac-header .slider-container .slider-button-prev:hover {
+  background: transparent url('../images/slider/h-left_h.png') 0 0 no-repeat;
+  cursor: pointer;
+}
+
+.ac-header .slider-container .slider-button-next {
+  background: transparent url('../images/slider/h-right.png') 0 0 no-repeat;
+  width: 52px;
+  height: 80px;
+  right: 140px;
+  top: 40%;
+}
+.ac-header .slider-container .slider-button-next:hover {
+  background: transparent url('../images/slider/h-right_h.png') 0 0 no-repeat;
+  cursor: pointer;
+}
+
 .ac-header-warp {
   display: block;
   -webkit-transition: all 0.4s ease;
