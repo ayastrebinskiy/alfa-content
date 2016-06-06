@@ -102,7 +102,7 @@ $(document).ready(function () {
     //slider step
     $sliderStep.owlCarousel({
         items: 1,
-        loop: true,
+        loop: false,
         dots: false,
     });
 
