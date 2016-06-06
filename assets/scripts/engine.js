@@ -4,6 +4,7 @@ $(document).ready(function () {
     var $sliderTop = $('#sliderTop');
     var $sliderStep = $('#sliderStep');
     var $sliderTariff = $('#tariffSlider');
+    var $sliderLbTariff = $('#lbTariffSlider');
     var $popup = $('#ac-popup-order');
 
     function init() {
@@ -128,13 +129,31 @@ $(document).ready(function () {
         dots: false,
         stagePadding: 300
     });
-
-    $('.tariff-navigator__item.next_tariff').on('click', function (e) {
-        $sliderTariff.trigger('next.owl.carousel');
+    
+    $('body').on('click', '#tariffSlider .popup-modal__order-link', function(e){
+        var tariff = $(this).closest('[data-tariff]').data('tariff');
+        var $tariffBlock = $('[data-tariff="'+tariff+'"]', $popup);
+        var index = $tariffBlock.index('#ac-popup-order [data-tariff]');        
+        $tariffBlock.click();
+        setTimeout(function(){
+            $sliderLbTariff.trigger('to.owl.carousel', index);
+        }, 200);
     });
-
-    $('.tariff-navigator__item.previous_tariff').on('click', function (e) {
-        $sliderTariff.trigger('prev.owl.carousel');
+    
+    //slider light box tariff
+    $sliderLbTariff.owlCarousel({
+        items: 3,
+        loop: false,
+        dots: false,
+    });
+    
+    
+    //slider nav
+    $('[data-slidernav] [data-route]').on('click', function(e){
+        var $slider = $($(this).parent().data('slidernav'));
+        var route = $(this).data('route');
+        $slider.trigger(route + '.owl.carousel');
+        e.preventDefault();
     });
 
     //popup

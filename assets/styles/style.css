@@ -24,7 +24,9 @@
 #tariffSlider .tariff-block{
     position: relative;
 }
-
+.ac-popup-modal__body{
+    margin-top: 5px;
+}
 #tariffSlider .tariff-navigator__ico{
     position: absolute;
     top: -140px;
@@ -32,6 +34,17 @@
 }
 #tariffSlider .owl-stage-outer{
     overflow: visible;
+}
+#lbTariffSlider .owl-stage-outer{
+    height: 300px;
+}
+#lbTariffSlider{
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+#lbTariffSlider .col-tariff{
+    margin-top: 70px;
 }
 
 #tariffSlider .owl-item{
@@ -71,4 +84,32 @@
 .whatformats-block.expand .whatformats-block__description-text{
     max-height: 800px;
     overflow: visible;
+}
+
+//slider nav
+.lb-tariff-slider{
+    position: relative;
+}
+.slider-nav{
+    position: absolute;
+    width: 100%;
+}
+.slider-nav.some-tariffs-nav{
+    top: 270px;
+}
+.slider-nav .slider-nav_next,
+.slider-nav .slider-nav_prev
+{
+    position: absolute;
+    cursor: pointer;
+}
+.slider-nav .slider-nav_next{
+    right: 20px;
+}
+.slider-nav .slider-nav_prev{
+    left: 20px;
+}
+
+.line-block .price{
+    white-space: nowrap;
 }
