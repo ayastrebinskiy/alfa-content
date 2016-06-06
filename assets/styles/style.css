@@ -97,6 +97,14 @@
 .slider-nav.some-tariffs-nav{
     top: 270px;
 }
+
+.slider-step-row{
+    position: relative;
+}
+.slider-nav.step-blocks-nav{
+    top: 36px;
+}
+
 .slider-nav .slider-nav_next,
 .slider-nav .slider-nav_prev
 {
@@ -109,6 +117,15 @@
 .slider-nav .slider-nav_prev{
     left: 20px;
 }
+
+.slider-nav.step-blocks-nav  .slider-nav_next{
+    right: -40px;
+}
+
+.slider-nav.step-blocks-nav  .slider-nav_prev{
+    left: -40px;
+}
+
 
 .line-block .price{
     white-space: nowrap;
