@@ -69,6 +69,6 @@
 }
 
 .whatformats-block.expand .whatformats-block__description-text{
-    max-height: 400px;
+    max-height: 800px;
     overflow: visible;
 }
