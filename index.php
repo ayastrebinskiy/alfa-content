@@ -44,7 +44,7 @@ require_once 'functions.php';
         <meta itemprop="name" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
         <meta itemprop="description" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
 
-<? /*
+<?php /*
 
         <meta itemprop="image" content="http://www.example.com/image.jpg">
         <link rel="manifest" href="manifest.json">
@@ -1703,7 +1703,8 @@ require_once 'functions.php';
                             </div>
                         </div>
                         <!-- /.ac-footer__logo-box-->
-<? /* *** Пока нет групп — скрываем ***
+
+<?php /* *** Пока нет групп — скрываем ***
 
                         <div class="ac-footer__social-box"><a href="#" title="Alfa Content в FaceBook" target="_blank" class="ac-footer__social-link ac-footer__social-link_fb"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_fb" class="ac-social-ico ac-social-ico_fb" d="M415,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,415,7937.01Zm2.072,8.5a0.923,0.923,0,0,0-1.118,1.03v1.92h2.656l-0.279,3.1h-2.377v9.45h-3.636v-9.45H410.5v-3.1h1.818v-2.51c0-2.15,1.212-3.69,3.5-3.69h2.936v3.25h-1.678Z" transform="translate(-400 -7937)"/></svg>
                             </a><a href="#" title="Alfa Content в VK" target="_blank" class="ac-footer__social-link ac-footer__social-link_vk"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_vk" class="ac-social-ico ac-social-ico_vk" d="M452.5,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,452.5,7937.01Zm-9.475,10.87c-0.493,0-1.375.05-.882,0.94s3.659,9.19,9.291,9.19c1.617,0,1.972-.17,1.972-0.81s0.467-2.39,1.531-1.3,1.713,2.11,3.141,2.11h1.868c0.95,0,2.076-.34,1.22-1.45a28.367,28.367,0,0,0-2.518-2.58c-0.389-.42-0.57-0.64-0.025-1.3s2.154-2.73,2.647-3.54,0.13-1.26-.493-1.26H457.87a0.919,0.919,0,0,0-1.142.69,15.769,15.769,0,0,1-2.336,3.66c-0.752.64-.986-0.1-0.986-0.51v-3.15a1.178,1.178,0,0,0-1.272-1.06c-1.049,0-3.2-.08-3.607.5-0.294.41,0.309,0.09,0.753,0.51a2.966,2.966,0,0,1,.363,1.87c0,0.66.028,3.03-1.064,1.82a18.227,18.227,0,0,1-2.258-3.49,1.106,1.106,0,0,0-1.323-.84h-1.973Z" transform="translate(-437.5 -7937)"/></svg>
