@@ -64,13 +64,20 @@ $(document).ready(function () {
         e.preventDefault();
         data = $form.serializeArray();
         if (checkForm() === true) {
+            data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
             $.post(url, data, function (result) {
-                $.magnificPopup.open({
-                    items: {
-                        src: '#ac-popup-ok',
-                        type: 'inline'
+                if (result.error === false) {
+                    $.magnificPopup.open({
+                        items: {
+                            src: '#ac-popup-ok',
+                            type: 'inline'
+                        }
+                    });
+                } else {
+                    if (result.field) {
+                        showError(result.field, result.text);
                     }
-                });
+                }
             }, 'json');
         }
     });
@@ -129,27 +136,27 @@ $(document).ready(function () {
         dots: false,
         stagePadding: 300
     });
-    
-    $('body').on('click', '#tariffSlider .popup-modal__order-link', function(e){
+
+    $('body').on('click', '#tariffSlider .popup-modal__order-link', function (e) {
         var tariff = $(this).closest('[data-tariff]').data('tariff');
-        var $tariffBlock = $('[data-tariff="'+tariff+'"]', $popup);
-        var index = $tariffBlock.index('#ac-popup-order [data-tariff]');        
+        var $tariffBlock = $('[data-tariff="' + tariff + '"]', $popup);
+        var index = $tariffBlock.index('#ac-popup-order [data-tariff]');
         $tariffBlock.click();
-        setTimeout(function(){
+        setTimeout(function () {
             $sliderLbTariff.trigger('to.owl.carousel', index);
         }, 200);
     });
-    
+
     //slider light box tariff
     $sliderLbTariff.owlCarousel({
         items: 3,
         loop: false,
         dots: false,
     });
-    
-    
+
+
     //slider nav
-    $('[data-slidernav] [data-route]').on('click', function(e){
+    $('[data-slidernav] [data-route]').on('click', function (e) {
         var $slider = $($(this).parent().data('slidernav'));
         var route = $(this).data('route');
         $slider.trigger(route + '.owl.carousel');
