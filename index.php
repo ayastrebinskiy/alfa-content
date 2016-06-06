@@ -6,7 +6,7 @@ require_once 'functions.php';
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
-        <title>Alfa Content &mdash; сочный контент-маркетинг</title>
+        <title>Alfa-Content &mdash; сочный контент-маркетинг</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="csrf" content="<?php echo generateValidationKey() ?>">
@@ -41,9 +41,15 @@ require_once 'functions.php';
         <link rel="icon" sizes="192x192" href="/favicon-192x192.png">
         <link rel="apple-touch-icon" href="/favicon-192x192.png">
         <meta name="msapplication-TileImage" content="/ifavicon-144x144.png">
-        <meta itemprop="name" content="Alfa Content &amp;mdash; сочный контент-маркетинг">
-        <meta itemprop="description" content="Alfa Content &amp;mdash; сочный контент-маркетинг">
+        <meta itemprop="name" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
+        <meta itemprop="description" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
+
+<? /*
+
         <meta itemprop="image" content="http://www.example.com/image.jpg">
+        <link rel="manifest" href="manifest.json">
+        <link rel="yandex-tableau-widget" href="/manifest.json">
+
         <!-- Twitter Card data
         meta(name='twitter:card', content='product')
         meta(name='twitter:site', content='@publisher_handle')
@@ -55,7 +61,7 @@ require_once 'functions.php';
         meta(name='twitter:label1', content='Price')
         meta(name='twitter:data2', content='Black')
         meta(name='twitter:label2', content='Color')
-        
+
         -->
         <!-- Open Graph data
         meta(property='og:title', content='Title Here')
@@ -66,8 +72,10 @@ require_once 'functions.php';
         meta(property='og:site_name', content='Site Name, i.e. Moz')
         meta(property='og:price:amount', content='15.00')
         meta(property='og:price:currency', content='USD')
-        
+
         -->
+
+*/ ?>
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="application-name" content="">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -75,8 +83,7 @@ require_once 'functions.php';
         <meta name="apple-mobile-web-app-title" content="">
         <meta name="msapplication-TileColor" content="#f46470">
         <meta name="theme-color" content="#f46470">
-        <link rel="manifest" href="manifest.json">
-        <link rel="yandex-tableau-widget" href="/manifest.json">
+
         </head>
         <body class="it-did-not-work">
             <!-- .ac-header-->
@@ -137,11 +144,11 @@ require_once 'functions.php';
                         <div class="container">
                             <div class="ac-logo">
                                 <div class="logo-box">
-                                    <div class="logo-box__img"><svg id="logo" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><path id="green" class="logo_ac-green" d="M88.392,70.816a43.582,43.582,0,0,1-44.8-.027L38,80.494a56.046,56.046,0,0,0,56,.017Z" transform="translate(-38 -32)"/><path id="red" class="logo_ac-red" d="M65.942,32L44.993,68.359a41.991,41.991,0,0,0,41.994.029ZM61.361,62.448L66,54c1.383,2.391,2.791,5.227,4.655,8.45A31.23,31.23,0,0,1,66,63,30.851,30.851,0,0,1,61.361,62.448Z" transform="translate(-38 -32)"/></svg>
-
+                                    <div class="logo-box__img">
+                                      <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><path id="green" class="logo_ac-green" d="M88.392,70.816a43.582,43.582,0,0,1-44.8-.027L38,80.494a56.046,56.046,0,0,0,56,.017Z" transform="translate(-38 -32)"/><path id="red" class="logo_ac-red" d="M65.942,32L44.993,68.359a41.991,41.991,0,0,0,41.994.029ZM61.361,62.448L66,54c1.383,2.391,2.791,5.227,4.655,8.45A31.23,31.23,0,0,1,66,63,30.851,30.851,0,0,1,61.361,62.448Z" transform="translate(-38 -32)"/></svg>
                                     </div>
                                     <div class="logo-box__text">
-                                        <h2>Alfa Content</h2><span>Сочный контент-маркетинг </span>
+                                        <h2>Alfa-Content</h2><span>Сочный контент-маркетинг </span>
                                     </div>
                                 </div>
                             </div>
@@ -409,7 +416,7 @@ require_once 'functions.php';
                         <div class="slider-nav step-blocks-nav" data-slidernav="#sliderStep">
                             <div class="slider-nav_next" data-route="next">></div>
                             <div class="slider-nav_prev" data-route="prev"><</div>
-                        </div> 
+                        </div>
                         <div class="col-12">
                             <div class="flightroute">
                                 <div class="line-step">
@@ -535,7 +542,7 @@ require_once 'functions.php';
                             <div class="row-full">
                                 <div class="col-12 owl-carousel owl-theme" id="tariffSlider">
                                     <div class="tariff-block" data-tariff="50000">
-                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>  
+                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
                                         <div class="row">
                                             <div class="col-6 infob-left">
                                                 <div class="tariff-block__description">
@@ -618,7 +625,7 @@ require_once 'functions.php';
                                     </div>
                                     <!-- /.tariff-block-->
                                     <div class="tariff-block" data-tariff="75000">
-                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>  
+                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
                                         <div class="row">
                                             <div class="col-6 infob-left">
                                                 <div class="tariff-block__description">
@@ -701,7 +708,7 @@ require_once 'functions.php';
                                     </div>
                                     <!-- /.tariff-block-->
                                     <div class="tariff-block" data-tariff="100000">
-                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>  
+                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
                                         <div class="row">
                                             <div class="col-6 infob-left">
                                                 <div class="tariff-block__description">
@@ -784,7 +791,7 @@ require_once 'functions.php';
                                     </div>
                                     <!-- /.tariff-block-->
                                     <div class="tariff-block" data-tariff="150000">
-                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>  
+                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
                                         <div class="row">
                                             <div class="col-6 infob-left">
                                                 <div class="tariff-block__description">
@@ -867,7 +874,7 @@ require_once 'functions.php';
                                     </div>
                                     <!-- /.tariff-block-->
                                     <div class="tariff-block" data-tariff="200000">
-                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>  
+                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
                                         <div class="row">
                                             <div class="col-6 infob-left">
                                                 <div class="tariff-block__description">
@@ -950,7 +957,7 @@ require_once 'functions.php';
                                     </div>
                                     <!-- /.tariff-block-->
                                     <div class="tariff-block" data-tariff=">200000">
-                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>  
+                                        <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
                                         <div class="row">
                                             <div class="col-6 infob-left">
                                                 <div class="tariff-block__description">
@@ -1183,8 +1190,8 @@ require_once 'functions.php';
                             <div class="slider-nav some-tariffs-nav" data-slidernav="#lbTariffSlider">
                                 <div class="slider-nav_next" data-route="next">></div>
                                 <div class="slider-nav_prev" data-route="prev"><</div>
-                            </div>  
-                            <div class="some-tariffs owl-carousel owl-theme" id="lbTariffSlider">                
+                            </div>
+                            <div class="some-tariffs owl-carousel owl-theme" id="lbTariffSlider">
                                 <div class="col-tariff">
                                     <div class="some-tariff">
                                         <div class="some-tariff__block selected" data-tariff="50000">
@@ -1690,22 +1697,26 @@ require_once 'functions.php';
                                 </div>
                                 <!-- /.logo-box__img-->
                                 <div class="logo-box__text">
-                                    <h2>Alfa Content</h2><span>Сочный контент-маркетинг</span>
+                                    <h2>Alfa-Content</h2><span>Сочный контент-маркетинг</span>
                                 </div>
                                 <!-- /.logo-box__text-->
                             </div>
                         </div>
                         <!-- /.ac-footer__logo-box-->
+<? /* *** Пока нет групп — скрываем ***
+
                         <div class="ac-footer__social-box"><a href="#" title="Alfa Content в FaceBook" target="_blank" class="ac-footer__social-link ac-footer__social-link_fb"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_fb" class="ac-social-ico ac-social-ico_fb" d="M415,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,415,7937.01Zm2.072,8.5a0.923,0.923,0,0,0-1.118,1.03v1.92h2.656l-0.279,3.1h-2.377v9.45h-3.636v-9.45H410.5v-3.1h1.818v-2.51c0-2.15,1.212-3.69,3.5-3.69h2.936v3.25h-1.678Z" transform="translate(-400 -7937)"/></svg>
                             </a><a href="#" title="Alfa Content в VK" target="_blank" class="ac-footer__social-link ac-footer__social-link_vk"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_vk" class="ac-social-ico ac-social-ico_vk" d="M452.5,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,452.5,7937.01Zm-9.475,10.87c-0.493,0-1.375.05-.882,0.94s3.659,9.19,9.291,9.19c1.617,0,1.972-.17,1.972-0.81s0.467-2.39,1.531-1.3,1.713,2.11,3.141,2.11h1.868c0.95,0,2.076-.34,1.22-1.45a28.367,28.367,0,0,0-2.518-2.58c-0.389-.42-0.57-0.64-0.025-1.3s2.154-2.73,2.647-3.54,0.13-1.26-.493-1.26H457.87a0.919,0.919,0,0,0-1.142.69,15.769,15.769,0,0,1-2.336,3.66c-0.752.64-.986-0.1-0.986-0.51v-3.15a1.178,1.178,0,0,0-1.272-1.06c-1.049,0-3.2-.08-3.607.5-0.294.41,0.309,0.09,0.753,0.51a2.966,2.966,0,0,1,.363,1.87c0,0.66.028,3.03-1.064,1.82a18.227,18.227,0,0,1-2.258-3.49,1.106,1.106,0,0,0-1.323-.84h-1.973Z" transform="translate(-437.5 -7937)"/></svg>
                             </a><a href="#" title="Alfa Content в Одноклассниках" target="_blank" class="ac-footer__social-link ac-footer__social-link_ok"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_ok" class="ac-social-ico ac-social-ico_ok" d="M490,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,490,7937.01Zm4.678,18.04a7.877,7.877,0,0,1-2.737,1.19l2.544,2.64a1.457,1.457,0,0,1,0,2,1.325,1.325,0,0,1-1.921,0l-2.574-2.68-2.574,2.68a1.323,1.323,0,0,1-1.92,0,1.455,1.455,0,0,1,0-2l2.57-2.67a8.467,8.467,0,0,1-2.8-1.2c-1.323-.89.131-3.28,1.435-2.46a6.235,6.235,0,0,0,3.3,1.06,5.727,5.727,0,0,0,3.276-1.04C494.5,7951.72,496.1,7954.07,494.678,7955.05Zm-4.672-2.75a4.789,4.789,0,1,1,4.6-4.78A4.694,4.694,0,0,1,490.006,7952.3Zm0-6.78a2,2,0,1,0,1.921,2A1.958,1.958,0,0,0,490.006,7945.52Z" transform="translate(-475 -7937)"/></svg>
                             </a><a href="#" title="Alfa Content в Twitter" target="_blank" class="ac-footer__social-link ac-footer__social-link_twi"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_twi" class="ac-social-ico ac-social-ico_twi" d="M527.5,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,527.5,7937.01Zm7.014,14.33a3.408,3.408,0,0,0,1.988.15,2.636,2.636,0,0,1-2.278.82c-0.736,3.86-5.33,5.84-9.244,5.69a9.057,9.057,0,0,1-6.324-3.11c-0.412-.48.067-0.23,0.191-0.13,1.861,1.63,4.643,1.07,6.21-.36-1.49-.02-1.643-1.05-0.592-1.49a2.311,2.311,0,0,1-2.045-.83c-0.111-.12-0.1-0.22.058-0.35a1.631,1.631,0,0,1,.955-0.37,2.191,2.191,0,0,1-1.873-1.58c-0.057-.24.039-0.21,1.032-0.34a2,2,0,0,1-1.471-1.89c-0.019-.32-0.087-0.32,1.146.2,3.989,1.68,4.433,2.25,4.834,2.58a10.49,10.49,0,0,1,2.064-3.55c0.726-.76.815-0.76,0.649-0.26,1.529-.89,1.319-0.41.936-0.06,1.434-.53,1.243.19,0.765,0.37a7.684,7.684,0,0,0-1.032.33,3.957,3.957,0,0,1,3.77,3.19,2.8,2.8,0,0,0,2.077-.11C536.275,7950.69,535.7,7951.23,534.514,7951.34Z" transform="translate(-512.5 -7937)"/></svg>
                             </a></div>
                         <!-- /.ac-footer__social-box-->
+
+*/ ?>
                     </div>
                     <div class="col-6">
                         <div class="ac-footer__right-block">
-                            <div class="ac-footer__mail-box"><a href="mailto:info@contentmarketing.ru" class="footer-mail-link">info@contentmarketing.ru</a></div>
+                            <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
                             <div class="ac-footer__tel-box"><a href="tel:+74953502091" class="footer-tel-link">+7 495 350 20 91</a></div>
                         </div>
                         <!-- /.ac-footer__right-block-->
@@ -1713,16 +1724,7 @@ require_once 'functions.php';
                 </div>
             </footer>
             <!-- /.ac-footer-->
-            <div id="scroller" style="" class="b-top"><span class="b-top-but"><svg version="1.1" id="ac-up-icosvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                                                   viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve" width="48px" height="48px">
-                    <path class="ac-totop" style="fill-rule:evenodd;clip-rule:evenodd;" d="M44,0H4c-2.2,0-4,1.8-4,4V44c0,2.2,1.8,4,4,4H44c2.2,0,4-1.8,4-4V4
-                          C48,1.799,46.201,0,44,0L44,0z M13.586,26.586l9-9c0.781-0.781,2.047-0.781,2.828,0l9,9c0.781,0.781,0.781,2.047,0,2.828
-                          c-0.781,0.781-2.047,0.781-2.828,0L24,21.827l-7.586,7.586c-0.781,0.781-2.047,0.781-2.828,0
-                          C12.806,28.633,12.806,27.367,13.586,26.586z"/>
-                    </svg>
-                </span>
-                <!-- /.b-top-but-->
-            </div>
-            <!-- /.b-top-->
+            <div id="scroller" style="" class="b-top"><span class="b-top-but"><svg id="ac-up-icosvg" style="enable-background:new 0 0 48 48" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 48 48" height="48px" width="48px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill-rule="evenodd" clip-rule="evenodd" class="ac-totop" d="m44 0h-40c-2.2 0-4 1.8-4 4v40c0 2.2 1.8 4 4 4h40c2.2 0 4-1.8 4-4v-40c0-2.2-1.8-4-4-4zm-30.4 26.6l9-9c0.781-0.781 2.05-0.781 2.83 0l9 9c0.781 0.781 0.781 2.05 0 2.83-0.781 0.781-2.05 0.781-2.83 0l-7.6-7.6-7.59 7.59c-0.781 0.781-2.05 0.781-2.83 0-0.8-0.8-0.8-2 0-2.8z"/></svg></span><!-- /.b-top-but-->
+            </div><!-- /.b-top-->
         </body>
 </html>
