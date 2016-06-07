@@ -741,19 +741,19 @@ table {
   z-index: 99;
 }
 .ac-header-warp.sticky .ac-header-warp__bg {
-  background-color: rgba(235,235,235,0.95);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .ac-header-warp__bg {
-  -webkit-border-radius: 90%/45%;
-  -moz-border-radius: 90%/45%;
-  -ms-border-radius: 90%/45%;
-  -o-border-radius: 90%/45%;
-  border-radius: 90%/45%;
+  -webkit-border-radius: 50%/74%;
+  -moz-border-radius: 50%/74%;
+  -ms-border-radius: 50%/74%;
+  -o-border-radius: 50%/74%;
+  border-radius: 50%/74%;
   overflow: hidden;
   height: 140px;
   display: block;
-  margin-left: -99px;
-  margin-right: -99px;
+  margin-left: -90px;
+  margin-right: -90px;
   padding-top: 30px;
   padding-bottom: 40px;
   border-top-left-radius: 0;
@@ -1268,6 +1268,10 @@ table {
 .ac-tariff .tariff-navigator__item:hover {
   color: #000;
 }
+.ac-tariff .tariff-navigator__item.previous_tariff:hover .tariff-navigator__ico-knife,
+.ac-tariff .tariff-navigator__item.next_tariff:hover .tariff-navigator__ico-watermelon {
+  fill: #000;
+}
 .ac-tariff .tariff-navigator__item span {
   display: inline-block;
   vertical-align: top;
@@ -1288,6 +1292,10 @@ table {
   top: -45px;
   margin-right: 24px;
   margin-left: 24px;
+}
+.ac-tariff .tariff-navigator__ico-knife,
+.ac-tariff .tariff-navigator__ico-watermelon {
+  fill:#4bc223;
 }
 .ac-tariff .container-full {
   width: 100%;
@@ -1387,10 +1395,10 @@ table {
   margin-right: 16px;
 }
 .ac-tariff .tariff-block__free-icons .free-icon__item .tariff-icon__item {
-  opacity: 0.34;
+  opacity: 1;
 }
 .ac-tariff .tariff-block__free-icons .free-icon__item:hover .tariff-icon__item {
-  opacity: 1;
+  opacity: 0.34;
 }
 .ac-tariff .tariff-block__free-icons .free-icon__item:last-child {
   margin-right: 0;
