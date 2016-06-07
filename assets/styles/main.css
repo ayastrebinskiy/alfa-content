@@ -352,6 +352,11 @@ table {
   padding: 4px 1px 4px 0;
   text-decoration: none;
   margin: 5px 0 0 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .ac-more-link__circle {
   -webkit-border-radius: 50%;
@@ -743,6 +748,10 @@ table {
 .ac-header-warp.sticky .ac-header-warp__bg {
   background-color: rgba(255, 255, 255, 0.9);
 }
+.ac-header .ac-header-warp.sticky .menu-item a:hover,
+.ac-header .ac-header-warp.sticky .tel a:hover {
+  background-color: #e8e8e8;
+}
 .ac-header-warp__bg {
   -webkit-border-radius: 50%/74%;
   -moz-border-radius: 50%/74%;
@@ -926,7 +935,7 @@ table {
   padding-bottom: 60px;
 }
 .ac-whatformats .bb1 {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .ac-whatformats .bb2 {
   margin-bottom: 62px;
@@ -943,6 +952,13 @@ table {
   transition: all 0.4s ease;
   border: 1px solid #fff;
 }
+
+.ac-whatformats .whatformats-block.whatformats-block__nonono:hover {
+  cursor: default;
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+
 .ac-whatformats .whatformats-block:hover {
   background-color: #fff;
   border: 1px solid #dedede;
@@ -959,6 +975,11 @@ table {
   z-index: 12;
   cursor: pointer;
 }
+.ac-whatformats .whatformats-block:hover .ac-more-link__circle-green,
+.ac-whatformats .whatformats-block:hover .ac-more-link__circle-red {
+  background-color: #000;
+}
+
 .ac-whatformats .whatformats-block__header {
   display: block;
   margin-bottom: 10px;
@@ -1686,7 +1707,8 @@ table {
   -ms-box-shadow: 0 10px 0 rgba(0,0,0,0.1);
   -o-box-shadow: 0 10px 0 rgba(0,0,0,0.1);
   box-shadow: 0 10px 0 rgba(0,0,0,0.1);
-  margin-top: -10px;
+  margin-top: -5px;
+  cursor: pointer;
 }
 .work-block__head {
   color: #000;
@@ -1715,8 +1737,8 @@ table {
   margin-top: 29px;
 }
 .work__btn-link {
-  background-color: #fff;
-  border: 1px solid #ebebeb;
+  background-color: #ff7c89;
+  border: 1px solid #ff7c89;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -1724,9 +1746,9 @@ table {
   border-radius: 25px;
   padding: 12px 20px;
   text-align: center;
-  color: #2d2d2d;
+  color: #fff;
   font-family: 'Panton';
-  padding: 16px 122px;
+  padding: 16px 88px;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1738,6 +1760,7 @@ table {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+/*
 .work__btn-link:after {
   background-color: #959595;
   -webkit-border-radius: 50%;
@@ -1758,9 +1781,7 @@ table {
   top: calc(50% - 4px);
   width: 4px;
 }
-.work__btn-link:hover {
-  color: #e14755;
-}
+
 .work__btn-link:hover:after {
   background-color: #e14755;
   -webkit-box-shadow: 0 0 0 1px #e14755, 8px 0 0 1px #e14755, 16px 0 0 1px #e14755;
@@ -1768,6 +1789,10 @@ table {
   -ms-box-shadow: 0 0 0 1px #e14755, 8px 0 0 1px #e14755, 16px 0 0 1px #e14755;
   -o-box-shadow: 0 0 0 1px #e14755, 8px 0 0 1px #e14755, 16px 0 0 1px #e14755;
   box-shadow: 0 0 0 1px #e14755, 8px 0 0 1px #e14755, 16px 0 0 1px #e14755;
+}
+*/
+.work__btn-link:hover {
+  background-color: #ec5965;
 }
 .work-block__big {
   position: relative;
@@ -1796,7 +1821,8 @@ table {
   -ms-box-shadow: 0 10px 0 rgba(0,0,0,0.1);
   -o-box-shadow: 0 10px 0 rgba(0,0,0,0.1);
   box-shadow: 0 10px 0 rgba(0,0,0,0.1);
-  margin-top: -10px;
+  margin-top: -5px;
+  cursor: pointer;
 }
 .work-block__big-header {
   position: absolute;
@@ -1833,6 +1859,14 @@ table {
 .ac-smi .bb2 {
   margin-bottom: 55px;
 }
+.ac-smi .smi-block {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: 1px solid #fff;
+}
 .ac-smi .smi-block-head {
   color: #000;
   font-family: 'Panton';
@@ -1844,6 +1878,14 @@ table {
   justify-content: center;
   text-align: left;
   height: 100px;
+}
+.ac-smi .smi-block-head-link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 0;
+}
+.ac-smi .smi-block-head-link:hover h2 {
+  color: #ec5965;
 }
 .ac-smi .smi-block__header {
   position: relative;
@@ -1942,24 +1984,16 @@ table {
 .ac-footer__mail-box {
   margin-right: 63px;
 }
+.ac-footer__tel-box .footer-tel-link,
 .ac-footer__mail-box .footer-mail-link {
-  color: #000;
-  font-family: 'Panton';
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: none;
-}
-.ac-footer__mail-box .footer-mail-link:hover {
-  color: #ec5965;
-}
-.ac-footer__tel-box .footer-tel-link {
   color: #3a3a3a;
   font-family: 'Panton';
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
 }
-.ac-footer__tel-box .footer-tel-link:hover {
+.ac-footer__tel-box .footer-tel-link:hover,
+.ac-footer__mail-box .footer-mail-link:hover {
   color: #ec5965;
 }
 .ac-footer__social-link {
@@ -1995,7 +2029,7 @@ table {
 .b-top {
   bottom: 110px;
   left: 0;
-  margin-left: 50%;
+  margin-left: 49%;
   opacity: 0.5;
   position: fixed;
   width: 34%;

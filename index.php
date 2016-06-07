@@ -89,57 +89,7 @@ require_once 'functions.php';
         <!-- .ac-header-->
         <div class="ac-header">
             <div class="header__bg">
-                <!-- .slider-container-->
-                <div class="slider-container">
-                    <div class="slider-wrapper owl-carousel owl-theme" id="sliderTop">
-                        <div class="slider-slide" data-index="0">
-                            <div class="header__bg-warp header__bg-warp0"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Охватить совершенно новую<br>целевую аудиторию через <br>публикации в СМИ, у блогеров, <br>видеоблогеров, лидеров мнений, <br>в пабликах соцсетей</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="1">
-                            <div class="header__bg-warp header__bg-warp1"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Поддержать свой бизнес в высокий <br>сезон, чтобы получить ещё больше <br>продаж</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="2">
-                            <div class="header__bg-warp header__bg-warp2"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Обеспечить сайт качественным, <br>конверсионным трафиком даже <br>в периоды проблем с позициями <br>в выдаче</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="3">
-                            <div class="header__bg-warp header__bg-warp3"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Обеспечить сайт качественным, <br>конверсионным трафиком, если <br>в контексте пока не сформирован <br>спрос или оттуда уже всё выбрано</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="4">
-                            <div class="header__bg-warp header__bg-warp4"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Вывести бизнес на совершенно <br>новый уровень, оставив <br>конкурентов далеко позади</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-pagination"></div>
-                    <div data-slidernav="#sliderTop">
-                        <div class="slider-button-next" data-route="next"></div>
-                        <div class="slider-button-prev" data-route="prev"></div>
-                    </div>
-                </div>
-                <!-- /.slider-container-->
+                <?php require('_include/_slider-container.html'); ?>
             </div>
             <div class="ac-header-warp _ac-header-warp">
                 <div class="ac-header-warp__bg">
@@ -264,7 +214,7 @@ require_once 'functions.php';
                 </div>
                 <div class="row whatformats-red">
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block whatformats-block__nonono">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-press"><img src="assets/images/whatformats/whatformats7.png" alt="Пресс-релизы по релизоприёмникам"></div>
                                 <div class="whatformats-block__head">
@@ -993,7 +943,7 @@ require_once 'functions.php';
                                                         </svg>
 
                                                     </div>
-                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">индивидуальный расчет</span></div>
+                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">расчитываем<br>индивидуально</span></div>
                                                 </div>
                                                 <!-- /.tariff-block__what-item-->
                                                 <div class="tariff-block__what-item">
@@ -1622,11 +1572,11 @@ require_once 'functions.php';
                                 </div>
                             </div>
                         </div>
-                        <!--<div class="row">
+                        <div class="row">
                           <div class="col-12">
-                            <div class="work__btn-block"><a href="#" class="work__btn-link">показать ещё</a></div>
+                            <div class="work__btn-block"><a href="#ac-popup-order" class="work__btn-link popup-modal__order-link">хочу также</a></div>
                           </div>
-                        </div>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1644,10 +1594,12 @@ require_once 'functions.php';
                         <div class="col-4">
                             <div class="smi-block">
                                 <div class="smi-block__header">
+                                  <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi1.png" alt=""></div>
                                     <div class="smi-block__header-head">
-                                        <h2 class="smi-block-head">Результаты модуля «Контент-маркетинг»</h2>
+                                        <h2 class="smi-block-head">Результаты модуля «Контент-маркетинг»</h2>
                                     </div>
+                                  </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">В ноябре 2015 года в SeoPult была запущена услуга «Контент-маркетинг» – как мы можем судить сегодня, невероятно востребованная среди представителей самых разных сфер бизнеса. Об эффективности услуги говорят как показатели роста прямого трафика на сайты наших пользователей, так и реальные конверсии с этих переходов. Представляем вашему вниманию первые кейсы и результаты продвижения.</p>
@@ -1657,10 +1609,12 @@ require_once 'functions.php';
                         <div class="col-4">
                             <div class="smi-block">
                                 <div class="smi-block__header">
+                                  <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi2.png" alt=""></div>
                                     <div class="smi-block__header-head">
                                         <h2 class="smi-block-head">Поисковая видимость в списке проектов</h2>
                                     </div>
+                                  </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">Теперь по SEO-проектам доступны данные о поисковой видимости продвигаемого ресурса и размерах привлеченной из поиска аудитории. Поисковая видимость – это показатель, отражающий насколько легко потенциальные клиенты могут найти ваш сайт в поисковых системах по продвигаемым вами ключевым словам. Расчет поисковой видимости учитывает так же популярность поисковых машин по количеству трафика из различных регионов. Для удобства, вы можете</p>
@@ -1670,10 +1624,12 @@ require_once 'functions.php';
                         <div class="col-4">
                             <div class="smi-block">
                                 <div class="smi-block__header">
+                                  <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi3.png" alt=""></div>
                                     <div class="smi-block__header-head">
                                         <h2 class="smi-block-head">Технологически Система представляет собой комплекс модулей</h2>
                                     </div>
+                                  </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">Благодаря применению оптимальных схем и постоянного мониторинга Система SeoPult позволяет достигать максимальных результатов при минимальных бюджетах. За счет автоматизации всех технических операций Система полностью избавляет оптимизатора от рутинной работы и экономит его время. </p>
