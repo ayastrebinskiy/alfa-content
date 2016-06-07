@@ -87,7 +87,8 @@ $(document).ready(function () {
         items: 1,
         loop: true,
         dots: false,
-        //nav: true,
+        autoplaySpeed: 800,
+        smartSpeed: 800,
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true
@@ -110,9 +111,10 @@ $(document).ready(function () {
     //slider step
     $sliderStep.owlCarousel({
         items: 1,
-        center:true,
+        center: true,
         loop: false,
         dots: false,
+        smartSpeed: 800,
     });
 
     $('.step-indicator__bubble', '.step-indicator').on('click', function (e) {
@@ -120,22 +122,23 @@ $(document).ready(function () {
         $sliderStep.trigger('to.owl.carousel', index);
     });
 
-    $sliderStep.on('changed.owl.carousel', function (event) {console.log(event);
+    $sliderStep.on('changed.owl.carousel', function (event) {
+        console.log(event);
         var index = $sliderStep.data('owl.carousel').relative(event.item.index);
         var $rocket = $('.step-indicator__rocket');
         var $next = $('[data-slidernav="#sliderStep"] [data-route="next"]');
         var $prev = $('[data-slidernav="#sliderStep"] [data-route="prev"]');
-        
+
         $('.step-indicator__rocket-item', $rocket).text(index + 1);
         $('.step-indicator__item.step-indicator__item-completed').removeClass('step-indicator__item-completed');
         $('.step-indicator__item:eq(' + index + ')', '.step-indicator').addClass('step-indicator__item-completed')
                 .append($rocket.clone());
         $rocket.remove();
-        
-        if(index === 0){
+
+        if (index === 0) {
             $prev.addClass('hide');
             $next.removeClass('hide');
-        } else if(index === event.item.count - 1){
+        } else if (index === event.item.count - 1) {
             $next.addClass('hide');
             $prev.removeClass('hide');
         } else {
@@ -147,9 +150,10 @@ $(document).ready(function () {
     //slider tariff
     $sliderTariff.owlCarousel({
         items: 1,
-        loop: true,
+        //loop: true,
         dots: false,
-        stagePadding: 300
+        stagePadding: 300,
+        smartSpeed: 800,
     });
 
     $('body').on('click', '#tariffSlider .popup-modal__order-link', function (e) {
@@ -167,6 +171,7 @@ $(document).ready(function () {
         items: 3,
         loop: false,
         dots: false,
+        smartSpeed: 800,
     });
 
 
@@ -187,9 +192,13 @@ $(document).ready(function () {
 
 
     //wait popup
-    $('.whatformats-block .ac-more-link').on('click', function (e) {
-        var block = $(this).closest('.whatformats-block');
+    $('.whatformats-block .ac-more-link,.whatformats-block:has(.ac-more-link)').on('click', function (e) {
+        var block = $(this).hasClass('whatformats-block') ? $(this) : $(this).closest('.whatformats-block');
         var clone = block.clone();
+        var hide = function () {
+            block.removeClass('no-border');
+            $(this).remove();
+        };
 
         e.preventDefault();
         clone.addClass('expand');
@@ -197,10 +206,11 @@ $(document).ready(function () {
         block.append(clone);
         clone.find('.ac-more-link').remove();
 
-        clone.on('mouseout', function (e) {
-            block.removeClass('no-border');
-            $(this).remove();
-        });
+        clone.focus();
+
+        clone.on('mouseout', hide);
+        clone.on('touchend', hide);
+        clone.on('blur', hide);
     });
 
 

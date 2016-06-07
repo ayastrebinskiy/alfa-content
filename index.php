@@ -5,7 +5,7 @@ require_once 'functions.php';
 <html lang="ru" class="no-js">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=1, minimal-ui">
         <title>Alfa-Content &mdash; сочный контент-маркетинг</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
@@ -272,7 +272,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">Это позапрошлый век. Если у вас есть классный инфоповод и вы хотите попасть с ним в СМИ, ваш путь – это только адресные письма журналистам. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Это позапрошлый век. Если у вас есть классный инфоповод и вы хотите попасть с ним в СМИ, ваш путь – это только адресные письма журналистам. </p>
                             </div>
                         </div>
                     </div>

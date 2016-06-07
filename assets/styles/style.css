@@ -2,9 +2,7 @@
     height: 800px;
 }
 
-.step-blocks.owl-carousel .step-block{
-    
-}
+
 .step-blocks.owl-carousel .owl-item.active{
     width: 800px!important;
 }
