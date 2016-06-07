@@ -19,6 +19,8 @@ require_once 'functions.php';
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
         <script type="text/javascript" src="/assets/scripts/main.js?"></script>
         <script type="text/javascript" src="/assets/scripts/engine.js"></script>
+        <script src="/assets/scripts/wow.min.js"></script>
+        <script type="text/javascript">new WOW().init();</script>
         <script src="assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
         <script type="text/javascript" src="/assets/scripts/plugins.js"></script>
@@ -122,12 +124,12 @@ require_once 'functions.php';
         <div id="ac-i-whatformats" class="ac-whatformats">
             <div class="container">
                 <div class="row bb1">
-                    <div class="col-f6">
+                    <div class="col-f6 wow fadeIn" data-wow-delay=".1s">
                         <h2 class="ac-head youadv-head whatformats-head">Какие форматы и&nbsp;каналы <nobr>контент-маркетинга</nobr> <span class="ac-head-green">работают</span></h2>
                         <h3 class="ac-head__mini whatformats-head-mini">на качественный трафик и продажи, и&nbsp;обязательно должны быть в вашем медиаплане</h3>
                     </div>
                     <div class="col-f3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".2s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats1.png" alt="Посты в Instagram, FaceBook, вКонтакте"></div>
                                 <div class="whatformats-block__heads">
@@ -140,7 +142,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-f3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".3s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats2.png" alt="Интеграции в ролики YouTube-блогеров"></div>
                                 <div class="whatformats-block__head">
@@ -155,7 +157,7 @@ require_once 'functions.php';
                 </div>
                 <div class="row bb2">
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".4s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats3.png" alt="Отзывы в женских сообществах"></div>
                                 <div class="whatformats-block__head">
@@ -168,7 +170,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".5s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats4.png" alt="Посты у ТОПовых блогеров"></div>
                                 <div class="whatformats-block__head">
@@ -181,7 +183,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".6s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats5.png" alt="Посты на нишевых сайтах"></div>
                                 <div class="whatformats-block__head">
@@ -194,7 +196,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".7s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats6.png" alt="Публикации в СМИ"></div>
                                 <div class="whatformats-block__head">
@@ -214,7 +216,7 @@ require_once 'functions.php';
                 </div>
                 <div class="row whatformats-red">
                     <div class="col-3">
-                        <div class="whatformats-block whatformats-block__nonono">
+                        <div class="whatformats-block whatformats-block__nonono wow fadeIn" data-wow-delay=".2s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-press"><img src="assets/images/whatformats/whatformats7.png" alt="Пресс-релизы по релизоприёмникам"></div>
                                 <div class="whatformats-block__head">
@@ -227,7 +229,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".4s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats8.png" alt="Очень дорогие ТОПовые сайты"></div>
                                 <div class="whatformats-block__head">
@@ -240,7 +242,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".6s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats9.png" alt="Спам в комментариях о_О"></div>
                                 <div class="whatformats-block__head">
@@ -253,7 +255,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".8s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats10.png" alt="Форумы"></div>
                                 <div class="whatformats-block__head">
@@ -282,7 +284,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine1.png" alt="В пуле площадок сотни проверенных СМИ"></div>
                                         <div class="wefine-block__text">
@@ -292,7 +294,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine2.png" alt="Видим картину всех современных медиа"></div>
                                         <div class="wefine-block__text">
@@ -302,7 +304,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine3.png" alt="У нас богатейший опыт работы с московским трафиком"></div>
                                         <div class="wefine-block__text">
@@ -314,7 +316,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine4.png" alt="У нас честный, человеческий подход"></div>
                                         <div class="wefine-block__text">
@@ -324,17 +326,17 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine5.png" alt="У нас хорошие ценники, потому что мы работаем в больших объёмах"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы работаем в больших объёмах</span> и есть основание для  торга и скидок.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы работаем в больших объёмах</span> и есть основание для торга и скидок.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine6.png" alt="Сложнейшие B2B-тематики"></div>
                                         <div class="wefine-block__text">
@@ -1096,7 +1098,7 @@ require_once 'functions.php';
                                             <p class="getresult-block__description-text-blod">Мгновенного взрыва продаж, звонков, заявок, обращений</p>
                                             <p class="getresult-block__description-text">Простите, но не получится вечером посадить рубль, а с утра получить денежное дерево. Интернет-реклама в 2016 – это не рог изобилия и не чудо. Конкуренция очень высокая, цена внимания – ещё выше. Да, в интернете есть такие каналы и площадки, после размещения на которых у людей «ложатся» сайты от количества переходов и обрываются телефоны от количества звонков. И мы знаем все такие каналы и площадки наперечёт. Но их – единицы. А тематики в большинстве своём – либо сложные (и нужна серия публикаций, пока люди поймут, о чём идёт речь), либо типичные (ещё один магазин духов), так что лавинообразные эффекты от размещений бывают, мягко говоря, не каждый день. Плюс – такие площадки, конечно же, не дешёвые. Порог входа начинается где-то от 50-80 тыс. руб. за одно размещение.</p>
                                         </div>
-                                        <div class="ico"><img src="assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
+                                        <div class="ico wow pulse" data-wow-delay=".0s" data-wow-iteration="2"><img src="assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
                                     </div>
                                 </div>
                             </div>
@@ -1150,7 +1152,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block selected" data-tariff="50000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-o"><img src="../assets/images/tariff/watermelon_36.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-16"><img src="../assets/images/tariff/watermelon_16.png" alt=""></div>
                                             <h2 class="some-tariff__head">Самый доступный</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1195,7 +1197,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="75000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-t"><img src="../assets/images/tariff/watermelon_46.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-26"><img src="../assets/images/tariff/watermelon_26.png" alt=""></div>
                                             <h2 class="some-tariff__head">Увеличенный охват</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1240,7 +1242,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="100000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-36"><img src="../assets/images/tariff/watermelon_36.png" alt=""></div>
                                             <h2 class="some-tariff__head">Широкое покрытие</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1285,7 +1287,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="150000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-46"><img src="../assets/images/tariff/watermelon_46.png" alt=""></div>
                                             <h2 class="some-tariff__head">Огромный охват</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1330,7 +1332,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="200000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-56"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
                                             <h2 class="some-tariff__head">Лучшая стоимость</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1375,7 +1377,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff=">200000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-66"><img src="../assets/images/tariff/watermelon_66.png" alt=""></div>
                                             <h2 class="some-tariff__head">Индивидуальный заказ</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1592,7 +1594,7 @@ require_once 'functions.php';
                 <div class="row bb2">
                     <div class="row-eq-height">
                         <div class="col-4">
-                            <div class="smi-block">
+                            <div class="smi-block wow fadeIn" data-wow-delay=".2s">
                                 <div class="smi-block__header">
                                   <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi1.png" alt=""></div>
@@ -1607,7 +1609,7 @@ require_once 'functions.php';
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="smi-block">
+                            <div class="smi-block wow fadeIn" data-wow-delay=".4s">
                                 <div class="smi-block__header">
                                   <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi2.png" alt=""></div>
@@ -1622,7 +1624,7 @@ require_once 'functions.php';
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="smi-block">
+                            <div class="smi-block wow fadeIn" data-wow-delay=".6s">
                                 <div class="smi-block__header">
                                   <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi3.png" alt=""></div>
