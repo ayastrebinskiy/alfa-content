@@ -3,7 +3,10 @@
 }
 
 .step-blocks.owl-carousel .step-block{
-    margin-left: 240px;
+    
+}
+.step-blocks.owl-carousel .owl-item.active{
+    width: 800px!important;
 }
 .step-indicator__bubble{
     cursor: pointer;
@@ -175,4 +178,9 @@
 }
 .ac-logo{
     text-decoration: none;
+}
+
+.slider-nav.step-blocks-nav  .slider-nav_next.hide,
+.slider-nav.step-blocks-nav  .slider-nav_prev.hide{
+    display: none;
 }

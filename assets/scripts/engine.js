@@ -110,6 +110,7 @@ $(document).ready(function () {
     //slider step
     $sliderStep.owlCarousel({
         items: 1,
+        center:true,
         loop: false,
         dots: false,
     });
@@ -119,14 +120,28 @@ $(document).ready(function () {
         $sliderStep.trigger('to.owl.carousel', index);
     });
 
-    $sliderStep.on('changed.owl.carousel', function (event) {
+    $sliderStep.on('changed.owl.carousel', function (event) {console.log(event);
         var index = $sliderStep.data('owl.carousel').relative(event.item.index);
         var $rocket = $('.step-indicator__rocket');
+        var $next = $('[data-slidernav="#sliderStep"] [data-route="next"]');
+        var $prev = $('[data-slidernav="#sliderStep"] [data-route="prev"]');
+        
         $('.step-indicator__rocket-item', $rocket).text(index + 1);
         $('.step-indicator__item.step-indicator__item-completed').removeClass('step-indicator__item-completed');
         $('.step-indicator__item:eq(' + index + ')', '.step-indicator').addClass('step-indicator__item-completed')
                 .append($rocket.clone());
         $rocket.remove();
+        
+        if(index === 0){
+            $prev.addClass('hide');
+            $next.removeClass('hide');
+        } else if(index === event.item.count - 1){
+            $next.addClass('hide');
+            $prev.removeClass('hide');
+        } else {
+            $next.removeClass('hide');
+            $prev.removeClass('hide');
+        }
     });
 
     //slider tariff
@@ -180,6 +195,7 @@ $(document).ready(function () {
         clone.addClass('expand');
         block.addClass('no-border');
         block.append(clone);
+        clone.find('.ac-more-link').remove();
 
         clone.on('mouseout', function (e) {
             block.removeClass('no-border');

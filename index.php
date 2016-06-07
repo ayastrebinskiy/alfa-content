@@ -417,7 +417,7 @@ require_once 'functions.php';
                 <div class="row slider-step-row">
                     <div class="slider-nav step-blocks-nav" data-slidernav="#sliderStep">
                         <div class="slider-nav_next" data-route="next">></div>
-                        <div class="slider-nav_prev" data-route="prev"><</div>
+                        <div class="slider-nav_prev hide" data-route="prev"><</div>
                     </div>
                     <div class="col-12">
                         <div class="flightroute">
