@@ -19,6 +19,8 @@ require_once 'functions.php';
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
         <script type="text/javascript" src="/assets/scripts/main.js?"></script>
         <script type="text/javascript" src="/assets/scripts/engine.js"></script>
+        <script src="/assets/scripts/wow.min.js"></script>
+        <script type="text/javascript">new WOW().init();</script>
         <script src="assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
         <script type="text/javascript" src="/assets/scripts/plugins.js"></script>
@@ -89,57 +91,7 @@ require_once 'functions.php';
         <!-- .ac-header-->
         <div class="ac-header">
             <div class="header__bg">
-                <!-- .slider-container-->
-                <div class="slider-container">
-                    <div class="slider-wrapper owl-carousel owl-theme" id="sliderTop">
-                        <div class="slider-slide" data-index="0">
-                            <div class="header__bg-warp header__bg-warp0"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Охватить совершенно новую<br>целевую аудиторию через <br>публикации в СМИ, у блогеров, <br>видеоблогеров, лидеров мнений, <br>в пабликах соцсетей</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="1">
-                            <div class="header__bg-warp header__bg-warp1"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Поддержать свой бизнес в высокий <br>сезон, чтобы получить ещё больше <br>продаж</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="2">
-                            <div class="header__bg-warp header__bg-warp2"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Обеспечить сайт качественным, <br>конверсионным трафиком даже <br>в периоды проблем с позициями <br>в выдаче</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="3">
-                            <div class="header__bg-warp header__bg-warp3"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Обеспечить сайт качественным, <br>конверсионным трафиком, если <br>в контексте пока не сформирован <br>спрос или оттуда уже всё выбрано</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                        <div class="slider-slide" data-index="4">
-                            <div class="header__bg-warp header__bg-warp4"></div>
-                            <div class="container-slider">
-                                <h2 class="screen-head">Вывести бизнес на совершенно <br>новый уровень, оставив <br>конкурентов далеко позади</h2>
-                                <div class="slider__btn-block"><a href="#ac-popup-order" class="slider__btn-link popup-modal__order-link">Оставить заявку</a></div>
-                                <div class="slider-pagination"><a href="" class="slider-pagination__item slider-pagination__item-active"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a><a href="" class="slider-pagination__item"></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-pagination"></div>
-                    <div data-slidernav="#sliderTop">
-                        <div class="slider-button-next" data-route="next"></div>
-                        <div class="slider-button-prev" data-route="prev"></div>
-                    </div>
-                </div>
-                <!-- /.slider-container-->
+                <?php require('_include/_slider-container.html'); ?>
             </div>
             <div class="ac-header-warp _ac-header-warp">
                 <div class="ac-header-warp__bg">
@@ -162,7 +114,7 @@ require_once 'functions.php';
                             <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
                             <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
                         </ul>
-                        <div class="tel"><a href="tel:+74953502091">+7 495 350 20 91</a></div>
+                        <div class="tel"><a href="tel:+74959802621">+7 495 980 26 21</a></div>
                     </div>
                 </div>
             </div>
@@ -172,12 +124,12 @@ require_once 'functions.php';
         <div id="ac-i-whatformats" class="ac-whatformats">
             <div class="container">
                 <div class="row bb1">
-                    <div class="col-f6">
+                    <div class="col-f6 wow fadeIn" data-wow-delay=".1s">
                         <h2 class="ac-head youadv-head whatformats-head">Какие форматы и&nbsp;каналы <nobr>контент-маркетинга</nobr> <span class="ac-head-green">работают</span></h2>
                         <h3 class="ac-head__mini whatformats-head-mini">на качественный трафик и продажи, и&nbsp;обязательно должны быть в вашем медиаплане</h3>
                     </div>
                     <div class="col-f3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".2s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats1.png" alt="Посты в Instagram, FaceBook, вКонтакте"></div>
                                 <div class="whatformats-block__heads">
@@ -190,7 +142,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-f3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".3s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats2.png" alt="Интеграции в ролики YouTube-блогеров"></div>
                                 <div class="whatformats-block__head">
@@ -205,7 +157,7 @@ require_once 'functions.php';
                 </div>
                 <div class="row bb2">
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".4s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats3.png" alt="Отзывы в женских сообществах"></div>
                                 <div class="whatformats-block__head">
@@ -218,7 +170,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".5s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats4.png" alt="Посты у ТОПовых блогеров"></div>
                                 <div class="whatformats-block__head">
@@ -231,7 +183,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".6s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats5.png" alt="Посты на нишевых сайтах"></div>
                                 <div class="whatformats-block__head">
@@ -244,7 +196,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".7s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats6.png" alt="Публикации в СМИ"></div>
                                 <div class="whatformats-block__head">
@@ -264,7 +216,7 @@ require_once 'functions.php';
                 </div>
                 <div class="row whatformats-red">
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block whatformats-block__nonono wow fadeIn" data-wow-delay=".2s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-press"><img src="assets/images/whatformats/whatformats7.png" alt="Пресс-релизы по релизоприёмникам"></div>
                                 <div class="whatformats-block__head">
@@ -277,7 +229,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".4s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats8.png" alt="Очень дорогие ТОПовые сайты"></div>
                                 <div class="whatformats-block__head">
@@ -290,7 +242,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".6s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats9.png" alt="Спам в комментариях о_О"></div>
                                 <div class="whatformats-block__head">
@@ -303,7 +255,7 @@ require_once 'functions.php';
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="whatformats-block">
+                        <div class="whatformats-block wow fadeIn" data-wow-delay=".8s">
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats10.png" alt="Форумы"></div>
                                 <div class="whatformats-block__head">
@@ -332,7 +284,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine1.png" alt="В пуле площадок сотни проверенных СМИ"></div>
                                         <div class="wefine-block__text">
@@ -342,7 +294,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine2.png" alt="Видим картину всех современных медиа"></div>
                                         <div class="wefine-block__text">
@@ -352,7 +304,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine3.png" alt="У нас богатейший опыт работы с московским трафиком"></div>
                                         <div class="wefine-block__text">
@@ -364,7 +316,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine4.png" alt="У нас честный, человеческий подход"></div>
                                         <div class="wefine-block__text">
@@ -374,17 +326,17 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine5.png" alt="У нас хорошие ценники, потому что мы работаем в больших объёмах"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы работаем в больших объёмах</span> и есть основание для  торга и скидок.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы работаем в больших объёмах</span> и есть основание для торга и скидок.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block">
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="assets/images/wefine/wefine6.png" alt="Сложнейшие B2B-тематики"></div>
                                         <div class="wefine-block__text">
@@ -531,9 +483,11 @@ require_once 'functions.php';
                                 <div class="fsdfsdf">
                                     <h2 class="ac-head tariff-head">Тарифы</h2>
                                     <div class="tariff-navigator" data-slidernav="#tariffSlider">
-                                        <div data-route="prev" class="tariff-navigator__item previous_tariff"><span class="item-ico-previous"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="23" viewBox="0 0 94 23"><image id="tariff-navigator__ico-knife" class="tariff-navigator__ico tariff-navigator__ico-knife" width="94" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAXCAMAAAC1Wwj4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB6VBMVEUAAAAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAtrgAAAAB/cbB6AAAAoXRSTlMA4PSoEuTyoMziwabAnJ/9GoAgw+hAgh5pXgkqblIEAc4YNfPTDlO4AppDs7b5hGzc5kakmXwkibRNuu0Ky4y92ESx+yLPeKfxcxm86VYV/tANBQZ5DLDdPxATMYH6+NXUI/WDFKWYSPYnWPyyB33qMpQ7A1ROShdx69lMLn/NyIgW7x0c7ptlMHCt49J+LQtL28dXJQhbocLat6k5hZfwrh0F6loAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAB5ElEQVRIx2NgXEgzwMTMwsDKxk4W4FjIyYVfBTfPQl4GPn4BBnKA4EIhgmqERRhEF4pRary4hKQUipy0jKwciGZfyCCvwKRImfFKygsXqqgiSanxL1yorgFkaC5kYNBaqE2Z8Tq6anoL9ZGkDAyNjBcaARnMQOMZTBaaUmS8goG82UJzJCldCwbLhZJAhpU1kLCxXShBifF2C+0dFjoiSVksdDJ0dgF5wxXEVTRY6EaB8Tbu/B6eyFJe3gt9fIG0nz87mO8XsNA9kGzjGRiC5NEkg8FkyEJZCDc0bGF4BNmuj8QGoqJjYlXkoErk9eMWsnuRY7xWPM5CIcEFoTzRamFScgrJxlvGKqdiLRLS9NLlUDRYxi9ksiOc01GMV8rwySRWh0ZWwsLsHLVcohTnLZRmYDDLTyogIUDlHZ2cF1oXFhUTVlqyMCS4NN+5jATTQaC8ImDhwkp2NUIJVaoKVKJXk2g6CNTU1i1cmF3fkB6KT1WjT5NeMxmmg0CLRFgr0AqFtvaCIFxqAgLINBwMNDo6u7qBARDbw9xb0tdPbePBQHFCb9hEflAeyZ/Ebd45uWgKCzWNB4OpHdNqp89gheZF/8qZAVyzwmazt1LJeCjIFZpTIjN33mxvharu+SAfLSCsBwAbnc2sv1PbZwAAAABJRU5ErkJggg=="/></svg>
+                                        <div data-route="prev" class="tariff-navigator__item previous_tariff"><span class="item-ico-previous">
+                                          <svg id="tariff-navigator__ico-knife" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 29" width="94" height="23"><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M76.57,22.26c-1.43,0-3.82-.6-3.82-4.61V3.82c0-1.72,0-2.58.62-3.2S74.78,0,76.13,0h37.1l1.71,0c2.34,0,3.89-.06,4.93,1S121,3.41,121,5.38c0,7.64-2.06,10.48-7.61,10.48H85.48c-0.89,0-2,1.28-3.06,2.52C80.85,20.2,79.08,22.26,76.57,22.26ZM74.8,2.07a13.37,13.37,0,0,0,0,1.74V17.64c0,2.41.94,2.61,1.82,2.61,1.59,0,3-1.62,4.33-3.18s2.77-3.21,4.57-3.21h27.91c3.39,0,5.61-.59,5.61-8.48,0-1.67-.17-2.62-0.53-3S116.75,2,115,2l-1.75,0H76.11A10.74,10.74,0,0,0,74.8,2.07Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M75.93,29C56.28,29,4.34,24,0,1.23A1,1,0,0,1,1,0L75.93,0V2L2.26,2C7.36,20,48.75,26.83,74.93,27V21.26a1,1,0,0,1,2,0V28A1,1,0,0,1,75.93,29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M110.32,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,110.32,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,110.32,6.5Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M88.64,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,88.64,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,88.64,6.5Z"/></svg>
                                             </span><span>Мало</span></div>
-                                        <div data-route="next" class="tariff-navigator__item next_tariff"><span>Много</span><span class="item-ico-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="53" viewBox="0 0 52 53"><image id="tariff-navigator__ico-watermelon" class="tariff-navigator__ico tariff-navigator__ico-watermelon" width="52" height="53" xlink:href="data:img/png;base64,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"/></svg>
+                                        <div data-route="next" class="tariff-navigator__item next_tariff"><span>Много</span><span class="item-ico-next"><svg id="tariff-navigator__ico-watermelon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.9 67.99" width="52" height="53"><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M26.35,47.64a3,3,0,0,1-2.88-2.21h0a3,3,0,0,1,2.1-3.65c1.09-.29,4.77-0.35,5.31,1.67A2,2,0,0,1,30.62,45a6.91,6.91,0,0,1-3.51,2.57A3,3,0,0,1,26.35,47.64Zm-1-2.73a1,1,0,0,0,1.2.7A5.15,5.15,0,0,0,28.89,44a5.15,5.15,0,0,0-2.81-.27,1,1,0,0,0-.59.45,1,1,0,0,0-.1.75h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M25,36.83h0a3,3,0,0,1-3-3,3,3,0,0,1,3-3c1.14,0,4.73.92,4.74,3a1.94,1.94,0,0,1-.63,1.4A6.93,6.93,0,0,1,25,36.83Zm-0.05-4a1,1,0,0,0-.69.28,0.93,0.93,0,0,0-.28.67,1,1,0,0,0,1,1h0a5.25,5.25,0,0,0,2.64-.95,5.39,5.39,0,0,0-2.69-1h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M27.06,26.14A6.06,6.06,0,0,1,25.53,26a3,3,0,0,1-2.14-3.65h0a2.9,2.9,0,0,1,1.37-1.8,3,3,0,0,1,2.29-.29c1.1,0.3,4.34,2.12,3.82,4.12a1.93,1.93,0,0,1-1,1.19A6.09,6.09,0,0,1,27.06,26.14Zm-0.81-4a1,1,0,0,0-.48.13,0.91,0.91,0,0,0-.43.57h0A1,1,0,0,0,26.07,24a5.18,5.18,0,0,0,2.81-.21,5.49,5.49,0,0,0-2.36-1.67A1,1,0,0,0,26.24,22.12Zm-1.88.44h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.31,43.54a2.34,2.34,0,0,1-2.25-1.73h0A2.33,2.33,0,0,1,38.7,39c0.93-.24,3.55-0.2,4,1.35a1.65,1.65,0,0,1-.21,1.28,5,5,0,0,1-2.55,1.87A2.31,2.31,0,0,1,39.31,43.54ZM39,41.29a0.33,0.33,0,0,0,.4.24,3.39,3.39,0,0,0,1-.62,3.42,3.42,0,0,0-1.22,0A0.31,0.31,0,0,0,39,41,0.33,0.33,0,0,0,39,41.29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M38.37,36.29h0A2.36,2.36,0,0,1,36,34h0a2.29,2.29,0,0,1,.67-1.64,2.32,2.32,0,0,1,1.66-.68c1,0,3.5.74,3.51,2.34a1.62,1.62,0,0,1-.52,1.18A5,5,0,0,1,38.37,36.29ZM38,33.94a0.36,0.36,0,0,0,.36.34A3.21,3.21,0,0,0,39.53,34a3.53,3.53,0,0,0-1.2-.34h0a0.32,0.32,0,0,0-.23.09,0.3,0.3,0,0,0-.09.22h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.79,29.11A4.43,4.43,0,0,1,38.67,29,2.37,2.37,0,0,1,37,26.14h0a2.27,2.27,0,0,1,1.07-1.41,2.31,2.31,0,0,1,1.79-.22c0.93,0.26,3.19,1.62,2.79,3.16a1.62,1.62,0,0,1-.8,1A4.37,4.37,0,0,1,39.79,29.11Zm-0.56-2.7a0.32,0.32,0,0,0-.16,0,0.28,0.28,0,0,0-.13.18h0a0.36,0.36,0,0,0,.27.42,3.43,3.43,0,0,0,1.19,0,3.6,3.6,0,0,0-1.07-.64h-0.1Zm-1.26,0h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M17.66,63l-0.51-.87-0.65.36a59,59,0,0,1,0-57.42,1,1,0,0,1,1.38-.37L66.43,33.38a1,1,0,0,1-.19,1.81c-0.41.17-4.89,2.32-48.36,27.73h0l-0.06,0ZM17.72,7a57,57,0,0,0,0,53.68c15.48-9,39.14-22.81,46.1-26.49Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M9.78,68a1,1,0,0,1-.87-0.5,68.3,68.3,0,0,1-.28-67A1,1,0,0,1,10,.14L66.43,33.38a1,1,0,0,1,0,1.73c-0.21.13-21.88,12.73-56.14,32.75A1,1,0,0,1,9.78,68ZM9.89,2.38a66.31,66.31,0,0,0,.27,63.23C38.87,48.83,58.57,37.36,63.94,34.23Z"/></svg>
+
                                             </span></div>
                                     </div>
                                 </div>
@@ -991,7 +945,7 @@ require_once 'functions.php';
                                                         </svg>
 
                                                     </div>
-                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">индивидуальный расчет</span></div>
+                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">расчитываем<br>индивидуально</span></div>
                                                 </div>
                                                 <!-- /.tariff-block__what-item-->
                                                 <div class="tariff-block__what-item">
@@ -1144,7 +1098,7 @@ require_once 'functions.php';
                                             <p class="getresult-block__description-text-blod">Мгновенного взрыва продаж, звонков, заявок, обращений</p>
                                             <p class="getresult-block__description-text">Простите, но не получится вечером посадить рубль, а с утра получить денежное дерево. Интернет-реклама в 2016 – это не рог изобилия и не чудо. Конкуренция очень высокая, цена внимания – ещё выше. Да, в интернете есть такие каналы и площадки, после размещения на которых у людей «ложатся» сайты от количества переходов и обрываются телефоны от количества звонков. И мы знаем все такие каналы и площадки наперечёт. Но их – единицы. А тематики в большинстве своём – либо сложные (и нужна серия публикаций, пока люди поймут, о чём идёт речь), либо типичные (ещё один магазин духов), так что лавинообразные эффекты от размещений бывают, мягко говоря, не каждый день. Плюс – такие площадки, конечно же, не дешёвые. Порог входа начинается где-то от 50-80 тыс. руб. за одно размещение.</p>
                                         </div>
-                                        <div class="ico"><img src="assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
+                                        <div class="ico wow pulse" data-wow-delay=".0s" data-wow-iteration="2"><img src="assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
                                     </div>
                                 </div>
                             </div>
@@ -1198,7 +1152,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block selected" data-tariff="50000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-o"><img src="../assets/images/tariff/watermelon_36.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-16"><img src="../assets/images/tariff/watermelon_16.png" alt=""></div>
                                             <h2 class="some-tariff__head">Самый доступный</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1243,7 +1197,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="75000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-t"><img src="../assets/images/tariff/watermelon_46.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-26"><img src="../assets/images/tariff/watermelon_26.png" alt=""></div>
                                             <h2 class="some-tariff__head">Увеличенный охват</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1288,7 +1242,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="100000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-36"><img src="../assets/images/tariff/watermelon_36.png" alt=""></div>
                                             <h2 class="some-tariff__head">Широкое покрытие</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1333,7 +1287,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="150000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-46"><img src="../assets/images/tariff/watermelon_46.png" alt=""></div>
                                             <h2 class="some-tariff__head">Огромный охват</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1378,7 +1332,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff="200000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-56"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
                                             <h2 class="some-tariff__head">Лучшая стоимость</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1423,7 +1377,7 @@ require_once 'functions.php';
                                 <div class="some-tariff">
                                     <div class="some-tariff__block" data-tariff=">200000">
                                         <div class="some-tariff__block-header">
-                                            <div class="waterlemon-th"><img src="../assets/images/tariff/watermelon_56.png" alt=""></div>
+                                            <div class="waterlemon-w-icon waterlemon-66"><img src="../assets/images/tariff/watermelon_66.png" alt=""></div>
                                             <h2 class="some-tariff__head">Индивидуальный заказ</h2>
                                         </div>
                                         <div class="some-tariff__block-inside">
@@ -1620,11 +1574,11 @@ require_once 'functions.php';
                                 </div>
                             </div>
                         </div>
-                        <!--<div class="row">
+                        <div class="row">
                           <div class="col-12">
-                            <div class="work__btn-block"><a href="#" class="work__btn-link">показать ещё</a></div>
+                            <div class="work__btn-block"><a href="#ac-popup-order" class="work__btn-link popup-modal__order-link">хочу также</a></div>
                           </div>
-                        </div>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1640,12 +1594,14 @@ require_once 'functions.php';
                 <div class="row bb2">
                     <div class="row-eq-height">
                         <div class="col-4">
-                            <div class="smi-block">
+                            <div class="smi-block wow fadeIn" data-wow-delay=".2s">
                                 <div class="smi-block__header">
+                                  <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi1.png" alt=""></div>
                                     <div class="smi-block__header-head">
-                                        <h2 class="smi-block-head">Результаты модуля «Контент-маркетинг»</h2>
+                                        <h2 class="smi-block-head">Результаты модуля «Контент-маркетинг»</h2>
                                     </div>
+                                  </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">В ноябре 2015 года в SeoPult была запущена услуга «Контент-маркетинг» – как мы можем судить сегодня, невероятно востребованная среди представителей самых разных сфер бизнеса. Об эффективности услуги говорят как показатели роста прямого трафика на сайты наших пользователей, так и реальные конверсии с этих переходов. Представляем вашему вниманию первые кейсы и результаты продвижения.</p>
@@ -1653,12 +1609,14 @@ require_once 'functions.php';
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="smi-block">
+                            <div class="smi-block wow fadeIn" data-wow-delay=".4s">
                                 <div class="smi-block__header">
+                                  <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi2.png" alt=""></div>
                                     <div class="smi-block__header-head">
                                         <h2 class="smi-block-head">Поисковая видимость в списке проектов</h2>
                                     </div>
+                                  </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">Теперь по SEO-проектам доступны данные о поисковой видимости продвигаемого ресурса и размерах привлеченной из поиска аудитории. Поисковая видимость – это показатель, отражающий насколько легко потенциальные клиенты могут найти ваш сайт в поисковых системах по продвигаемым вами ключевым словам. Расчет поисковой видимости учитывает так же популярность поисковых машин по количеству трафика из различных регионов. Для удобства, вы можете</p>
@@ -1666,12 +1624,14 @@ require_once 'functions.php';
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="smi-block">
+                            <div class="smi-block wow fadeIn" data-wow-delay=".6s">
                                 <div class="smi-block__header">
+                                  <a href="#" class="smi-block-head-link" target="_blank">
                                     <div class="smi-block__header-ico"><img src="assets/images/smi/smi3.png" alt=""></div>
                                     <div class="smi-block__header-head">
                                         <h2 class="smi-block-head">Технологически Система представляет собой комплекс модулей</h2>
                                     </div>
+                                  </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">Благодаря применению оптимальных схем и постоянного мониторинга Система SeoPult позволяет достигать максимальных результатов при минимальных бюджетах. За счет автоматизации всех технических операций Система полностью избавляет оптимизатора от рутинной работы и экономит его время. </p>
@@ -1720,7 +1680,7 @@ require_once 'functions.php';
                 <div class="col-6">
                     <div class="ac-footer__right-block">
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
-                        <div class="ac-footer__tel-box"><a href="tel:+74953502091" class="footer-tel-link">+7 495 350 20 91</a></div>
+                        <div class="ac-footer__tel-box"><a href="tel:+74959802621" class="footer-tel-link">+7 495 980 26 21</a></div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>
