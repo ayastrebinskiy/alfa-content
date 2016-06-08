@@ -201,6 +201,7 @@ $(document).ready(function () {
         };
 
         e.preventDefault();
+        $('.whatformats-block.expand').remove();
         clone.addClass('expand');
         block.addClass('no-border');
         block.append(clone);
