@@ -205,16 +205,17 @@ $(document).ready(function () {
             block.removeClass('no-border');
             $(this).remove();
         };
-
+        
         e.preventDefault();
+        
+        clone.removeClass('wow');
+        
         $('.whatformats-block.expand').remove();
         clone.addClass('expand');
-        block.addClass('no-border');
-        block.append(clone);
-        clone.find('.ac-more-link').remove();
+        block.addClass('no-border').append(clone);
 
         clone.focus();
-
+        
         clone.on('mouseout', hide);
         clone.on('touchend', hide);
         clone.on('blur', hide);
