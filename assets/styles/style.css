@@ -115,35 +115,6 @@
 .slider-nav .slider-nav_next{
     right: 15px;
     top: -20px;
-    display: block;
-    background: #c1c1c1 url('../images/slide-right.png') 22px 15px no-repeat;
-    text-indent: -9999px;
-    transition: all 0.4s ease;
-    width: 60px;
-    height: 60px;
-    z-index: 10;
-    border-radius: 50%;
-}
-.slider-nav .slider-nav_prev{
-  left: 15px;
-  top: -20px;
-  display: block;
-  background: #c1c1c1 url('../images/slide-left.png') 18px 15px no-repeat;
-  text-indent: -9999px;
-  transition: all 0.4s ease;
-  width: 60px;
-  height: 60px;
-  z-index: 10;
-  border-radius: 50%;
-}
-.slider-nav .slider-nav_next:hover,
-.slider-nav .slider-nav_prev:hover {
-  background-color: #E0E0E0;
-}
-
-.slider-nav.step-blocks-nav  .slider-nav_next{
-    right: -40px;
-    top: -10px;
     width: 26px;
     height: 40px;
     display: block;
@@ -151,20 +122,32 @@
     text-indent: -9999px;
     transition: all 0.4s ease;
 }
-
-.slider-nav.step-blocks-nav  .slider-nav_prev{
-    left: -40px;
-    top: -10px;
+.slider-nav .slider-nav_prev{
+    left: 15px;
+    top: -20px;
+    display: block;
     width: 26px;
     height: 40px;
-    display: block;
     background: #fff url('../images/youadv/left.png') 0 0 no-repeat;
     text-indent: -9999px;
     transition: all 0.4s ease;
 }
-.slider-nav.step-blocks-nav  .slider-nav_next:hover,
-.slider-nav.step-blocks-nav  .slider-nav_prev:hover {
-  opacity: .75;
+
+
+.slider-nav.step-blocks-nav  .slider-nav_next{
+    right: -40px;
+    top: -10px;
+
+}
+
+.slider-nav.step-blocks-nav  .slider-nav_prev{
+    left: -40px;
+    top: -10px;
+
+}
+.slider-nav  .slider-nav_next:hover,
+.slider-nav  .slider-nav_prev:hover {
+    opacity: .75;
 }
 
 .line-block .price{
@@ -172,7 +155,7 @@
 }
 
 .owl-carousel .owl-item img {
-  width: auto!important;
+    width: auto!important;
 }
 .ac-logo{
     text-decoration: none;
@@ -180,5 +163,10 @@
 
 .slider-nav.step-blocks-nav  .slider-nav_next.hide,
 .slider-nav.step-blocks-nav  .slider-nav_prev.hide{
-    display: none;
+    opacity: 1;
+}
+
+.slider-nav.step-blocks-nav  .slider-nav_next.hide,
+.slider-nav.step-blocks-nav  .slider-nav_prev.hide{
+    opacity: 0;
 }

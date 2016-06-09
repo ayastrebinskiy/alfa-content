@@ -87,8 +87,8 @@ $(document).ready(function () {
         items: 1,
         loop: true,
         dots: false,
-        autoplaySpeed: 800,
-        smartSpeed: 800,
+        autoplaySpeed: 1000,
+        smartSpeed: 1000,
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true
@@ -97,9 +97,15 @@ $(document).ready(function () {
     $sliderTop.on('click', '.slider-pagination__item', function (e) {
         var index = $(this).index();
         e.preventDefault();
+        $sliderTop.trigger('stop.owl');
         $sliderTop.trigger('to.owl.carousel', index);
     });
-
+    $sliderTop.on('next.owl.carousel', function(){
+        $sliderTop.trigger('stop.owl.autoplay');
+    });
+    $sliderTop.on('prev.owl.carousel', function(){
+        $sliderTop.trigger('stop.owl.autoplay');
+    });
     $sliderTop.on('changed.owl.carousel', function (event) {
         var index = $sliderTop.data('owl.carousel').relative(event.item.index);
         $('.slider-pagination__item', $sliderTop).removeClass('slider-pagination__item-active');
