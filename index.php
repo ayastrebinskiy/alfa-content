@@ -390,87 +390,88 @@ require_once 'functions.php';
                 </div>
                 <!-- /.row-->
                 <div class="row">
-                    <div class="col-12">
-                        <div class="step-blocks owl-carousel owl-theme" id="sliderStep">
-                            <div class="step-block">
-                                <div class="step-block__ico"><img src="assets/images/youadv/youadv1.png" alt="Вы оставляете заявку с указанием сайта"></div>
-                                <!-- /.step-block__ico-->
-                                <div class="step-block__description">
-                                    <div class="step-block__description-head">
-                                        <div class="step-block__item"><span class="step-item">1</span></div>
-                                        <h2 class="step-block__head">Вы оставляете заявку с указанием сайта, региона, ваших пожеланий (на что хотели бы обратить внимание, как видите свою целевую аудиторию и пр.).</h2>
-                                    </div>
-                                    <div class="step-block__description-text">
-                                        <p class="step-block__text">Оставляя заявку, вы сразу же выбираете бюджет, на который хотели бы сделать кампанию. Это может быть 50 000р., 75 000р., 100 000р., 150 000р., 200 000р., произвольный бюджет от 200 000р. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="step-block">
-                                <div class="step-block__ico"><img src="assets/images/youadv/youadv2.png" alt="Менеджер в течение 3 дней составляет для вас медиаплан"></div>
-                                <!-- /.step-block__ico-->
-                                <div class="step-block__description">
-                                    <div class="step-block__description-head">
-                                        <div class="step-block__item"><span class="step-item">2</span></div>
-                                        <h2 class="step-block__head">Менеджер в течение 3 дней составляет для вас медиаплан со всеми площадками, их описанием, форматами размещений. И присылает на согласование.</h2>
-                                    </div>
-                                    <div class="step-block__description-text">
-                                        <p class="step-block__text">В ходе согласований вы можете отказаться от некоторых или всех площадок и попросить заменить их другими. Мы готовы итерировать медиаплан разумное количество раз.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="step-block">
-                                <div class="step-block__ico"><img src="assets/images/youadv/youadv3.png" alt="После согласования медиаплана мы начинаем готовить контент"></div>
-                                <!-- /.step-block__ico-->
-                                <div class="step-block__description">
-                                    <div class="step-block__description-head">
-                                        <div class="step-block__item"><span class="step-item">3</span></div>
-                                        <h2 class="step-block__head">После согласования медиаплана мы начинаем готовить контент и согласовывать его с вами.</h2>
-                                    </div>
-                                    <div class="step-block__description-text">
-                                        <p class="step-block__text">Вы, разумеется, можете указывать, где и какие внести правки. Мы готовы итерировать тексты разумное количество раз. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.step-block-->
-                            <div class="step-block">
-                                <div class="step-block__ico"><img src="assets/images/youadv/youadv4.png" alt="После подготовки контента начинается процесс размещения на площадках"></div>
-                                <div class="step-block__description">
-                                    <div class="step-block__description-head">
-                                        <div class="step-block__item"><span class="step-item">4</span></div>
-                                        <h2 class="step-block__head">После подготовки контента начинается процесс размещения на площадках. Он занимает порядка 1-1,5 месяцев. После размещения вы сразу получаете ссылку на публикацию/пост/видео и можете работать в комментариях. </h2>
-                                    </div>
-                                    <div class="step-block__description-text">
-                                        <p class="step-block__text">Мы просим работать в комментариях именно вас, потому что вы больше погружены в бизнес. Разумеется, наш менеджер тоже будет следить за ходом обсуждения и в случае необходимости попробует «потушить пожар», но он вряд ли будет настолько хорошо знаком с рынком и продуктом, насколько заказчик.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.step-block-->
-                            <div class="step-block">
-                                <div class="step-block__ico"><img src="assets/images/youadv/youadv5.png" alt="Как только все размещения выполнены, мы собираем статистику прочтений материалов"></div>
-                                <!-- /.step-block__ico-->
-                                <div class="step-block__description">
-                                    <div class="step-block__description-head">
-                                        <div class="step-block__item"><span class="step-item">5</span></div>
-                                        <!-- /.step-block__item-->
-                                        <h2 class="step-block__head">Как только все размещения выполнены, мы собираем статистику прочтений материалов, переходов на ваш сайт, статистику конверсий (если у вас настроены Цели или Электронная коммерция) и сдаём отчёт. </h2>
-                                    </div>
-                                    <!-- /.step-block__description-head-->
-                                    <div class="step-block__description-text">
-                                        <p class="step-block__text">Примеры выполненных кампаний с отчётами вы можете посмотреть ниже. </p>
-                                    </div>
-                                    <!-- /.step-block__description-text-->
-                                </div>
-                                <!-- /.step-block__description-->
-                            </div>
-                            <!-- /.step-block-->
-                        </div>
-                        <!-- /.step-blocks-->
-                    </div>
+
                     <!-- /.col-12-->
                 </div>
                 <!-- /.row-->
             </div>
             <!-- /.container-->
+            <div class="col-12">
+                <div class="step-blocks owl-carousel owl-theme" id="sliderStep">
+                    <div class="step-block">
+                        <div class="step-block__ico"><img src="assets/images/youadv/youadv1.png" alt="Вы оставляете заявку с указанием сайта"></div>
+                        <!-- /.step-block__ico-->
+                        <div class="step-block__description">
+                            <div class="step-block__description-head">
+                                <div class="step-block__item"><span class="step-item">1</span></div>
+                                <h2 class="step-block__head">Вы оставляете заявку с указанием сайта, региона, ваших пожеланий (на что хотели бы обратить внимание, как видите свою целевую аудиторию и пр.).</h2>
+                            </div>
+                            <div class="step-block__description-text">
+                                <p class="step-block__text">Оставляя заявку, вы сразу же выбираете бюджет, на который хотели бы сделать кампанию. Это может быть 50 000р., 75 000р., 100 000р., 150 000р., 200 000р., произвольный бюджет от 200 000р. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-block">
+                        <div class="step-block__ico"><img src="assets/images/youadv/youadv2.png" alt="Менеджер в течение 3 дней составляет для вас медиаплан"></div>
+                        <!-- /.step-block__ico-->
+                        <div class="step-block__description">
+                            <div class="step-block__description-head">
+                                <div class="step-block__item"><span class="step-item">2</span></div>
+                                <h2 class="step-block__head">Менеджер в течение 3 дней составляет для вас медиаплан со всеми площадками, их описанием, форматами размещений. И присылает на согласование.</h2>
+                            </div>
+                            <div class="step-block__description-text">
+                                <p class="step-block__text">В ходе согласований вы можете отказаться от некоторых или всех площадок и попросить заменить их другими. Мы готовы итерировать медиаплан разумное количество раз.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-block">
+                        <div class="step-block__ico"><img src="assets/images/youadv/youadv3.png" alt="После согласования медиаплана мы начинаем готовить контент"></div>
+                        <!-- /.step-block__ico-->
+                        <div class="step-block__description">
+                            <div class="step-block__description-head">
+                                <div class="step-block__item"><span class="step-item">3</span></div>
+                                <h2 class="step-block__head">После согласования медиаплана мы начинаем готовить контент и согласовывать его с вами.</h2>
+                            </div>
+                            <div class="step-block__description-text">
+                                <p class="step-block__text">Вы, разумеется, можете указывать, где и какие внести правки. Мы готовы итерировать тексты разумное количество раз. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.step-block-->
+                    <div class="step-block">
+                        <div class="step-block__ico"><img src="assets/images/youadv/youadv4.png" alt="После подготовки контента начинается процесс размещения на площадках"></div>
+                        <div class="step-block__description">
+                            <div class="step-block__description-head">
+                                <div class="step-block__item"><span class="step-item">4</span></div>
+                                <h2 class="step-block__head">После подготовки контента начинается процесс размещения на площадках. Он занимает порядка 1-1,5 месяцев. После размещения вы сразу получаете ссылку на публикацию/пост/видео и можете работать в комментариях. </h2>
+                            </div>
+                            <div class="step-block__description-text">
+                                <p class="step-block__text">Мы просим работать в комментариях именно вас, потому что вы больше погружены в бизнес. Разумеется, наш менеджер тоже будет следить за ходом обсуждения и в случае необходимости попробует «потушить пожар», но он вряд ли будет настолько хорошо знаком с рынком и продуктом, насколько заказчик.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.step-block-->
+                    <div class="step-block">
+                        <div class="step-block__ico"><img src="assets/images/youadv/youadv5.png" alt="Как только все размещения выполнены, мы собираем статистику прочтений материалов"></div>
+                        <!-- /.step-block__ico-->
+                        <div class="step-block__description">
+                            <div class="step-block__description-head">
+                                <div class="step-block__item"><span class="step-item">5</span></div>
+                                <!-- /.step-block__item-->
+                                <h2 class="step-block__head">Как только все размещения выполнены, мы собираем статистику прочтений материалов, переходов на ваш сайт, статистику конверсий (если у вас настроены Цели или Электронная коммерция) и сдаём отчёт. </h2>
+                            </div>
+                            <!-- /.step-block__description-head-->
+                            <div class="step-block__description-text">
+                                <p class="step-block__text">Примеры выполненных кампаний с отчётами вы можете посмотреть ниже. </p>
+                            </div>
+                            <!-- /.step-block__description-text-->
+                        </div>
+                        <!-- /.step-block__description-->
+                    </div>
+                    <!-- /.step-block-->
+                </div>
+                <!-- /.step-blocks-->
+            </div>
         </div>
         <!-- /.ac-youadv-->
         <!-- .ac-tariff-->
@@ -484,7 +485,7 @@ require_once 'functions.php';
                                     <h2 class="ac-head tariff-head">Тарифы</h2>
                                     <div class="tariff-navigator" data-slidernav="#tariffSlider">
                                         <div data-route="prev" class="tariff-navigator__item previous_tariff"><span class="item-ico-previous">
-                                          <svg id="tariff-navigator__ico-knife" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 29" width="94" height="23"><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M76.57,22.26c-1.43,0-3.82-.6-3.82-4.61V3.82c0-1.72,0-2.58.62-3.2S74.78,0,76.13,0h37.1l1.71,0c2.34,0,3.89-.06,4.93,1S121,3.41,121,5.38c0,7.64-2.06,10.48-7.61,10.48H85.48c-0.89,0-2,1.28-3.06,2.52C80.85,20.2,79.08,22.26,76.57,22.26ZM74.8,2.07a13.37,13.37,0,0,0,0,1.74V17.64c0,2.41.94,2.61,1.82,2.61,1.59,0,3-1.62,4.33-3.18s2.77-3.21,4.57-3.21h27.91c3.39,0,5.61-.59,5.61-8.48,0-1.67-.17-2.62-0.53-3S116.75,2,115,2l-1.75,0H76.11A10.74,10.74,0,0,0,74.8,2.07Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M75.93,29C56.28,29,4.34,24,0,1.23A1,1,0,0,1,1,0L75.93,0V2L2.26,2C7.36,20,48.75,26.83,74.93,27V21.26a1,1,0,0,1,2,0V28A1,1,0,0,1,75.93,29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M110.32,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,110.32,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,110.32,6.5Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M88.64,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,88.64,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,88.64,6.5Z"/></svg>
+                                                <svg id="tariff-navigator__ico-knife" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 29" width="94" height="23"><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M76.57,22.26c-1.43,0-3.82-.6-3.82-4.61V3.82c0-1.72,0-2.58.62-3.2S74.78,0,76.13,0h37.1l1.71,0c2.34,0,3.89-.06,4.93,1S121,3.41,121,5.38c0,7.64-2.06,10.48-7.61,10.48H85.48c-0.89,0-2,1.28-3.06,2.52C80.85,20.2,79.08,22.26,76.57,22.26ZM74.8,2.07a13.37,13.37,0,0,0,0,1.74V17.64c0,2.41.94,2.61,1.82,2.61,1.59,0,3-1.62,4.33-3.18s2.77-3.21,4.57-3.21h27.91c3.39,0,5.61-.59,5.61-8.48,0-1.67-.17-2.62-0.53-3S116.75,2,115,2l-1.75,0H76.11A10.74,10.74,0,0,0,74.8,2.07Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M75.93,29C56.28,29,4.34,24,0,1.23A1,1,0,0,1,1,0L75.93,0V2L2.26,2C7.36,20,48.75,26.83,74.93,27V21.26a1,1,0,0,1,2,0V28A1,1,0,0,1,75.93,29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M110.32,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,110.32,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,110.32,6.5Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M88.64,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,88.64,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,88.64,6.5Z"/></svg>
                                             </span><span>Мало</span></div>
                                         <div data-route="next" class="tariff-navigator__item next_tariff"><span>Много</span><span class="item-ico-next"><svg id="tariff-navigator__ico-watermelon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.9 67.99" width="52" height="53"><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M26.35,47.64a3,3,0,0,1-2.88-2.21h0a3,3,0,0,1,2.1-3.65c1.09-.29,4.77-0.35,5.31,1.67A2,2,0,0,1,30.62,45a6.91,6.91,0,0,1-3.51,2.57A3,3,0,0,1,26.35,47.64Zm-1-2.73a1,1,0,0,0,1.2.7A5.15,5.15,0,0,0,28.89,44a5.15,5.15,0,0,0-2.81-.27,1,1,0,0,0-.59.45,1,1,0,0,0-.1.75h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M25,36.83h0a3,3,0,0,1-3-3,3,3,0,0,1,3-3c1.14,0,4.73.92,4.74,3a1.94,1.94,0,0,1-.63,1.4A6.93,6.93,0,0,1,25,36.83Zm-0.05-4a1,1,0,0,0-.69.28,0.93,0.93,0,0,0-.28.67,1,1,0,0,0,1,1h0a5.25,5.25,0,0,0,2.64-.95,5.39,5.39,0,0,0-2.69-1h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M27.06,26.14A6.06,6.06,0,0,1,25.53,26a3,3,0,0,1-2.14-3.65h0a2.9,2.9,0,0,1,1.37-1.8,3,3,0,0,1,2.29-.29c1.1,0.3,4.34,2.12,3.82,4.12a1.93,1.93,0,0,1-1,1.19A6.09,6.09,0,0,1,27.06,26.14Zm-0.81-4a1,1,0,0,0-.48.13,0.91,0.91,0,0,0-.43.57h0A1,1,0,0,0,26.07,24a5.18,5.18,0,0,0,2.81-.21,5.49,5.49,0,0,0-2.36-1.67A1,1,0,0,0,26.24,22.12Zm-1.88.44h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.31,43.54a2.34,2.34,0,0,1-2.25-1.73h0A2.33,2.33,0,0,1,38.7,39c0.93-.24,3.55-0.2,4,1.35a1.65,1.65,0,0,1-.21,1.28,5,5,0,0,1-2.55,1.87A2.31,2.31,0,0,1,39.31,43.54ZM39,41.29a0.33,0.33,0,0,0,.4.24,3.39,3.39,0,0,0,1-.62,3.42,3.42,0,0,0-1.22,0A0.31,0.31,0,0,0,39,41,0.33,0.33,0,0,0,39,41.29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M38.37,36.29h0A2.36,2.36,0,0,1,36,34h0a2.29,2.29,0,0,1,.67-1.64,2.32,2.32,0,0,1,1.66-.68c1,0,3.5.74,3.51,2.34a1.62,1.62,0,0,1-.52,1.18A5,5,0,0,1,38.37,36.29ZM38,33.94a0.36,0.36,0,0,0,.36.34A3.21,3.21,0,0,0,39.53,34a3.53,3.53,0,0,0-1.2-.34h0a0.32,0.32,0,0,0-.23.09,0.3,0.3,0,0,0-.09.22h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.79,29.11A4.43,4.43,0,0,1,38.67,29,2.37,2.37,0,0,1,37,26.14h0a2.27,2.27,0,0,1,1.07-1.41,2.31,2.31,0,0,1,1.79-.22c0.93,0.26,3.19,1.62,2.79,3.16a1.62,1.62,0,0,1-.8,1A4.37,4.37,0,0,1,39.79,29.11Zm-0.56-2.7a0.32,0.32,0,0,0-.16,0,0.28,0.28,0,0,0-.13.18h0a0.36,0.36,0,0,0,.27.42,3.43,3.43,0,0,0,1.19,0,3.6,3.6,0,0,0-1.07-.64h-0.1Zm-1.26,0h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M17.66,63l-0.51-.87-0.65.36a59,59,0,0,1,0-57.42,1,1,0,0,1,1.38-.37L66.43,33.38a1,1,0,0,1-.19,1.81c-0.41.17-4.89,2.32-48.36,27.73h0l-0.06,0ZM17.72,7a57,57,0,0,0,0,53.68c15.48-9,39.14-22.81,46.1-26.49Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M9.78,68a1,1,0,0,1-.87-0.5,68.3,68.3,0,0,1-.28-67A1,1,0,0,1,10,.14L66.43,33.38a1,1,0,0,1,0,1.73c-0.21.13-21.88,12.73-56.14,32.75A1,1,0,0,1,9.78,68ZM9.89,2.38a66.31,66.31,0,0,0,.27,63.23C38.87,48.83,58.57,37.36,63.94,34.23Z"/></svg>
 
@@ -1575,9 +1576,9 @@ require_once 'functions.php';
                             </div>
                         </div>
                         <div class="row">
-                          <div class="col-12">
-                            <div class="work__btn-block"><a href="#ac-popup-order" class="work__btn-link popup-modal__order-link">хочу также</a></div>
-                          </div>
+                            <div class="col-12">
+                                <div class="work__btn-block"><a href="#ac-popup-order" class="work__btn-link popup-modal__order-link">хочу также</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1596,12 +1597,12 @@ require_once 'functions.php';
                         <div class="col-4">
                             <div class="smi-block wow fadeIn" data-wow-delay=".2s">
                                 <div class="smi-block__header">
-                                  <a href="#" class="smi-block-head-link" target="_blank">
-                                    <div class="smi-block__header-ico"><img src="assets/images/smi/smi1.png" alt=""></div>
-                                    <div class="smi-block__header-head">
-                                        <h2 class="smi-block-head">Результаты модуля «Контент-маркетинг»</h2>
-                                    </div>
-                                  </a>
+                                    <a href="#" class="smi-block-head-link" target="_blank">
+                                        <div class="smi-block__header-ico"><img src="assets/images/smi/smi1.png" alt=""></div>
+                                        <div class="smi-block__header-head">
+                                            <h2 class="smi-block-head">Результаты модуля «Контент-маркетинг»</h2>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">В ноябре 2015 года в SeoPult была запущена услуга «Контент-маркетинг» – как мы можем судить сегодня, невероятно востребованная среди представителей самых разных сфер бизнеса. Об эффективности услуги говорят как показатели роста прямого трафика на сайты наших пользователей, так и реальные конверсии с этих переходов. Представляем вашему вниманию первые кейсы и результаты продвижения.</p>
@@ -1611,12 +1612,12 @@ require_once 'functions.php';
                         <div class="col-4">
                             <div class="smi-block wow fadeIn" data-wow-delay=".4s">
                                 <div class="smi-block__header">
-                                  <a href="#" class="smi-block-head-link" target="_blank">
-                                    <div class="smi-block__header-ico"><img src="assets/images/smi/smi2.png" alt=""></div>
-                                    <div class="smi-block__header-head">
-                                        <h2 class="smi-block-head">Поисковая видимость в списке проектов</h2>
-                                    </div>
-                                  </a>
+                                    <a href="#" class="smi-block-head-link" target="_blank">
+                                        <div class="smi-block__header-ico"><img src="assets/images/smi/smi2.png" alt=""></div>
+                                        <div class="smi-block__header-head">
+                                            <h2 class="smi-block-head">Поисковая видимость в списке проектов</h2>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">Теперь по SEO-проектам доступны данные о поисковой видимости продвигаемого ресурса и размерах привлеченной из поиска аудитории. Поисковая видимость – это показатель, отражающий насколько легко потенциальные клиенты могут найти ваш сайт в поисковых системах по продвигаемым вами ключевым словам. Расчет поисковой видимости учитывает так же популярность поисковых машин по количеству трафика из различных регионов. Для удобства, вы можете</p>
@@ -1626,12 +1627,12 @@ require_once 'functions.php';
                         <div class="col-4">
                             <div class="smi-block wow fadeIn" data-wow-delay=".6s">
                                 <div class="smi-block__header">
-                                  <a href="#" class="smi-block-head-link" target="_blank">
-                                    <div class="smi-block__header-ico"><img src="assets/images/smi/smi3.png" alt=""></div>
-                                    <div class="smi-block__header-head">
-                                        <h2 class="smi-block-head">Технологически Система представляет собой комплекс модулей</h2>
-                                    </div>
-                                  </a>
+                                    <a href="#" class="smi-block-head-link" target="_blank">
+                                        <div class="smi-block__header-ico"><img src="assets/images/smi/smi3.png" alt=""></div>
+                                        <div class="smi-block__header-head">
+                                            <h2 class="smi-block-head">Технологически Система представляет собой комплекс модулей</h2>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="smi-block__text">
                                     <p class="smi-block__text-txt">Благодаря применению оптимальных схем и постоянного мониторинга Система SeoPult позволяет достигать максимальных результатов при минимальных бюджетах. За счет автоматизации всех технических операций Система полностью избавляет оптимизатора от рутинной работы и экономит его время. </p>
@@ -1680,7 +1681,7 @@ require_once 'functions.php';
                 <div class="col-6">
                     <div class="ac-footer__right-block">
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
-                        <div class="ac-footer__tel-box"><a href="tel:+74959802621" class="footer-tel-link">+7 495 980 26 21</a></div>
+                        <div class="ac-footer__tel-box"><a href="tel:+74959802621" class="footer-tel-link">+7 495 374 79 14</a></div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>

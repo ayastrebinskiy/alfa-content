@@ -2,6 +2,7 @@ $(document).ready(function () {
     var $form = $('#ac-order-form');
     var $btn = $('button', $form);
     var $sliderTop = $('#sliderTop');
+    var $sliderTopControls = $('#sliderTopControls');
     var $sliderStep = $('#sliderStep');
     var $sliderTariff = $('#tariffSlider');
     var $sliderLbTariff = $('#lbTariffSlider');
@@ -94,33 +95,42 @@ $(document).ready(function () {
         autoplayHoverPause: true
     });
 
-    $sliderTop.on('click', '.slider-pagination__item', function (e) {
+    $sliderTopControls.on('click', '.slider-pagination__item', function (e) {
         var index = $(this).index();
         e.preventDefault();
         $sliderTop.trigger('stop.owl');
         $sliderTop.trigger('to.owl.carousel', index);
     });
-    $sliderTop.on('next.owl.carousel', function(){
+    $sliderTop.on('next.owl.carousel', function () {
         $sliderTop.trigger('stop.owl.autoplay');
     });
-    $sliderTop.on('prev.owl.carousel', function(){
+    $sliderTop.on('prev.owl.carousel', function () {
         $sliderTop.trigger('stop.owl.autoplay');
     });
     $sliderTop.on('changed.owl.carousel', function (event) {
         var index = $sliderTop.data('owl.carousel').relative(event.item.index);
-        $('.slider-pagination__item', $sliderTop).removeClass('slider-pagination__item-active');
-        $('.slider-pagination', $sliderTop).each(function () {
-            $('.slider-pagination__item:eq(' + index + ')', this).addClass('slider-pagination__item-active');
-        });
+        $('.slider-pagination__item', $sliderTopControls).removeClass('slider-pagination__item-active');
+        $('.slider-pagination__item:eq(' + index + ')', $sliderTopControls).addClass('slider-pagination__item-active');
     });
 
+    console.log(Math.floor($(document).width() / 866));
     //slider step
+    var stPadding = function(){
+        var w = $(document).width();console.log(w);
+        if(w < 1400)
+            return 300;
+        else if(w >= 1400 && w < 1920)
+            return 500;
+        else
+            return 600;
+    }
     $sliderStep.owlCarousel({
         items: 1,
         center: true,
         loop: false,
         dots: false,
         smartSpeed: 800,
+        stagePadding: stPadding()
     });
 
     $('.step-indicator__bubble', '.step-indicator').on('click', function (e) {
@@ -129,7 +139,6 @@ $(document).ready(function () {
     });
 
     $sliderStep.on('changed.owl.carousel', function (event) {
-        console.log(event);
         var index = $sliderStep.data('owl.carousel').relative(event.item.index);
         var $rocket = $('.step-indicator__rocket');
         var $next = $('[data-slidernav="#sliderStep"] [data-route="next"]');
@@ -202,20 +211,19 @@ $(document).ready(function () {
         var block = $(this).hasClass('whatformats-block') ? $(this) : $(this).closest('.whatformats-block');
         var clone = block.clone();
         var hide = function () {
-            block.removeClass('no-border');
             $(this).remove();
         };
-        
+
         e.preventDefault();
-        
-        clone.removeClass('wow');
-        
+
+        clone.removeClass('wow').css({width: block.outerWidth()});
+
         $('.whatformats-block.expand').remove();
         clone.addClass('expand');
-        block.addClass('no-border').append(clone);
+        block.append(clone);
 
         clone.focus();
-        
+
         clone.on('mouseout', hide);
         clone.on('touchend', hide);
         clone.on('blur', hide);

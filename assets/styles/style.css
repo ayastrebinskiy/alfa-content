@@ -3,8 +3,8 @@
 }
 
 
-.step-blocks.owl-carousel .owl-item.active{
-    width: 800px!important;
+.step-blocks.owl-carousel .owl-item{
+    
 }
 .step-indicator__bubble{
     cursor: pointer;
@@ -72,8 +72,8 @@
 
 .whatformats-block.expand{
     position: absolute;
-    top:0;
-    left:0;
+    top:-1px;
+    left:-1px;
     background-color: #fff;
     border: 1px solid #dedede;
     z-index: 99999;
@@ -98,10 +98,7 @@
 .whatformats-block.expand .ac-more-link{
     display: none
 }
-.whatformats-block.no-border:hover{
-    border-width: 0;
-    transition:none;
-}
+
 
 .whatformats-block.expand .whatformats-block__description-text{
     max-height: 800px;
@@ -194,4 +191,14 @@
 
 .ac-whatformats .col-f3{
     position: relative;
+}
+
+.slider-container .slider-top-controls{
+    position: absolute;
+    left: 170px;
+    top: 420px;
+    z-index: 99;
+}
+.ac-tariff{
+    clear:both;
 }
