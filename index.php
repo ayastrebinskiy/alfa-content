@@ -102,7 +102,7 @@ require_once 'functions.php';
                                     <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><path id="green" class="logo_ac-green" d="M88.392,70.816a43.582,43.582,0,0,1-44.8-.027L38,80.494a56.046,56.046,0,0,0,56,.017Z" transform="translate(-38 -32)"/><path id="red" class="logo_ac-red" d="M65.942,32L44.993,68.359a41.991,41.991,0,0,0,41.994.029ZM61.361,62.448L66,54c1.383,2.391,2.791,5.227,4.655,8.45A31.23,31.23,0,0,1,66,63,30.851,30.851,0,0,1,61.361,62.448Z" transform="translate(-38 -32)"/></svg>
                                 </div>
                                 <div class="logo-box__text">
-                                    <h2>Alfa-Content</h2><span>Сочный контент-маркетинг </span>
+                                    <h2>Alfa-Content</h2><span>Сочный контент-маркетинг</span>
                                 </div>
                             </div>
                         </a>
@@ -114,7 +114,7 @@ require_once 'functions.php';
                             <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
                             <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
                         </ul>
-                        <div class="tel"><a href="tel:+74959802621">+7 495 980 26 21</a></div>
+                        <div class="tel"><a href="tel:+74953747914">+7 495 374 79 14</a></div>
                     </div>
                 </div>
             </div>
@@ -1681,7 +1681,7 @@ require_once 'functions.php';
                 <div class="col-6">
                     <div class="ac-footer__right-block">
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
-                        <div class="ac-footer__tel-box"><a href="tel:+74959802621" class="footer-tel-link">+7 495 374 79 14</a></div>
+                        <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 495 374 79 14</a></div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>
