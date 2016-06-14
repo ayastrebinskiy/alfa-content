@@ -7,14 +7,26 @@ $(document).ready(function () {
     var $sliderTariff = $('#tariffSlider');
     var $sliderLbTariff = $('#lbTariffSlider');
     var $popup = $('#ac-popup-order');
-
+    var resizeListener;
+    
     function init() {
         //mask
         $('[name="Client[phone]"]').mask("+7 (999) 999-9999", {autoclear: false});
 
         $('#tariff').val($('.some-tariff__block.selected .some-tariff__head').text());
+        
+        var resize = function(){
+            $sliderTopControls.css('left', $('.container-slider:first', $sliderTop).css('marginLeft'));
+        };
+        
+        resize();
+        
+        $(window).on('resize',function(e){
+            clearTimeout(resizeListener);
+            resizeListener = setTimeout(resize,500);
+        });
     }
-    ;
+    
 
     function showError(id, errorText) {
         $('#' + id).addClass('error');
@@ -94,11 +106,14 @@ $(document).ready(function () {
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });
+    
+    
 
     $sliderTopControls.on('click', '.slider-pagination__item', function (e) {
         var index = $(this).index();
+        var owlSliderTop = $sliderTop.data('owl.carousel');
         e.preventDefault();
-        $sliderTop.trigger('stop.owl');
+        $sliderTop.trigger('stop.owl.autoplay');
         $sliderTop.trigger('to.owl.carousel', index);
     });
     $sliderTop.on('next.owl.carousel', function () {
@@ -112,8 +127,10 @@ $(document).ready(function () {
         $('.slider-pagination__item', $sliderTopControls).removeClass('slider-pagination__item-active');
         $('.slider-pagination__item:eq(' + index + ')', $sliderTopControls).addClass('slider-pagination__item-active');
     });
+    
+    
 
-    console.log(Math.floor($(document).width() / 866));
+
     //slider step
     var stPadding = function(){
         var w = $(document).width();console.log(w);
@@ -210,7 +227,8 @@ $(document).ready(function () {
     $('.whatformats-block .ac-more-link,.whatformats-block:has(.ac-more-link)').on('click', function (e) {
         var block = $(this).hasClass('whatformats-block') ? $(this) : $(this).closest('.whatformats-block');
         var clone = block.clone();
-        var hide = function () {
+        var hide = function (e){ 
+            console.log(e);
             $(this).remove();
         };
 
@@ -222,11 +240,9 @@ $(document).ready(function () {
         clone.addClass('expand');
         block.append(clone);
 
-        clone.focus();
 
-        clone.on('mouseout', hide);
+        clone.on('mouseleave', hide);
         clone.on('touchend', hide);
-        clone.on('blur', hide);
     });
 
 
