@@ -853,7 +853,7 @@ require_once 'functions.php';
                                 </div>
                                 <!-- /.tariff-block-->
                                 <div class="tariff-block" data-tariff=">200000">
-                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/b-watermelon__66.png" alt=""></div>
+                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/b-watermelon_66.png" alt=""></div>
                                     <div class="row">
                                         <div class="col-6 infob-left">
                                             <div class="tariff-block__description">
