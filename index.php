@@ -113,6 +113,7 @@ require_once 'functions.php';
                             <li class="menu-item"><a href="#ac-i-tariff">тарифы</a></li>
                             <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
                             <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
+                            <!--<li class="menu-item"><a href="/blog">блог</a></li>-->
                         </ul>
                         <div class="tel"><a href="tel:+74953747914">+7 (495) 374 79 14</a></div>
                     </div>
