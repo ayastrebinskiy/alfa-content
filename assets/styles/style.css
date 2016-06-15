@@ -207,6 +207,10 @@
     min-width: 700px!important;
 }
 
+.ac-tariff .owl-item{
+    min-width: 860px!important;
+}
+
 @media screen and (max-width: 1340px){
     #sliderStep .owl-item{
         width: 700px!important;
@@ -215,4 +219,5 @@
     #sliderStep .owl-stage{
         width: 4100px!important;
     }
+    
 }

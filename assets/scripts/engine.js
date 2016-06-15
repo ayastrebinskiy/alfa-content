@@ -187,11 +187,19 @@ $(document).ready(function () {
     };
 
     //slider tariff
+
+    var stPaddingT = function () {
+        var w = $(document).width();
+        if (w < 1300)
+            return 200;
+        else
+            return 300;
+    }
     $sliderTariff.owlCarousel({
         items: 1,
         //loop: true,
         dots: false,
-        stagePadding: 300,
+        stagePadding: stPaddingT(),
         smartSpeed: 800,
     });
 
