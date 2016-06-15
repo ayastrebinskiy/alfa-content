@@ -423,6 +423,22 @@ table {
   position: relative;
   text-align: center;
 }
+
+.ac-popup-modal.popup-modal__mini {
+  width: 450px;
+}
+.ac-popup-modal.popup-modal__mini .ac-head {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.ac-popup-modal.popup-modal__mini .form-group {
+  margin: 10px 40px 10px 40px;
+}
+.ac-popup-modal.popup-modal__mini .bb1 {
+  margin-top: 20px;
+}
+
 .ac-popup-modal .bb1 {
   margin-top: 40px;
 }
