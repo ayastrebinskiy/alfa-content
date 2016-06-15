@@ -147,12 +147,12 @@ $(document).ready(function () {
                 return 600;
         }
         $sliderStep.owlCarousel({
-            items: 1,
+            items: $(document).width() > 1500?2:1,
             center: true,
             loop: false,
             dots: false,
             smartSpeed: 800,
-            stagePadding: stPadding(),
+            stagePadding: 200,
             //autoWidth: true
         });
 
