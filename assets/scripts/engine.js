@@ -147,12 +147,12 @@ $(document).ready(function () {
                 return 600;
         }
         $sliderStep.owlCarousel({
-            items: 1,
+            items: $(document).width() > 1500?2:1,
             center: true,
             loop: false,
             dots: false,
             smartSpeed: 800,
-            stagePadding: stPadding(),
+            stagePadding: 200,
             //autoWidth: true
         });
 
@@ -187,11 +187,19 @@ $(document).ready(function () {
     };
 
     //slider tariff
+
+    var stPaddingT = function () {
+        var w = $(document).width();
+        if (w < 1300)
+            return 200;
+        else
+            return 300;
+    }
     $sliderTariff.owlCarousel({
         items: 1,
         //loop: true,
         dots: false,
-        stagePadding: 300,
+        stagePadding: stPaddingT(),
         smartSpeed: 800,
     });
 
