@@ -1321,6 +1321,12 @@ table {
   position: relative;
   margin-left: 20px;
 }
+.ac-tariff .tariff-navigator__ico.tariff-navigator__ico-w16 {
+  top: -182px!important;
+}
+.ac-tariff .tariff-navigator__ico.tariff-navigator__ico-w26 {
+  top: -145px!important;
+}
 .ac-tariff .tariff-navigator__ico {
   position: relative;
   display: inline-block;
@@ -1749,7 +1755,7 @@ table {
 }
 .work__btn-block {
   text-align: center;
-  margin-top: 29px;
+  margin-top: 55px;
 }
 .work__btn-link {
   background-color: #ff7c89;
