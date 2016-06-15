@@ -755,6 +755,13 @@ table {
   cursor: pointer;
 }
 
+.ac-header .slider-container .slider-button-next.hover .top-slider-button-ico,
+.ac-header .slider-container .slider-button-prev.hover .top-slider-button-ico {
+  opacity: 1;
+  fill: #ff7c89;
+  cursor: pointer;
+}
+
 .ac-header-warp {
   display: block;
   -webkit-transition: all 0.4s ease;
