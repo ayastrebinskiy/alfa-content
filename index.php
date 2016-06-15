@@ -23,7 +23,7 @@ require_once 'functions.php';
         <script type="text/javascript">new WOW().init();</script>
         <script src="assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
-        <script type="text/javascript" src="/assets/scripts/plugins.js"></script>
+        <script type="text/javascript" src="/assets/scripts/plugins.js?1"></script>
         <link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
         <link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
         <link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">

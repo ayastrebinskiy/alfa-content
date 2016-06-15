@@ -140,7 +140,7 @@ $(document).ready(function () {
         var stPadding = function () {
             var w = $(document).width();
             if (w < 1400)
-                return 300;
+                return 240;
             else if (w >= 1400 && w < 1920)
                 return 500;
             else
@@ -152,7 +152,8 @@ $(document).ready(function () {
             loop: false,
             dots: false,
             smartSpeed: 800,
-            stagePadding: stPadding()
+            stagePadding: stPadding(),
+            //autoWidth: true
         });
 
         $('.step-indicator__bubble', '.step-indicator').on('click', function (e) {
