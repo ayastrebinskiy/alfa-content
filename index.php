@@ -644,7 +644,7 @@ require_once 'functions.php';
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="btn-block"><a href="#ac-popup-order" class="btn-green popup-modal__order-link">Заказать</a></div>
+                                                <div class="btn-block"><a href="#ac-popup-mini" class="btn-green popup-modal__order-link">Заказать</a></div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
@@ -710,7 +710,7 @@ require_once 'functions.php';
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="btn-block"><a href="#ac-popup-order" class="btn-green popup-modal__order-link">Заказать</a></div>
+                                                <div class="btn-block"><a href="#ac-popup-mini" class="btn-green popup-modal__order-link">Заказать</a></div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
@@ -776,7 +776,7 @@ require_once 'functions.php';
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="btn-block"><a href="#ac-popup-order" class="btn-green popup-modal__order-link">Заказать</a></div>
+                                                <div class="btn-block"><a href="#ac-popup-mini" class="btn-green popup-modal__order-link">Заказать</a></div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
@@ -842,7 +842,7 @@ require_once 'functions.php';
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="btn-block"><a href="#ac-popup-order" class="btn-green popup-modal__order-link">Заказать</a></div>
+                                                <div class="btn-block"><a href="#ac-popup-mini" class="btn-green popup-modal__order-link">Заказать</a></div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
@@ -908,7 +908,7 @@ require_once 'functions.php';
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="btn-block"><a href="#ac-popup-order" class="btn-green popup-modal__order-link">Заказать</a></div>
+                                                <div class="btn-block"><a href="#ac-popup-mini" class="btn-green popup-modal__order-link">Заказать</a></div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">

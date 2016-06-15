@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    var $form = $('#ac-order-form');
-    var $btn = $('button', $form);
+    var $forms = $('form.order-form-wapr');
+    var $btn = $('button', $forms);
     var $sliderTop = $('#sliderTop');
     var $sliderTopControls = $('#sliderTopControls');
     var $sliderStep = $('#sliderStep');
@@ -36,7 +36,7 @@ $(document).ready(function () {
         $('#' + id).addClass('error');
     }
 
-    function checkForm() {
+    function checkForm($form) {
         var success = true;
         var errorText = '';
         var name;
@@ -71,16 +71,17 @@ $(document).ready(function () {
     }
     ;
 
-    $('input', $form).on('focus', function (e) {
+    $('input', $forms).on('focus', function (e) {
         $(this).removeClass('error');
     });
 
     $btn.on('click', function (e) {
         var data;
+        var $form = $(this).closest('form');
         var url = $form.attr('action');
         e.preventDefault();
-        data = $form.serializeArray();
-        if (checkForm() === true) {
+        data = $form.serializeArray();console.log(data);
+        if (checkForm($form) === true) {
             data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
             $.post(url, data, function (result) {
                 if (result.error === false) {
@@ -137,7 +138,7 @@ $(document).ready(function () {
 
     //slider step
     sliderStepInit = function () {
-        var stPadding = function () {
+        /*var stPadding = function () {
             var w = $(document).width();
             if (w < 1400)
                 return 240;
@@ -145,7 +146,7 @@ $(document).ready(function () {
                 return 500;
             else
                 return 600;
-        }
+        }*/
         $sliderStep.owlCarousel({
             items: $(document).width() > 1500?2:1,
             center: true,
@@ -203,14 +204,9 @@ $(document).ready(function () {
         smartSpeed: 800,
     });
 
-    $('body').on('click', '#tariffSlider .popup-modal__order-link', function (e) {
+    $('body').on('click', '#tariffSlider [href="#ac-popup-mini"]', function (e) {
         var tariff = $(this).closest('[data-tariff]').data('tariff');
-        var $tariffBlock = $('[data-tariff="' + tariff + '"]', $popup);
-        var index = $tariffBlock.index('#ac-popup-order [data-tariff]');
-        $tariffBlock.click();
-        setTimeout(function () {
-            $sliderLbTariff.trigger('to.owl.carousel', index);
-        }, 200);
+        $('#ac-popup-mini #tariff').val(tariff);
     });
 
     //slider light box tariff
@@ -234,7 +230,7 @@ $(document).ready(function () {
     $('.some-tariff__block', $popup).on('click', function (e) {
         $('.some-tariff__block.selected', $popup).removeClass('selected');
         $(this).addClass('selected');
-        $('#tariff').val($('.some-tariff__head', $(this)).text());
+        $('#tariff').val($(this).data('tariff'));
     });
 
 
