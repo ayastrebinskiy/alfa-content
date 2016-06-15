@@ -114,7 +114,7 @@ require_once 'functions.php';
                             <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
                             <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
                         </ul>
-                        <div class="tel"><a href="tel:+74953747914">+7 495 374 79 14</a></div>
+                        <div class="tel"><a href="tel:+74953747914">+7 (495) 374 79 14</a></div>
                     </div>
                 </div>
             </div>
@@ -484,12 +484,17 @@ require_once 'functions.php';
                                 <div class="fsdfsdf">
                                     <h2 class="ac-head tariff-head">Тарифы</h2>
                                     <div class="tariff-navigator" data-slidernav="#tariffSlider">
-                                        <div data-route="prev" class="tariff-navigator__item previous_tariff"><span class="item-ico-previous">
+                                        <div data-route="prev" class="tariff-navigator__item previous_tariff">
+                                          <span class="item-ico-previous">
                                                 <svg id="tariff-navigator__ico-knife" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 29" width="94" height="23"><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M76.57,22.26c-1.43,0-3.82-.6-3.82-4.61V3.82c0-1.72,0-2.58.62-3.2S74.78,0,76.13,0h37.1l1.71,0c2.34,0,3.89-.06,4.93,1S121,3.41,121,5.38c0,7.64-2.06,10.48-7.61,10.48H85.48c-0.89,0-2,1.28-3.06,2.52C80.85,20.2,79.08,22.26,76.57,22.26ZM74.8,2.07a13.37,13.37,0,0,0,0,1.74V17.64c0,2.41.94,2.61,1.82,2.61,1.59,0,3-1.62,4.33-3.18s2.77-3.21,4.57-3.21h27.91c3.39,0,5.61-.59,5.61-8.48,0-1.67-.17-2.62-0.53-3S116.75,2,115,2l-1.75,0H76.11A10.74,10.74,0,0,0,74.8,2.07Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M75.93,29C56.28,29,4.34,24,0,1.23A1,1,0,0,1,1,0L75.93,0V2L2.26,2C7.36,20,48.75,26.83,74.93,27V21.26a1,1,0,0,1,2,0V28A1,1,0,0,1,75.93,29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M110.32,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,110.32,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,110.32,6.5Z"/><path class="tariff-navigator__ico tariff-navigator__ico-knife" d="M88.64,11.37a3.43,3.43,0,1,1,3.43-3.43A3.44,3.44,0,0,1,88.64,11.37Zm0-4.87a1.43,1.43,0,1,0,1.43,1.43A1.43,1.43,0,0,0,88.64,6.5Z"/></svg>
-                                            </span><span>Мало</span></div>
-                                        <div data-route="next" class="tariff-navigator__item next_tariff"><span>Много</span><span class="item-ico-next"><svg id="tariff-navigator__ico-watermelon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.9 67.99" width="52" height="53"><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M26.35,47.64a3,3,0,0,1-2.88-2.21h0a3,3,0,0,1,2.1-3.65c1.09-.29,4.77-0.35,5.31,1.67A2,2,0,0,1,30.62,45a6.91,6.91,0,0,1-3.51,2.57A3,3,0,0,1,26.35,47.64Zm-1-2.73a1,1,0,0,0,1.2.7A5.15,5.15,0,0,0,28.89,44a5.15,5.15,0,0,0-2.81-.27,1,1,0,0,0-.59.45,1,1,0,0,0-.1.75h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M25,36.83h0a3,3,0,0,1-3-3,3,3,0,0,1,3-3c1.14,0,4.73.92,4.74,3a1.94,1.94,0,0,1-.63,1.4A6.93,6.93,0,0,1,25,36.83Zm-0.05-4a1,1,0,0,0-.69.28,0.93,0.93,0,0,0-.28.67,1,1,0,0,0,1,1h0a5.25,5.25,0,0,0,2.64-.95,5.39,5.39,0,0,0-2.69-1h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M27.06,26.14A6.06,6.06,0,0,1,25.53,26a3,3,0,0,1-2.14-3.65h0a2.9,2.9,0,0,1,1.37-1.8,3,3,0,0,1,2.29-.29c1.1,0.3,4.34,2.12,3.82,4.12a1.93,1.93,0,0,1-1,1.19A6.09,6.09,0,0,1,27.06,26.14Zm-0.81-4a1,1,0,0,0-.48.13,0.91,0.91,0,0,0-.43.57h0A1,1,0,0,0,26.07,24a5.18,5.18,0,0,0,2.81-.21,5.49,5.49,0,0,0-2.36-1.67A1,1,0,0,0,26.24,22.12Zm-1.88.44h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.31,43.54a2.34,2.34,0,0,1-2.25-1.73h0A2.33,2.33,0,0,1,38.7,39c0.93-.24,3.55-0.2,4,1.35a1.65,1.65,0,0,1-.21,1.28,5,5,0,0,1-2.55,1.87A2.31,2.31,0,0,1,39.31,43.54ZM39,41.29a0.33,0.33,0,0,0,.4.24,3.39,3.39,0,0,0,1-.62,3.42,3.42,0,0,0-1.22,0A0.31,0.31,0,0,0,39,41,0.33,0.33,0,0,0,39,41.29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M38.37,36.29h0A2.36,2.36,0,0,1,36,34h0a2.29,2.29,0,0,1,.67-1.64,2.32,2.32,0,0,1,1.66-.68c1,0,3.5.74,3.51,2.34a1.62,1.62,0,0,1-.52,1.18A5,5,0,0,1,38.37,36.29ZM38,33.94a0.36,0.36,0,0,0,.36.34A3.21,3.21,0,0,0,39.53,34a3.53,3.53,0,0,0-1.2-.34h0a0.32,0.32,0,0,0-.23.09,0.3,0.3,0,0,0-.09.22h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.79,29.11A4.43,4.43,0,0,1,38.67,29,2.37,2.37,0,0,1,37,26.14h0a2.27,2.27,0,0,1,1.07-1.41,2.31,2.31,0,0,1,1.79-.22c0.93,0.26,3.19,1.62,2.79,3.16a1.62,1.62,0,0,1-.8,1A4.37,4.37,0,0,1,39.79,29.11Zm-0.56-2.7a0.32,0.32,0,0,0-.16,0,0.28,0.28,0,0,0-.13.18h0a0.36,0.36,0,0,0,.27.42,3.43,3.43,0,0,0,1.19,0,3.6,3.6,0,0,0-1.07-.64h-0.1Zm-1.26,0h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M17.66,63l-0.51-.87-0.65.36a59,59,0,0,1,0-57.42,1,1,0,0,1,1.38-.37L66.43,33.38a1,1,0,0,1-.19,1.81c-0.41.17-4.89,2.32-48.36,27.73h0l-0.06,0ZM17.72,7a57,57,0,0,0,0,53.68c15.48-9,39.14-22.81,46.1-26.49Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M9.78,68a1,1,0,0,1-.87-0.5,68.3,68.3,0,0,1-.28-67A1,1,0,0,1,10,.14L66.43,33.38a1,1,0,0,1,0,1.73c-0.21.13-21.88,12.73-56.14,32.75A1,1,0,0,1,9.78,68ZM9.89,2.38a66.31,66.31,0,0,0,.27,63.23C38.87,48.83,58.57,37.36,63.94,34.23Z"/></svg>
-
-                                            </span></div>
+                                            </span>
+                                            <span>Мало</span>
+                                          </div>
+                                          <div data-route="next" class="tariff-navigator__item next_tariff">
+                                            <span>Много</span>
+                                            <span class="item-ico-next"><svg id="tariff-navigator__ico-watermelon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.9 67.99" width="52" height="53"><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M26.35,47.64a3,3,0,0,1-2.88-2.21h0a3,3,0,0,1,2.1-3.65c1.09-.29,4.77-0.35,5.31,1.67A2,2,0,0,1,30.62,45a6.91,6.91,0,0,1-3.51,2.57A3,3,0,0,1,26.35,47.64Zm-1-2.73a1,1,0,0,0,1.2.7A5.15,5.15,0,0,0,28.89,44a5.15,5.15,0,0,0-2.81-.27,1,1,0,0,0-.59.45,1,1,0,0,0-.1.75h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M25,36.83h0a3,3,0,0,1-3-3,3,3,0,0,1,3-3c1.14,0,4.73.92,4.74,3a1.94,1.94,0,0,1-.63,1.4A6.93,6.93,0,0,1,25,36.83Zm-0.05-4a1,1,0,0,0-.69.28,0.93,0.93,0,0,0-.28.67,1,1,0,0,0,1,1h0a5.25,5.25,0,0,0,2.64-.95,5.39,5.39,0,0,0-2.69-1h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M27.06,26.14A6.06,6.06,0,0,1,25.53,26a3,3,0,0,1-2.14-3.65h0a2.9,2.9,0,0,1,1.37-1.8,3,3,0,0,1,2.29-.29c1.1,0.3,4.34,2.12,3.82,4.12a1.93,1.93,0,0,1-1,1.19A6.09,6.09,0,0,1,27.06,26.14Zm-0.81-4a1,1,0,0,0-.48.13,0.91,0.91,0,0,0-.43.57h0A1,1,0,0,0,26.07,24a5.18,5.18,0,0,0,2.81-.21,5.49,5.49,0,0,0-2.36-1.67A1,1,0,0,0,26.24,22.12Zm-1.88.44h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.31,43.54a2.34,2.34,0,0,1-2.25-1.73h0A2.33,2.33,0,0,1,38.7,39c0.93-.24,3.55-0.2,4,1.35a1.65,1.65,0,0,1-.21,1.28,5,5,0,0,1-2.55,1.87A2.31,2.31,0,0,1,39.31,43.54ZM39,41.29a0.33,0.33,0,0,0,.4.24,3.39,3.39,0,0,0,1-.62,3.42,3.42,0,0,0-1.22,0A0.31,0.31,0,0,0,39,41,0.33,0.33,0,0,0,39,41.29Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M38.37,36.29h0A2.36,2.36,0,0,1,36,34h0a2.29,2.29,0,0,1,.67-1.64,2.32,2.32,0,0,1,1.66-.68c1,0,3.5.74,3.51,2.34a1.62,1.62,0,0,1-.52,1.18A5,5,0,0,1,38.37,36.29ZM38,33.94a0.36,0.36,0,0,0,.36.34A3.21,3.21,0,0,0,39.53,34a3.53,3.53,0,0,0-1.2-.34h0a0.32,0.32,0,0,0-.23.09,0.3,0.3,0,0,0-.09.22h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M39.79,29.11A4.43,4.43,0,0,1,38.67,29,2.37,2.37,0,0,1,37,26.14h0a2.27,2.27,0,0,1,1.07-1.41,2.31,2.31,0,0,1,1.79-.22c0.93,0.26,3.19,1.62,2.79,3.16a1.62,1.62,0,0,1-.8,1A4.37,4.37,0,0,1,39.79,29.11Zm-0.56-2.7a0.32,0.32,0,0,0-.16,0,0.28,0.28,0,0,0-.13.18h0a0.36,0.36,0,0,0,.27.42,3.43,3.43,0,0,0,1.19,0,3.6,3.6,0,0,0-1.07-.64h-0.1Zm-1.26,0h0Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M17.66,63l-0.51-.87-0.65.36a59,59,0,0,1,0-57.42,1,1,0,0,1,1.38-.37L66.43,33.38a1,1,0,0,1-.19,1.81c-0.41.17-4.89,2.32-48.36,27.73h0l-0.06,0ZM17.72,7a57,57,0,0,0,0,53.68c15.48-9,39.14-22.81,46.1-26.49Z"/><path class="tariff-navigator__ico tariff-navigator__ico-watermelon" d="M9.78,68a1,1,0,0,1-.87-0.5,68.3,68.3,0,0,1-.28-67A1,1,0,0,1,10,.14L66.43,33.38a1,1,0,0,1,0,1.73c-0.21.13-21.88,12.73-56.14,32.75A1,1,0,0,1,9.78,68ZM9.89,2.38a66.31,66.31,0,0,0,.27,63.23C38.87,48.83,58.57,37.36,63.94,34.23Z"/></svg>
+                                          </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -499,7 +504,7 @@ require_once 'functions.php';
                         <div class="row-full">
                             <div class="col-12 owl-carousel owl-theme" id="tariffSlider">
                                 <div class="tariff-block" data-tariff="50000">
-                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
+                                    <div class="tariff-navigator__ico tariff-navigator__ico-w16"><img src="../assets/images/tariff/b-watermelon_16.png" alt=""></div>
                                     <div class="row">
                                         <div class="col-6 infob-left">
                                             <div class="tariff-block__description">
@@ -558,6 +563,7 @@ require_once 'functions.php';
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
+                                                    <!--
                                                     <div class="tariff-block__free">
                                                         <div class="tariff-block__free-head"><span>+ Бесплатно:</span></div>
                                                         <div class="tariff-block__free-icons">
@@ -575,6 +581,7 @@ require_once 'functions.php';
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    -->
                                                 </div>
                                             </div>
                                         </div>
@@ -582,7 +589,7 @@ require_once 'functions.php';
                                 </div>
                                 <!-- /.tariff-block-->
                                 <div class="tariff-block" data-tariff="75000">
-                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
+                                    <div class="tariff-navigator__ico tariff-navigator__ico-w26"><img src="../assets/images/tariff/b-watermelon_26.png" alt=""></div>
                                     <div class="row">
                                         <div class="col-6 infob-left">
                                             <div class="tariff-block__description">
@@ -641,23 +648,6 @@ require_once 'functions.php';
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
-                                                    <div class="tariff-block__free">
-                                                        <div class="tariff-block__free-head"><span>+ Бесплатно:</span></div>
-                                                        <div class="tariff-block__free-icons">
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="23" viewBox="0 0 19 23"><image id="tariff-icon__item1" class="tariff-icon__item tariff-icon__item1" width="19" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAMAAADeH4ToAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAXVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5BxTwAAAAHnRSTlMATTwvQj8CCxAPJTEwKTcRAwUBDiFHLC5KTBZJS0hbvLisAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAF1JREFUGNNjYGRCB4wMTAzogIk2YswsEMDKRrpedg4I4EQS4+KGAB4yzOPlAwF+FDEBQRAQosi/wiJAIIoqJiYuIiIhiSYmxcAkyYYuxgoUQhOTlgY5CCXeZGRBQgCV4gSIZB/kHgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="21" viewBox="0 0 28 21"><image id="tariff-icon__item2" class="tariff-icon__item tariff-icon__item2" width="28" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAMAAABi3H5uAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAq1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NbREAAAAOHRSTlMACCQ6QT0/QDMaAg05IAsBEytEKQMRIjcJGzEmFkUnCjsGHEIhDAQHGTQFNh48Fxg1Ly5DTUg+D2BYwbUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA00lEQVQoz32RaxeBQBCGp9pMqFZJFkWUCOXO//9nTltLtMd8mJ05z5l35wLwNkXVCNE7SIxuD76tb+qWzSM6cNyh12RDHDUy6ruDTzJ26LcQw4kIpzP4NY/UtYEJbWNh1RYyCYS5X/pFJGOw7JR+NZNCiEuXWHLIKyf/KtemlKXIH7KRQb8S3GYStgvTKtgfWozm2zpKnNaHkSoUXO+HFa7YO42OfBdFfRnFwkwR7DQv58nPF0TTOOVXXRXds1XsAw3GOT+2YttpQ1273R8EL0/ZpC90UAzWm+jGTQAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20"><image id="tariff-icon__item3" class="tariff-icon__item tariff-icon__item3" width="24" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAkFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDIYgjAAAAL3RSTlMAAxYmNkBCQT80JBQEKi0cDAECDh4uKQU8Hz0+MAkaMRkKRiwIMhJDJUU7NzoNOdzRoUgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY03XQ2xKCMAwE0AVJWxGRm0JBFC1aUfH/P0+YcbzGferseUhSAHDciUdCSkUkhJr6M2coEcxJhYsoxiNJmi2JVjkK7eAngS5RgU2FgofiCeW65kFs5LZmAWje6AMGEtMdC4C7Nyy0B3VkIDC2YWYkp07HzHDdTRJu3SLM+QP/fslXStiI61OL9Gw9321fXe2eLvbaj89em6uUJBQJkvJmsrG9A/bGC7jW+0nGAAAAAElFTkSuQmCC"/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21"><image id="tariff-icon__item4" class="tariff-icon__item tariff-icon__item4" width="21" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5WX1YAAAAJnRSTlMAEkU+PAoCIzY3DDgnDgsxFhg5FS0rMyYHBiIsHg8XGUoQA0dBCPCEdiwAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAf0lEQVQY073R2w6CMAwG4J9uAyq64gEHInhA3/8VTYiHrOza/6r50jRNi4yMjWMoAznoOILBMgb2U+ZFybyaS/vTar3xUit1Fvl2p3V/QHMMbazdqYecB8Qq1YiLXL3S27zSPdYwBTT0UBNQ9+/+/6j4cqmemZ9fTd83/Yvk315DrQbs/HxOYgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -665,7 +655,7 @@ require_once 'functions.php';
                                 </div>
                                 <!-- /.tariff-block-->
                                 <div class="tariff-block" data-tariff="100000">
-                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
+                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/b-watermelon_36.png" alt=""></div>
                                     <div class="row">
                                         <div class="col-6 infob-left">
                                             <div class="tariff-block__description">
@@ -724,23 +714,6 @@ require_once 'functions.php';
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
-                                                    <div class="tariff-block__free">
-                                                        <div class="tariff-block__free-head"><span>+ Бесплатно:</span></div>
-                                                        <div class="tariff-block__free-icons">
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="23" viewBox="0 0 19 23"><image id="tariff-icon__item1" class="tariff-icon__item tariff-icon__item1" width="19" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAMAAADeH4ToAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAXVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5BxTwAAAAHnRSTlMATTwvQj8CCxAPJTEwKTcRAwUBDiFHLC5KTBZJS0hbvLisAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAF1JREFUGNNjYGRCB4wMTAzogIk2YswsEMDKRrpedg4I4EQS4+KGAB4yzOPlAwF+FDEBQRAQosi/wiJAIIoqJiYuIiIhiSYmxcAkyYYuxgoUQhOTlgY5CCXeZGRBQgCV4gSIZB/kHgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="21" viewBox="0 0 28 21"><image id="tariff-icon__item2" class="tariff-icon__item tariff-icon__item2" width="28" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAMAAABi3H5uAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAq1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NbREAAAAOHRSTlMACCQ6QT0/QDMaAg05IAsBEytEKQMRIjcJGzEmFkUnCjsGHEIhDAQHGTQFNh48Fxg1Ly5DTUg+D2BYwbUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA00lEQVQoz32RaxeBQBCGp9pMqFZJFkWUCOXO//9nTltLtMd8mJ05z5l35wLwNkXVCNE7SIxuD76tb+qWzSM6cNyh12RDHDUy6ruDTzJ26LcQw4kIpzP4NY/UtYEJbWNh1RYyCYS5X/pFJGOw7JR+NZNCiEuXWHLIKyf/KtemlKXIH7KRQb8S3GYStgvTKtgfWozm2zpKnNaHkSoUXO+HFa7YO42OfBdFfRnFwkwR7DQv58nPF0TTOOVXXRXds1XsAw3GOT+2YttpQ1273R8EL0/ZpC90UAzWm+jGTQAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20"><image id="tariff-icon__item3" class="tariff-icon__item tariff-icon__item3" width="24" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAkFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDIYgjAAAAL3RSTlMAAxYmNkBCQT80JBQEKi0cDAECDh4uKQU8Hz0+MAkaMRkKRiwIMhJDJUU7NzoNOdzRoUgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY03XQ2xKCMAwE0AVJWxGRm0JBFC1aUfH/P0+YcbzGferseUhSAHDciUdCSkUkhJr6M2coEcxJhYsoxiNJmi2JVjkK7eAngS5RgU2FgofiCeW65kFs5LZmAWje6AMGEtMdC4C7Nyy0B3VkIDC2YWYkp07HzHDdTRJu3SLM+QP/fslXStiI61OL9Gw9321fXe2eLvbaj89em6uUJBQJkvJmsrG9A/bGC7jW+0nGAAAAAElFTkSuQmCC"/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21"><image id="tariff-icon__item4" class="tariff-icon__item tariff-icon__item4" width="21" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5WX1YAAAAJnRSTlMAEkU+PAoCIzY3DDgnDgsxFhg5FS0rMyYHBiIsHg8XGUoQA0dBCPCEdiwAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAf0lEQVQY073R2w6CMAwG4J9uAyq64gEHInhA3/8VTYiHrOza/6r50jRNi4yMjWMoAznoOILBMgb2U+ZFybyaS/vTar3xUit1Fvl2p3V/QHMMbazdqYecB8Qq1YiLXL3S27zSPdYwBTT0UBNQ9+/+/6j4cqmemZ9fTd83/Yvk315DrQbs/HxOYgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -748,7 +721,7 @@ require_once 'functions.php';
                                 </div>
                                 <!-- /.tariff-block-->
                                 <div class="tariff-block" data-tariff="150000">
-                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
+                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/b-watermelon_46.png" alt=""></div>
                                     <div class="row">
                                         <div class="col-6 infob-left">
                                             <div class="tariff-block__description">
@@ -807,23 +780,6 @@ require_once 'functions.php';
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
-                                                    <div class="tariff-block__free">
-                                                        <div class="tariff-block__free-head"><span>+ Бесплатно:</span></div>
-                                                        <div class="tariff-block__free-icons">
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="23" viewBox="0 0 19 23"><image id="tariff-icon__item1" class="tariff-icon__item tariff-icon__item1" width="19" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAMAAADeH4ToAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAXVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5BxTwAAAAHnRSTlMATTwvQj8CCxAPJTEwKTcRAwUBDiFHLC5KTBZJS0hbvLisAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAF1JREFUGNNjYGRCB4wMTAzogIk2YswsEMDKRrpedg4I4EQS4+KGAB4yzOPlAwF+FDEBQRAQosi/wiJAIIoqJiYuIiIhiSYmxcAkyYYuxgoUQhOTlgY5CCXeZGRBQgCV4gSIZB/kHgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="21" viewBox="0 0 28 21"><image id="tariff-icon__item2" class="tariff-icon__item tariff-icon__item2" width="28" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAMAAABi3H5uAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAq1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NbREAAAAOHRSTlMACCQ6QT0/QDMaAg05IAsBEytEKQMRIjcJGzEmFkUnCjsGHEIhDAQHGTQFNh48Fxg1Ly5DTUg+D2BYwbUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA00lEQVQoz32RaxeBQBCGp9pMqFZJFkWUCOXO//9nTltLtMd8mJ05z5l35wLwNkXVCNE7SIxuD76tb+qWzSM6cNyh12RDHDUy6ruDTzJ26LcQw4kIpzP4NY/UtYEJbWNh1RYyCYS5X/pFJGOw7JR+NZNCiEuXWHLIKyf/KtemlKXIH7KRQb8S3GYStgvTKtgfWozm2zpKnNaHkSoUXO+HFa7YO42OfBdFfRnFwkwR7DQv58nPF0TTOOVXXRXds1XsAw3GOT+2YttpQ1273R8EL0/ZpC90UAzWm+jGTQAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20"><image id="tariff-icon__item3" class="tariff-icon__item tariff-icon__item3" width="24" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAkFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDIYgjAAAAL3RSTlMAAxYmNkBCQT80JBQEKi0cDAECDh4uKQU8Hz0+MAkaMRkKRiwIMhJDJUU7NzoNOdzRoUgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY03XQ2xKCMAwE0AVJWxGRm0JBFC1aUfH/P0+YcbzGferseUhSAHDciUdCSkUkhJr6M2coEcxJhYsoxiNJmi2JVjkK7eAngS5RgU2FgofiCeW65kFs5LZmAWje6AMGEtMdC4C7Nyy0B3VkIDC2YWYkp07HzHDdTRJu3SLM+QP/fslXStiI61OL9Gw9321fXe2eLvbaj89em6uUJBQJkvJmsrG9A/bGC7jW+0nGAAAAAElFTkSuQmCC"/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21"><image id="tariff-icon__item4" class="tariff-icon__item tariff-icon__item4" width="21" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5WX1YAAAAJnRSTlMAEkU+PAoCIzY3DDgnDgsxFhg5FS0rMyYHBiIsHg8XGUoQA0dBCPCEdiwAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAf0lEQVQY073R2w6CMAwG4J9uAyq64gEHInhA3/8VTYiHrOza/6r50jRNi4yMjWMoAznoOILBMgb2U+ZFybyaS/vTar3xUit1Fvl2p3V/QHMMbazdqYecB8Qq1YiLXL3S27zSPdYwBTT0UBNQ9+/+/6j4cqmemZ9fTd83/Yvk315DrQbs/HxOYgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -831,7 +787,7 @@ require_once 'functions.php';
                                 </div>
                                 <!-- /.tariff-block-->
                                 <div class="tariff-block" data-tariff="200000">
-                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
+                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/b-watermelon_56.png" alt=""></div>
                                     <div class="row">
                                         <div class="col-6 infob-left">
                                             <div class="tariff-block__description">
@@ -890,23 +846,6 @@ require_once 'functions.php';
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
-                                                    <div class="tariff-block__free">
-                                                        <div class="tariff-block__free-head"><span>+ Бесплатно:</span></div>
-                                                        <div class="tariff-block__free-icons">
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="23" viewBox="0 0 19 23"><image id="tariff-icon__item1" class="tariff-icon__item tariff-icon__item1" width="19" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAMAAADeH4ToAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAXVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5BxTwAAAAHnRSTlMATTwvQj8CCxAPJTEwKTcRAwUBDiFHLC5KTBZJS0hbvLisAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAF1JREFUGNNjYGRCB4wMTAzogIk2YswsEMDKRrpedg4I4EQS4+KGAB4yzOPlAwF+FDEBQRAQosi/wiJAIIoqJiYuIiIhiSYmxcAkyYYuxgoUQhOTlgY5CCXeZGRBQgCV4gSIZB/kHgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="21" viewBox="0 0 28 21"><image id="tariff-icon__item2" class="tariff-icon__item tariff-icon__item2" width="28" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAMAAABi3H5uAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAq1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NbREAAAAOHRSTlMACCQ6QT0/QDMaAg05IAsBEytEKQMRIjcJGzEmFkUnCjsGHEIhDAQHGTQFNh48Fxg1Ly5DTUg+D2BYwbUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA00lEQVQoz32RaxeBQBCGp9pMqFZJFkWUCOXO//9nTltLtMd8mJ05z5l35wLwNkXVCNE7SIxuD76tb+qWzSM6cNyh12RDHDUy6ruDTzJ26LcQw4kIpzP4NY/UtYEJbWNh1RYyCYS5X/pFJGOw7JR+NZNCiEuXWHLIKyf/KtemlKXIH7KRQb8S3GYStgvTKtgfWozm2zpKnNaHkSoUXO+HFa7YO42OfBdFfRnFwkwR7DQv58nPF0TTOOVXXRXds1XsAw3GOT+2YttpQ1273R8EL0/ZpC90UAzWm+jGTQAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20"><image id="tariff-icon__item3" class="tariff-icon__item tariff-icon__item3" width="24" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAkFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDIYgjAAAAL3RSTlMAAxYmNkBCQT80JBQEKi0cDAECDh4uKQU8Hz0+MAkaMRkKRiwIMhJDJUU7NzoNOdzRoUgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY03XQ2xKCMAwE0AVJWxGRm0JBFC1aUfH/P0+YcbzGferseUhSAHDciUdCSkUkhJr6M2coEcxJhYsoxiNJmi2JVjkK7eAngS5RgU2FgofiCeW65kFs5LZmAWje6AMGEtMdC4C7Nyy0B3VkIDC2YWYkp07HzHDdTRJu3SLM+QP/fslXStiI61OL9Gw9321fXe2eLvbaj89em6uUJBQJkvJmsrG9A/bGC7jW+0nGAAAAAElFTkSuQmCC"/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21"><image id="tariff-icon__item4" class="tariff-icon__item tariff-icon__item4" width="21" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5WX1YAAAAJnRSTlMAEkU+PAoCIzY3DDgnDgsxFhg5FS0rMyYHBiIsHg8XGUoQA0dBCPCEdiwAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAf0lEQVQY073R2w6CMAwG4J9uAyq64gEHInhA3/8VTYiHrOza/6r50jRNi4yMjWMoAznoOILBMgb2U+ZFybyaS/vTar3xUit1Fvl2p3V/QHMMbazdqYecB8Qq1YiLXL3S27zSPdYwBTT0UBNQ9+/+/6j4cqmemZ9fTd83/Yvk315DrQbs/HxOYgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -914,7 +853,7 @@ require_once 'functions.php';
                                 </div>
                                 <!-- /.tariff-block-->
                                 <div class="tariff-block" data-tariff=">200000">
-                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/Watermelon.png" alt=""></div>
+                                    <div class="tariff-navigator__ico"><img src="../assets/images/tariff/b-watermelon__66.png" alt=""></div>
                                     <div class="row">
                                         <div class="col-6 infob-left">
                                             <div class="tariff-block__description">
@@ -973,23 +912,6 @@ require_once 'functions.php';
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
-                                                    <div class="tariff-block__free">
-                                                        <div class="tariff-block__free-head"><span>+ Бесплатно:</span></div>
-                                                        <div class="tariff-block__free-icons">
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="23" viewBox="0 0 19 23"><image id="tariff-icon__item1" class="tariff-icon__item tariff-icon__item1" width="19" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAMAAADeH4ToAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAXVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5BxTwAAAAHnRSTlMATTwvQj8CCxAPJTEwKTcRAwUBDiFHLC5KTBZJS0hbvLisAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAF1JREFUGNNjYGRCB4wMTAzogIk2YswsEMDKRrpedg4I4EQS4+KGAB4yzOPlAwF+FDEBQRAQosi/wiJAIIoqJiYuIiIhiSYmxcAkyYYuxgoUQhOTlgY5CCXeZGRBQgCV4gSIZB/kHgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="21" viewBox="0 0 28 21"><image id="tariff-icon__item2" class="tariff-icon__item tariff-icon__item2" width="28" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAMAAABi3H5uAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAq1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NbREAAAAOHRSTlMACCQ6QT0/QDMaAg05IAsBEytEKQMRIjcJGzEmFkUnCjsGHEIhDAQHGTQFNh48Fxg1Ly5DTUg+D2BYwbUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA00lEQVQoz32RaxeBQBCGp9pMqFZJFkWUCOXO//9nTltLtMd8mJ05z5l35wLwNkXVCNE7SIxuD76tb+qWzSM6cNyh12RDHDUy6ruDTzJ26LcQw4kIpzP4NY/UtYEJbWNh1RYyCYS5X/pFJGOw7JR+NZNCiEuXWHLIKyf/KtemlKXIH7KRQb8S3GYStgvTKtgfWozm2zpKnNaHkSoUXO+HFa7YO42OfBdFfRnFwkwR7DQv58nPF0TTOOVXXRXds1XsAw3GOT+2YttpQ1273R8EL0/ZpC90UAzWm+jGTQAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20"><image id="tariff-icon__item3" class="tariff-icon__item tariff-icon__item3" width="24" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAkFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDIYgjAAAAL3RSTlMAAxYmNkBCQT80JBQEKi0cDAECDh4uKQU8Hz0+MAkaMRkKRiwIMhJDJUU7NzoNOdzRoUgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY03XQ2xKCMAwE0AVJWxGRm0JBFC1aUfH/P0+YcbzGferseUhSAHDciUdCSkUkhJr6M2coEcxJhYsoxiNJmi2JVjkK7eAngS5RgU2FgofiCeW65kFs5LZmAWje6AMGEtMdC4C7Nyy0B3VkIDC2YWYkp07HzHDdTRJu3SLM+QP/fslXStiI61OL9Gw9321fXe2eLvbaj89em6uUJBQJkvJmsrG9A/bGC7jW+0nGAAAAAElFTkSuQmCC"/></svg>
-
-                                                            </div>
-                                                            <div class="free-icon__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21"><image id="tariff-icon__item4" class="tariff-icon__item tariff-icon__item4" width="21" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5WX1YAAAAJnRSTlMAEkU+PAoCIzY3DDgnDgsxFhg5FS0rMyYHBiIsHg8XGUoQA0dBCPCEdiwAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAf0lEQVQY073R2w6CMAwG4J9uAyq64gEHInhA3/8VTYiHrOza/6r50jRNi4yMjWMoAznoOILBMgb2U+ZFybyaS/vTar3xUit1Fvl2p3V/QHMMbazdqYecB8Qq1YiLXL3S27zSPdYwBTT0UBNQ9+/+/6j4cqmemZ9fTd83/Yvk315DrQbs/HxOYgAAAABJRU5ErkJggg=="/></svg>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1010,11 +932,11 @@ require_once 'functions.php';
                     <div class="container">
                         <div class="row bb1">
                             <div class="row-eq-height">
-                                <div class="col-6">
+                                <div class="col-6 wow fadeIn" data-wow-delay=".1s">
                                     <h2 class="ac-head getresult-head">Что <span class="ac-head-green">вы получите <br>в результате</span> рекламной кампании</h2>
                                 </div>
                                 <div class="col-3">
-                                    <div class="getresult-block">
+                                    <div class="getresult-block wow fadeIn" data-wow-delay=".2s">
                                         <div class="getresult-block__header">
                                             <div class="getresult-block__head">
                                                 <h2 class="getresult-block__head">Плавный рост прямых заходов на сайт</h2>
@@ -1026,7 +948,7 @@ require_once 'functions.php';
                                     </div>
                                 </div>
                                 <div class="col-3">
-                                    <div class="getresult-block">
+                                    <div class="getresult-block wow fadeIn" data-wow-delay=".3s">
                                         <div class="getresult-block__ico"><img src="assets/images/getresult/getresult1.png" alt="Плавный рост прямых заходов на сайт"></div>
                                     </div>
                                 </div>
@@ -1035,7 +957,7 @@ require_once 'functions.php';
                         <div class="row bb2">
                             <div class="row-eq-height">
                                 <div class="col-3">
-                                    <div class="getresult-block">
+                                    <div class="getresult-block wow fadeIn" data-wow-delay=".4s">
                                         <div class="getresult-block__header">
                                             <div class="getresult-block__ico"><img src="assets/images/getresult/getresult2.png" alt="Массовое покрытие новой целевой аудитории"></div>
                                             <div class="getresult-block__head">
@@ -1048,7 +970,7 @@ require_once 'functions.php';
                                     </div>
                                 </div>
                                 <div class="col-3">
-                                    <div class="getresult-block">
+                                    <div class="getresult-block wow fadeIn" data-wow-delay=".5s">
                                         <div class="getresult-block__header">
                                             <div class="getresult-block__ico"><img src="assets/images/getresult/getresult3.png" alt="Очень целевые переходы на сайт"></div>
                                             <div class="getresult-block__head">
@@ -1061,7 +983,7 @@ require_once 'functions.php';
                                     </div>
                                 </div>
                                 <div class="col-3">
-                                    <div class="getresult-block">
+                                    <div class="getresult-block wow fadeIn" data-wow-delay=".6s">
                                         <div class="getresult-block__header">
                                             <div class="getresult-block__ico"><img src="assets/images/getresult/getresult4.png" alt="Плавный рост популярности, узнаваемости"></div>
                                             <div class="getresult-block__head">
@@ -1074,7 +996,7 @@ require_once 'functions.php';
                                     </div>
                                 </div>
                                 <div class="col-3">
-                                    <div class="getresult-block">
+                                    <div class="getresult-block wow fadeIn" data-wow-delay=".7s">
                                         <div class="getresult-block__header">
                                             <div class="getresult-block__ico"><img src="assets/images/getresult/getresult5.png" alt="SEO-эффект"></div>
                                             <div class="getresult-block__head">
@@ -1090,7 +1012,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row bb3">
                             <div class="col-9">
-                                <div class="getresult-block">
+                                <div class="getresult-block wow fadeIn" data-wow-delay=".8s">
                                     <div class="getresult-block__header">
                                         <h2 class="ac-head__mini getresult-head-mini">Чего вы не получите в результате рекламной кампании <br>ни от нас, ни от какого-либо другого исполнителя </h2>
                                     </div>
@@ -1482,7 +1404,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row bb1">
                             <div class="col-6">
-                                <div class="work-block__big">
+                                <div class="work-block__big wow fadeIn" data-wow-delay=".2s">
                                     <div class="work-block__big-header">
                                         <div class="work-block__big-header-logo"><img src="assets/images/work/work1.png" alt=""></div>
                                     </div>
@@ -1495,7 +1417,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="work-block">
+                                <div class="work-block wow fadeIn" data-wow-delay=".5s">
                                     <div class="work-block__header">
                                         <div class="work-block__header-logo"><img src="assets/images/work/work2.png" alt=""></div>
                                         <div class="work-block__header-name">
@@ -1508,7 +1430,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="work-block">
+                                <div class="work-block wow fadeIn" data-wow-delay=".5s">
                                     <div class="work-block__header">
                                         <div class="work-block__header-logo"><img src="assets/images/work/work3.png" alt=""></div>
                                         <div class="work-block__header-name">
@@ -1523,7 +1445,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row">
                             <div class="col-3">
-                                <div class="work-block">
+                                <div class="work-block wow fadeIn" data-wow-delay=".2s">
                                     <div class="work-block__header">
                                         <div class="work-block__header-logo"><img src="assets/images/work/work4.png" alt=""></div>
                                         <div class="work-block__header-name">
@@ -1536,7 +1458,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="work-block">
+                                <div class="work-block wow fadeIn" data-wow-delay=".2s">
                                     <div class="work-block__header">
                                         <div class="work-block__header-logo"><img src="assets/images/work/work5.png" alt=""></div>
                                         <div class="work-block__header-name">
@@ -1549,7 +1471,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="work-block">
+                                <div class="work-block wow fadeIn" data-wow-delay=".5s">
                                     <div class="work-block__header">
                                         <div class="work-block__header-logo"><img src="assets/images/work/work6.png" alt=""></div>
                                         <div class="work-block__header-name">
@@ -1562,7 +1484,7 @@ require_once 'functions.php';
                                 </div>
                             </div>
                             <div class="col-3">
-                                <div class="work-block">
+                                <div class="work-block wow fadeIn" data-wow-delay=".5s">
                                     <div class="work-block__header">
                                         <div class="work-block__header-logo"><img src="assets/images/work/work7.png" alt=""></div>
                                         <div class="work-block__header-name">
@@ -1577,7 +1499,7 @@ require_once 'functions.php';
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <div class="work__btn-block"><a href="#ac-popup-order" class="work__btn-link popup-modal__order-link">хочу также</a></div>
+                                <div class="work__btn-block wow fadeIn" data-wow-delay=".6s"><a href="#ac-popup-order" class="work__btn-link popup-modal__order-link">хочу также</a></div>
                             </div>
                         </div>
                     </div>
@@ -1681,7 +1603,7 @@ require_once 'functions.php';
                 <div class="col-6">
                     <div class="ac-footer__right-block">
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
-                        <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 495 374 79 14</a></div>
+                        <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 (495) 374 79 14</a></div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>

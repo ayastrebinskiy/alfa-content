@@ -7,14 +7,30 @@ $(document).ready(function () {
     var $sliderTariff = $('#tariffSlider');
     var $sliderLbTariff = $('#lbTariffSlider');
     var $popup = $('#ac-popup-order');
+    var resizeListener;
+    var sliderStepInit;
 
     function init() {
         //mask
         $('[name="Client[phone]"]').mask("+7 (999) 999-9999", {autoclear: false});
 
         $('#tariff').val($('.some-tariff__block.selected .some-tariff__head').text());
+
+        var resize = function () {
+            $sliderTopControls.css('left', ($(document).width() - $('.container-slider:first', $sliderTop).width()) / 2 + 95);
+            $sliderStep.trigger('destroy.owl.carousel');
+            $sliderStep.off('changed.owl.carousel');
+            sliderStepInit();
+        };
+
+        resize();
+
+        $(window).on('resize', function (e) {
+            clearTimeout(resizeListener);
+            resizeListener = setTimeout(resize, 500);
+        });
     }
-    ;
+
 
     function showError(id, errorText) {
         $('#' + id).addClass('error');
@@ -95,10 +111,13 @@ $(document).ready(function () {
         autoplayHoverPause: true
     });
 
+
+
     $sliderTopControls.on('click', '.slider-pagination__item', function (e) {
         var index = $(this).index();
+        var owlSliderTop = $sliderTop.data('owl.carousel');
         e.preventDefault();
-        $sliderTop.trigger('stop.owl');
+        $sliderTop.trigger('stop.owl.autoplay');
         $sliderTop.trigger('to.owl.carousel', index);
     });
     $sliderTop.on('next.owl.carousel', function () {
@@ -113,54 +132,58 @@ $(document).ready(function () {
         $('.slider-pagination__item:eq(' + index + ')', $sliderTopControls).addClass('slider-pagination__item-active');
     });
 
-    console.log(Math.floor($(document).width() / 866));
+
+
+
     //slider step
-    var stPadding = function(){
-        var w = $(document).width();console.log(w);
-        if(w < 1400)
-            return 300;
-        else if(w >= 1400 && w < 1920)
-            return 500;
-        else
-            return 600;
-    }
-    $sliderStep.owlCarousel({
-        items: 1,
-        center: true,
-        loop: false,
-        dots: false,
-        smartSpeed: 800,
-        stagePadding: stPadding()
-    });
-
-    $('.step-indicator__bubble', '.step-indicator').on('click', function (e) {
-        var index = $('.step-indicator__bubble').index($(this));
-        $sliderStep.trigger('to.owl.carousel', index);
-    });
-
-    $sliderStep.on('changed.owl.carousel', function (event) {
-        var index = $sliderStep.data('owl.carousel').relative(event.item.index);
-        var $rocket = $('.step-indicator__rocket');
-        var $next = $('[data-slidernav="#sliderStep"] [data-route="next"]');
-        var $prev = $('[data-slidernav="#sliderStep"] [data-route="prev"]');
-
-        $('.step-indicator__rocket-item', $rocket).text(index + 1);
-        $('.step-indicator__item.step-indicator__item-completed').removeClass('step-indicator__item-completed');
-        $('.step-indicator__item:eq(' + index + ')', '.step-indicator').addClass('step-indicator__item-completed')
-                .append($rocket.clone());
-        $rocket.remove();
-
-        if (index === 0) {
-            $prev.addClass('hide');
-            $next.removeClass('hide');
-        } else if (index === event.item.count - 1) {
-            $next.addClass('hide');
-            $prev.removeClass('hide');
-        } else {
-            $next.removeClass('hide');
-            $prev.removeClass('hide');
+    sliderStepInit = function () {
+        var stPadding = function () {
+            var w = $(document).width();
+            if (w < 1400)
+                return 300;
+            else if (w >= 1400 && w < 1920)
+                return 500;
+            else
+                return 600;
         }
-    });
+        $sliderStep.owlCarousel({
+            items: 1,
+            center: true,
+            loop: false,
+            dots: false,
+            smartSpeed: 800,
+            stagePadding: stPadding()
+        });
+
+        $('.step-indicator__bubble', '.step-indicator').on('click', function (e) {
+            var index = $('.step-indicator__bubble').index($(this));
+            $sliderStep.trigger('to.owl.carousel', index);
+        });
+
+        $sliderStep.on('changed.owl.carousel', function (event) {
+            var index = $sliderStep.data('owl.carousel').relative(event.item.index);
+            var $rocket = $('.step-indicator__rocket');
+            var $next = $('[data-slidernav="#sliderStep"] [data-route="next"]');
+            var $prev = $('[data-slidernav="#sliderStep"] [data-route="prev"]');
+
+            $('.step-indicator__rocket-item', $rocket).text(index + 1);
+            $('.step-indicator__item.step-indicator__item-completed').removeClass('step-indicator__item-completed');
+            $('.step-indicator__item:eq(' + index + ')', '.step-indicator').addClass('step-indicator__item-completed')
+                    .append($rocket.clone());
+            $rocket.remove();
+
+            if (index === 0) {
+                $prev.addClass('hide');
+                $next.removeClass('hide');
+            } else if (index === event.item.count - 1) {
+                $next.addClass('hide');
+                $prev.removeClass('hide');
+            } else {
+                $next.removeClass('hide');
+                $prev.removeClass('hide');
+            }
+        });
+    };
 
     //slider tariff
     $sliderTariff.owlCarousel({
@@ -210,7 +233,8 @@ $(document).ready(function () {
     $('.whatformats-block .ac-more-link,.whatformats-block:has(.ac-more-link)').on('click', function (e) {
         var block = $(this).hasClass('whatformats-block') ? $(this) : $(this).closest('.whatformats-block');
         var clone = block.clone();
-        var hide = function () {
+        var hide = function (e) {
+            console.log(e);
             $(this).remove();
         };
 
@@ -222,11 +246,9 @@ $(document).ready(function () {
         clone.addClass('expand');
         block.append(clone);
 
-        clone.focus();
 
-        clone.on('mouseout', hide);
+        clone.on('mouseleave', hide);
         clone.on('touchend', hide);
-        clone.on('blur', hide);
     });
 
 
