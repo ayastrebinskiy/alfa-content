@@ -685,7 +685,7 @@ table {
 }
 .ac-header .header__bg-warp3 {
   position: relative;
-  background-position: 50% 10%;
+  background-position: 50% 0;
   background-image: url("../images/slider/ufo.png");
   background-repeat: no-repeat;
   width: 100%;
@@ -694,7 +694,7 @@ table {
 }
 .ac-header .header__bg-warp4 {
   position: relative;
-  background-position: 50% 30px;
+  background-position: 50% 0;
   background-image: url("../images/slider/rocket.png");
   background-repeat: no-repeat;
   width: 100%;
