@@ -63,6 +63,13 @@ $(document).ready(function () {
         closeOnBgClick: true
     });
 
+    /* Мини попап >_< */
+    $('.popup-modal__mini-link').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        focus: '#ac-who',
+        closeOnBgClick: true
+    });
 
     $(window).load(function (event) {
         var anchor = location.hash.substring(1);
@@ -74,4 +81,3 @@ $(document).ready(function () {
     });
 
 });
-

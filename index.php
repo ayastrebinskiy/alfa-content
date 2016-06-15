@@ -559,7 +559,7 @@ require_once 'functions.php';
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="btn-block"><a href="#ac-popup-order" class="btn-green popup-modal__order-link">Заказать</a></div>
+                                                <div class="btn-block"><a href="#ac-popup-mini" class="btn-green popup-modal__mini-link">Заказать</a></div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="line-block-right">
@@ -1392,6 +1392,50 @@ require_once 'functions.php';
             </div>
         </div>
         <!-- /.ac-popup-modal__ok-->
+
+        <!-- .ac-popup-modal__mini-->
+        <div id="ac-popup-mini" class="ac-popup-modal popup-modal__mini mfp-hide">
+          <div class="container-modal">
+            <div class="ac-popup-modal__header">
+                <div class="col-12">
+                    <h2 class="ac-head ac-popup-modal__head">Заявка на рекламную кампанию</h2>
+                </div>
+            </div><!-- /.ac-popup-modal__header -->
+          </div><!-- /.container-modal -->
+          <div class="ac-popup-modal__body">
+            <div class="container-modal">
+              <form id="ac-order-form" action="request.php" method="post" class="order-form-wapr">
+                  <input type="hidden" id="tariff" name="Client[tariff]" value=""/>
+                  <div class="container-modal">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="form-group">
+                                  <input type="text" id="name" name="Client[name]" placeholder="Контактное лицо" class="form-control">
+                              </div>
+                          </div>
+                          <div class="col-12">
+                              <div class="form-group">
+                                  <input type="email" id="email" placeholder="E-mail" name="Client[email]" class="form-control">
+                              </div>
+                          </div>
+                          <div class="col-12">
+                              <div class="form-group">
+                                  <input type="text" id="phone" placeholder="Телефон" name="Client[phone]" class="form-control">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row bb1">
+                          <div class="form-group">
+                              <button class="btn">Отправить</button>
+                          </div>
+                      </div>
+                  </div>
+              </form>
+            </div> <!-- /.container-modal -->
+          </div><!-- /.ac-popup-modal__body -->
+        </div>
+        <!-- /.ac-popup-modal__ok-->
+
         <!-- .ac-work-->
         <div id="ac-i-work" class="ac-work">
             <div class="work-warp">
