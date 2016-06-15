@@ -30,12 +30,7 @@ $(document).ready(function () {
             resizeListener = setTimeout(resize, 500);
         });
         
-        $('.ac-header').on('mouseover', function(e){
-            $('[data-slidernav="#sliderTop"] [data-route]').addClass('hover');
-        });
-        $('.ac-header').on('mouseleave', function(e){
-            $('[data-slidernav="#sliderTop"] [data-route]').removeClass('hover');
-        });
+
     }
 
 

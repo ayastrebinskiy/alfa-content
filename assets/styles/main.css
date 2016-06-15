@@ -713,6 +713,7 @@ table {
   width: 1200px;
   z-index: 12;
 }
+
 .ac-header .slider-container .slider-button-prev,
 .ac-header .slider-container .slider-button-next {
   position: absolute;
@@ -726,7 +727,7 @@ table {
 }
 
 .slider-container .top-slider-button-ico {
-  fill: #fff;
+  fill: #ff7c89;
   opacity: 0.5;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -751,16 +752,10 @@ table {
 .ac-header .slider-container .slider-button-next:hover .top-slider-button-ico,
 .ac-header .slider-container .slider-button-prev:hover .top-slider-button-ico {
   opacity: 1;
-  fill: #ff7c89;
   cursor: pointer;
 }
 
-.ac-header .slider-container .slider-button-next.hover .top-slider-button-ico,
-.ac-header .slider-container .slider-button-prev.hover .top-slider-button-ico {
-  opacity: 1;
-  fill: #ff7c89;
-  cursor: pointer;
-}
+
 
 .ac-header-warp {
   display: block;
