@@ -73,7 +73,7 @@ $(document).ready(function () {
 
     $(window).load(function (event) {
         var anchor = location.hash.substring(1);
-        var href = '#ac-i-' + anchor;
+        var href = '#ac-i-' + (anchor.substring(0, 5) === 'ac-i-' ? anchor.substring(5) : anchor);
         var $screen = $('[href="' + href + '"]');
         if ($screen.length) {
             $screen.click();

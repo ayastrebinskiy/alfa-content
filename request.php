@@ -8,6 +8,8 @@ $result = array(
     'text' => null
 );
 
+$mail_to = 'info@alfa-content.ru';
+
 if (!isset($_POST['csrf']) || !checkValidationKey($_POST['csrf'])) {
     $result['error'] = true;
     $result['text'] = 'Некорректный запрос';
@@ -27,7 +29,7 @@ if (!isset($_POST['csrf']) || !checkValidationKey($_POST['csrf'])) {
         } else {
             $message = formatMessage($data);
             $_SESSION['rcount'] = isset($_SESSION['rcount']) ? $_SESSION['rcount'] + 1 : 1;
-            mail('anatoliy.yastrebinskiy@gmail.com', 'Alfa-content', $message);
+            mail($mail_to, 'Alfa-content', $message);
         }
     }
 }
