@@ -71,6 +71,13 @@ $(document).ready(function () {
         closeOnBgClick: true
     });
 
+    /* Показываем попап с кейсом */
+    $('.popup-modal__case-link').magnificPopup({
+      type: 'inline',
+      preloader: false,
+      closeOnBgClick: false
+    });
+
     $(window).load(function (event) {
         var anchor = location.hash.substring(1);
         var href = '#ac-i-' + (anchor.substring(0, 5) === 'ac-i-' ? anchor.substring(5) : anchor);
