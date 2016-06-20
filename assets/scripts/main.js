@@ -26,17 +26,14 @@ $(document).ready(function () {
     var topMenu = $("#ac-topmenu"),
             topMenuHeight = topMenu.outerHeight() + 15,
             // All list items
-            menuItems = topMenu.find("a"),
-            // Anchors corresponding to menu items
-            scrollItems = menuItems.map(function () {
-                var item = $($(this).attr("href"));
-                if (item.length) {
-                    return item;
-                }
-            });
+            menuItems = topMenu.find("a")
+    // Anchors corresponding to menu items
     menuItems.click(function (e) {
-        var href = $(this).attr("href"),
-                offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
+        var href = $(this).attr("href");
+        if (href.substring(0, 1) !== '#') {
+            return true;
+        }
+        var offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
         switch (href) {
             case '#ac-i-whatformats':
             case '#ac-i-youadv':
@@ -73,9 +70,9 @@ $(document).ready(function () {
 
     /* Показываем попап с кейсом */
     $('.popup-modal__case-link').magnificPopup({
-      type: 'inline',
-      preloader: false,
-      closeOnBgClick: false
+        type: 'inline',
+        preloader: false,
+        closeOnBgClick: false
     });
 
     $(window).load(function (event) {
