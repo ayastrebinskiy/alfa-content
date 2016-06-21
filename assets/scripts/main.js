@@ -52,6 +52,8 @@ $(document).ready(function () {
         e.preventDefault();
     });
 
+
+
     /* Попап для попапа о_О */
     $('.popup-modal__order-link').magnificPopup({
         type: 'inline',

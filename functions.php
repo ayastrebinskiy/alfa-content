@@ -16,7 +16,7 @@ function validate($data){
 }
 
 function formatMessage($data){
-    $message = sprintf("Наименование тарифа: %s\nИмя:%s\nE-mail:%s\nТелефон:%s", $data['tariff'], $data['name'], $data['email'], $data['phone']);
+    $message = sprintf("Наименование тарифа: %s\nИмя:%s\nE-mail:%s\nТелефон:%s\nЭкран:%s", $data['tariff'], $data['name'], $data['email'], $data['phone'],$data['screen']);
     return $message;
 }
 

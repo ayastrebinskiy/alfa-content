@@ -29,7 +29,7 @@ $(document).ready(function () {
             clearTimeout(resizeListener);
             resizeListener = setTimeout(resize, 500);
         });
-        
+
 
     }
 
@@ -77,12 +77,16 @@ $(document).ready(function () {
         $(this).removeClass('error');
     });
 
+    $('[data-screen]').on('click', function (e) {
+        $('[name="Client[screen]"]').val($(this).data('screen'));
+    });
+
     $btn.on('click', function (e) {
         var data;
         var $form = $(this).closest('form');
         var url = $form.attr('action');
         e.preventDefault();
-        data = $form.serializeArray();console.log(data);
+        data = $form.serializeArray();
         if (checkForm($form) === true) {
             data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
             $.post(url, data, function (result) {
@@ -141,21 +145,21 @@ $(document).ready(function () {
     //slider step
     sliderStepInit = function () {
         /*var stPadding = function () {
-            var w = $(document).width();
-            if (w < 1400)
-                return 240;
-            else if (w >= 1400 && w < 1920)
-                return 500;
-            else
-                return 600;
-        }*/
+         var w = $(document).width();
+         if (w < 1400)
+         return 240;
+         else if (w >= 1400 && w < 1920)
+         return 500;
+         else
+         return 600;
+         }*/
         $sliderStep.owlCarousel({
-            items: $(document).width() > 1500?2:1,
+            items: $(document).width() > 1500 ? 2 : 1,
             center: true,
             loop: false,
             dots: false,
             smartSpeed: 800,
-            stagePadding: $(document).width() > 1500?false:200,
+            stagePadding: $(document).width() > 1500 ? false : 200,
             //autoWidth: true
         });
 
