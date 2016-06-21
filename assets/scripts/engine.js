@@ -155,7 +155,7 @@ $(document).ready(function () {
             loop: false,
             dots: false,
             smartSpeed: 800,
-            stagePadding: 200,
+            stagePadding: $(document).width() > 1500?false:200,
             //autoWidth: true
         });
 
