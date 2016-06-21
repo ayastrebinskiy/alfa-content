@@ -2499,7 +2499,7 @@ a.work-block__link {
   margin-top: 50px;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body .big-text {
-  margin-bottom: 42px;
+  margin-bottom: 33px;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body .pl1 {
   margin-bottom: 30px;
@@ -2513,7 +2513,7 @@ a.work-block__link {
   line-height: 20px;
   margin-top: 30px;
 }
-.ac-popup-modal.popup-modal__case .ac-popup-modal__body .img {
+.numbers-img-warp {
   margin-bottom: 40px;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body ul {
@@ -2622,7 +2622,7 @@ a.work-block__link {
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body .right .name {
   color: #363636;
-  font-family: 'Phanton';
+  font-family: 'Panton';
   font-weight: 400;
   line-height: 18px;
 }
@@ -2714,4 +2714,41 @@ a.work-block__link {
   font-size: 50px;
   color: #fff;
   opacity: 1;
+}
+
+.numbers .numbers-img-warp {
+  text-align: center;
+}
+.numbers .numbers-img-item {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 48%;
+}
+.numbers .numbers-img-item > img {
+  width: 100%;
+}
+.numbers .numbers-img-item__info,
+.numbers .numbers-img-item__info2 {
+  position: absolute;
+  top: 78px;
+  width: 240px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: rgb(54, 54, 54);
+  font-family: 'Panton';
+  font-weight: 400;
+}
+.numbers .block-info-head {
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.numbers .block-info-n {
+  font-size: 30px;
+  line-height: 30px;
+}
+.numbers .block-info-top {
+  margin-bottom: 15px;
 }
