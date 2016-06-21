@@ -1722,7 +1722,7 @@ table {
   -o-border-radius: 50%/11%;
   border-radius: 50%/11%;
   overflow: hidden;
-  height: 1065px;
+  height: 770px;
   display: block;
   background: #ebebeb;
   margin-left: -99px;
@@ -1776,6 +1776,7 @@ table {
   font-weight: 400;
   line-height: 18px;
   text-align: center;
+  margin-top: 11px;
 }
 .work__btn-block {
   text-align: center;
@@ -1881,11 +1882,19 @@ table {
   align-items: center;
   justify-content: center;
   text-align: left;
+  margin-left: 25px;
 }
+
+a.work-block__link {
+  font-family: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
 .work-block__big-description-text {
   color: #6a6666;
   font-family: 'Panton';
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
@@ -2428,14 +2437,26 @@ table {
   overflow: hidden;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__header {
-  background: transparent;
-  background-image: url("../images/case-head.png");
-  background-position: 0% 0%;
   display: block;
   position: relative;
   height: 250px;
   padding-top: 50px;
   margin-bottom: 20px;
+}
+.ac-popup-modal.popup-modal__case .ac-popup-modal__header.ac-popup-modal__header-case1 {
+  background: transparent;
+  background-image: url("../images/case/case1.jpg");
+  background-position: 0% 0%;
+}
+.ac-popup-modal.popup-modal__case .ac-popup-modal__header.ac-popup-modal__header-case2 {
+  background: transparent;
+  background-image: url("../images/case/case2.jpg");
+  background-position: 0% 0%;
+}
+.ac-popup-modal.popup-modal__case .ac-popup-modal__header.ac-popup-modal__header-case3 {
+  background: transparent;
+  background-image: url("../images/case/case3.jpg");
+  background-position: 0% 0%;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__header h2.ac-popup-modal__head {
   color: #fff;
@@ -2462,7 +2483,7 @@ table {
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.4s ease;
-  background: rgba(255,255,255,0.3) url("../images/mail-ico.png") no-repeat scroll 15px center;
+  background: rgba(255,255,255,0.3) url("../images/case/mail-ico.png") no-repeat scroll 15px center;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body {
   width: 750px;
@@ -2601,13 +2622,13 @@ table {
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body .right .name {
   color: #363636;
-  font-family: 'Myriad Pro';
+  font-family: 'Phanton';
   font-weight: 400;
   line-height: 18px;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body .right .price {
   color: #ec5965;
-  font-family: Panton;
+  font-family: 'Panton';
   font-weight: 700;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body .comment-block {

@@ -1041,7 +1041,7 @@ require_once 'functions.php';
                             <div class="col-12">
                                 <div class="order-block">
                                     <h2 class="ac-head__mini order-head-mini">Оставьте заявку и мы подберём <br>для вас идеальное решение</h2>
-                                    <div class="order-block__btn-block"><a href="#ac-popup-order" class="order-block__btn-link popup-modal__order-link" data-screen="Оставьте заявку и мы подберём 
+                                    <div class="order-block__btn-block"><a href="#ac-popup-order" class="order-block__btn-link popup-modal__order-link" data-screen="Оставьте заявку и мы подберём
 для вас идеальное решение">Заказать</a></div>
                                     <!-- /.order-block__btn-block-->
                                 </div>
@@ -1453,44 +1453,50 @@ require_once 'functions.php';
                         <div class="row bb1">
                             <div class="col-6">
                                 <div class="work-block__big wow fadeIn" data-wow-delay=".2s">
+                                  <a class="popup-modal__case-link work-block__link" href="#ac-popup-case1">
                                     <div class="work-block__big-header">
-                                        <div class="work-block__big-header-logo"><img src="assets/images/work/work1.png" alt=""></div>
+                                        <div class="work-block__big-header-logo"><img src="assets/images/work/work1.jpg" alt=""></div>
                                     </div>
                                     <div class="work-block__big-description">
                                         <div class="work-block__header-name">
-                                            <h2 class="work-block__head">Audi.ru</h2>
-                                            <p class="work-block__big-description-text">Краткое описание проекта и то что было сделно. Да, понятно, что все эти десятки тысяч не станут вашими покупателями с «первого выстрела». Краткое описание проекта и то что было сделно. Да, понятно, что все эти десятки тысяч не станут вашими покупателями с «первого выстрела».</p>
+                                          <p class="work-block__big-description-text">Вывод на рынок России торговой марки игровых аксессуаров для киберспортсменов и любителей компьютерных игр. Марка популярна в США и Азии, и зарекомендовала себя, как производитель качественных устройств по демократичной цене.</p>
                                         </div>
                                     </div>
+                                  </a>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="work-block wow fadeIn" data-wow-delay=".5s">
+                                  <a class="popup-modal__case-link work-block__link" href="#ac-popup-case2">
                                     <div class="work-block__header">
-                                        <div class="work-block__header-logo"><img src="assets/images/work/work2.png" alt=""></div>
+                                        <div class="work-block__header-logo"><img src="assets/images/work/work2.jpg" alt=""></div>
                                         <div class="work-block__header-name">
-                                            <h2 class="work-block__head">Snob.ru</h2>
                                         </div>
                                     </div>
                                     <div class="work-block__header-description">
-                                        <p class="work-block__description-text">Краткое описание проекта и то что было сделно. Да, понятно, что все эти десятки тысяч не станут вашими покупателями с «первого выстрела».</p>
+                                      <p class="work-block__description-text">Привлечь новую для себя аудиторию и увеличить узнаваемость бренда среди потенциальных клиентов, компании, осуществляющей малые и средние грузовые перевозки в Москве и Московской области</p>
                                     </div>
+                                  </a>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="work-block wow fadeIn" data-wow-delay=".5s">
+                                  <a class="popup-modal__case-link work-block__link" href="#ac-popup-case3">
                                     <div class="work-block__header">
-                                        <div class="work-block__header-logo"><img src="assets/images/work/work3.png" alt=""></div>
+                                        <div class="work-block__header-logo"><img src="assets/images/work/work3.jpg" alt=""></div>
                                         <div class="work-block__header-name">
-                                            <h2 class="work-block__head">Tinkoff.ru</h2>
                                         </div>
                                     </div>
                                     <div class="work-block__header-description">
-                                        <p class="work-block__description-text">Краткое описание проекта и то что было сделно. Да, понятно, что все эти десятки тысяч не станут вашими покупателями с «первого выстрела».</p>
+                                      <p class="work-block__description-text">Транслировать преимущества конструктора сайтов на выбранную аудиторию, а также увеличить число клиентов сервиса - это та задача, которую призван решить контент-маркетинг.</p>
                                     </div>
+                                  </a>
                                 </div>
                             </div>
                         </div>
+
+<? /*
+
                         <div class="row">
                             <div class="col-3">
                                 <div class="work-block wow fadeIn" data-wow-delay=".2s">
@@ -1545,6 +1551,9 @@ require_once 'functions.php';
                                 </div>
                             </div>
                         </div>
+
+*/ ?>
+
                         <div class="row">
                             <div class="col-12">
                                 <div class="work__btn-block wow fadeIn" data-wow-delay=".6s"><a href="#ac-popup-order" class="work__btn-link popup-modal__order-link" data-screen="Примеры работ">хочу также</a></div>
