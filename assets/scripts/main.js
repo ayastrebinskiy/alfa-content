@@ -63,26 +63,63 @@ $(document).ready(function () {
     });
 
     /* Мини попап >_< */
-    $('.popup-modal__mini-link').magnificPopup({
+    $('.popup-modal__mini-link, [href="#ac-popup-mini"],[href="#ac-popup-casesend"]').magnificPopup({
         type: 'inline',
         preloader: false,
-        focus: '#ac-who',
+        focus: '[name="Client[name]"]',
         closeOnBgClick: true
     });
 
     /* Показываем попап с кейсом */
-    $('.popup-modal__case-link').magnificPopup({
+    var optionsLbScrollerCb = {
+        open: function () {
+            var clone = $('<div class="b-top b-top-clone">');
+            clone.append($('#scroller').html());
+            clone.click(function () {
+                $('.mfp-ready').animate({scrollTop: 0}, 400);
+                return false;
+            });
+            clone.css({"zIndex": 9999, "display": "none"});
+            $('body').append(clone);
+            $('.mfp-wrap').scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    clone.fadeIn();
+                } else {
+                    clone.fadeOut();
+                }
+            });
+
+        },
+        close: function () {
+            $('.b-top-clone').remove();
+            window.location.hash = '';
+        }
+    };
+    $('[data-popup="example-works"]').magnificPopup({
         type: 'inline',
         preloader: false,
-        closeOnBgClick: true
+        closeOnBgClick: true,
+        callbacks: optionsLbScrollerCb
     });
 
     $(window).load(function (event) {
+        var href, $screen;
         var anchor = location.hash.substring(1);
-        var href = '#ac-i-' + (anchor.substring(0, 5) === 'ac-i-' ? anchor.substring(5) : anchor);
-        var $screen = $('[href="' + href + '"]');
-        if ($screen.length) {
-            $screen.click();
+        if (/^case\d+$/.test(anchor)) {
+            $.magnificPopup.open({
+                items: {
+                    src: '#ac-popup-' + anchor
+                },
+                type: 'inline',
+                callbacks: optionsLbScrollerCb
+
+            });
+        } else {
+            href = '#ac-i-' + (anchor.substring(0, 5) === 'ac-i-' ? anchor.substring(5) : anchor);
+            $screen = $('[href="' + href + '"]');
+            if ($screen.length) {
+                $screen.click();
+            }
         }
     });
 

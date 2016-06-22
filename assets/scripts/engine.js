@@ -34,8 +34,8 @@ $(document).ready(function () {
     }
 
 
-    function showError(id, errorText) {
-        $('#' + id).addClass('error');
+    function showError(el, errorText) {
+        el.addClass('error');
     }
 
     function checkForm($form) {
@@ -66,7 +66,7 @@ $(document).ready(function () {
         });
 
         if (!success) {
-            showError(name, errorText);
+            showError($('#'+name, $form), errorText);
         }
 
         return success;
@@ -237,6 +237,10 @@ $(document).ready(function () {
         $('.some-tariff__block.selected', $popup).removeClass('selected');
         $(this).addClass('selected');
         $('#tariff').val($(this).data('tariff'));
+    });
+    
+    $('[data-popup="example-works"]').on('click', function(e){
+        $('#ac-popup-mini #tariff').val(tariff).val($(this).data('tariff'));
     });
 
 

@@ -2087,8 +2087,7 @@ a.work-block__link {
 }
 .b-top {
   bottom: 110px;
-  left: 0;
-  margin-left: 49%;
+  right: 15px;
   opacity: 0.5;
   position: fixed;
   width: 34%;
@@ -2104,15 +2103,20 @@ a.work-block__link {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+  right: 0;
   display: block;
   width: 55px;
-  left: 625px;
   position: absolute;
   width: 55px;
   z-index: 1024;
 }
 .b-top-but .ac-totop {
   fill: #ff7c89;
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+  .b-top {
+    margin-left: 36%;
+  }
 }
 .container {
   width: 1200px;
