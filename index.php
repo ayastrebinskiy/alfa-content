@@ -105,7 +105,7 @@ require_once 'functions.php';
                                     <h2>Alfa-Content</h2><span>Сочный контент-маркетинг</span>
                                 </div>
                             </div>
-                        </a>
+                        </a> 
                         <ul id="ac-topmenu" class="menu">
                             <li class="menu-item"><a href="#ac-i-whatformats">каналы<br>контент-<br>маркетинга</a></li>
                             <li class="menu-item"><a href="#ac-i-wefine">почему мы<br>молодцы</a></li>
