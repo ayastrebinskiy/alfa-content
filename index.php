@@ -1476,7 +1476,7 @@ require_once 'config.php';
                                         </div>
                                     </div>
                                     <div class="work-block__header-description">
-                                      <p class="work-block__description-text">Кампания для онлайн-сервиса перевозок. Решение задачи выхода на новую аудиторию в высококонкурентной сфере..</p>
+                                      <p class="work-block__description-text">Кампания для онлайн-сервиса перевозок. Решение задачи выхода на новую аудиторию в высококонкурентной сфере.</p>
                                     </div>
                                   </a>
                                 </div>
