@@ -105,7 +105,7 @@ require_once 'functions.php';
                                     <h2>Alfa-Content</h2><span>Сочный контент-маркетинг</span>
                                 </div>
                             </div>
-                        </a> 
+                        </a>
                         <ul id="ac-topmenu" class="menu">
                             <li class="menu-item"><a href="#ac-i-whatformats">каналы<br>контент-<br>маркетинга</a></li>
                             <li class="menu-item"><a href="#ac-i-wefine">почему мы<br>молодцы</a></li>
@@ -115,7 +115,7 @@ require_once 'functions.php';
                             <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
                             <li class="menu-item"><a href="/blog">блог</a></li>
                         </ul>
-                        <div class="tel"><a href="tel:+74953747914">+7 (495) 374 79 14</a></div>
+                        <div class="tel"><a href="tel:+74959802621">+7 (495) 980 26 21</a></div>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@ require_once 'functions.php';
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats3.png" alt="Отзывы в женских сообществах"></div>
                                 <div class="whatformats-block__head">
-                                    <h2 class="whatformats-block__head">Отзывы в женских сообществах</h2>
+                                    <h2 class="whatformats-block__head">Отзывы в сообществах</h2>
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
@@ -247,7 +247,7 @@ require_once 'functions.php';
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats9.png" alt="Спам в комментариях о_О"></div>
                                 <div class="whatformats-block__head">
-                                    <h2 class="whatformats-block__head">Спам в комментариях</h2>
+                                    <h2 class="whatformats-block__head">Спам в комментариях, крауд маркетинг</h2>
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
@@ -260,7 +260,7 @@ require_once 'functions.php';
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats10.png" alt="Форумы"></div>
                                 <div class="whatformats-block__head">
-                                    <h2 class="whatformats-block__head">Форумы</h2>
+                                    <h2 class="whatformats-block__head">Форумы<br>UGC контент</h2>
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
@@ -1495,7 +1495,7 @@ require_once 'functions.php';
                             </div>
                         </div>
 
-<? /*
+<?php /*
 
                         <div class="row">
                             <div class="col-3">
@@ -1565,6 +1565,10 @@ require_once 'functions.php';
             <?php require('_include/_case.html'); ?>
         </div>
         <!-- /.ac-work-->
+
+<?php /*
+
+
         <!--<div class="ac-smi">
             <div class="container">
                 <div class="row bb1">
@@ -1633,6 +1637,9 @@ require_once 'functions.php';
             </div>
         </div>-->
         <!-- /.ac-smi-->
+
+*/ ?>
+
         <!-- .ac-footer-->
         <footer class="ac-footer">
             <div class="container">
@@ -1665,7 +1672,7 @@ require_once 'functions.php';
                 <div class="col-6">
                     <div class="ac-footer__right-block">
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
-                        <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 (495) 374 79 14</a></div>
+                        <div class="ac-footer__tel-box"><a href="tel:+74959802621" class="footer-tel-link">+7 (495) 980 26 21</a></div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>
