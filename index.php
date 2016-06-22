@@ -482,7 +482,7 @@ require_once 'functions.php';
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="fsdfsdf">
+                                <div class="s-nav-tariff-block">
                                     <h2 class="ac-head tariff-head">Тарифы</h2>
                                     <div class="tariff-navigator" data-slidernav="#tariffSlider">
                                         <div data-route="prev" class="tariff-navigator__item previous_tariff">
@@ -1455,11 +1455,12 @@ require_once 'functions.php';
                                 <div class="work-block__big wow fadeIn" data-wow-delay=".2s">
                                   <a class="popup-modal__case-link work-block__link" href="#ac-popup-case1">
                                     <div class="work-block__big-header">
-                                        <div class="work-block__big-header-logo"><img src="assets/images/work/work1.jpg" alt=""></div>
+                                        <div class="work-block__big-header-logo"><img src="assets/images/work/work1.png" alt=""></div>
                                     </div>
                                     <div class="work-block__big-description">
                                         <div class="work-block__header-name">
-                                          <p class="work-block__big-description-text">Вывод на рынок России торговой марки игровых аксессуаров для киберспортсменов и любителей компьютерных игр. Марка популярна в США и Азии, и зарекомендовала себя, как производитель качественных устройств по демократичной цене.</p>
+                                          <h2 class="work-block__head">Игровые аксессуары</h2>
+                                          <p class="work-block__big-description-text">Продвижение аксессуаров для компьютерных игр от кампании-производителя. Перед нами стояла задача по популяризации нескольких моделей игровых мышей среди геймеров.</p>
                                         </div>
                                     </div>
                                   </a>
@@ -1469,12 +1470,13 @@ require_once 'functions.php';
                                 <div class="work-block wow fadeIn" data-wow-delay=".5s">
                                   <a class="popup-modal__case-link work-block__link" href="#ac-popup-case2">
                                     <div class="work-block__header">
-                                        <div class="work-block__header-logo"><img src="assets/images/work/work2.jpg" alt=""></div>
+                                        <div class="work-block__header-logo"><img src="assets/images/work/work2.png" alt=""></div>
                                         <div class="work-block__header-name">
+                                          <h2 class="work-block__head">Транспортные услуги</h2>
                                         </div>
                                     </div>
                                     <div class="work-block__header-description">
-                                      <p class="work-block__description-text">Привлечь новую для себя аудиторию и увеличить узнаваемость бренда среди потенциальных клиентов, компании, осуществляющей малые и средние грузовые перевозки в Москве и Московской области</p>
+                                      <p class="work-block__description-text">Кампания для онлайн-сервиса перевозок. Решение задачи выхода на новую аудиторию в высококонкурентной сфере..</p>
                                     </div>
                                   </a>
                                 </div>
@@ -1483,12 +1485,13 @@ require_once 'functions.php';
                                 <div class="work-block wow fadeIn" data-wow-delay=".5s">
                                   <a class="popup-modal__case-link work-block__link" href="#ac-popup-case3">
                                     <div class="work-block__header">
-                                        <div class="work-block__header-logo"><img src="assets/images/work/work3.jpg" alt=""></div>
+                                        <div class="work-block__header-logo"><img src="assets/images/work/work3.png" alt=""></div>
                                         <div class="work-block__header-name">
+                                          <h2 class="work-block__head">Конструктор сайтов</h2>
                                         </div>
                                     </div>
                                     <div class="work-block__header-description">
-                                      <p class="work-block__description-text">Транслировать преимущества конструктора сайтов на выбранную аудиторию, а также увеличить число клиентов сервиса - это та задача, которую призван решить контент-маркетинг.</p>
+                                      <p class="work-block__description-text">Продвижение конструктора сайтов среди вебмастеров, частных предпринимателей и владельцев малого бизнеса.</p>
                                     </div>
                                   </a>
                                 </div>

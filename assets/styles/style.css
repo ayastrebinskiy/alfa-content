@@ -19,7 +19,7 @@
 }
 
 .tariff-navigator__item.next_tariff{
-    margin-left: 210px;
+    margin-left: 240px;
 }
 
 #tariffSlider .tariff-block{
@@ -215,11 +215,9 @@
     #sliderStep .owl-item{
         width: 700px!important;
     }
-    
+
     #sliderStep .owl-stage{
         width: 4100px!important;
     }
-    
+
 }
-
-
