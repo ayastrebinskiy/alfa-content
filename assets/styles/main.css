@@ -2114,6 +2114,11 @@ a.work-block__link {
 .b-top-but .ac-totop {
   fill: #ff7c89;
 }
+@media screen and (min-width:1024px) and (max-width:1279px) {
+  .b-top {
+    margin-left: 36%;
+  }
+}
 .container {
   width: 1200px;
   margin: 0 auto;

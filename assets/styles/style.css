@@ -210,10 +210,10 @@
 .ac-tariff .owl-item{
     min-width: 860px!important;
 }
-
+/* 
 .ac-tariff .tariff-navigator {
     margin-left: 86px;
-}
+} */
 
 @media screen and (max-width: 1340px){
     #sliderStep .owl-item{
