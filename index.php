@@ -1,5 +1,5 @@
 <?php
-require_once 'functions.php';
+require_once 'config.php';
 ?>
 <!DOCTYPE html>
 <html lang="ru" class="no-js">
@@ -1348,7 +1348,7 @@ require_once 'functions.php';
                 </div>
             </div>
             <div class="ac-popup-modal__footer">
-                <form id="ac-order-form" action="request.php" method="post" class="order-form-wapr">
+                <form id="ac-order-form" action="request.php?r=send-tariff" method="post" class="order-form-wapr">
                     <input type="hidden" id="tariff" name="Client[tariff]" value=""/>
                     <input type="hidden" id="screen" name="Client[screen]" value=""/>
                     <div class="container-modal">
@@ -1407,7 +1407,7 @@ require_once 'functions.php';
           </div><!-- /.container-modal -->
           <div class="ac-popup-modal__body">
             <div class="container-modal">
-              <form id="ac-order-form" action="request.php" method="post" class="order-form-wapr">
+              <form id="ac-order-form" action="request.php?r=send-tariff" method="post" class="order-form-wapr">
                   <input type="hidden" id="tariff" name="Client[tariff]" value=""/>
                   <input type="hidden" id="screen" name="Client[screen]" value=""/>
                   <div class="container-modal">

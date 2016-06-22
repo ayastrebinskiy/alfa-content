@@ -74,7 +74,7 @@ $(document).ready(function () {
     $('.popup-modal__case-link').magnificPopup({
         type: 'inline',
         preloader: false,
-        closeOnBgClick: false
+        closeOnBgClick: true
     });
 
     $(window).load(function (event) {

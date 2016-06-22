@@ -1,38 +1,23 @@
 <?php
 
-require_once 'functions.php';
+require_once 'config.php';
+require_once 'controller.php';
 
-$result = array(
-    'error' => false,
-    'field' => null,
-    'text' => null
-);
+$route = isset($_GET['r']) ? $_GET['r'] : 'index';
+$route = explode("/", $route);
 
-$mail_to = 'info@alfa-content.ru';
-
-if (!isset($_POST['csrf']) || !checkValidationKey($_POST['csrf'])) {
-    $result['error'] = true;
-    $result['text'] = 'Некорректный запрос';
-} elseif (isset($_SESSION['rcount']) && $_SESSION['rcount'] >= 10) {
-    $result['error'] = true;
-    $result['text'] = 'Превышено количество запросов';
+if (count($route) === 1) {
+    $cRoute = 'controller';
+    $aRoute = str_replace('-', '', $route[0]);
 } else {
-
-    if (!isset($_POST['Client'])) {
-        $result['error'] = true;
-        $result['text'] = 'Заполните поля формы';
-    } else {
-        $data = $_POST['Client'];
-        if (($field = validate($data)) !== true) {
-            $result['error'] = true;
-            $result['field'] = $field;
-        } else {
-            $message = formatMessage($data);
-            $_SESSION['rcount'] = isset($_SESSION['rcount']) ? $_SESSION['rcount'] + 1 : 1;
-            mail($mail_to, 'Alfa-content', $message);
-        }
-    }
+    $cRoute = $route[0];
+    $aRoute = str_replace('-', '', $route[1]);
 }
 
-echo json_encode($result);
+
+
+$controller = new $cRoute();
+$result = $controller->run($aRoute);
+
+echo $result;
 exit(0);
