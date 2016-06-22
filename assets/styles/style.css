@@ -211,9 +211,6 @@
     min-width: 860px!important;
 }
 
-.ac-tariff .tariff-navigator {
-    margin-left: 86px;
-}
 
 @media screen and (max-width: 1340px){
     #sliderStep .owl-item{
@@ -222,6 +219,20 @@
 
     #sliderStep .owl-stage{
         width: 4100px!important;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    #sliderStep .owl-item{
+        width: 750px!important;
+    }
+
+    #sliderStep .owl-stage{
+        width: 4400px!important;
+    }
+    
+    #tariffSlider .owl-stage{
+        width: 5600px!important;
     }
 
 }

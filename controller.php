@@ -10,6 +10,11 @@ class Controller {
 
         return $this->$method();
     }
+    
+   
+    public function actionIndex(){
+        require 'views/main.php';
+    }
 
     public function actionSendTariff() {
         $result = new Result();
