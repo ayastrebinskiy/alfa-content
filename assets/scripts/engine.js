@@ -240,7 +240,7 @@ $(document).ready(function () {
     });
     
     $('[data-popup="example-works"]').on('click', function(e){
-        $('#ac-popup-mini #tariff').val(tariff).val($(this).data('tariff'));
+        $('#ac-popup-mini #tariff, #ac-casesend-form #tariff').val($(this).data('tariff'));
     });
 
 

@@ -1,13 +1,28 @@
 <?php
 
-function validateTariffForm($data) {
+function validateForm($data, $fields = ['name', 'email', 'phone']) {
     $field = true;
-    if (!isset($data['name']) || empty(trim($data['name']))) {
-        $field = 'name';
-    } elseif (!isset($data['email']) || !preg_match('/^[a-z0-9._+-]+@(?:[^.-]?[a-z0-9-]+[^-]?\.)+(?:[A-Z]{2,6})$/i', $data['email'])) {
-        $field = 'email';
-    } elseif (!isset($data['phone']) || !preg_match('/\+7 \(\d{3}\) \d{3}-\d{4}/', $data['phone'])) {
-        $field = 'phone';
+    foreach ($fields as $item) {
+        switch ($item) {
+            case 'name':
+                if (!isset($data['name']) || empty(trim($data['name']))) {
+                    $field = 'name';
+                }
+                break;
+            case 'email':
+                if (!isset($data['email']) || !preg_match('/^[a-z0-9._+-]+@(?:[^.-]?[a-z0-9-]+[^-]?\.)+(?:[A-Z]{2,6})$/i', $data['email'])) {
+                    $field = 'email';
+                }
+                break;
+            case 'phone':
+                if (!isset($data['phone']) || !preg_match('/\+7 \(\d{3}\) \d{3}-\d{4}/', $data['phone'])) {
+                    $field = 'phone';
+                }
+                break;
+        }
+        if ($field !== true) {
+            break;
+        }
     }
 
     return $field;
@@ -32,7 +47,6 @@ function sendMail($to, $subject, $message) {
 function sendErrorLog($message) {
     mail(ADMIN_EMAIL, 'Error', $message);
 }
-
 
 function exceptionHandler($e) {
     $msg = "%s in %s (%s)";

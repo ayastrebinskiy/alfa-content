@@ -10,9 +10,8 @@ class Controller {
 
         return $this->$method();
     }
-    
-   
-    public function actionIndex(){
+
+    public function actionIndex() {
         require 'views/main.php';
     }
 
@@ -34,7 +33,7 @@ class Controller {
                 $result->text = 'Заполните поля формы';
             } else {
                 $data = $_POST['Client'];
-                if (($field = validateTariffForm($data)) !== true) {
+                if (($field = validateForm($data)) !== true) {
                     $result->error = true;
                     $result->field = $field;
                 } else {
@@ -45,6 +44,29 @@ class Controller {
             }
         }
 
+        return $result->json();
+    }
+
+    public function actionSendCase() {
+        $result = new Result();
+        if (!isset($_POST['csrf']) || !checkValidationKey($_POST['csrf'])) {
+            $result->error = true;
+            $result->text = 'Некорректный запрос';
+        } else {
+
+            if (!isset($_POST['Client'])) {
+                $result->error = true;
+                $result->text = 'Заполните поля формы';
+            } else {
+                $data = $_POST['Client'];
+                if (($field = validateForm($data, ['name', 'email'])) !== true) {
+                    $result->error = true;
+                    $result->field = $field;
+                } else {
+                    sendMail($data['email'], 'Интересный кейс контент-маркетинга на alfa-content.ru', 'test');
+                }
+            }
+        }
         return $result->json();
     }
 
