@@ -872,6 +872,7 @@ table {
 .logo-box {
   position: relative;
   padding-left: 65px;
+  float: left;
 }
 .logo-box__img {
   position: absolute;
@@ -1896,6 +1897,10 @@ a.work-block__link {
   border-bottom: 0;
 }
 
+.work-block__big-description {
+  margin-top: 40px;
+}
+
 .work-block__big-description-text {
   color: #6a6666;
   font-family: 'Panton';
@@ -2478,8 +2483,12 @@ a.work-block__link {
   margin: 0 auto;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__header .send-case__wrap {
-  text-align: center;
-  margin-top: 35px;
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    right: 0;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__header .send-case__wrap a.send-case {
   border-radius: 10px;
@@ -2788,4 +2797,34 @@ line-height: 20px;
 }
 .numbers .block-info-top {
   margin-bottom: 15px;
+}
+.ac-popup-modal__header-box {
+  position: relative;
+  height: 213px;
+  display: block;
+  width: 517px;
+  margin: 0 auto;
+}
+.click-logobox {
+  float: left;
+  margin-left: 55px;
+  margin-top: -20px;
+}
+.click-logobox .click-logobox__img {
+  background: url('../images/click-logo.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 40px;
+  text-indent: -9999px;
+  display: block;
+}
+.click-logobox .click-logobox__img:hover {
+  background: url('../images/click-logo.png');
+  background-position: 0 40px;
+}
+.click-logobox .logo-info {
+  display: block;
+  color: #ADB2B2;
+  font-size: 12px;
 }
