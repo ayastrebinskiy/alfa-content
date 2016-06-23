@@ -1376,6 +1376,7 @@
             </div>
         </div>
         <!-- /.ac-popup-modal-->
+
         <!-- .ac-popup-modal__ok-->
         <div id="ac-popup-ok" class="ac-popup-modal popup-modal__ok mfp-hide">
             <div class="ac-popup-modal__body">
@@ -1459,6 +1460,10 @@
                                 <h2>Alfa-Content</h2><span>Сочный контент-маркетинг</span>
                             </div>
                             <!-- /.logo-box__text-->
+                        </div>
+                        <div class="click-logobox">
+                          <span class="logo-info">Проект представлен:</span>
+                          <a href="//click.ru" class="click-logobox__img" target="_blank">Click.ru</a>
                         </div>
                     </div>
                     <!-- /.ac-footer__logo-box-->
