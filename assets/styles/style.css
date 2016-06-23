@@ -216,6 +216,17 @@
     display: block;
 }
 
+.ac-footer__right-block{
+    position: relative;
+}
+
+.utl_btn-footer{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+
 
 @media screen and (max-width: 1340px){
     #sliderStep .owl-item{
