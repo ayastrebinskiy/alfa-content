@@ -63,12 +63,20 @@ $(document).ready(function () {
     });
 
     /* Мини попап >_< */
-    $('.popup-modal__mini-link, [href="#ac-popup-mini"],[href="#ac-popup-casesend"]').magnificPopup({
+    $('.popup-modal__mini-link, [href="#ac-popup-mini"]').magnificPopup({
         type: 'inline',
         preloader: false,
-        focus: '[name="Client[name]"]',
+        focus: '#name',
         closeOnBgClick: true
     });
+
+    $('[href="#ac-popup-casesend"]').on('click', function (e) {
+        $.magnificPopup.instance.next();
+        e.preventDefault();
+        e.stopPropagation();
+    });
+
+
 
     /* Показываем попап с кейсом */
     var optionsLbScrollerCb = {
@@ -88,15 +96,29 @@ $(document).ready(function () {
                     clone.fadeOut();
                 }
             });
-
+            this.defClose = this.close;
+            window.location.hash = this.items[0].inlineElement.data('case');
         },
         close: function () {
             $('.b-top-clone').remove();
             window.location.hash = '';
+        },
+        change: function (item) {
+            if (item.index === 1) {
+                $.magnificPopup.instance.close = function () {
+                    $.magnificPopup.instance.prev();
+                }
+            } else if (typeof this.defClose === 'function') {
+                $.magnificPopup.instance.close = this.defClose;
+            }
         }
     };
+
     $('[data-popup="example-works"]').magnificPopup({
-        type: 'inline',
+        items: [
+            {src: '#ac-popup-case1', type: 'inline'},
+            {src: '#ac-popup-casesend', type: 'inline'}
+        ],
         preloader: false,
         closeOnBgClick: true,
         callbacks: optionsLbScrollerCb
@@ -107,10 +129,10 @@ $(document).ready(function () {
         var anchor = location.hash.substring(1);
         if (/^case\d+$/.test(anchor)) {
             $.magnificPopup.open({
-                items: {
-                    src: '#ac-popup-' + anchor
-                },
-                type: 'inline',
+                items: [
+                    {src: '#ac-popup-' + anchor, type: 'inline'},
+                    {src: '#ac-popup-casesend', type: 'inline'}
+                ],
                 callbacks: optionsLbScrollerCb
 
             });
