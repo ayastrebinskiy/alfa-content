@@ -114,15 +114,18 @@ $(document).ready(function () {
         }
     };
 
-    $('[data-popup="example-works"]').magnificPopup({
-        items: [
-            {src: '#ac-popup-case1', type: 'inline'},
-            {src: '#ac-popup-casesend', type: 'inline'}
-        ],
-        preloader: false,
-        closeOnBgClick: true,
-        callbacks: optionsLbScrollerCb
+    $('[data-popup="example-works"]').each(function () {
+        $(this).magnificPopup({
+            items: [
+                {src: $(this).attr('href'), type: 'inline'},
+                {src: '#ac-popup-casesend', type: 'inline'}
+            ],
+            preloader: false,
+            closeOnBgClick: true,
+            callbacks: optionsLbScrollerCb
+        });
     });
+
 
     $(window).load(function (event) {
         var href, $screen;
