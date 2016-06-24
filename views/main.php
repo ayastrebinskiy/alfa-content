@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="csrf" content="<?php echo generateValidationKey() ?>">
+        <meta itemprop="image" content="http://alfa-content.ru/favicon-192x192.png">
         <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
         <link rel="stylesheet" href="/assets/styles/main.css?">
         <link rel="stylesheet" href="assets/scripts/magnific-popup/magnific-popup.css">
@@ -39,11 +40,21 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" sizes="192x192" href="/favicon-192x192.png">
         <link rel="apple-touch-icon" href="/favicon-192x192.png">
-        <link rel="image_src" href="/favicon-192x192.png"/>
+        <link rel="image_src" href="http://alfa-content.ru/favicon-192x192.png"/>
         <meta name="msapplication-TileImage" content="/ifavicon-144x144.png">
         <meta itemprop="name" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
         <meta itemprop="description" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
-        <meta id="logourl_property" property = "og:image" content = "/favicon-192x192.png"/>
+
+        <meta property="og:title" content = "Alfa-Content &amp;mdash; сочный контент-маркетинг"/>
+        <meta property="og:discription" content=""/>
+        <meta property="og:image" content = "http://alfa-content.ru/favicon-192x192.png"/>
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="192">
+        <meta property="og:image:height" content="192">
+
+        <meta property="twitter:description" content=""/>
+        <meta property="twitter:title" content="Alfa-Content &amp;mdash; сочный контент-маркетинг"/>
+        <meta property="twitter:image" content = "http://alfa-content.ru/favicon-192x192.png"/>
 
 
         <?php /*
