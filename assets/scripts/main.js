@@ -71,11 +71,11 @@ $(document).ready(function () {
                 break;
         }
         scrollerStart = true;
+        location.hash = href.substring(6);
         $('html, body').stop().animate({
             scrollTop: offsetTop
         }, 900, function () {
-            scrollerStart = false;
-            location.hash = href.substring(6);
+            scrollerStart = false;            
         });
         menuItems.removeClass('active');
         $(this).addClass('active');

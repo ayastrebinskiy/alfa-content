@@ -8,7 +8,7 @@ $(document).ready(function () {
     var $sliderLbTariff = $('#lbTariffSlider');
     var $popup = $('#ac-popup-order');
     var resizeListener;
-    var sliderStepInit;
+    var sliderStepInit, sliderTariffInit;
 
     function init() {
         //mask
@@ -20,7 +20,10 @@ $(document).ready(function () {
             $sliderTopControls.css('left', ($(document).width() - $('.container-slider:first', $sliderTop).width()) / 2 + 95);
             $sliderStep.trigger('destroy.owl.carousel');
             $sliderStep.off('changed.owl.carousel');
+            $sliderTariff.trigger('destroy.owl.carousel');
+            $sliderTariff.off('changed.owl.carousel');
             sliderStepInit();
+            sliderTariffInit();
         };
 
         resize();
@@ -66,7 +69,7 @@ $(document).ready(function () {
         });
 
         if (!success) {
-            showError($('#'+name, $form), errorText);
+            showError($('#' + name, $form), errorText);
         }
 
         return success;
@@ -194,21 +197,27 @@ $(document).ready(function () {
     };
 
     //slider tariff
+    sliderTariffInit = function () {
+        var stPaddingT = function () {
+            var w = $(document).width();
+            if (w < 1300)
+                return 200;
+            else if (w >= 1700)
+                return 450;
+            else if (w >= 1500)
+                return 400;
+            else if (w >= 1300)
+                return 300;
 
-    var stPaddingT = function () {
-        var w = $(document).width();
-        if (w < 1300)
-            return 200;
-        else
-            return 300;
+        }
+        $sliderTariff.owlCarousel({
+            items: 1,
+            //loop: true,
+            dots: false,
+            stagePadding: stPaddingT(),
+            smartSpeed: 800,
+        });
     }
-    $sliderTariff.owlCarousel({
-        items: 1,
-        //loop: true,
-        dots: false,
-        stagePadding: stPaddingT(),
-        smartSpeed: 800,
-    });
 
     $('body').on('click', '#tariffSlider [href="#ac-popup-mini"]', function (e) {
         var tariff = $(this).closest('[data-tariff]').data('tariff');
@@ -238,8 +247,8 @@ $(document).ready(function () {
         $(this).addClass('selected');
         $('#tariff').val($(this).data('tariff'));
     });
-    
-    $('[data-popup="example-works"]').on('click', function(e){
+
+    $('[data-popup="example-works"]').on('click', function (e) {
         $('#ac-popup-mini #tariff, #ac-casesend-form #tariff').val($(this).data('tariff'));
     });
 
