@@ -901,7 +901,7 @@
                                                         </svg>
 
                                                     </div>
-                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">расчитываем<br>индивидуально</span></div>
+                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">индивидуально</span></div>
                                                 </div>
                                                 <!-- /.tariff-block__what-item-->
                                                 <div class="tariff-block__what-item">
@@ -910,7 +910,7 @@
                                                         </svg>
 
                                                     </div>
-                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Стоимость контакта:</span><span class="tariff-block__what-value"></span></div>
+                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Стоимость контакта:</span><span class="tariff-block__what-value">индивидуально</span></div>
                                                 </div>
                                                 <!-- /.tariff-block__what-item-->
                                             </div>
