@@ -99,20 +99,22 @@ $(document).ready(function () {
             this.defClose = this.close;
             window.location.hash = this.items[0].inlineElement.data('case');
 
-            $('#case_social_block').append('<script type="text/javascript">' +
-                    'try {' +
-                    'var $uptolike = window["__utl"];' +
-                    'var $buttons = $uptolike.$(".uptolike-buttons");' +
-                    'if ($buttons.size() > 0) {' +
-                    '$uptolike.require("//w.uptolike.com/widgets/v1/widgetsModule.js", function () {' +
-                    '$buttons.buttons({"host": "w.uptolike.com"});' +
-                    '});' +
-                    '}' +
-                    '} catch (e) {' +
-                    'console.log(e)' +
-                    '}' +
-                    '</script>' +
-                    '<div data-url="'+window.location.href+'" data-background-alpha="0.0" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-size="15" data-top-button="false" data-share-counter-type="common" data-share-style="11" data-mode="share" data-like-text-enable="false" data-hover-effect="rotate-cw" data-mobile-view="false" data-icon-color="#ffffff" data-orientation="horizontal" data-text-color="#000000" data-share-shape="round-rectangle" data-sn-ids="fb.vk.tw.ok." data-share-size="40" data-background-color="#ffffff" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.ok.vb." data-pid="1537750" data-counter-background-alpha="1.0" data-following-enable="false" data-exclude-show-more="true" data-selection-enable="false" class="uptolike-buttons" ></div>');
+            if (!$('.ac-popup-modal___social div', this.currItem.inlineElement).length) {
+                $('.ac-popup-modal___social', this.currItem.inlineElement).append('<script type="text/javascript">' +
+                        'try {' +
+                        'var $uptolike = window["__utl"];' +
+                        'var $buttons = $uptolike.$(".uptolike-buttons");' +
+                        'if ($buttons.size() > 0) {' +
+                        '$uptolike.require("//w.uptolike.com/widgets/v1/widgetsModule.js", function () {' +
+                        '$buttons.buttons({"host": "w.uptolike.com"});' +
+                        '});' +
+                        '}' +
+                        '} catch (e) {' +
+                        'console.log(e)' +
+                        '}' +
+                        '</script>' +
+                        '<div data-url="' + window.location.href + '" data-background-alpha="0.0" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-size="15" data-top-button="false" data-share-counter-type="common" data-share-style="11" data-mode="share" data-like-text-enable="false" data-hover-effect="rotate-cw" data-mobile-view="false" data-icon-color="#ffffff" data-orientation="horizontal" data-text-color="#000000" data-share-shape="round-rectangle" data-sn-ids="fb.vk.tw.ok." data-share-size="40" data-background-color="#ffffff" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.ok.vb." data-pid="1537750" data-counter-background-alpha="1.0" data-following-enable="false" data-exclude-show-more="true" data-selection-enable="false" class="uptolike-buttons" ></div>');
+            }
         },
         close: function () {
             $('.b-top-clone').remove();

@@ -39,9 +39,12 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" sizes="192x192" href="/favicon-192x192.png">
         <link rel="apple-touch-icon" href="/favicon-192x192.png">
+        <link rel="image_src" href="/favicon-192x192.png"/>
         <meta name="msapplication-TileImage" content="/ifavicon-144x144.png">
         <meta itemprop="name" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
         <meta itemprop="description" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
+        <meta id="logourl_property" property = "og:image" content = "/favicon-192x192.png"/>
+
 
         <?php /*
 
