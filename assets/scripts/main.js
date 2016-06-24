@@ -70,23 +70,17 @@ $(document).ready(function () {
         closeOnBgClick: true
     });
 
-    $('[href="#ac-popup-casesend"]').on('click', function (e) {
-        $.magnificPopup.instance.next();
-        e.preventDefault();
-        e.stopPropagation();
-    });
-
-
-
     /* Показываем попап с кейсом */
     var optionsLbScrollerCb = {
-        open: function () {
+        ajaxContentAdded: function () {
             var clone = $('<div class="b-top b-top-clone">');
+            var elem = $('.mfp-content [data-case]');
             clone.append($('#scroller').html());
             clone.click(function () {
                 $('.mfp-ready').animate({scrollTop: 0}, 400);
                 return false;
             });
+
             clone.css({"zIndex": 9999, "display": "none"});
             $('body').append(clone);
             $('.mfp-wrap').scroll(function () {
@@ -96,34 +90,45 @@ $(document).ready(function () {
                     clone.fadeOut();
                 }
             });
-            this.defClose = this.close;
-            window.location.hash = this.items[0].inlineElement.data('case');
 
-            if (!$('.ac-popup-modal___social div', this.currItem.inlineElement).length) {
-                $('.ac-popup-modal___social', this.currItem.inlineElement).append('<script type="text/javascript">' +
-                        'try {' +
-                        'var $uptolike = window["__utl"];' +
-                        'var $buttons = $uptolike.$(".uptolike-buttons");' +
-                        'if ($buttons.size() > 0) {' +
-                        '$uptolike.require("//w.uptolike.com/widgets/v1/widgetsModule.js", function () {' +
-                        '$buttons.buttons({"host": "w.uptolike.com"});' +
-                        '});' +
-                        '}' +
-                        '} catch (e) {' +
-                        'console.log(e)' +
-                        '}' +
-                        '</script>' +
-                        '<div data-url="' + window.location.href + '" data-background-alpha="0.0" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-size="15" data-top-button="false" data-share-counter-type="common" data-share-style="11" data-mode="share" data-like-text-enable="false" data-hover-effect="rotate-cw" data-mobile-view="false" data-icon-color="#ffffff" data-orientation="horizontal" data-text-color="#000000" data-share-shape="round-rectangle" data-sn-ids="fb.vk.tw.ok." data-share-size="40" data-background-color="#ffffff" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.ok.vb." data-pid="1537750" data-counter-background-alpha="1.0" data-following-enable="false" data-exclude-show-more="true" data-selection-enable="false" class="uptolike-buttons" ></div>');
-            }
+            this.defClose = this.close;
+            window.location.hash = elem.data('case');
+
+            $('[href="#ac-popup-casesend"]', elem).on('click', function (e) {
+                $.magnificPopup.instance.goTo(1);
+                e.preventDefault();
+                e.stopPropagation();
+            });
+            
+            $('[href="#ac-popup-mini"]', elem).on('click', function (e) {
+                $.magnificPopup.instance.goTo(2);
+                e.preventDefault();
+                e.stopPropagation();
+            });
+
+            $('.ac-popup-modal___social', elem).append('<script type="text/javascript">' +
+                    'try {' +
+                    'var $uptolike = window["__utl"];' +
+                    'var $buttons = $uptolike.$(".uptolike-buttons");' +
+                    'if ($buttons.size() > 0) {' +
+                    '$uptolike.require("//w.uptolike.com/widgets/v1/widgetsModule.js", function () {' +
+                    '$buttons.buttons({"host": "w.uptolike.com"});' +
+                    '});' +
+                    '}' +
+                    '} catch (e) {' +
+                    'console.log(e)' +
+                    '}' +
+                    '</script>' +
+                    '<div data-url="' + window.location.href + '" data-background-alpha="0.0" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-size="15" data-top-button="false" data-share-counter-type="common" data-share-style="11" data-mode="share" data-like-text-enable="false" data-hover-effect="rotate-cw" data-mobile-view="false" data-icon-color="#ffffff" data-orientation="horizontal" data-text-color="#000000" data-share-shape="round-rectangle" data-sn-ids="fb.vk.tw.ok." data-share-size="40" data-background-color="#ffffff" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.ok.vb." data-pid="1537750" data-counter-background-alpha="1.0" data-following-enable="false" data-exclude-show-more="true" data-selection-enable="false" class="uptolike-buttons" ></div>');
         },
         close: function () {
             $('.b-top-clone').remove();
-            window.location.hash = '';
+            window.location.hash = 'work';
         },
         change: function (item) {
-            if (item.index === 1) {
+            if (item.index !== 0 ) {
                 $.magnificPopup.instance.close = function () {
-                    $.magnificPopup.instance.prev();
+                    $.magnificPopup.instance.goTo(0);
                 }
             } else if (typeof this.defClose === 'function') {
                 $.magnificPopup.instance.close = this.defClose;
@@ -134,8 +139,9 @@ $(document).ready(function () {
     $('[data-popup="example-works"]').each(function () {
         $(this).magnificPopup({
             items: [
-                {src: $(this).attr('href'), type: 'inline'},
-                {src: '#ac-popup-casesend', type: 'inline'}
+                {src: $(this).attr('href'), type: 'ajax'},
+                {src: '#ac-popup-casesend', type: 'inline'},
+                {src: '#ac-popup-mini', type: 'inline'}
             ],
             preloader: false,
             closeOnBgClick: true,
@@ -148,10 +154,12 @@ $(document).ready(function () {
         var href, $screen;
         var anchor = location.hash.substring(1);
         if (/^case\d+$/.test(anchor)) {
+            var id = location.hash.substring(5);
             $.magnificPopup.open({
                 items: [
-                    {src: '#ac-popup-' + anchor, type: 'inline'},
-                    {src: '#ac-popup-casesend', type: 'inline'}
+                    {src: '?r=case&id=' + id, type: 'ajax'},
+                    {src: '#ac-popup-casesend', type: 'inline'},
+                    {src: '#ac-popup-mini', type: 'inline'}
                 ],
                 callbacks: optionsLbScrollerCb
 

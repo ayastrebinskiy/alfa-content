@@ -69,5 +69,15 @@ class Controller {
         }
         return $result->json();
     }
+    
+    public function actionCase(){
+        $id = isset($_GET['id'])?$_GET['id']:null;
+        
+        if($id !== null){
+            require "views/cases/case$id.php";
+        } else {
+            echo "<h2>Кейс не найден</h2>";
+        }
+    }
 
 }
