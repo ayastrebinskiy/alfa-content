@@ -787,6 +787,7 @@ table {
   background-color: rgba(255, 255, 255, 0.9);
 }
 .ac-header .ac-header-warp.sticky .menu-item a:hover,
+.ac-header .ac-header-warp.sticky .menu-item a.active,
 .ac-header .ac-header-warp.sticky .tel a:hover {
   background-color: #e8e8e8;
 }
@@ -834,7 +835,7 @@ table {
   display: block;
   padding: 15px;
 }
-.ac-header .menu-item a:hover {
+.ac-header .menu-item a:hover,.ac-header .menu-item a.active {
   background-color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;

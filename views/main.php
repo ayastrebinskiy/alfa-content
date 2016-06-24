@@ -137,7 +137,7 @@
         </div>
         <!-- /.ac-header-->
         <!-- .ac-whatformats-->
-        <div id="ac-i-whatformats" class="ac-whatformats">
+        <div id="ac-i-whatformats" class="ac-whatformats" data-block>
             <div class="container">
                 <div class="row bb1">
                     <div class="col-f6 wow fadeIn" data-wow-delay=".1s">
@@ -288,7 +288,7 @@
         </div>
         <!-- /.ac-whatformats-->
         <!-- .ac-wefine-->
-        <div id="ac-i-wefine" class="ac-wefine">
+        <div id="ac-i-wefine" class="ac-wefine" data-block>
             <div class="wefine-warp">
                 <div class="wefine-warp__bg">
                     <div class="container">
@@ -373,7 +373,7 @@
         </div>
         <!-- /.ac-wefine-->
         <!-- .ac-youadv-->
-        <div id="ac-i-youadv" class="ac-youadv">
+        <div id="ac-i-youadv" class="ac-youadv" data-block>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -491,7 +491,7 @@
         </div>
         <!-- /.ac-youadv-->
         <!-- .ac-tariff-->
-        <div id="ac-i-tariff" class="ac-tariff">
+        <div id="ac-i-tariff" class="ac-tariff" data-block>
             <div class="tariff__bg">
                 <div class="tariff__bg-warp">
                     <div class="container">
@@ -942,7 +942,7 @@
         </div>
         <!-- /.ac-tariff-->
         <!-- .ac-getresult-->
-        <div id="ac-i-getresult" class="ac-getresult">
+        <div id="ac-i-getresult" class="ac-getresult" data-block>
             <div class="getresult-warp">
                 <div class="getresult-warp__bg">
                     <div class="container">
@@ -1457,7 +1457,7 @@
         <!-- /.ac-popup-modal__ok-->
 
         <!-- .ac-work-->
-        <div id="ac-i-work" class="ac-work">
+        <div id="ac-i-work" class="ac-work" data-block>
             <?php require('main-block/example-works.html'); ?>
             <?php require('main-block/_case.html'); ?>
         </div>
