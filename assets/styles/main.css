@@ -2706,12 +2706,16 @@ line-height: 20px;
   left: -20px;
   top: 20px;
 }
+.ac-popup-modal.popup-modal__case .ac-popup-modal___social{
+    margin-top: 30px;
+    text-align: center;
+}
 .ac-popup-modal.popup-modal__case .ac-popup-modal__footer {
   display: block;
   overflow: hidden;
   padding: 0;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__footer-warp {
   border-radius: 50%/11%;
