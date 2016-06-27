@@ -1331,11 +1331,11 @@ table {
   text-transform: lowercase;
   position: relative;
 }
-.ac-tariff .tariff-navigator__item:hover {
+.ac-tariff .tariff-navigator__item.active {
   color: #000;
 }
-.ac-tariff .tariff-navigator__item.previous_tariff:hover .tariff-navigator__ico-knife,
-.ac-tariff .tariff-navigator__item.next_tariff:hover .tariff-navigator__ico-watermelon {
+.ac-tariff .tariff-navigator__item.active.previous_tariff .tariff-navigator__ico-knife,
+.ac-tariff .tariff-navigator__item.active.next_tariff .tariff-navigator__ico-watermelon{
   fill: #000;
 }
 .ac-tariff .tariff-navigator__item span {

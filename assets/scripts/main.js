@@ -29,7 +29,7 @@ $(document).ready(function () {
                         menuItems.removeClass('active');
                         el.addClass('active');
                     }
-                } 
+                }
             });
         }
     });
@@ -75,7 +75,7 @@ $(document).ready(function () {
         $('html, body').stop().animate({
             scrollTop: offsetTop
         }, 900, function () {
-            scrollerStart = false;            
+            scrollerStart = false;
         });
         menuItems.removeClass('active');
         $(this).addClass('active');
@@ -120,6 +120,14 @@ $(document).ready(function () {
                     clone.fadeOut();
                 }
             });
+
+            elem.on('click', function (e) {
+                if (!$(e.target).hasClass('mfp-close')) {
+                    e.stopPropagation();
+                }
+            });
+
+
 
             this.defClose = this.close;
             window.location.hash = elem.data('case');

@@ -93,6 +93,9 @@ $(document).ready(function () {
         if (checkForm($form) === true) {
             data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
             $.post(url, data, function (result) {
+                if (typeof dataLayer !== 'undefined') {
+                    dataLayer.push({'event': 'form_submitted'});
+                }
                 if (result.error === false) {
                     $.magnificPopup.open({
                         items: {
@@ -147,15 +150,7 @@ $(document).ready(function () {
 
     //slider step
     sliderStepInit = function () {
-        /*var stPadding = function () {
-         var w = $(document).width();
-         if (w < 1400)
-         return 240;
-         else if (w >= 1400 && w < 1920)
-         return 500;
-         else
-         return 600;
-         }*/
+
         $sliderStep.owlCarousel({
             items: $(document).width() > 1500 ? 2 : 1,
             center: true,
@@ -163,7 +158,6 @@ $(document).ready(function () {
             dots: false,
             smartSpeed: 800,
             stagePadding: $(document).width() > 1500 ? false : 200,
-            //autoWidth: true
         });
 
         $('.step-indicator__bubble', '.step-indicator').on('click', function (e) {
@@ -209,15 +203,32 @@ $(document).ready(function () {
             else if (w >= 1300)
                 return 300;
 
-        }
+        };
         $sliderTariff.owlCarousel({
             items: 1,
             //loop: true,
             dots: false,
             stagePadding: stPaddingT(),
-            smartSpeed: 800,
+            smartSpeed: 800
         });
-    }
+
+        $sliderTariff.on('changed.owl.carousel', function (event) {
+            var index = $sliderTariff.data('owl.carousel').relative(event.item.index);
+            var $next = $('[data-slidernav="#tariffSlider"] [data-route="next"]');
+            var $prev = $('[data-slidernav="#tariffSlider"] [data-route="prev"]');
+
+            if (index === 0) {
+                $prev.addClass('active');
+                $next.removeClass('active');
+            } else if (index === event.item.count - 1) {
+                $next.removeClass('active');
+                $prev.addClass('active');
+            } else {
+                $next.addClass('active');
+                $prev.addClass('active');
+            }
+        });
+    };
 
     $('body').on('click', '#tariffSlider [href="#ac-popup-mini"]', function (e) {
         var tariff = $(this).closest('[data-tariff]').data('tariff');

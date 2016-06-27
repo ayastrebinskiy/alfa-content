@@ -147,6 +147,7 @@
             </div>
         </div>
     </div>
+    <div class="ac-popup-modal___social"></div>
     <div class="ac-popup-modal__footer">
         <div class="ac-popup-modal__footer-warp">
             <div class="ac-popup-modal__footer-warp__bg">
