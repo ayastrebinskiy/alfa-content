@@ -63,17 +63,43 @@ class Controller {
                     $result->error = true;
                     $result->field = $field;
                 } else {
-                    sendMail($data['email'], 'Интересный кейс контент-маркетинга на alfa-content.ru', 'test');
+                    $mail_from = EMAIL_INFO_TARIFF;
+
+                    $cases = [
+                        'case1' => 'Продвижение аксессуаров для компьютерных игр от кампании-производителя',
+                        'case2' => 'Кампания для онлайн-сервиса грузоперевозок',
+                        'case3' => 'Продвижение конструктора сайтов среди вебмастеров, частных предпринимателей и владельцев малого бизнеса'
+                    ];
+
+                    $case = isset($data['case']) && isset($cases[$data['case']]) ? $data['case'] : 'case1';
+
+                    $title = $cases['case1'];
+                    $url = "http://{$_SERVER['HTTP_HOST']}/#$case";
+
+                    $message = sprintf("<p>Тут %s интересный кейс про \"%s\".</p>", '<a href="' . $url . '">' . $url . '</a>', $title);
+                    if (isset($data['comment'])) {
+                        $message .= '<p>' . $data['comment'] . '</p>';
+                    }
+
+                    require(__DIR__ . "/lib/phpmailer/class.phpmailer.php");
+                    $mail = new PHPMailer();
+                    $mail->CharSet = "utf-8";
+                    $mail->setFrom($mail_from);
+                    $mail->addAddress($data['email']);
+                    $mail->isHTML(true);
+                    $mail->Subject = 'Интересный кейс контент-маркетинга на alfa-content.ru';
+                    $mail->Body = $message;
+                    $mail->send();
                 }
             }
         }
         return $result->json();
     }
-    
-    public function actionCase(){
-        $id = isset($_GET['id'])?$_GET['id']:null;
-        
-        if($id !== null){
+
+    public function actionCase() {
+        $id = isset($_GET['id']) ? $_GET['id'] : null;
+
+        if ($id !== null) {
             require "views/cases/case$id.php";
         } else {
             echo "<h2>Кейс не найден</h2>";

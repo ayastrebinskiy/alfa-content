@@ -133,7 +133,14 @@ $(document).ready(function () {
             window.location.hash = elem.data('case');
 
             $('[href="#ac-popup-casesend"]', elem).on('click', function (e) {
+                var input, form;
                 $.magnificPopup.instance.goTo(1);
+                form = $('form', $.magnificPopup.instance.currItem.inlineElement);
+                input = $('#case', form);
+                if (!input.length) {
+                    input = $('<input type="hidden" id="case" name="Client[case]" value=""/>').appendTo(form);
+                }
+                input.val(elem.data('case'));
                 e.preventDefault();
                 e.stopPropagation();
             });

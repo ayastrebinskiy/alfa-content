@@ -3,6 +3,8 @@
 require_once 'config.php';
 require_once 'controller.php';
 
+date_default_timezone_set('Europe/Moscow');
+
 $route = isset($_GET['r']) ? $_GET['r'] : 'index';
 $route = explode("/", $route);
 

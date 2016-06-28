@@ -1,6 +1,7 @@
 $(document).ready(function () {
     var $forms = $('form.order-form-wapr');
-    var $btn = $('button', $forms);
+    var $btn = $('button:not(.send-case-user)', $forms);
+    var $btnCase = $('button.send-case-user', $forms);
     var $sliderTop = $('#sliderTop');
     var $sliderTopControls = $('#sliderTopControls');
     var $sliderStep = $('#sliderStep');
@@ -111,6 +112,27 @@ $(document).ready(function () {
             }, 'json');
         }
     });
+    
+    $btnCase.on('click', function (e) {
+        var data;
+        var $form = $(this).closest('form');
+        var url = $form.attr('action');
+        e.preventDefault();
+        data = $form.serializeArray();
+        if (checkForm($form) === true) {
+            data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
+            $.post(url, data, function (result) {
+                if (result.error === false) {
+                    $.magnificPopup.instance.goTo(0);
+                } else {
+                    if (result.field) {
+                        showError(result.field, result.text);
+                    }
+                }
+            }, 'json');
+        }
+    });
+
 
     //slider top
     $sliderTop.owlCarousel({
@@ -218,8 +240,8 @@ $(document).ready(function () {
             var $prev = $('[data-slidernav="#tariffSlider"] [data-route="prev"]');
 
             if (index === 0) {
-                $prev.addClass('active');
-                $next.removeClass('active');
+                $prev.removeClass('active');
+                $next.addClass('active');
             } else if (index === event.item.count - 1) {
                 $next.removeClass('active');
                 $prev.addClass('active');

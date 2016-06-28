@@ -141,7 +141,7 @@
                             <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
                             <li class="menu-item"><a href="/blog">блог</a></li>
                         </ul>
-                        <div class="tel"><a href="tel:+74959802621">+7 (495) 980 26 21</a></div>
+                        <div class="tel"><a href="tel:+74953747914">+7 (495) 374 79 14</a></div>
                     </div>
                 </div>
             </div>
@@ -1527,7 +1527,7 @@
                             <div  data-background-alpha="0.0" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-size="15" data-top-button="false" data-share-counter-type="common" data-share-style="11" data-mode="share" data-like-text-enable="false" data-hover-effect="rotate-cw" data-mobile-view="true" data-icon-color="#ffffff" data-orientation="horizontal" data-text-color="#000000" data-share-shape="round-rectangle" data-sn-ids="fb.vk.tw.ok." data-share-size="30" data-background-color="#ffffff" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.vb." data-pid="1537747" data-counter-background-alpha="1.0" data-following-enable="false" data-exclude-show-more="true" data-selection-enable="false" class="uptolike-buttons" ></div>
                         </div>
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
-                        <div class="ac-footer__tel-box"><a href="tel:+74959802621" class="footer-tel-link">+7 (495) 980 26 21</a></div>
+                        <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 (495) 374 79 14</a></div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>
