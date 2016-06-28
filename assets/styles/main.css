@@ -1790,23 +1790,19 @@ table {
   margin-top: 55px;
 }
 .work__btn-link {
-  background-color: #ff7c89;
-  border: 1px solid #ff7c89;
+  background-color: #ec5965;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
   border-radius: 25px;
-  padding: 12px 20px;
-  text-align: center;
   color: #fff;
   font-family: 'Panton';
-  padding: 16px 88px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
-  position: relative;
+  padding: 16px 87px;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -1845,7 +1841,7 @@ table {
 }
 */
 .work__btn-link:hover {
-  background-color: #ec5965;
+  background-color: #ff7c89;
 }
 .work-block__big {
   position: relative;
