@@ -10,7 +10,7 @@
         <meta itemprop="image" content="http://alfa-content.ru/favicon-192x192.png">
         <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
         <link rel="stylesheet" href="/assets/styles/main.css?">
-        <link rel="stylesheet" href="assets/scripts/magnific-popup/magnific-popup.css">
+        <link rel="stylesheet" href="/assets/scripts/magnific-popup/magnific-popup.css">
         <link rel="stylesheet" href="/assets/styles/animate.css?">
         <link rel="stylesheet" href="/assets/styles/style.css">
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.carousel.min.css">
@@ -19,7 +19,7 @@
         <script type="text/javascript" src="/assets/scripts/engine.js"></script>
         <script src="/assets/scripts/wow.min.js"></script>
         <script type="text/javascript">new WOW().init();</script>
-        <script src="assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
+        <script src="/assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
         <script type="text/javascript" src="/assets/scripts/plugins.js?1"></script>
         <link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
@@ -158,7 +158,7 @@
                     <div class="col-f3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".2s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats1.png" alt="Посты в Instagram, FaceBook, вКонтакте"></div>
+                                <div class="whatformats-block__ico"><img src="/assets/images/whatformats/whatformats1.png" alt="Посты в Instagram, FaceBook, вКонтакте"></div>
                                 <div class="whatformats-block__heads">
                                     <h2 class="whatformats-block__head">Посты в Instagram, FaceBook, вКонтакте</h2>
                                 </div>
@@ -171,7 +171,7 @@
                     <div class="col-f3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".3s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats2.png" alt="Интеграции в ролики YouTube-блогеров"></div>
+                                <div class="whatformats-block__ico"><img src="/assets/images/whatformats/whatformats2.png" alt="Интеграции в ролики YouTube-блогеров"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Интеграции в ролики YouTube-блогеров</h2>
                                 </div>
@@ -186,7 +186,7 @@
                     <div class="col-3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".4s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats3.png" alt="Отзывы в женских сообществах"></div>
+                                <div class="whatformats-block__ico"><img src="/assets/images/whatformats/whatformats3.png" alt="Отзывы в женских сообществах"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Отзывы в сообществах</h2>
                                 </div>
@@ -199,7 +199,7 @@
                     <div class="col-3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".5s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats4.png" alt="Посты у ТОПовых блогеров"></div>
+                                <div class="whatformats-block__ico"><img src="/assets/images/whatformats/whatformats4.png" alt="Посты у ТОПовых блогеров"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Посты у ТОПовых блогеров</h2>
                                 </div>
@@ -212,7 +212,7 @@
                     <div class="col-3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".6s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats5.png" alt="Посты на нишевых сайтах"></div>
+                                <div class="whatformats-block__ico"><img src="/assets/images/whatformats/whatformats5.png" alt="Посты на нишевых сайтах"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Посты на нишевых сайтах</h2>
                                 </div>
@@ -225,7 +225,7 @@
                     <div class="col-3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".7s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico"><img src="assets/images/whatformats/whatformats6.png" alt="Публикации в СМИ"></div>
+                                <div class="whatformats-block__ico"><img src="/assets/images/whatformats/whatformats6.png" alt="Публикации в СМИ"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Публикации в СМИ</h2>
                                 </div>
@@ -245,7 +245,7 @@
                     <div class="col-3">
                         <div class="whatformats-block whatformats-block__nonono wow fadeIn" data-wow-delay=".2s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico whatformats-block__ico-press"><img src="assets/images/whatformats/whatformats7.png" alt="Пресс-релизы по релизоприёмникам"></div>
+                                <div class="whatformats-block__ico whatformats-block__ico-press"><img src="/assets/images/whatformats/whatformats7.png" alt="Пресс-релизы по релизоприёмникам"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Пресс-релизы по релизоприёмникам</h2>
                                 </div>
@@ -258,7 +258,7 @@
                     <div class="col-3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".4s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats8.png" alt="Очень дорогие ТОПовые сайты"></div>
+                                <div class="whatformats-block__ico whatformats-block__ico-top"><img src="/assets/images/whatformats/whatformats8.png" alt="Очень дорогие ТОПовые сайты"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Очень многие дорогие ТОПовые сайты</h2>
                                 </div>
@@ -271,7 +271,7 @@
                     <div class="col-3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".6s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats9.png" alt="Спам в комментариях о_О"></div>
+                                <div class="whatformats-block__ico whatformats-block__ico-top"><img src="/assets/images/whatformats/whatformats9.png" alt="Спам в комментариях о_О"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Спам в комментариях, крауд маркетинг</h2>
                                 </div>
@@ -284,7 +284,7 @@
                     <div class="col-3">
                         <div class="whatformats-block wow fadeIn" data-wow-delay=".8s">
                             <div class="whatformats-block__header">
-                                <div class="whatformats-block__ico whatformats-block__ico-top"><img src="assets/images/whatformats/whatformats10.png" alt="Форумы"></div>
+                                <div class="whatformats-block__ico whatformats-block__ico-top"><img src="/assets/images/whatformats/whatformats10.png" alt="Форумы"></div>
                                 <div class="whatformats-block__head">
                                     <h2 class="whatformats-block__head">Форумы<br>UGC контент</h2>
                                 </div>
@@ -313,7 +313,7 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="assets/images/wefine/wefine1.png" alt="В пуле площадок сотни проверенных СМИ"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine1.png" alt="В пуле площадок сотни проверенных СМИ"></div>
                                         <div class="wefine-block__text">
                                             <p class="wefine-text"><span class="wefine-text-accent">В пуле площадок, с которыми мы работаем, сотни проверенных СМИ</span>, блогеров, влогеров, пабликов, сообществ и пр. И каждый день мы перерабатываем «тонну руды», чтобы находить новые достойные площадки.</p>
                                         </div>
@@ -323,7 +323,7 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="assets/images/wefine/wefine2.png" alt="Видим картину всех современных медиа"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine2.png" alt="Видим картину всех современных медиа"></div>
                                         <div class="wefine-block__text">
                                             <p class="wefine-text"><span class="wefine-text-accent">Мы очень ясно и реалистично видим картину всех современных медиа</span> Рунета и точно знаем, на что способны одни, чего стоят другие, какого эффекта ждать от третьих, а с четвёртыми вообще нет смысла работать.</p>
                                         </div>
@@ -333,7 +333,7 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="assets/images/wefine/wefine3.png" alt="У нас богатейший опыт работы с московским трафиком"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine3.png" alt="У нас богатейший опыт работы с московским трафиком"></div>
                                         <div class="wefine-block__text">
                                             <p class="wefine-text"><span class="wefine-text-accent">У нас богатейший опыт работы с московским трафиком</span>, который считается самым сложным, дорогим, трудно привлекаемым. И не зря.</p>
                                         </div>
@@ -345,7 +345,7 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="assets/images/wefine/wefine4.png" alt="У нас честный, человеческий подход"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine4.png" alt="У нас честный, человеческий подход"></div>
                                         <div class="wefine-block__text">
                                             <p class="wefine-text"><span class="wefine-text-accent">У нас честный, человеческий подход</span>, мы берёмся работать с микробюджетами, чего не скажешь об абсолютном большинстве рекламных агентств.</p>
                                         </div>
@@ -355,7 +355,7 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="assets/images/wefine/wefine5.png" alt="У нас хорошие ценники, потому что мы работаем в больших объёмах"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine5.png" alt="У нас хорошие ценники, потому что мы работаем в больших объёмах"></div>
                                         <div class="wefine-block__text">
                                             <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы работаем в больших объёмах</span> и есть основание для торга и скидок.</p>
                                         </div>
@@ -365,7 +365,7 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="assets/images/wefine/wefine6.png" alt="Сложнейшие B2B-тематики"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine6.png" alt="Сложнейшие B2B-тематики"></div>
                                         <div class="wefine-block__text">
                                             <p class="wefine-text"><span class="wefine-text-accent">У нас богатейший опыт работы со сложнейшими B2B-тематиками</span></p>
                                         </div>
@@ -426,7 +426,7 @@
             <div class="col-12">
                 <div class="step-blocks owl-carousel owl-theme" id="sliderStep">
                     <div class="step-block">
-                        <div class="step-block__ico"><img src="assets/images/youadv/youadv1.png" alt="Вы оставляете заявку с указанием сайта"></div>
+                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv1.png" alt="Вы оставляете заявку с указанием сайта"></div>
                         <!-- /.step-block__ico-->
                         <div class="step-block__description">
                             <div class="step-block__description-head">
@@ -439,7 +439,7 @@
                         </div>
                     </div>
                     <div class="step-block">
-                        <div class="step-block__ico"><img src="assets/images/youadv/youadv2.png" alt="Менеджер в течение 3 дней составляет для вас медиаплан"></div>
+                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv2.png" alt="Менеджер в течение 3 дней составляет для вас медиаплан"></div>
                         <!-- /.step-block__ico-->
                         <div class="step-block__description">
                             <div class="step-block__description-head">
@@ -452,7 +452,7 @@
                         </div>
                     </div>
                     <div class="step-block">
-                        <div class="step-block__ico"><img src="assets/images/youadv/youadv3.png" alt="После согласования медиаплана мы начинаем готовить контент"></div>
+                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv3.png" alt="После согласования медиаплана мы начинаем готовить контент"></div>
                         <!-- /.step-block__ico-->
                         <div class="step-block__description">
                             <div class="step-block__description-head">
@@ -466,7 +466,7 @@
                     </div>
                     <!-- /.step-block-->
                     <div class="step-block">
-                        <div class="step-block__ico"><img src="assets/images/youadv/youadv4.png" alt="После подготовки контента начинается процесс размещения на площадках"></div>
+                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv4.png" alt="После подготовки контента начинается процесс размещения на площадках"></div>
                         <div class="step-block__description">
                             <div class="step-block__description-head">
                                 <div class="step-block__item"><span class="step-item">4</span></div>
@@ -479,7 +479,7 @@
                     </div>
                     <!-- /.step-block-->
                     <div class="step-block">
-                        <div class="step-block__ico"><img src="assets/images/youadv/youadv5.png" alt="Как только все размещения выполнены, мы собираем статистику прочтений материалов"></div>
+                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv5.png" alt="Как только все размещения выполнены, мы собираем статистику прочтений материалов"></div>
                         <!-- /.step-block__ico-->
                         <div class="step-block__description">
                             <div class="step-block__description-head">
@@ -976,7 +976,7 @@
                                 </div>
                                 <div class="col-3">
                                     <div class="getresult-block wow fadeIn" data-wow-delay=".3s">
-                                        <div class="getresult-block__ico"><img src="assets/images/getresult/getresult1.png" alt="Плавный рост прямых заходов на сайт"></div>
+                                        <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult1.png" alt="Плавный рост прямых заходов на сайт"></div>
                                     </div>
                                 </div>
                             </div>
@@ -986,7 +986,7 @@
                                 <div class="col-3">
                                     <div class="getresult-block wow fadeIn" data-wow-delay=".4s">
                                         <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="assets/images/getresult/getresult2.png" alt="Массовое покрытие новой целевой аудитории"></div>
+                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult2.png" alt="Массовое покрытие новой целевой аудитории"></div>
                                             <div class="getresult-block__head">
                                                 <h2 class="getresult-block__head">Массовое покрытие новой целевой аудитории уже в первый месяц работы</h2>
                                             </div>
@@ -999,7 +999,7 @@
                                 <div class="col-3">
                                     <div class="getresult-block wow fadeIn" data-wow-delay=".5s">
                                         <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="assets/images/getresult/getresult3.png" alt="Очень целевые переходы на сайт"></div>
+                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult3.png" alt="Очень целевые переходы на сайт"></div>
                                             <div class="getresult-block__head">
                                                 <h2 class="getresult-block__head">Очень целевые переходы на сайт, которые могут оказаться даже качественнее, чем из контекста</h2>
                                             </div>
@@ -1012,7 +1012,7 @@
                                 <div class="col-3">
                                     <div class="getresult-block wow fadeIn" data-wow-delay=".6s">
                                         <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="assets/images/getresult/getresult4.png" alt="Плавный рост популярности, узнаваемости"></div>
+                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult4.png" alt="Плавный рост популярности, узнаваемости"></div>
                                             <div class="getresult-block__head">
                                                 <h2 class="getresult-block__head">Плавный рост популярности, узнаваемости</h2>
                                             </div>
@@ -1025,7 +1025,7 @@
                                 <div class="col-3">
                                     <div class="getresult-block wow fadeIn" data-wow-delay=".7s">
                                         <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="assets/images/getresult/getresult5.png" alt="SEO-эффект"></div>
+                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult5.png" alt="SEO-эффект"></div>
                                             <div class="getresult-block__head">
                                                 <h2 class="getresult-block__head">SEO-эффект</h2>
                                             </div>
@@ -1048,7 +1048,7 @@
                                             <p class="getresult-block__description-text-blod">Мгновенного взрыва продаж, звонков, заявок, обращений</p>
                                             <p class="getresult-block__description-text">Простите, но не получится вечером посадить рубль, а с утра получить денежное дерево. Интернет-реклама в 2016 – это не рог изобилия и не чудо. Конкуренция очень высокая, цена внимания – ещё выше. Да, в интернете есть такие каналы и площадки, после размещения на которых у людей «ложатся» сайты от количества переходов и обрываются телефоны от количества звонков. И мы знаем все такие каналы и площадки наперечёт. Но их – единицы. А тематики в большинстве своём – либо сложные (и нужна серия публикаций, пока люди поймут, о чём идёт речь), либо типичные (ещё один магазин духов), так что лавинообразные эффекты от размещений бывают, мягко говоря, не каждый день. Плюс – такие площадки, конечно же, не дешёвые. Порог входа начинается где-то от 50-80 тыс. руб. за одно размещение.</p>
                                         </div>
-                                        <div class="ico wow pulse" data-wow-delay=".0s" data-wow-iteration="2"><img src="assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
+                                        <div class="ico wow pulse" data-wow-delay=".0s" data-wow-iteration="2"><img src="/assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
                                     </div>
                                 </div>
                             </div>
@@ -1536,5 +1536,6 @@
         <!-- /.ac-footer-->
         <div id="scroller" style="" class="b-top"><span class="b-top-but"><svg id="ac-up-icosvg" style="enable-background:new 0 0 48 48" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 48 48" height="48px" width="48px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill-rule="evenodd" clip-rule="evenodd" class="ac-totop" d="m44 0h-40c-2.2 0-4 1.8-4 4v40c0 2.2 1.8 4 4 4h40c2.2 0 4-1.8 4-4v-40c0-2.2-1.8-4-4-4zm-30.4 26.6l9-9c0.781-0.781 2.05-0.781 2.83 0l9 9c0.781 0.781 0.781 2.05 0 2.83-0.781 0.781-2.05 0.781-2.83 0l-7.6-7.6-7.59 7.59c-0.781 0.781-2.05 0.781-2.83 0-0.8-0.8-0.8-2 0-2.8z"/></svg></span><!-- /.b-top-but-->
         </div><!-- /.b-top-->
+        <?php echo $content;?>
     </body>
 </html>

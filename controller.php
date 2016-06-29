@@ -11,7 +11,21 @@ class Controller {
         return $this->$method();
     }
 
+    protected function renderFile($file, $params = []) {
+        ob_start();
+        ob_implicit_flush(false);
+        extract($params, EXTR_OVERWRITE);
+        require($file);
+        return ob_get_clean();
+    }
+
+    protected function render($file, $params = []) {
+        $content = $this->renderFile($file, $params);
+        require 'views/main.php';
+    }
+
     public function actionIndex() {
+        $content = '';
         require 'views/main.php';
     }
 
@@ -37,9 +51,9 @@ class Controller {
                     $result->error = true;
                     $result->field = $field;
                 } else {
-                    $message = sprintf("Наименование тарифа: %s\nИмя:%s\nE-mail:%s\nТелефон:%s\nЭкран:%s", $data['tariff'], $data['name'], $data['email'], $data['phone'], $data['screen']);
+                    $message = sprintf("Наименование тарифа: %s<br/>Имя: %s<br/>E-mail: %s<br/>Телефон: %s<br/>Экран: %s", $data['tariff'], $data['name'], $data['email'], $data['phone'], $data['screen']);
                     $_SESSION['rcount'] = isset($_SESSION['rcount']) ? $_SESSION['rcount'] + 1 : 1;
-                    sendMail($mail_to, 'Alfa-content', $message);
+                    sendMail($mail_to, 'Заказ с сайта', $message);
                 }
             }
         }
@@ -66,30 +80,24 @@ class Controller {
                     $mail_from = EMAIL_INFO_TARIFF;
 
                     $cases = [
-                        'case1' => 'Продвижение аксессуаров для компьютерных игр от кампании-производителя',
-                        'case2' => 'Кампания для онлайн-сервиса грузоперевозок',
-                        'case3' => 'Продвижение конструктора сайтов среди вебмастеров, частных предпринимателей и владельцев малого бизнеса'
+                        1 => 'Продвижение аксессуаров для компьютерных игр от кампании-производителя',
+                        2 => 'Кампания для онлайн-сервиса грузоперевозок',
+                        3 => 'Продвижение конструктора сайтов среди вебмастеров, частных предпринимателей и владельцев малого бизнеса'
                     ];
 
-                    $case = isset($data['case']) && isset($cases[$data['case']]) ? $data['case'] : 'case1';
+                    $case = isset($data['case']) && isset($cases[$data['case']]) ? $data['case'] : 1;
 
-                    $title = $cases['case1'];
-                    $url = "http://{$_SERVER['HTTP_HOST']}/#$case";
+                    $title = $cases[$case];
+                    $url = "http://{$_SERVER['HTTP_HOST']}/case/$case";
 
-                    $message = sprintf("<p>Тут %s интересный кейс про \"%s\".</p>", '<a href="' . $url . '">' . $url . '</a>', $title);
+                    $message = sprintf("<p>Здравствуйте!</p>"
+                            . "<p>Ваш коллега %s отправил вам интересный кейс %s про %s.</p>",$data['name'], '<a href="' . $url . '">' . $url . '</a>', $title);
+
                     if (isset($data['comment'])) {
                         $message .= '<p>' . $data['comment'] . '</p>';
                     }
 
-                    require(__DIR__ . "/lib/phpmailer/class.phpmailer.php");
-                    $mail = new PHPMailer();
-                    $mail->CharSet = "utf-8";
-                    $mail->setFrom($mail_from);
-                    $mail->addAddress($data['email']);
-                    $mail->isHTML(true);
-                    $mail->Subject = 'Интересный кейс контент-маркетинга на alfa-content.ru';
-                    $mail->Body = $message;
-                    $mail->send();
+                    sendMail($data['email'], 'Интересный кейс контент-маркетинга на alfa-content.ru', $message, $mail_from);
                 }
             }
         }
@@ -98,11 +106,18 @@ class Controller {
 
     public function actionCase() {
         $id = isset($_GET['id']) ? $_GET['id'] : null;
-
-        if ($id !== null) {
+        if ($id === null || !is_file(__DIR__ . "/views/cases/case$id.php")) {
+            if (isAjaxRequest() === true) {
+                echo "<div class='white-popup'>Кейс не найден</div>";
+                exit;
+            } else {
+                redirect('/');
+            }
+        }
+        if (isAjaxRequest() === true) {
             require "views/cases/case$id.php";
         } else {
-            echo "<h2>Кейс не найден</h2>";
+            $this->render("views/cases/case$id.php");
         }
     }
 

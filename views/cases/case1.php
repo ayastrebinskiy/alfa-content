@@ -1,5 +1,5 @@
 <!-- .ac-popup-modal-->
-<div id="ac-popup-case1" class="ac-popup-modal popup-modal__case" data-case="case1">
+<div id="ac-popup-case1" class="ac-popup-modal popup-modal__case mfp-hide" data-case="1">
     <div class="ac-popup-modal__header ac-popup-modal__header-case1">
         <div class="col-12">
             <div class="ac-popup-modal__header-box">
@@ -20,7 +20,7 @@
                         </div>
                         <div class="right">
                             <h2>Тариф</h2>
-                            <span class="img"><img src="assets/images/tariff/b-watermelon_56.png" alt="" width="128"/></span>
+                            <span class="img"><img src="/assets/images/tariff/b-watermelon_56.png" alt="" width="128"/></span>
                             <span class="name">Лучшая стоимость</span>
                             <span class="price">200 000 &#8381;</span>
                         </div>
@@ -101,30 +101,30 @@
                         <h2>Цифры</h2>
                         <div class="numbers-img-warp">
                             <div class="numbers-img-item">
-                                <img src="assets/images/case/case1-graph1.png" alt="Цифры" class="img" />
+                                <img src="/assets/images/case/case1-graph1.png" alt="Цифры" class="img" />
                                 <div class="numbers-img-item__info">
                                     <div class="block-info-top">
-                                        <img src="assets/images/case/case-ico1.png" alt="Охват аудитории">
+                                        <img src="/assets/images/case/case-ico1.png" alt="Охват аудитории">
                                         <div class="block-info-head">Охват аудитории</div>
                                         <div class="block-info-n">2 514 852</div>
                                     </div>
                                     <div class="block-info-bottom">
-                                        <img src="assets/images/case/case-ico2.png" alt="Цена контакта">
+                                        <img src="/assets/images/case/case-ico2.png" alt="Цена контакта">
                                         <div class="block-info-head">Цена контакта</div>
                                         <div class="block-info-n">0.08 &#8381;</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="numbers-img-item">
-                                <img src="assets/images/case/case1-graph1_2.png" alt="">
+                                <img src="/assets/images/case/case1-graph1_2.png" alt="">
                                 <div class="numbers-img-item__info2">
                                     <div class="block-info-top">
-                                        <img src="assets/images/case/case-ico3.png" alt="Прямые переходы на сайт">
+                                        <img src="/assets/images/case/case-ico3.png" alt="Прямые переходы на сайт">
                                         <div class="block-info-head">Прямые переходы на сайт</div>
                                         <div class="block-info-n">31 837</div>
                                     </div>
                                     <div class="block-info-bottom">
-                                        <img src="assets/images/case/case-ico4.png" alt="Цена перехода">
+                                        <img src="/assets/images/case/case-ico4.png" alt="Цена перехода">
                                         <div class="block-info-head">Цена перехода </div>
                                         <div class="block-info-n">6.20 &#8381;</div>
                                     </div>
@@ -145,14 +145,14 @@
                 <div class="col-12">
                     <div class="wrap">
                         <h2>Эффект от кампании</h2>
-                        <img src="assets/images/case/case1-graph2.png" alt="Эффект от кампании" class="img" style="width:750px;" />
+                        <img src="/assets/images/case/case1-graph2.png" alt="Эффект от кампании" class="img" style="width:750px;" />
                         <p class="big-text">В отчетах мы прогнозируем и фиксируем только аудируемые переходы, т.е. те, которые можно посчитать с помощью специальных меток в ссылках и счетчиков аналитики (Яндекс.Метрика или Goggle AdWords). Реальное количество переходов во время и после окончания рекламной кампании больше, примерно в 2-3 раза, но зафиксировать эти переходы точно не представляется возможным, поэтому, мы делаем постоценку исходя из прироста трафика, относительно среднего значения за предыдущий период.</p>
                         <p class="pl">Важной особенностью контент-маркетинга является то, что эффект от размещения носит долговременный характер! Более популярные площадки дают более заметный и более продолжительный эффект.</p>
                         <p class="pl">Наша рекомендация: для этого канал контент-маркетинга (особенно, видео-контента) просто необходим — низкая стоимость привлечения и огромный охват подтверждают этот тезис. Через 1-2 месяца, когда эффект от предыдущих размещений начнет спадать, необходимо повторить рекламную кампанию с игровыми YouTube- каналами, на которых сконцентрирована огромная целевая аудитория.</p>
                         <h2 class="feedback-head">Отзыв клиента</h2>
                         <p class="pl">Выход на новый рынок — не простая задача. Высокая конкуренция в нижнем и среднем ценовом сегменте критически увеличивает значение бренда. Для нас было приятным сюрпризом колоссальное превышение всех прогнозных показателей (в том числе и внутренних). Надеемся на продолжение плодотворного сотрудничества с АльфаКонтент.</p>
                         <div class="comment-block">
-                            <div class="ico"><img src="assets/images/case/comment-ico.png" alt=""/></div>
+                            <div class="ico"><img src="/assets/images/case/comment-ico.png" alt=""/></div>
                             <div class="comment-text">
                                 <h3 class="comment-text-head">Обратите внимание:</h3>
                                 <p>К сожалению, мы не можем публиковать реальные названия кампаний и некоторые площадки, на которых размещались рекламные материалы. Просим отнестись с пониманием.</p>

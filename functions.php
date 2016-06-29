@@ -40,8 +40,19 @@ function checkValidationKey($key) {
     return isset($_SESSION['csrf']) && $_SESSION['csrf'] === $key;
 }
 
-function sendMail($to, $subject, $message) {
-    mail($to, $subject, $message);
+function sendMail($to, $subject, $message, $from = null) {
+    require(__DIR__ . "/lib/phpmailer/class.phpmailer.php");
+    $mail = new PHPMailer();
+    $mail->CharSet = "utf-8";
+
+    if ($from !== null) {
+        $mail->setFrom($from);
+    }
+    $mail->addAddress($to);
+    $mail->isHTML(true);
+    $mail->Subject = $subject;
+    $mail->Body = $message;
+    $mail->send();
 }
 
 function sendErrorLog($message) {
@@ -78,4 +89,14 @@ function errorHandler($errno, $errstr, $errfile, $errline) {
     }
     $msg = "\n" . implode("\n", $stack);
     sendErrorLog($msg);
+}
+
+function isAjaxRequest() {
+    return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest' ? true : false;
+}
+
+function redirect($url, $code = 301) {
+    header("HTTP/1.1 $code Moved Permanently");
+    header("Location: $url");
+    exit();
 }

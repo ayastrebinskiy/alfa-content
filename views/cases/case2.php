@@ -1,5 +1,5 @@
 <!-- .ac-popup-modal-->
-<div id="ac-popup-case2" class="ac-popup-modal popup-modal__case"  data-case="case2">
+<div id="ac-popup-case2" class="ac-popup-modal popup-modal__case mfp-hide"  data-case="2">
     <div class="ac-popup-modal__header ac-popup-modal__header-case2">
         <div class="col-12">
             <div class="ac-popup-modal__header-box">
@@ -20,7 +20,7 @@
                         </div>
                         <div class="right">
                             <h2>Тариф</h2>
-                            <span class="img"><img src="assets/images/tariff/b-watermelon_46.png" alt="" width="128"/></span>
+                            <span class="img"><img src="/assets/images/tariff/b-watermelon_46.png" alt="" width="128"/></span>
                             <span class="name">Огромный охват</span>
                             <span class="price">150 000 &#8381;</span>
                         </div>
@@ -85,30 +85,30 @@
                         <h2>Цифры</h2>
                         <div class="numbers-img-warp">
                             <div class="numbers-img-item">
-                                <img src="assets/images/case/case2-graph1.png" alt="Цифры" class="img" />
+                                <img src="/assets/images/case/case2-graph1.png" alt="Цифры" class="img" />
                                 <div class="numbers-img-item__info">
                                     <div class="block-info-top">
-                                        <img src="assets/images/case/case-ico1.png" alt="Охват аудитории">
+                                        <img src="/assets/images/case/case-ico1.png" alt="Охват аудитории">
                                         <div class="block-info-head">Охват аудитории</div>
                                         <div class="block-info-n">546 213</div>
                                     </div>
                                     <div class="block-info-bottom">
-                                        <img src="assets/images/case/case-ico2.png" alt="Цена контакта">
+                                        <img src="/assets/images/case/case-ico2.png" alt="Цена контакта">
                                         <div class="block-info-head">Цена контакта</div>
                                         <div class="block-info-n">0.27 &#8381;</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="numbers-img-item">
-                                <img src="assets/images/case/case2-graph1_2.png" alt="">
+                                <img src="/assets/images/case/case2-graph1_2.png" alt="">
                                 <div class="numbers-img-item__info2">
                                     <div class="block-info-top">
-                                        <img src="assets/images/case/case-ico3.png" alt="Прямые переходы на сайт">
+                                        <img src="/assets/images/case/case-ico3.png" alt="Прямые переходы на сайт">
                                         <div class="block-info-head">Прямые переходы на сайт</div>
                                         <div class="block-info-n">5 434</div>
                                     </div>
                                     <div class="block-info-bottom">
-                                        <img src="assets/images/case/case-ico4.png" alt="Цена перехода">
+                                        <img src="/assets/images/case/case-ico4.png" alt="Цена перехода">
                                         <div class="block-info-head">Цена перехода </div>
                                         <div class="block-info-n">27.60 &#8381;</div>
                                     </div>
@@ -136,7 +136,7 @@
                         <h2 class="feedback-head">Отзыв клиента</h2>
                         <p class="pl">Мы молодая компания по меркам грузоперевозок и продвигаем на рынок не стандартную бизнес-модель, активно ведем собственный маркетинг. Мало кто из подрядчиков готов думать, поэтому, мы сами ведем рекламные кампании и, я считаю, сильно экономим, т.к. сразу чувствуем обратную связь от каждого размещения. Альфа-Контент заинтересовал не стандартным подходом и возможностью “снять шоры”, что бы найти выход на новых клиентов. Мы довольны проделанной работой и рады знакомству с профессиональной командой, способной к реальной работе с потребностями заказчика, а не имитации креативной деятельности.</p>
                         <div class="comment-block">
-                            <div class="ico"><img src="assets/images/case/comment-ico.png" alt=""/></div>
+                            <div class="ico"><img src="/assets/images/case/comment-ico.png" alt=""/></div>
                             <div class="comment-text">
                                 <h3 class="comment-text-head">Обратите внимание:</h3>
                                 <p>К сожалению, мы не можем публиковать реальные названия кампаний и некоторые площадки, на которых размещались рекламные материалы. Просим отнестись с пониманием.</p>

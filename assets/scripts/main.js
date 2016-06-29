@@ -72,6 +72,7 @@ $(document).ready(function () {
         }
         scrollerStart = true;
         location.hash = href.substring(6);
+        window.history.pushState({src: location.hash}, '', location.hash);
         $('html, body').stop().animate({
             scrollTop: offsetTop
         }, 900, function () {
@@ -130,7 +131,7 @@ $(document).ready(function () {
 
 
             this.defClose = this.close;
-            window.location.hash = elem.data('case');
+            window.history.pushState({src: this.ev.prop('href')}, '', this.ev.prop('href'));
 
             $('[href="#ac-popup-casesend"]', elem).on('click', function (e) {
                 var input, form;
@@ -165,10 +166,12 @@ $(document).ready(function () {
                     '}' +
                     '</script>' +
                     '<div data-url="' + window.location.href + '" data-background-alpha="0.0" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-size="15" data-top-button="false" data-share-counter-type="common" data-share-style="11" data-mode="share" data-like-text-enable="false" data-hover-effect="rotate-cw" data-mobile-view="false" data-icon-color="#ffffff" data-orientation="horizontal" data-text-color="#000000" data-share-shape="round-rectangle" data-sn-ids="fb.vk.tw.ok." data-share-size="40" data-background-color="#ffffff" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.ok.vb." data-pid="1537750" data-counter-background-alpha="1.0" data-following-enable="false" data-exclude-show-more="true" data-selection-enable="false" class="uptolike-buttons" ></div>');
+            elem.removeClass('mfp-hide');
         },
         close: function () {
             $('.b-top-clone').remove();
-            window.location.hash = 'work';
+            window.history.pushState({src: '#work'}, '', '/#work');
+            //window.location.hash = 'work';
         },
         change: function (item) {
             if (item.index !== 0) {
@@ -198,11 +201,11 @@ $(document).ready(function () {
     $(window).load(function (event) {
         var href, $screen;
         var anchor = location.hash.substring(1);
-        if (/^case\d+$/.test(anchor)) {
-            var id = location.hash.substring(5);
+        if (/^\/case\/\d+$/.test(location.pathname)) {
+            var id = location.pathname.replace(/\/case\/(\d+)/, '$1');
             $.magnificPopup.open({
                 items: [
-                    {src: '?r=case&id=' + id, type: 'ajax'},
+                    {src: '/case/' + id, type: 'ajax'},
                     {src: '#ac-popup-casesend', type: 'inline'},
                     {src: '#ac-popup-mini', type: 'inline'}
                 ],
@@ -214,6 +217,27 @@ $(document).ready(function () {
             $screen = $('[href="' + href + '"]');
             if ($screen.length) {
                 $screen.click();
+            }
+        }
+    });
+
+
+    $(window).on('popstate', function (e) {
+        var state = e.originalEvent.state;
+        if (state) {
+            if (state.src) {
+                if (state.src.substring(0, 1) === '#') {
+                    if ($.magnificPopup.instance) {
+                        $.magnificPopup.instance.close();
+                    }
+                    var href = '#ac-i-' + state.src.substring(1);
+                    var $screen = $('[href="' + href + '"]');
+                    if ($screen.length) {
+                        $screen.click();
+                    }
+                } else {console.log(state.src);
+                    window.location.href = state.src;
+                }
             }
         }
     });
