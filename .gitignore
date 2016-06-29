@@ -3,3 +3,4 @@ blog
 .mc
 .svn
 .DS_Store
+lib/phpmailer
