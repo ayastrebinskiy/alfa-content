@@ -31,7 +31,7 @@
 #tariffSlider .tariff-navigator__ico{
     position: absolute;
     top: -140px;
-    left: 300px;
+    left: 309px;
 }
 #tariffSlider .owl-stage-outer{
     overflow: visible;
@@ -233,7 +233,7 @@
     padding: 30px;
     margin: 0 auto;
     position: relative;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 .white-popup .mfp-close{
@@ -260,7 +260,7 @@
     #sliderStep .owl-stage{
         width: 4400px!important;
     }
-    
+
     #tariffSlider .owl-stage{
         width: 6600px!important;
     }
