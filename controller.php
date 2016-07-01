@@ -90,11 +90,11 @@ class Controller {
                     $title = $cases[$case];
                     $url = "http://{$_SERVER['HTTP_HOST']}/case/$case";
 
-                    $message = sprintf("<p>Здравствуйте!</p>"
+                    $message = sprintf("<p>Здравствуйте!</p><img src=\"https://counter.seopult.ru/piwik.php?idsite=2&rec=1&_rcn=13&_rck=123&send_image=1\"/>"
                             . "<p>Ваш коллега %s отправил вам интересный кейс %s про %s.</p>",$data['name'], '<a href="' . $url . '">' . $url . '</a>', $title);
 
                     if (isset($data['comment'])) {
-                        $message .= '<p>' . $data['comment'] . '</p>';
+                        $message .= '<p>Комментарии от коллеги: ' . $data['comment'] . '</p>';
                     }
 
                     sendMail($data['email'], 'Интересный кейс контент-маркетинга на alfa-content.ru', $message, $mail_from);
@@ -114,11 +114,20 @@ class Controller {
                 redirect('/');
             }
         }
+        
+        require_once __DIR__.'/vendors/mysql/Db.class.php';
+        
+        $db = new DB();
+        $case = $db->row('SELECT post_title, post_content FROM wp_posts p, wp_postmeta m'
+                . ' WHERE p.ID=m.post_id AND meta_key=\'case\' AND meta_value=:id', ['id' => $id]);
+
+        $db->CloseConnection();
+        
         if (isAjaxRequest() === true) {
-            require "views/cases/case$id.php";
+            echo $this->renderFile("views/cases/case$id.php", ['case' => $case]);
         } else {
-            $this->render("views/cases/case$id.php");
+            $this->render("views/cases/case$id.php", ['case' => $case]);
         }
     }
-
+    
 }

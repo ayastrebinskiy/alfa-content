@@ -1374,7 +1374,7 @@
                 </div>
             </div>
             <div class="ac-popup-modal__footer">
-                <form id="ac-order-form" action="?r=send-tariff" method="post" class="order-form-wapr">
+                <form id="ac-order-form" action="/?r=send-tariff" method="post" class="order-form-wapr">
                     <input type="hidden" id="tariff" name="Client[tariff]" value=""/>
                     <input type="hidden" id="screen" name="Client[screen]" value=""/>
                     <div class="container-modal">
@@ -1434,7 +1434,7 @@
             </div><!-- /.container-modal -->
             <div class="ac-popup-modal__body">
                 <div class="container-modal">
-                    <form id="ac-order-form" action="?r=send-tariff" method="post" class="order-form-wapr">
+                    <form id="ac-order-form" action="/?r=send-tariff" method="post" class="order-form-wapr">
                         <input type="hidden" id="tariff" name="Client[tariff]" value=""/>
                         <input type="hidden" id="screen" name="Client[screen]" value=""/>
                         <div class="container-modal">

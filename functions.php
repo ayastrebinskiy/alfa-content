@@ -41,7 +41,7 @@ function checkValidationKey($key) {
 }
 
 function sendMail($to, $subject, $message, $from = null) {
-    require(__DIR__ . "/lib/phpmailer/class.phpmailer.php");
+    require(__DIR__ . "/vendors/phpmailer/class.phpmailer.php");
     $mail = new PHPMailer();
     $mail->CharSet = "utf-8";
 

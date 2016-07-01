@@ -205,7 +205,7 @@ $(document).ready(function () {
             var id = location.pathname.replace(/\/case\/(\d+)/, '$1');
             $.magnificPopup.open({
                 items: [
-                    {src: '/case/' + id, type: 'ajax'},
+                    {src: '#ac-popup-case' + id, type: 'inline'},
                     {src: '#ac-popup-casesend', type: 'inline'},
                     {src: '#ac-popup-mini', type: 'inline'}
                 ],
