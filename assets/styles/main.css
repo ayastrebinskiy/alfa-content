@@ -1351,12 +1351,20 @@ table {
   top: -10px;
   position: relative;
   margin-left: 20px;
-}/*
+}
 .ac-tariff .tariff-navigator__ico.tariff-navigator__ico-w16 {
-  top: -182px!important;
-} */
+  top: -60px!important;
+  left: 353px!important;
+}
 .ac-tariff .tariff-navigator__ico.tariff-navigator__ico-w26 {
-  top: -145px!important;
+  top: -60px!important;
+  left: 317px!important;
+}
+.ac-tariff .tariff-navigator__ico.tariff-navigator__ico-w36 {
+  top: -60px!important;
+}
+.ac-tariff .tariff-navigator__ico.tariff-navigator__ico-w46 {
+  top: -107px!important;
 }
 .ac-tariff .tariff-navigator__ico {
   position: relative;
