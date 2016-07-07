@@ -17,7 +17,6 @@ if (count($route) === 1) {
 }
 
 
-
 $controller = new $cRoute();
 $result = $controller->run($aRoute);
 
