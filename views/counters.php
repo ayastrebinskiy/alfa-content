@@ -21,11 +21,11 @@
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//seopult.ru/themes/default/js/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    var u="//counter.seopult.ru/";
+    _paq.push(['setTrackerUrl', u+'piwik.js']);
     _paq.push(['setSiteId', 9]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'regions.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
 <noscript><p><img src="//counter.seopult.ru/piwik.php?idsite=9" style="border:0;" alt="" /></p></noscript>

@@ -25,7 +25,18 @@ class Controller {
     }
 
     public function actionIndex() {
-        $content = '';
+        if (isset($_GET['registration'])) {
+            $content = '<script>$(document).ready(function(){'
+                    . "$.magnificPopup.open({
+                        items: {
+                            src: '#ac-popup-order',
+                            type: 'inline'
+                        }
+                    });"
+                    . '});</script>';
+        } else {
+            $content = '';
+        }
         require 'views/main.php';
     }
 
@@ -91,7 +102,7 @@ class Controller {
                     $url = "http://{$_SERVER['HTTP_HOST']}/case/$case";
 
                     $message = sprintf("<p>Здравствуйте!</p><img src=\"https://counter.seopult.ru/piwik.php?idsite=2&rec=1&_rcn=13&_rck=123&send_image=1\"/>"
-                            . "<p>Ваш коллега %s отправил вам интересный кейс %s про %s.</p>",$data['name'], '<a href="' . $url . '">' . $url . '</a>', $title);
+                            . "<p>Ваш коллега, %s, отправил вам интересный кейс %s про %s.</p>", $data['name'], '<a href="' . $url . '">' . $url . '</a>', $title);
 
                     if (isset($data['comment'])) {
                         $message .= '<p>Комментарии от коллеги: ' . $data['comment'] . '</p>';
@@ -114,20 +125,20 @@ class Controller {
                 redirect('/');
             }
         }
-        
-        require_once __DIR__.'/vendors/mysql/Db.class.php';
-        
+
+        require_once __DIR__ . '/vendors/mysql/Db.class.php';
+
         $db = new DB();
         $case = $db->row('SELECT post_title, post_content FROM wp_posts p, wp_postmeta m'
                 . ' WHERE p.ID=m.post_id AND meta_key=\'case\' AND meta_value=:id', ['id' => $id]);
 
         $db->CloseConnection();
-        
+
         if (isAjaxRequest() === true) {
             echo $this->renderFile("views/cases/case$id.php", ['case' => $case]);
         } else {
             $this->render("views/cases/case$id.php", ['case' => $case]);
         }
     }
-    
+
 }

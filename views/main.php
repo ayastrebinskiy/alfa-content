@@ -150,7 +150,7 @@
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">В соцсетях можно делать отличные таргетированные кампании в ленте (в виде креативных постов с картинками и остроумным текстом). Можно работать непосредственно напрямую с популярными блогерами, лидерами мнений и ТОПовыми пабликами. К сожалению, не все тематики «монтируются» с соцстеями, но большинство всё-таки могут успешно работать с этим каналом и получать оттуда превосходный трафик.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">В соцсетях можно делать отличные таргетированные кампании в ленте (в виде креативных постов с картинками и остроумным текстом). Можно работать напрямую с популярными блогерами, лидерами мнений и топовыми пабликами. К сожалению, не все тематики «монтируются» с соцстеями, но для большинства это эффективный канал, с которым можно успешно работать и получать превосходный трафик.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">Это новый musthave в любом медиаплане для бизнеса любой тематики. YouTube – один из основных поставщиков трафика в Рунете, который уже несколько лет как сравнялся с аудиторией федеральных ТВ-каналов в прайм-таймовые часы. На YouTube вы найдёте отличную женскую аудиторию с интересами Дом, Семья, Дети, Красота, Здоровье, Шопинг и пр. Аудиторию мужчин, которые увлекаются или занимаются профессионально строительством, отделкой, проектированием, дизайном. Аудиторию фанатов авто. Аудиторию «новых классов»: хипстеров, яппи, миллениумов и пр. А также весь класс офисных работников всех городов России. Игнорировать YouTube уже просто невозможно! А думать, что там только лишь аудитория школьников и студентов – большая ошибка.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Это новый must-have в любом медиаплане для любого бизнеса любой тематики. YouTube – один из основных поставщиков трафика в Рунете. Аудитория ресурса, уже несколько лет как сравнялась с аудиторией федеральных ТВ-каналов в прайм-тайм. На YouTube вы найдёте отличную женскую аудиторию с интересами: дом, семья, дети, красота, здоровье, шопинг и пр. Аудиторию мужчин, которые увлекаются или профессионально занимаются строительством, отделкой, проектированием, дизайном. Аудиторию фанатов авто. Аудиторию «новых классов»: хипстеров, яппи, миллениалов. А также весь класс офисных работников из всех городов России. Игнорировать YouTube уже просто невозможно! А думать, что там только аудитория школьников и студентов — большая ошибка.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">Таких каналов, где кипит жизнь и любой пост набирает тысячи и десятки тысяч настоящих просмотров и сотни комментариев, на самом деле не много. Но они «золотые», и с ними однозначно стоит работать.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Сообществ, где кипит жизнь и любой пост набирает тысячи и десятки тысяч настоящих просмотров и сотни комментариев, на самом деле не много. Но они «золотые», и с ними однозначно стоит работать.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -187,11 +187,11 @@
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico"><img src="/assets/images/whatformats/whatformats4.png" alt="Посты у ТОПовых блогеров"></div>
                                 <div class="whatformats-block__head">
-                                    <h2 class="whatformats-block__head">Посты у ТОПовых блогеров</h2>
+                                    <h2 class="whatformats-block__head">Посты у топовых блогеров</h2>
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">К сожалению, эффективных блогеров осталось уже не так много. Поэтому мы стараемся включать в медиапланы именно ТОПовых, с которыми у нас долгая история сотрудничества и хорошие условия работы и которые способны отработать для сайта «на ура». </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">К сожалению, эффективных блогеров осталось уже не так много. Поэтому мы стараемся включать в медиапланы именно топовых, которые давно сотрудничают с нами, могут предоставить хорошие условия и способны отработать для сайта на ура. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">Практически в каждой тематике есть хотя бы несколько узконишевых сайтов, где сконцентрировано самое ядро целевой аудитории. Здесь нет миллионной посещаемости, зато собраны все те люди, которым следует узнать о вашем продукте//услуге в первую очередь. И такие сайты обязательно будут в вашем медиаплане.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Практически в каждой тематике есть хотя бы несколько узконишевых сайтов, где сконцентрировано ядро целевой аудитории. Здесь нет миллионной посещаемости, зато собраны все те люди, которым следует узнать о вашем продукте/услуге в первую очередь. И такие сайты обязательно будут в вашем медиаплане.</p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">К сожалению, это ОЧЕНЬ дорогой канал и он скорее имиджевый, нежели нацеленный на трафик и продажи. Но если у вас серьёзные планы, действительно весомые инфоповоды и авторитетные спикеры – мы без проблем сделаем для вас серию публикаций в СМИ, в том числе деловых СМИ. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__circle ac-more-link__circle-green"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Дело в том,что это ОЧЕНЬ дорогой канал и он скорее имиджевый, нежели нацеленный на трафик и продажи. Но если у вас серьёзные планы, действительно весомые инфоповоды и авторитетные спикеры, мы без проблем сделаем для вас серию публикаций в СМИ, в том числе деловых СМИ.
                             </div>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">Это позапрошлый век. Если у вас есть классный инфоповод и вы хотите попасть с ним в СМИ, ваш путь – это только адресные письма журналистам. </p>
+                                <p class="whatformats-block__description-text">Это позапрошлый век. Если у вас есть классный инфоповод и вы хотите попасть с ним в СМИ, ваш путь — это только адресные письма журналистам. </p>
                             </div>
                         </div>
                     </div>
@@ -246,11 +246,11 @@
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="/assets/images/whatformats/whatformats8.png" alt="Очень дорогие ТОПовые сайты"></div>
                                 <div class="whatformats-block__head">
-                                    <h2 class="whatformats-block__head">Очень многие дорогие ТОПовые сайты</h2>
+                                    <h2 class="whatformats-block__head">Очень многие дорогие топовые сайты</h2>
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">К сожалению, счётчики с миллионной посещаемостью и ТОПовые позиции в liveinternet – это не гарант того, что ваш пост на таких ресурсах прочитают хотя бы 1 000 уникальных человек. Зато гарант того, что за размещение такого поста вы заплатите десятки тысяч рублей. Мы не стремимся любой ценой включать в медиапланы ТОПОвые площадки. Во-первых, потому что они очень дорогие и слабо реагируют на попытки выбить скидки. Во-вторых, потому что они крайне слабо работают на трафик. Многие такие площадки до сих пор не перестроились и не позаботились, чтобы к ним приходили читатели из мобильников и соцсетей. И это очень сильно бьёт по их рекламодателям, которые переплачивают втридорога за бренд сайта, который по старой памяти продолжает считаться «крутым». </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Данные о миллионной посещаемости на счётчиках и топовые позиции в Liveinternet — не гарант того, что ваш пост на таких ресурсах прочитает хотя бы 1 000 человек. Зато гарант того, что за размещение такого поста вы заплатите десятки тысяч рублей. Мы не стремимся любой ценой включать в медиапланы топовые площадки. Во-первых, потому что они очень дорогие и слабо реагируют на попытки выбить скидки. Во-вторых, потому что такие площадки крайне слабо работают на трафик. Многие из них до сих пор не перестроились и не позаботились о том, чтобы к ним приходили читатели из мобильних устройств и из соцсетей. И это очень сильно бьёт по рекламодателям, переплачивающим втридорога за бренд сайта, который продолжает считаться «крутым» только по старой памяти. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -259,11 +259,11 @@
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="/assets/images/whatformats/whatformats9.png" alt="Спам в комментариях о_О"></div>
                                 <div class="whatformats-block__head">
-                                    <h2 class="whatformats-block__head">Спам в комментариях, крауд маркетинг</h2>
+                                    <h2 class="whatformats-block__head">Спам в комментариях, крауд-маркетинг</h2>
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">Этого очень много в соцсетях. Но такой метод мало того, что не работает, так и ещё и явно дурной тон, level down для всего бизнеса. Да, можно работать в комментариях к тематичным статьям на посещаемых сайтах, в комментариях к тематичным постам в сообществах. Но опускаться до уровня спама ради ссылки – точно не стоит. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Этого очень много в соцсетях. Но такой метод мало того, что не работает, так ещё и служит примером явно дурного тона, level down для всего бизнеса. Да, можно работать в комментариях к тематическим статьям на посещаемых сайтах, в комментариях к тематическим постам в сообществах. Но опускаться до уровня спама ради ссылки точно не стоит. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -272,11 +272,11 @@
                             <div class="whatformats-block__header">
                                 <div class="whatformats-block__ico whatformats-block__ico-top"><img src="/assets/images/whatformats/whatformats10.png" alt="Форумы"></div>
                                 <div class="whatformats-block__head">
-                                    <h2 class="whatformats-block__head">Форумы<br>UGC контент</h2>
+                                    <h2 class="whatformats-block__head">Форумы,<br>пользовательский контент</h2>
                                 </div>
                             </div>
                             <div class="whatformats-block__description">
-                                <p class="whatformats-block__description-text">Немногим форумам удалось до сих пор сохранить активную, живую аудиторию в сколько-то значимом количестве. Ещё меньшему числу форумов удалось перестроиться на современную архитектуру, юзабилити, чтобы с ними было удобно работать и посты//ветки//отзывы получали приемлемую видимость. И, надо понимать, что модераторы и владельцы оставшихся приличных форумов, конечно же, не позволят спамить в их ветках или «забивать эфиры» фейковыми аккаунтами, созданными под рекламу. Здесь имеет смысл работать либо через платное закрепление коммерческих веток, либо через старых, авторитетных пользователей. Второе – очень кропотливая, ювелирная работа. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
+                                <p class="whatformats-block__description-text">Немногим форумам удалось до сих пор сохранить активную, живую аудиторию сколько-то значимых размеов. Ещё меньшему числу форумов удалось перестроиться на современную архитектуру, юзабилити, чтобы с ними было удобно работать а посты/ветки/отзывы получали приемлемую видимость. И, надо понимать, что модераторы и владельцы оставшихся приличных форумов, не позволят спамить в их ветках или «забивать эфиры» фейковыми аккаунтами, созданными под рекламу. Здесь имеет смысл работать либо через платное закрепление коммерческих веток, либо через старых, авторитетных пользователей. Второе — очень кропотливая, ювелирная работа. </p><a href="#" title="Развернуть описание" class="ac-more-link"><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__circle ac-more-link__circle-red"></span><span class="ac-more-link__text hide-text">Развернуть описание</span></a>
                             </div>
                         </div>
                     </div>
@@ -292,7 +292,7 @@
                         <div class="row we-head-h">
                             <div class="col-12">
                                 <h2 class="wefine-head">Почему мы молодцы</h2>
-                                <h3 class="ac-head__mini wefine-head_small">и с нами точно стоит работать</h3>
+                                <h3 class="ac-head__mini wefine-head_small">и с нами точно стоит сотрудничать</h3>
                             </div>
                         </div>
                         <div class="row">
@@ -301,7 +301,7 @@
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine1.png" alt="В пуле площадок сотни проверенных СМИ"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">В пуле площадок, с которыми мы работаем, сотни проверенных СМИ</span>, блогеров, влогеров, пабликов, сообществ и пр. И каждый день мы перерабатываем «тонну руды», чтобы находить новые достойные площадки.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">В пуле площадок, с которыми мы работаем, сотни проверенных СМИ</span>, блогов, видеоканалов, пабликов, сообществ. И каждый день мы перерабатываем «тонну руды», чтобы находить новые достойные площадки.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -311,7 +311,7 @@
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine2.png" alt="Видим картину всех современных медиа"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">Мы очень ясно и реалистично видим картину всех современных медиа</span> Рунета и точно знаем, на что способны одни, чего стоят другие, какого эффекта ждать от третьих, а с четвёртыми вообще нет смысла работать.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">Мы очень ясно и реалистично видим картину всех современных медиа</span> Рунета и точно знаем, на что способны одни, чего стоят другие, какого эффекта ждать от третьих и почему, с четвёртыми вообще нет смысла иметь дела.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -333,7 +333,7 @@
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine4.png" alt="У нас честный, человеческий подход"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас честный, человеческий подход</span>, мы берёмся работать с микробюджетами, чего не скажешь об абсолютном большинстве рекламных агентств.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">У нас честный, человеческий подход</span>, мы берёмся за проекты с микробюджетами, чего не скажешь об абсолютном большинстве рекламных агентств.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -343,7 +343,7 @@
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine5.png" alt="У нас хорошие ценники, потому что мы работаем в больших объёмах"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы работаем в больших объёмах</span> и есть основание для торга и скидок.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы имеем дело с большими объёмами</span> и есть основание для торга и скидок.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -353,7 +353,7 @@
                                     <div class="wefine-block__description">
                                         <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine6.png" alt="Сложнейшие B2B-тематики"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас богатейший опыт работы со сложнейшими B2B-тематиками</span></p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">У нас значительный опыт работы со сложнейшими B2B-тематиками</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -417,10 +417,10 @@
                         <div class="step-block__description">
                             <div class="step-block__description-head">
                                 <div class="step-block__item"><span class="step-item">1</span></div>
-                                <h2 class="step-block__head">Вы оставляете заявку с указанием сайта, региона, ваших пожеланий (на что хотели бы обратить внимание, как видите свою целевую аудиторию и пр.).</h2>
+                                <h2 class="step-block__head">Вы оставляете заявку с указанием сайта, региона, ваших пожеланий (на что хотели бы обратить внимание, как видите свою целевую аудиторию и т.д.).</h2>
                             </div>
                             <div class="step-block__description-text">
-                                <p class="step-block__text">Оставляя заявку, вы сразу же выбираете бюджет, на который хотели бы сделать кампанию. Это может быть 50 000р., 75 000р., 100 000р., 150 000р., 200 000р., произвольный бюджет от 200 000р. </p>
+                                <p class="step-block__text">Оставляя заявку, вы сразу же выбираете бюджет кампании. Это может быть 50 000 руб., 75 000 руб., 100 000 руб., 150 000 руб., 200 000 руб., произвольный бюджет от 200 000 руб. </p>
                             </div>
                         </div>
                     </div>
@@ -430,10 +430,10 @@
                         <div class="step-block__description">
                             <div class="step-block__description-head">
                                 <div class="step-block__item"><span class="step-item">2</span></div>
-                                <h2 class="step-block__head">Менеджер в течение 3 дней составляет для вас медиаплан со всеми площадками, их описанием, форматами размещений. И присылает на согласование.</h2>
+                                <h2 class="step-block__head">Менеджер в течение 3 дней составляет для вас медиаплан с перечнем площадок, их описанием, форматами размещений. И присылает на согласование.</h2>
                             </div>
                             <div class="step-block__description-text">
-                                <p class="step-block__text">В ходе согласований вы можете отказаться от некоторых или всех площадок и попросить заменить их другими. Мы готовы итерировать медиаплан разумное количество раз.</p>
+                                <p class="step-block__text">В ходе согласований вы можете отказаться от некоторых или всех площадок и попросить заменить их другими. Мы готовы вносить изменения в медиаплан разумное количество раз.</p>
                             </div>
                         </div>
                     </div>
@@ -443,10 +443,10 @@
                         <div class="step-block__description">
                             <div class="step-block__description-head">
                                 <div class="step-block__item"><span class="step-item">3</span></div>
-                                <h2 class="step-block__head">После согласования медиаплана мы начинаем готовить контент и согласовывать его с вами.</h2>
+                                <h2 class="step-block__head">После утверждения медиаплана мы начинаем готовить контент и согласовывать его с вами.</h2>
                             </div>
                             <div class="step-block__description-text">
-                                <p class="step-block__text">Вы, разумеется, можете указывать, где и какие внести правки. Мы готовы итерировать тексты разумное количество раз. </p>
+                                <p class="step-block__text">Вы, разумеется, можете указывать, где и какие внести правки. Мы готовы вносить корректировки в тексты разумное количество раз.</p>
                             </div>
                         </div>
                     </div>
@@ -456,7 +456,7 @@
                         <div class="step-block__description">
                             <div class="step-block__description-head">
                                 <div class="step-block__item"><span class="step-item">4</span></div>
-                                <h2 class="step-block__head">После подготовки контента начинается процесс размещения на площадках. Он занимает порядка 1-1,5 месяцев. После размещения вы сразу получаете ссылку на публикацию/пост/видео и можете работать в комментариях. </h2>
+                                <h2 class="step-block__head">После подготовки контента начинается процесс размещения на площадках. Он занимает порядка 1—1,5 месяцев. После размещения вы сразу получаете ссылку на публикацию/пост/видео и можете работать в комментариях. </h2>
                             </div>
                             <div class="step-block__description-text">
                                 <p class="step-block__text">Мы просим работать в комментариях именно вас, потому что вы больше погружены в бизнес. Разумеется, наш менеджер тоже будет следить за ходом обсуждения и в случае необходимости попробует «потушить пожар», но он вряд ли будет настолько хорошо знаком с рынком и продуктом, насколько заказчик.</p>
@@ -471,7 +471,7 @@
                             <div class="step-block__description-head">
                                 <div class="step-block__item"><span class="step-item">5</span></div>
                                 <!-- /.step-block__item-->
-                                <h2 class="step-block__head">Как только все размещения выполнены, мы собираем статистику прочтений материалов, переходов на ваш сайт, статистику конверсий (если у вас настроены Цели или Электронная коммерция) и сдаём отчёт. </h2>
+                                <h2 class="step-block__head">Как только все размещения выполнены, мы собираем статистику прочтений материалов, переходов на ваш сайт, статистику конверсий (если у вас настроены «Цели» или «Электронная коммерция») и сдаём отчёт. </h2>
                             </div>
                             <!-- /.step-block__description-head-->
                             <div class="step-block__description-text">
@@ -526,7 +526,7 @@
                                                 </div>
                                                 <!-- /.tariff-block__header-->
                                                 <div class="tariff-block__text">
-                                                    <p>Публикации в группах в соцсетях <br>Размещение в роликах на YouTube <br>Размещение платных постов в Facebook <br>Размещение постов с внешними ссылками в Instagram</p>
+                                                    <p>Публикации в соцсетях <br>Размещение в роликах на YouTube <br>Размещение платных постов в Facebook <br>Размещение постов с внешними ссылками в Instagram</p>
                                                 </div>
                                                 <!-- /.tariff-block__text-->
                                             </div>
@@ -549,7 +549,7 @@
                                                         </svg>
 
                                                     </div>
-                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">~ 700-1500</span></div>
+                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">~ 700—1500</span></div>
                                                 </div>
                                                 <!-- /.tariff-block__what-item-->
                                                 <div class="tariff-block__what-item">
@@ -634,7 +634,7 @@
                                                         </svg>
 
                                                     </div>
-                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">~ 1500-2000</span></div>
+                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">~ 1500—2000</span></div>
                                                 </div>
                                                 <!-- /.tariff-block__what-item-->
                                                 <div class="tariff-block__what-item">
@@ -700,7 +700,7 @@
                                                         </svg>
 
                                                     </div>
-                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">~ 2000-3000</span></div>
+                                                    <div class="tariff-block__what-text"><span class="tariff-block__what-head">Переходов на сайт:</span><span class="tariff-block__what-value">~ 2000—3000</span></div>
                                                 </div>
                                                 <!-- /.tariff-block__what-item-->
                                                 <div class="tariff-block__what-item">
@@ -957,7 +957,7 @@
                                             </div>
                                         </div>
                                         <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">За таким ростом вы можете следить сами по графикам Яндекс.Вордстат. </p>
+                                            <p class="getresult-block__description-text">За таким ростом вы можете следить сами по графикам wordstat.yandex.ru. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -979,7 +979,7 @@
                                             </div>
                                         </div>
                                         <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Ни один другой инструмент интернет-рекламы не даёт такого покрытия новой аудитории, как контент-маркетинг. Именно контент-маркетинг уже в первые месяцы работы знакомит с вашим продуктом//услугой десятки тысяч новых людей, которые раньше вообще ничего о вас не знали, а теперь вполне могут оказаться вашими покупателями. Да, понятно, что все эти десятки тысяч не станут вашими покупателями с «первого выстрела».</p>
+                                            <p class="getresult-block__description-text">Ни один другой инструмент интернет-рекламы не даёт такого покрытия новой аудитории, как контент-маркетинг. Именно контент-маркетинг уже в первые месяцы работы знакомит с вашим продуктом//услугой десятки тысяч новых людей, которые раньше вообще ничего о вас не знали, а теперь вполне могут оказаться вашими покупателями. Да, понятно, что все эти десятки тысяч не станут вашими покупателями с «первого выстрела». Но такая работа закладывает отличный фундамент для развития.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -988,11 +988,11 @@
                                         <div class="getresult-block__header">
                                             <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult3.png" alt="Очень целевые переходы на сайт"></div>
                                             <div class="getresult-block__head">
-                                                <h2 class="getresult-block__head">Очень целевые переходы на сайт, которые могут оказаться даже качественнее, чем из контекста</h2>
+                                                <h2 class="getresult-block__head">Целевые переходы на сайт, которые могут оказаться даже качественнее, чем из контекста</h2>
                                             </div>
                                         </div>
                                         <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Особенно часто так бывает у сложных и новых продуктов//услуг, о которых человеку надо сначала почитать, понять, что это, зачем именно ему и пр. Или же у дорогих товаров//услуг. Человек не может купить это сразу, моментально. Например, из контекста. Ему нужно почитать обзоры, посмотреть видеообзоры, изучить отзывы. И только потом купить. </p>
+                                            <p class="getresult-block__description-text">Это особенно актуально для сложных и новых продуктов/услуг, о которых человеку надо сначала почитать, понять, что это, зачем именно ему. А также дорогих товаров/услуг. Человек не может купить это сразу, моментально. Например, из контекста. Ему нужно почитать обзоры, посмотреть видеообзоры, изучить отзывы. И только потом он совершит покупку. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1005,7 +1005,7 @@
                                             </div>
                                         </div>
                                         <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Не всегда и не везде возможно оставить прямую ссылку на сайт. Не всегда это будет выглядеть уместно. Но, не зависимо от того, как много у вас отзывов со ссылками на сайт или без них, через 3-4 месяца кампаний контент-маркетинга, вы начнёте замечать рост прямых заходов на сайт: люди начнут сами искать ваши продукты//услуги. </p>
+                                            <p class="getresult-block__description-text">Не всегда и не везде возможно оставить прямую ссылку на сайт. Не всегда это будет выглядеть уместно. Но, не зависимо от того, как много у вас отзывов со ссылками на сайт или без них, через 3—4 месяца кампаний контент-маркетинга вы начнёте замечать рост прямых заходов на сайт: люди начнут сами искать ваши продукты/услуги. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1018,7 +1018,7 @@
                                             </div>
                                         </div>
                                         <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Так или иначе, но контент-маркетинг тоже подразумевает работу со ссылками. И 7-8 тех публикаций и постов, что будут у вас выходить, будут выходить со ссылками на сайт. При этом ссылки будут с очень авторитетных площадок. Так что SEO-эффект неизбежен, но для этого нужно хотя бы от полугода регулярных кампаний контент-маркетинга. </p>
+                                            <p class="getresult-block__description-text">Так или иначе, но контент-маркетинг тоже подразумевает работу со ссылками. И 7—8 ваших публикаций и постов будут выходить со ссылками на сайт. При этом ссылки будут с очень авторитетных площадок. Так что SEO-эффект неизбежен, но для этого нужно не менее полугода регулярных кампаний контент-маркетинга. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1028,12 +1028,12 @@
                             <div class="col-9">
                                 <div class="getresult-block wow fadeIn" data-wow-delay=".8s">
                                     <div class="getresult-block__header">
-                                        <h2 class="ac-head__mini getresult-head-mini">Чего вы не получите в результате рекламной кампании <br>ни от нас, ни от какого-либо другого исполнителя </h2>
+                                        <h2 class="ac-head__mini getresult-head-mini">Чего вы не получите в результате рекламной кампании <br>ни от нас, ни от любого другого исполнителя </h2>
                                     </div>
                                     <div class="getresult-block__descriptiono">
                                         <div class="text">
                                             <p class="getresult-block__description-text-blod">Мгновенного взрыва продаж, звонков, заявок, обращений</p>
-                                            <p class="getresult-block__description-text">Простите, но не получится вечером посадить рубль, а с утра получить денежное дерево. Интернет-реклама в 2016 – это не рог изобилия и не чудо. Конкуренция очень высокая, цена внимания – ещё выше. Да, в интернете есть такие каналы и площадки, после размещения на которых у людей «ложатся» сайты от количества переходов и обрываются телефоны от количества звонков. И мы знаем все такие каналы и площадки наперечёт. Но их – единицы. А тематики в большинстве своём – либо сложные (и нужна серия публикаций, пока люди поймут, о чём идёт речь), либо типичные (ещё один магазин духов), так что лавинообразные эффекты от размещений бывают, мягко говоря, не каждый день. Плюс – такие площадки, конечно же, не дешёвые. Порог входа начинается где-то от 50-80 тыс. руб. за одно размещение.</p>
+                                            <p class="getresult-block__description-text">Простите, но не выйдет вечером посадить рубль, а с утра получить денежное дерево. Интернет-реклама в 2016 — это не рог изобилия и не чудо. Конкуренция очень высокая, цена внимания — ещё выше. Да, в интернете есть такие каналы и площадки, после размещения на которых у людей «ложатся» сайты от количества переходов и обрываются телефоны от количества звонков. И мы знаем все такие каналы и площадки наперечёт. Но их — единицы. А тематики, с которыми приходится работать, в большинстве своём — либо сложные (и нужна серия публикаций, пока люди поймут, о чём идёт речь), либо типичные (ещё один магазин духов). Так что лавинообразные эффекты от размещений бывают, мягко говоря, не каждый день. Плюс — такие площадки, конечно же, не дешёвые. Порог входа начинается где-то от 50—80 тыс. руб. за одно размещение.</p>
                                         </div>
                                         <div class="ico wow pulse" data-wow-delay=".0s" data-wow-iteration="2"><img src="/assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
                                     </div>
@@ -1399,7 +1399,7 @@
                 <div class="container-modal">
                     <div class="row">
                         <div class="ok-header-block">
-                            <h2 class="modal-ok-header">Спасибо! Мы приняли вашу заявку!<br>Менеджер свяжется с вами в ближайшее время!</h2>
+                            <h2 class="modal-ok-header">Спасибо! Мы приняли вашу заявку.<br>Менеджер свяжется с вами в ближайшее время.</h2>
                         </div>
                         <div class="ok-close-block">
                             <button title="Закрыть (Esc)" type="button" class="ok-close-btn" onclick="$.magnificPopup.close();"><span class="ok-close-btn-cross">×</span> Закрыть</button>

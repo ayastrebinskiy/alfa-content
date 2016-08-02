@@ -3,3 +3,5 @@ RewriteEngine on
 RewriteBase /
 
 RewriteRule case/(\d+)$ ?r=case&id=$1 [L]
+
+RewriteRule registration/?$ ?registration=1 [L]
