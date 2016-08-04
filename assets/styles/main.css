@@ -819,7 +819,7 @@ table {
 .ac-header .menu-item {
   display: inline-block;
   vertical-align: top;
-  margin-right: 12px;
+  margin-right: 1px;
   line-height: 14px;
 }
 .ac-header .menu-item:last-child {
@@ -833,7 +833,7 @@ table {
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  padding: 15px;
+  padding: 14px;
 }
 .ac-header .menu-item a:hover,.ac-header .menu-item a.active {
   background-color: #fff;
@@ -1922,7 +1922,10 @@ a.work-block__link {
   margin-top: 110px;
 }
 .ac-faq .faq-block .faq-head {
-  margin-bottom: 29px;
+  margin-bottom: 32px;
+}
+.ac-faq .row.whatformats-red {
+  margin-bottom: 25px;
 }
 .ac-smi {
   padding-top: 140px;
