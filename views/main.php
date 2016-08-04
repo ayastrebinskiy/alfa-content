@@ -1461,6 +1461,9 @@
         </div>
         <!-- /.ac-work-->
 
+        <div class="ac-faq">
+          <?php require('main-block/_faq.html'); ?>
+        </div><!-- /.ac-faq -->
 
         <!-- .ac-footer-->
         <footer class="ac-footer">

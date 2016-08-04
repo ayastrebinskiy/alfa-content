@@ -1918,6 +1918,12 @@ a.work-block__link {
   margin-bottom: 10px;
   text-align: left;
 }
+.ac-faq {
+  margin-top: 110px;
+}
+.ac-faq .faq-block .faq-head {
+  margin-bottom: 29px;
+}
 .ac-smi {
   padding-top: 140px;
   padding-bottom: 80px;
