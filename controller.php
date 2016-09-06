@@ -140,5 +140,9 @@ class Controller {
             $this->render("views/cases/case$id.php", ['case' => $case]);
         }
     }
+    
+    public function actionPokemon(){
+        echo $this->renderFile('views/pokemon/test.php');
+    }
 
 }

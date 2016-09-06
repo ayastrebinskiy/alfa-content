@@ -6,6 +6,9 @@ RewriteRule case/(\d+)$ ?r=case&id=$1 [L]
 
 RewriteRule ^registration/?$ ?registration=1 [L]
 
+RewriteRule ^faq/?$ /blog/faq/ [L]
+RewriteRule ^rules/?$ /blog/rules/ [L]
+
 AddOutputFilterByType DEFLATE application/xml
 AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml

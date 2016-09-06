@@ -123,7 +123,7 @@ $(document).ready(function () {
             data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
             $.post(url, data, function (result) {
                 if (result.error === false) {
-                    $.magnificPopup.open({items:{src: '<div class="white-popup">Письмо успешно отправлено</div>'}, type:'inline'});
+                    $.magnificPopup.open({items:{src: '<div class="white-popup alert">Письмо успешно отправлено</div>'}, type:'inline'});
                 } else {
                     if (result.field) {
                         showError(result.field, result.text);
