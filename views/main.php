@@ -1389,9 +1389,7 @@
                             </div>
                         </div>
                         <div style="margin-top: 10px">
-                            <a href="/rules" target="_blank" style="font-size:12px">
-                                ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ
-                            </a>
+                            <a href="/rules" target="_blank" class="rules-link" title="Откроется в новом окне">Пользовательское соглашение</a>
                         </div>
 
                     </div>
@@ -1455,9 +1453,7 @@
                                 </div>
                             </div>
                             <div class="row bb1" style="margin: 0">
-                                <a href="/rules" target="_blank" style="font-size:12px">
-                                    ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ
-                                </a>
+                                <a href="/rules" target="_blank" class="rules-link" title="Откроется в новом окне">Пользовательское соглашение</a>
                             </div>
                         </div>
                     </form>
