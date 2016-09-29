@@ -792,7 +792,7 @@ table {
   clear: both;
 }
 .ac-header-warp.sticky {
-  z-index: 99;
+  z-index: 199;
 }
 .ac-header-warp.sticky .ac-header-warp__bg {
   background-color: rgba(255, 255, 255, 0.9);
@@ -824,7 +824,7 @@ table {
   transition: all 0.4s ease;
 }
 .ac-header .menu {
-  margin-left: 25px;
+  margin-left: 21px;
   float: left;
 }
 .ac-header .menu-item {
