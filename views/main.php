@@ -364,7 +364,7 @@
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <div class="wefine-btn-block"><a href="#ac-popup-order" class="wefine-btn-link popup-modal__order-link" data-screen="Почему мы молодцы">Оставить заявку</a></div>
+                                <div class="wefine-btn-block"><a href="#ac-popup-mini" class="wefine-btn-link popup-modal__order-link" data-screen="Почему мы молодцы">Оставить заявку</a></div>
                             </div>
                         </div>
                     </div>
@@ -612,7 +612,7 @@
                             <div class="col-12">
                                 <div class="order-block">
                                     <h2 class="ac-head__mini order-head-mini">Оставьте заявку и мы подберём <br>для вас идеальное решение</h2>
-                                    <div class="order-block__btn-block"><a href="#ac-popup-order" class="order-block__btn-link popup-modal__order-link" data-screen="Оставьте заявку и мы подберём
+                                    <div class="order-block__btn-block"><a href="#ac-popup-mini" class="order-block__btn-link popup-modal__order-link" data-screen="Оставьте заявку и мы подберём
                                                                            для вас идеальное решение">Заказать</a></div>
                                     <!-- /.order-block__btn-block-->
                                 </div>
