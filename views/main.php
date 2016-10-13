@@ -361,7 +361,7 @@
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <div class="wefine-btn-block"><a href="#ac-popup-order" class="wefine-btn-link popup-modal__order-link" data-screen="Почему мы молодцы">Оставить заявку</a></div>
+                                <div class="wefine-btn-block"><a href="#ac-popup-order" class="wefine-btn-link popup-modal__order-link" data-screen="Почему мы молодцы">Подобрать площадки</a></div>
                             </div>
                         </div>
                     </div>
