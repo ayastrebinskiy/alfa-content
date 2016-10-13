@@ -429,7 +429,8 @@ table {
 .ac-popup-modal.popup-modal__mini .ac-head {
   font-size: 25px;
   line-height: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .ac-popup-modal.popup-modal__mini .form-group {
   margin: 10px 40px 10px 40px;
