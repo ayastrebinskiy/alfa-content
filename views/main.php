@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=1, minimal-ui">
-        <title>Alfa-Content &mdash; сочный контент-маркетинг</title>
-        <meta name="description" content="">
+        <title>Alfa-Content — сочный контент-маркетинг</title>
+        <meta name="description" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!">
         <meta name="keywords" content="">
         <meta name="csrf" content="<?php echo generateValidationKey() ?>">
         <meta itemprop="image" content="http://alfa-content.ru/favicon-192x192.png">
@@ -40,21 +40,22 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" sizes="192x192" href="/favicon-192x192.png">
         <link rel="apple-touch-icon" href="/favicon-192x192.png">
-        <link rel="image_src" href="http://alfa-content.ru/favicon-192x192.png"/>
+        <link rel="image_src" href="http://alfa-content.ru/assets/images/pic1.png"/>
+      	<meta name="google-site-verification" content="ssnGtJNMgLZGGsIjTiBHttajzk3RXpKrCmO9tQHJNK4" />
         <meta name="msapplication-TileImage" content="/ifavicon-144x144.png">
-        <meta itemprop="name" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
-        <meta itemprop="description" content="Alfa-Content &amp;mdash; сочный контент-маркетинг">
+        <meta itemprop="name" content="Alfa-Content — сочный контент-маркетинг">
+        <meta itemprop="description" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!">
 
-        <meta property="og:title" content = "Alfa-Content &amp;mdash; сочный контент-маркетинг"/>
-        <meta property="og:discription" content=""/>
-        <meta property="og:image" content = "http://alfa-content.ru/favicon-192x192.png"/>
+        <meta property="og:title" content = "Alfa-Content — сочный контент-маркетинг"/>
+        <meta property="og:discription" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!"/>
+        <meta property="og:image" content = "http://alfa-content.ru/assets/images/pic1.png"/>
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="192">
         <meta property="og:image:height" content="192">
 
-        <meta property="twitter:description" content=""/>
-        <meta property="twitter:title" content="Alfa-Content &amp;mdash; сочный контент-маркетинг"/>
-        <meta property="twitter:image" content = "http://alfa-content.ru/favicon-192x192.png"/>
+        <meta property="twitter:description" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!"/>
+        <meta property="twitter:title" content="Alfa-Content — сочный контент-маркетинг"/>
+        <meta property="twitter:image" content = "http://alfa-content.ru/assets/images/pic1.png"/>
 
 
         <?php /*
@@ -97,6 +98,8 @@
         <meta name="msapplication-TileColor" content="#f46470">
         <meta name="theme-color" content="#f46470">
         <meta name='yandex-verification' content='5a63686111f846b1' />
+        
+        <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=JKeBAswzqR3vdPH8HE37yJ02*bGkOpaWrD0/Hvg85pWF/dWVP/DoFbWXL58dvJyEFkbyBeoNLDn99WkmTPuq8M8dnBWNzHZC1*YX8WReKvnhTyJLVoUNzKC6pYg1AFQn*S1cq11WqpJM2LACawTc0x0BBFbZ/86PC7WaPSHIBUo-&pixel_id=1000028784';</script>
     </head>
     <body class="it-did-not-work">
         <?php require 'counters.php'; ?>
