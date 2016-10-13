@@ -977,7 +977,7 @@
             <div class="container-modal">
                 <div class="ac-popup-modal__header">
                     <div class="col-12">
-                        <h2 class="ac-head ac-popup-modal__head">Заявка на рекламную кампанию</h2>
+                        <h2 class="ac-head ac-popup-modal__head">Заявка на подбор площадок</h2>
                     </div>
                 </div><!-- /.ac-popup-modal__header -->
             </div><!-- /.container-modal -->
