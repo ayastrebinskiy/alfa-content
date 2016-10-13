@@ -1786,6 +1786,10 @@ table {
   margin-top: -5px;
   cursor: pointer;
 }
+.work-block:hover .btn-green {
+  background-color: #a1ff80;
+}
+
 .work-block__head {
   color: #000;
   font-family: 'Panton';
