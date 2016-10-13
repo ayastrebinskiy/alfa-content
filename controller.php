@@ -5,7 +5,7 @@ class Controller {
     public function run($action = 'index') {
         $method = "action$action";
         if (!method_exists($this, $method)) {
-            throw new Exception("Метод не найден");
+            throw new Exception("Метод $method не найден");
         }
 
         return $this->$method();
@@ -130,7 +130,7 @@ class Controller {
 
         $db = new DB();
         $case = $db->row('SELECT post_title, post_content FROM wp_posts p, wp_postmeta m'
-                . ' WHERE p.ID=m.post_id AND meta_key=\'case\' AND meta_value=:id', ['id' => $id]);
+                . ' WHERE p.ID=m.post_id AND post_status!=\'trash\' AND meta_key=\'case\' AND meta_value=:id', ['id' => $id]);
 
         $db->CloseConnection();
 
