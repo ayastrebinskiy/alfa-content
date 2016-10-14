@@ -1754,7 +1754,7 @@ table {
   height: 940px;
   display: block;
   background: #ebebeb;
-  padding-top: 150px;
+  padding-top: 220px;
   margin-left: -99px;
   margin-right: -99px;
 }
@@ -1940,8 +1940,8 @@ a.work-block__link {
   text-align: left;
 }
 .ac-faq {
-  margin-top: 110px;
-  padding-top: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 .ac-faq .faq-block .faq-head {
   margin-bottom: 32px;

@@ -491,12 +491,8 @@
         </div>
         <!-- /.ac-youadv-->
 
-        <!-- .ac-work-->
-        <div id="ac-i-work" class="ac-work" data-block>
-            <?php require('main-block/example-works.html'); ?>
-            <?php require('main-block/_case.html'); ?>
-        </div>
-        <!-- /.ac-work-->
+        <?php require('main-block/_tariff.html'); ?>
+
         <!-- .ac-getresult-->
         <div id="ac-i-getresult" class="ac-getresult" data-block>
             <div class="getresult-warp">
@@ -1018,6 +1014,13 @@
             </div><!-- /.ac-popup-modal__body -->
         </div>
         <!-- /.ac-popup-modal__ok-->
+
+        <!-- .ac-work-->
+        <div id="ac-i-work" class="ac-work" data-block>
+            <?php require('main-block/example-works.html'); ?>
+            <?php require('main-block/_case.html'); ?>
+        </div>
+        <!-- /.ac-work-->
 
         <div id="ac-i-faq" class="ac-faq" data-block>
             <?php require('main-block/_faq.html'); ?>
