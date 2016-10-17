@@ -2073,6 +2073,7 @@ a.work-block__link {
 .ac-footer__tel-box {
   display: inline-block;
   vertical-align: middle;
+  margin-right: 20px;
 }
 .ac-footer__right-block {
   text-align: right;
@@ -2109,7 +2110,7 @@ a.work-block__link {
 .ac-footer__social-link .ac-social-ico {
   fill: #e6e7e8;
   fill-rule: evenodd;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 .ac-footer__social-link_fb:hover .ac-social-ico_fb {
   fill: #3b5998;
