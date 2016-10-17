@@ -2112,13 +2112,21 @@ a.work-block__link {
   fill-rule: evenodd;
   opacity: 0.8;
 }
-.ac-footer__social-link_fb:hover .ac-social-ico_fb {
+.ac-footer__social-link_fb .ac-social-ico_fb {
   fill: #3b5998;
   opacity: 0.6;
 }
-.ac-footer__social-link_vk:hover .ac-social-ico_vk {
+.ac-footer__social-link_vk .ac-social-ico_vk {
   fill: #50769f;
   opacity: 0.6;
+}
+.ac-footer__social-link_fb:hover .ac-social-ico_fb {
+  fill: #3b5998;
+  opacity: 0.9;
+}
+.ac-footer__social-link_vk:hover .ac-social-ico_vk {
+  fill: #50769f;
+  opacity: 0.9;
 }
 .ac-footer__social-link_ok:hover .ac-social-ico_ok {
   fill: #e19126;
