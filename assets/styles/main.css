@@ -2075,6 +2075,13 @@ a.work-block__link {
   vertical-align: middle;
   margin-right: 20px;
 }
+.ac-footer__social-text {
+  position: absolute;
+  left: -36px;
+  top: 6px;
+  color: #ADB2B2;
+  font-size: 14px;
+}
 .ac-footer__right-block {
   text-align: right;
   margin-right: 25px;
