@@ -122,15 +122,19 @@
                             </div>
                         </a>
                         <ul id="ac-topmenu" class="menu">
-                            <li class="menu-item"><a href="#ac-i-whatformats">каналы<br>контент-<br>маркетинга</a></li>
-                            <li class="menu-item"><a href="#ac-i-wefine">почему мы<br>молодцы</a></li>
-                            <li class="menu-item"><a href="#ac-i-youadv">как проходит<br>рекламная<br>кампания</a></li>
-                            <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
-                            <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
-                            <li class="menu-item"><a href="#ac-i-faq">вопросы и<br>ответы</a></li>
-                            <li class="menu-item"><a href="/blog">блог</a></li>
+                          <li class="menu-item"><a href="#ac-i-whatformats">каналы<br>контент-<br>маркетинга</a></li>
+                          <li class="menu-item"><a href="#ac-i-wefine">почему мы<br>молодцы</a></li>
+                          <li class="menu-item"><a href="#ac-i-youadv">как проходит<br>рекламная<br>кампания</a></li>
+                          <li class="menu-item"><a href="#ac-i-tariff">тарифы</a></li>
+                          <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
+                          <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
+                          <li class="menu-item"><a href="#ac-i-faq">вопросы и<br>ответы</a></li>
+                          <li class="menu-item"><a href="/blog">блог</a></li>
                         </ul>
-                        <div class="tel"><a href="tel:+74953747914">+7 (495) 374 79 14</a></div>
+                        <div class="tel">
+                          <a href="tel:+74953747914">+7 (495) 374 79 14</a>
+                          <a href="mailto:info@alfa-content.ru">info@alfa-content.ru</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -608,8 +612,7 @@
                             <div class="col-12">
                                 <div class="order-block">
                                     <h2 class="ac-head__mini order-head-mini">Оставьте заявку и мы подберём <br>для вас идеальное решение</h2>
-                                    <div class="order-block__btn-block"><a href="#ac-popup-mini" class="order-block__btn-link popup-modal__order-link" data-screen="Оставьте заявку и мы подберём
-                                                                           для вас идеальное решение">Заказать</a></div>
+                                    <div class="order-block__btn-block"><a href="#ac-popup-mini" class="order-block__btn-link popup-modal__order-link" data-screen="Оставьте заявку и мы подберём для вас идеальное решение">Заказать</a></div>
                                     <!-- /.order-block__btn-block-->
                                 </div>
                                 <!-- /.order-block-->
