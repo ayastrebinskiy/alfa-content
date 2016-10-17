@@ -877,7 +877,7 @@ table {
   margin-bottom: 0;
 }
 .ac-header .tel a:hover {
-  background-color: #fff;
+  background-color: transparent;
 }
 .ac-logo {
   float: left;
