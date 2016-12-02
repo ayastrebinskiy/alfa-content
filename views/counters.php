@@ -13,7 +13,7 @@
                 f.parentNode.insertBefore(j, f);
             })(window, document, 'script', 'dataLayer', 'GTM-KP2KC6');</script>
         <!-- End Google Tag Manager -->
-        
+
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -30,45 +30,3 @@
 </script>
 <noscript><p><img src="//counter.seopult.ru/piwik.php?idsite=9" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
-
-
-<script type="application/javascript">
-    var seopult_ref="fc27027f4a85afe8";
-    (function (d, w, c) {
-        setTimeout(function() {
-            if (typeof SeoMonstersParent == "object" || document.cookie.indexOf("seomonsters_ab_warn=1") !== -1) {
-                return true;
-            }
-            var i = document.createElement("div");
-            i.id = "adblock-warning";
-            i.style.position = "absolute";
-            i.style.top = "0px";
-            i.style.left = "0px";
-            i.style.right = "0px";
-            i.style.height = "auto";
-            i.style.minHeight = "20px";
-            i.style.padding = "5px";
-            i.style.textAlign = "center";
-            i.style.background = "#fff4e4";
-            i.style.color = "#000";
-            i.style.zIndex = 100000;
-            var html = "SeoМонстры — Увлекательная игра с ценными призами от <a href=\"https://seopult.ru\" target=\"_blank\" style=\"color:#000;\">SeoPult.Ru</a>. ";
-            html+= "Хочешь играть — отключи adBlock для сайтов учавствующих в игре.";
-            html+= "<div id=\"close_warning\" style=\"position:absolute; top:5px; right:5px; cursor: pointer; font-weight: bold;\" onclick=\"document.cookie = \"seomonsters_ab_warn=1; expires:3024000;\"; document.getElementById(\"adblock-warning\").remove();\">X</div>";
-            i.innerHTML = html;
-            document.body.appendChild(i);
-            setTimeout(function() {
-document.getElementById("adblock-warning").remove();
-            }, 15000);
-        }, 3000);
-        var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://seopult.ru/themes/default/js/seomonsters/seomonsters.parent.js";
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "seomonsters_callback");
-</script>
