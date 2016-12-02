@@ -24,6 +24,13 @@ class Controller {
         require 'views/main.php';
     }
 
+    /*public function actionTest() {
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
+        sendTemplate(ADMIN_EMAIL, 'Заявка на контент-маркетинг от Alfa-content.ru', 'after-order.html', ADMIN_EMAIL);
+    }*/
+
     public function actionIndex() {
         if (isset($_GET['registration'])) {
             $content = '<script>$(document).ready(function(){'
@@ -62,9 +69,17 @@ class Controller {
                     $result->error = true;
                     $result->field = $field;
                 } else {
-                    $message = sprintf("Наименование тарифа: %s<br/>Имя: %s<br/>E-mail: %s<br/>Телефон: %s<br/>Экран: %s", $data['tariff'], $data['name'], $data['email'], $data['phone'], $data['screen']);
+                    $message = sprintf("Номер заказа: %s<br/>"
+                            . "Наименование тарифа: %s<br/>"
+                            . "Имя: %s<br/>"
+                            . "E-mail: %s<br/>"
+                            . "Телефон: %s<br/>"
+                            . "Экран: %s<br/>"
+                            . "Сайт: %s<br/>"
+                            . "Цели: %s<br/>", isset($data['orderid']) ? $data['orderid'] : '', $data['tariff'], $data['name'], $data['email'], $data['phone'], $data['screen'], $data['site'], $data['goals']);
                     $_SESSION['rcount'] = isset($_SESSION['rcount']) ? $_SESSION['rcount'] + 1 : 1;
                     sendMail($mail_to, 'Заказ с сайта', $message);
+                    sendTemplate($data['email'], 'Заявка на контент-маркетинг от Alfa-content.ru', 'after-order.html', MANAGER_EMAIL);
                 }
             }
         }
@@ -140,8 +155,8 @@ class Controller {
             $this->render("views/cases/case$id.php", ['case' => $case]);
         }
     }
-    
-    public function actionPokemon(){
+
+    public function actionPokemon() {
         echo $this->renderFile('views/pokemon/test.php');
     }
 

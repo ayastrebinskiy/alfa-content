@@ -41,7 +41,7 @@
         <link rel="icon" sizes="192x192" href="/favicon-192x192.png">
         <link rel="apple-touch-icon" href="/favicon-192x192.png">
         <link rel="image_src" href="http://alfa-content.ru/assets/images/pic1.png"/>
-      	<meta name="google-site-verification" content="ssnGtJNMgLZGGsIjTiBHttajzk3RXpKrCmO9tQHJNK4" />
+        <meta name="google-site-verification" content="ssnGtJNMgLZGGsIjTiBHttajzk3RXpKrCmO9tQHJNK4" />
         <meta name="msapplication-TileImage" content="/ifavicon-144x144.png">
         <meta itemprop="name" content="Alfa-Content — сочный контент-маркетинг">
         <meta itemprop="description" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!">
@@ -122,18 +122,18 @@
                             </div>
                         </a>
                         <ul id="ac-topmenu" class="menu">
-                          <li class="menu-item"><a href="#ac-i-whatformats">каналы<br>контент-<br>маркетинга</a></li>
-                          <li class="menu-item"><a href="#ac-i-wefine">почему мы<br>молодцы</a></li>
-                          <li class="menu-item"><a href="#ac-i-youadv">как проходит<br>рекламная<br>кампания</a></li>
-                          <li class="menu-item"><a href="#ac-i-tariff">тарифы</a></li>
-                          <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
-                          <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
-                          <li class="menu-item"><a href="#ac-i-faq">вопросы и<br>ответы</a></li>
-                          <li class="menu-item"><a href="/blog">блог</a></li>
+                            <li class="menu-item"><a href="#ac-i-whatformats">каналы<br>контент-<br>маркетинга</a></li>
+                            <li class="menu-item"><a href="#ac-i-wefine">почему мы<br>молодцы</a></li>
+                            <li class="menu-item"><a href="#ac-i-youadv">как проходит<br>рекламная<br>кампания</a></li>
+                            <li class="menu-item"><a href="#ac-i-tariff">тарифы</a></li>
+                            <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
+                            <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
+                            <li class="menu-item"><a href="#ac-i-faq">вопросы и<br>ответы</a></li>
+                            <li class="menu-item"><a href="/blog">блог</a></li>
                         </ul>
                         <div class="tel">
-                          <a href="tel:+74953747914">+7 (495) 374 79 14</a>
-                          <a href="mailto:info@alfa-content.ru">info@alfa-content.ru</a>
+                            <a href="tel:+74953747914">+7 (495) 374 79 14</a>
+                            <a href="mailto:info@alfa-content.ru">info@alfa-content.ru</a>
                         </div>
                     </div>
                 </div>
@@ -960,7 +960,12 @@
                 <div class="container-modal">
                     <div class="row">
                         <div class="ok-header-block">
-                            <h2 class="modal-ok-header">Спасибо! Мы приняли вашу заявку.<br>Менеджер свяжется с вами в ближайшее время.</h2>
+                            <?php if (date('N') >= 6 || date('H') < 10 || date('H') > 19): ?>
+                                <h2 class="modal-ok-header">Спасибо за заказ! Менеджер свяжется с вами в ближайшие рабочие часы.
+                                    <br/>Наш график работы: понедельник - пятница (10:00 - 19:00)</h2>
+                            <?php else: ?>
+                                <h2 class="modal-ok-header">Спасибо! Мы приняли вашу заявку.<br>Менеджер свяжется с вами в ближайшее время.</h2>
+                            <?php endif ?>
                         </div>
                         <div class="ok-close-block">
                             <button title="Закрыть (Esc)" type="button" class="ok-close-btn" onclick="$.magnificPopup.close();"><span class="ok-close-btn-cross">×</span> Закрыть</button>
@@ -985,21 +990,32 @@
                     <form id="ac-order-form" action="/?r=send-tariff" method="post" class="order-form-wapr">
                         <input type="hidden" id="tariff" name="Client[tariff]" value=""/>
                         <input type="hidden" id="screen" name="Client[screen]" value=""/>
+                        <input type="hidden" id="orderid" name="Client[orderid]" value="<?php echo uniqid(time()) ?>"/>
                         <div class="container-modal">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group">
+                                    <div class="form-group required">
                                         <input type="text" id="name" name="Client[name]" placeholder="Контактное лицо" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-group">
+                                    <div class="form-group required">
                                         <input type="email" id="email" placeholder="E-mail" name="Client[email]" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-group">
+                                    <div class="form-group required">
                                         <input type="text" id="phone" placeholder="Телефон" name="Client[phone]" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="text" id="site" placeholder="Сайт проекта" name="Client[site]" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea id="goals" placeholder="Цели проекта" name="Client[goals]" class="form-control"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -1064,11 +1080,11 @@
                 </div>
                 <div class="col-6">
                     <div class="ac-footer__right-block">
-                      <div class="ac-footer__social-box">
-                        <div class="ac-footer__social-text">Мы в соцсетях:</div>
-                        <a href="https://www.facebook.com/alfa.content" title="Alfa Content в FaceBook" target="_blank" class="ac-footer__social-link ac-footer__social-link_fb"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_fb" class="ac-social-ico ac-social-ico_fb" d="M415,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,415,7937.01Zm2.072,8.5a0.923,0.923,0,0,0-1.118,1.03v1.92h2.656l-0.279,3.1h-2.377v9.45h-3.636v-9.45H410.5v-3.1h1.818v-2.51c0-2.15,1.212-3.69,3.5-3.69h2.936v3.25h-1.678Z" transform="translate(-400 -7937)"/></svg></a>
-                        <a href="https://vk.com/alfa_content" title="Alfa Content в VK" target="_blank" class="ac-footer__social-link ac-footer__social-link_vk"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_vk" class="ac-social-ico ac-social-ico_vk" d="M452.5,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,452.5,7937.01Zm-9.475,10.87c-0.493,0-1.375.05-.882,0.94s3.659,9.19,9.291,9.19c1.617,0,1.972-.17,1.972-0.81s0.467-2.39,1.531-1.3,1.713,2.11,3.141,2.11h1.868c0.95,0,2.076-.34,1.22-1.45a28.367,28.367,0,0,0-2.518-2.58c-0.389-.42-0.57-0.64-0.025-1.3s2.154-2.73,2.647-3.54,0.13-1.26-.493-1.26H457.87a0.919,0.919,0,0,0-1.142.69,15.769,15.769,0,0,1-2.336,3.66c-0.752.64-.986-0.1-0.986-0.51v-3.15a1.178,1.178,0,0,0-1.272-1.06c-1.049,0-3.2-.08-3.607.5-0.294.41,0.309,0.09,0.753,0.51a2.966,2.966,0,0,1,.363,1.87c0,0.66.028,3.03-1.064,1.82a18.227,18.227,0,0,1-2.258-3.49,1.106,1.106,0,0,0-1.323-.84h-1.973Z" transform="translate(-437.5 -7937)"/></svg></a>
-                      </div><!-- /.ac-footer__social-box-->
+                        <div class="ac-footer__social-box">
+                            <div class="ac-footer__social-text">Мы в соцсетях:</div>
+                            <a href="https://www.facebook.com/alfa.content" title="Alfa Content в FaceBook" target="_blank" class="ac-footer__social-link ac-footer__social-link_fb"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_fb" class="ac-social-ico ac-social-ico_fb" d="M415,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,415,7937.01Zm2.072,8.5a0.923,0.923,0,0,0-1.118,1.03v1.92h2.656l-0.279,3.1h-2.377v9.45h-3.636v-9.45H410.5v-3.1h1.818v-2.51c0-2.15,1.212-3.69,3.5-3.69h2.936v3.25h-1.678Z" transform="translate(-400 -7937)"/></svg></a>
+                            <a href="https://vk.com/alfa_content" title="Alfa Content в VK" target="_blank" class="ac-footer__social-link ac-footer__social-link_vk"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path id="ac-social-ico_vk" class="ac-social-ico ac-social-ico_vk" d="M452.5,7937.01a15,15,0,1,1-15,15A15,15,0,0,1,452.5,7937.01Zm-9.475,10.87c-0.493,0-1.375.05-.882,0.94s3.659,9.19,9.291,9.19c1.617,0,1.972-.17,1.972-0.81s0.467-2.39,1.531-1.3,1.713,2.11,3.141,2.11h1.868c0.95,0,2.076-.34,1.22-1.45a28.367,28.367,0,0,0-2.518-2.58c-0.389-.42-0.57-0.64-0.025-1.3s2.154-2.73,2.647-3.54,0.13-1.26-.493-1.26H457.87a0.919,0.919,0,0,0-1.142.69,15.769,15.769,0,0,1-2.336,3.66c-0.752.64-.986-0.1-0.986-0.51v-3.15a1.178,1.178,0,0,0-1.272-1.06c-1.049,0-3.2-.08-3.607.5-0.294.41,0.309,0.09,0.753,0.51a2.966,2.966,0,0,1,.363,1.87c0,0.66.028,3.03-1.064,1.82a18.227,18.227,0,0,1-2.258-3.49,1.106,1.106,0,0,0-1.323-.84h-1.973Z" transform="translate(-437.5 -7937)"/></svg></a>
+                        </div><!-- /.ac-footer__social-box-->
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
                         <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 (495) 374 79 14</a></div>
                     </div>

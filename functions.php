@@ -41,7 +41,7 @@ function checkValidationKey($key) {
 }
 
 function sendMail($to, $subject, $message, $from = null) {
-    require(__DIR__ . "/vendors/phpmailer/class.phpmailer.php");
+    require_once(__DIR__ . "/vendors/phpmailer/class.phpmailer.php");
     $mail = new PHPMailer();
     $mail->CharSet = "utf-8";
 
@@ -53,6 +53,20 @@ function sendMail($to, $subject, $message, $from = null) {
     $mail->Subject = $subject;
     $mail->Body = $message;
     $mail->send();
+}
+
+function sendTemplate($to, $subject, $pattern, $from = null) {
+    $path = __DIR__ . '/views/mails/' . $pattern;
+    if (!file_exists($path)) {
+        throw new Exception("Файл $path не найден");
+    }
+
+    ob_start();
+    ob_implicit_flush(false);
+    require($path);
+    $message = ob_get_clean();
+    
+    sendMail($to, $subject, $message, $from);
 }
 
 function sendErrorLog($message) {
