@@ -1511,7 +1511,7 @@ table {
 .ac-tariff .tariff-block__what-ico {
   position: absolute;
   left: -5px;
-  top: 6px;
+  top: 16px;
 }
 .ac-tariff .tariff-block__what-text .tariff-block__what-head,
 .ac-tariff .tariff-block__what-text .tariff-block__what-value {
@@ -1706,7 +1706,7 @@ table {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 24.549999999999997%;
+  width: 32.549999999999997%;
   margin-left: 0%;
   margin-right: 0.6%;
 }
@@ -2713,6 +2713,15 @@ a.work-block__link {
   color: #ec5965;
   font-family: 'Panton';
   font-weight: 700;
+}
+.price .wo-nds{
+    color: #000;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+    margin-top: -10px;
+    padding-left: 50px;
+    font-weight: 400;
 }
 .ac-popup-modal.popup-modal__case .ac-popup-modal__body .comment-block {
   position: relative;
