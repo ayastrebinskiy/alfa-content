@@ -1706,9 +1706,9 @@ table {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 32.549999999999997%;
+  width: 22.75%;
   margin-left: 0%;
-  margin-right: 0.6%;
+/*   margin-right: 0.6%; */
 }
 .ac-work .col-3:before,
 .ac-work .col-3:after {
@@ -1720,6 +1720,9 @@ table {
 }
 .ac-work .col-3:last-child {
   margin-right: 0%;
+}
+.work-block__header-description {
+  min-height: 108px;
 }
 .ac-work .col-6 {
   *zoom: 1;
