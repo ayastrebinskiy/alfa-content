@@ -2530,6 +2530,11 @@ a.work-block__link {
   background-image: url("../images/case/case4.jpg");
   background-position: 0% 0%;
 }
+.ac-popup-modal.popup-modal__case .ac-popup-modal__header.ac-popup-modal__header-case5 {
+  background: transparent;
+  background-image: url("../images/case/case5.jpg");
+  background-position: 0% 0%;
+}
 .ac-popup-modal.popup-modal__case .ac-popup-modal__header h2.ac-popup-modal__head {
   color: #fff;
   font-family: 'Panton';
