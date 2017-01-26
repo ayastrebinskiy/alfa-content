@@ -1,10 +1,10 @@
 <!-- .ac-popup-modal-->
-<div id="ac-popup-case4" class="ac-popup-modal popup-modal__case mfp-hide"  data-case="5">
+<div id="ac-popup-case5" class="ac-popup-modal popup-modal__case mfp-hide"  data-case="5">
     <div class="ac-popup-modal__header ac-popup-modal__header-case5">
         <div class="col-12">
             <div class="ac-popup-modal__header-box">
                 <h2 class="ac-popup-modal__head"><?=$case['post_title']?></h2>
-                <div class="send-case__wrap"><a href="#ac-popup-casesend" class="send-case">Послать коллеге</a></div>
+                <div class="send-case__wrap"><a href="#ac-popup-casesend" class="send-case" style="background-color: rgba(236, 89, 101,0.9);">Послать коллеге</a></div>
             </div>
         </div>
     </div>
