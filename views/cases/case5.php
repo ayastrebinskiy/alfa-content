@@ -4,7 +4,7 @@
         <div class="col-12">
             <div class="ac-popup-modal__header-box">
                 <h2 class="ac-popup-modal__head"><?=$case['post_title']?></h2>
-                <div class="send-case__wrap"><a href="#ac-popup-casesend" class="send-case">Послать коллеге</a></div>
+                <div class="send-case__wrap"><a href="#ac-popup-casesend" class="send-case" style="background-color: rgba(236, 89, 101,0.9);">Послать коллеге</a></div>
             </div>
         </div>
     </div>
