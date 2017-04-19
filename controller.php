@@ -78,7 +78,8 @@ class Controller {
                             . "Сайт: %s<br/>"
                             . "Цели: %s<br/>", isset($data['orderid']) ? $data['orderid'] : '', $data['tariff'], $data['name'], $data['email'], $data['phone'], $data['screen'], $data['site'], $data['goals']);
                     $_SESSION['rcount'] = isset($_SESSION['rcount']) ? $_SESSION['rcount'] + 1 : 1;
-                    sendMail($mail_to, 'Заказ с сайта', $message);
+	                log_file(str_replace('<br/>',"\n",$message));
+                    sendMail($mail_to, 'Заказ с сайта', $message, MANAGER_EMAIL);
                     sendTemplate($data['email'], 'Заявка на контент-маркетинг от Alfa-content.ru', 'after-order.html', MANAGER_EMAIL);
                 }
             }

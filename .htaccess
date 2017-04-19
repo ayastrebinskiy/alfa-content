@@ -1,6 +1,11 @@
 RewriteEngine on
 
+RedirectMatch 403 ^/log/.*\.log
+
 RewriteBase /
+
+RewriteRule ^sitemap(-+([a-zA-Z0-9_-]+))?\.xml$ /blog/sitemap$1.xml [L]
+RewriteRule ^terms-and-conditions/?$ /blog/terms-and-conditions/ [L]
 
 RewriteRule case/(\d+)$ ?r=case&id=$1 [L]
 
@@ -8,6 +13,11 @@ RewriteRule ^registration/?$ ?registration=1 [L]
 
 RewriteRule ^faq/?$ /blog/faq/ [L]
 RewriteRule ^rules/?$ /blog/rules/ [L]
+
+RewriteRule ^index\.php[/]*$ / [L,R=301]
+
+RewriteCond %{THE_REQUEST} //
+RewriteRule .* /$0 [R=301,L]
 
 AddOutputFilterByType DEFLATE application/xml
 AddOutputFilterByType DEFLATE application/xhtml+xml
@@ -20,3 +30,6 @@ AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
 SetOutputFilter DEFLATE
+
+
+

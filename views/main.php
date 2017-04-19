@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=1, minimal-ui">
-        <title>Alfa-Content — сочный контент-маркетинг</title>
-        <meta name="description" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!">
+        <title>Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу</title>
+        <meta name="description" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу.">
         <meta name="keywords" content="">
         <meta name="csrf" content="<?php echo generateValidationKey() ?>">
         <meta itemprop="image" content="http://alfa-content.ru/favicon-192x192.png">
@@ -43,18 +43,18 @@
         <link rel="image_src" href="http://alfa-content.ru/assets/images/pic1.png"/>
         <meta name="google-site-verification" content="ssnGtJNMgLZGGsIjTiBHttajzk3RXpKrCmO9tQHJNK4" />
         <meta name="msapplication-TileImage" content="/ifavicon-144x144.png">
-        <meta itemprop="name" content="Alfa-Content — сочный контент-маркетинг">
-        <meta itemprop="description" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!">
+        <meta itemprop="name" content="Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу">
+        <meta itemprop="description" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу.">
 
-        <meta property="og:title" content = "Alfa-Content — сочный контент-маркетинг"/>
-        <meta property="og:discription" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!"/>
+        <meta property="og:title" content = "Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу"/>
+        <meta property="og:discription" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу."/>
         <meta property="og:image" content = "http://alfa-content.ru/assets/images/pic1.png"/>
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="192">
         <meta property="og:image:height" content="192">
 
-        <meta property="twitter:description" content="Обеспечьте сайт качественным конверсионным трафиком и получите доступ к совершенно новой целевой аудитории!"/>
-        <meta property="twitter:title" content="Alfa-Content — сочный контент-маркетинг"/>
+        <meta property="twitter:description" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу."/>
+        <meta property="twitter:title" content="Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу"/>
         <meta property="twitter:image" content = "http://alfa-content.ru/assets/images/pic1.png"/>
 
 

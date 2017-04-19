@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /index.php
+
+User-agent: Yandex
+Disallow: /index.php
+
+Host: alfa-content.ru
+
+Sitemap: http://alfa-content.ru/sitemap.xml

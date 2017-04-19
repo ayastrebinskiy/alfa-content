@@ -73,6 +73,22 @@ function sendErrorLog($message) {
     mail(ADMIN_EMAIL, 'Error', $message);
 }
 
+function log_file($text){
+	$filename = LOG_FILEDIR . '/'.date('Y_m_d').'.log';
+	$oldfile = LOG_FILEDIR . '/'.date("Y_m_d", strtotime("-1 month", time())).'.log';
+	if(is_file($oldfile)){
+		@unlink($oldfile);
+	}
+	$fp = @fopen($filename,'a');
+	if($fp !== false){
+		@flock($fp, LOCK_EX);
+		@fwrite($fp, $text."\n");
+		@flock($fp, LOCK_UN);
+		@fclose($fp);
+		@chmod($filename, 0640);
+	}
+}
+
 function exceptionHandler($e) {
     $msg = "%s in %s (%s)";
     $msg = sprintf($msg, $e->getMessage(), $e->getFile(), $e->getLine());
