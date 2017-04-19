@@ -1045,6 +1045,13 @@ table {
   line-height: 22px;
   display: block;
 }
+.ac-whatformats .whatformats-block__head > a {
+  color: #262626;
+  text-decoration: none;
+}
+.ac-whatformats .whatformats-block__head > a:hover {
+  color: #37d300;
+}
 .ac-whatformats .whatformats-block__ico {
   min-height: 120px;
   margin-bottom: 10px;
