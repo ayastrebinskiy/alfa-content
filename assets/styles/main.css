@@ -1045,11 +1045,11 @@ table {
   line-height: 22px;
   display: block;
 }
-.ac-whatformats .whatformats-block__head > a {
-  color: #262626;
+.whatformats-block > a {
   text-decoration: none;
 }
-.ac-whatformats .whatformats-block__head > a:hover {
+.whatformats-block > a:hover .whatformats-block__head,
+.ac-whatformats .whatformats-block:hover .whatformats-block__head {
   color: #37d300;
 }
 .ac-whatformats .whatformats-block__ico {
