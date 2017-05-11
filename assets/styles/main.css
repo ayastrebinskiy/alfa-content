@@ -1045,8 +1045,10 @@ table {
   line-height: 22px;
   display: block;
 }
-.whatformats-block > a {
+.whatformats-block > a,
+.whatformats-block .whatformats-block__header a {
   text-decoration: none;
+  border-bottom: 0;
 }
 .whatformats-block > a:hover .whatformats-block__head,
 .ac-whatformats .whatformats-block:hover .whatformats-block__head {
