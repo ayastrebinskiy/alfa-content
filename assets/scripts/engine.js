@@ -287,11 +287,11 @@ $(document).ready(function () {
 
 
     //wait popup
-    $('.whatformats-block .ac-more-link,.whatformats-block:has(.ac-more-link)').on('click', function (e) {
+    $('.whatformats-block .whatformats-block__description').on('click', function (e) {
+
         var block = $(this).hasClass('whatformats-block') ? $(this) : $(this).closest('.whatformats-block');
         var clone = block.clone();
         var hide = function (e) {
-            console.log(e);
             $(this).remove();
         };
 

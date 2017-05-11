@@ -6,6 +6,8 @@ RewriteBase /
 
 RewriteRule ^sitemap(-+([a-zA-Z0-9_-]+))?\.xml$ /blog/sitemap$1.xml [L]
 RewriteRule ^terms-and-conditions/?$ /blog/terms-and-conditions/ [L]
+RewriteRule ^what-formats/(.+) /blog/what-formats/$1 [L]
+
 
 RewriteRule case/(\d+)$ ?r=case&id=$1 [L]
 
