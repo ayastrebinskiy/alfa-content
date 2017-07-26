@@ -276,6 +276,21 @@
     font-weight: 400;
 }
 
+.footer__confidential {
+    display: block;
+    margin-top: 2px;
+}
+
+.footer__confidential a {
+    color: #ADB2B2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer__confidential a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1200px){
     #sliderStep .owl-item{
         width: 750px!important;
