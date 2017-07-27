@@ -15,6 +15,7 @@ RewriteRule ^registration/?$ ?registration=1 [L]
 
 RewriteRule ^faq/?$ /blog/faq/ [L]
 RewriteRule ^rules/?$ /blog/rules/ [L]
+RewriteRule ^confidential/?$ /blog/confidential/ [L]
 
 RewriteRule ^index\.php[/]*$ / [L,R=301]
 
