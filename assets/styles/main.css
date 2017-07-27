@@ -2087,6 +2087,9 @@ a.work-block__link {
   vertical-align: middle;
   margin-right: 20px;
 }
+.ac-footer__tel-box {
+  position: relative;
+}
 .ac-footer__social-text {
   position: absolute;
   left: -36px;

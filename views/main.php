@@ -875,6 +875,12 @@
                                 </div>
                             </div>
                             <div class="row bb1" style="margin: 0">
+                              <div class="form-check">
+                                <input type="checkbox" name="confidentialYes" id="confidential" checked>
+                                <label for="confidential">
+                                  <span class="form-check-control">Настоящим я даю <a href="http://alfa-content.ru/confidential/" target="_blank">согласие</a> на использование моих персональных данных.</span>
+                                </label>
+                              </div><!-- /.form-check -->
                                 <a href="/rules" target="_blank" class="rules-link" title="Откроется в новом окне">Пользовательское соглашение</a>
                             </div>
                         </div>
