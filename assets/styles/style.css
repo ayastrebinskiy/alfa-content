@@ -277,18 +277,154 @@
 }
 
 .footer__confidential {
-    display: block;
-    margin-top: 2px;
+  display: block;
+  position: absolute;
+  width: 230px;
+  right: 0;
+  bottom: -20px;
 }
 
 .footer__confidential a {
-    color: #ADB2B2;
-    font-size: 14px;
-    text-decoration: none;
+  color: #ADB2B2;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 .footer__confidential a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+  color: #ec5965;
+}
+
+.form-check {
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-check label {
+  min-height: 20px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  font-weight: 400;
+  cursor: pointer;
+  color: rgb(44, 49, 51);
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.form-check input[type=checkbox], .form-check input[type=radio] {
+	position: absolute;
+	margin-top: 4px\9;
+	margin-left: -20px;
+}
+
+.form-check {
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.form-check label {
+  position: relative;
+}
+
+.form-check span, .form-check div {
+}
+
+.form-check span:before, .form-check span:after, .form-check div:before, .form-check div:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.form-check input {
+}
+
+.form-check input[type="radio"], .form-check input[type="checkbox"]{
+  display: none;
+}
+
+/* .form-check .form-check-control {
+  color: rgb(44, 49, 51);
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px
+} */
+
+.form-check .form-check-control:before{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(233, 239, 240);
+  border-radius: 2px;
+  left: -30px;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.form-check .form-check-control:hover:before{
+  border: 1px solid rgb(195, 200, 204);
+}
+
+.form-check .form-check-control:after{
+  width: 14px;
+  height: 11px;
+  background-position: 50% 50%;
+  background-image: none;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  overflow: hidden;
+  left: -27px;
+  top: 0px;
+  color: transparent;
+  transition: color 0.2s;
+}
+
+.form-check input[type="checkbox"]:checked + label .form-check-control:after {
+  color: #62afff;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMidYMid' width='12' height='9' viewBox='0 0 12 9' fill='%23ffffff'%3E%3Cpath d='M1.414 2.261L5 6.048 10.586 0 12 1.475 5 8.999 0 3.737l1.414-1.476z' class='f-icon check-small'/%3E%3C/svg%3E");
+}
+
+.form-check input[type="checkbox"]:checked + label .form-check-control:before {
+  background-color: rgb(66, 204, 5);
+  border-color: rgb(66, 204, 5);
+}
+
+.form-check input[type="checkbox"]:checked + label .form-check-control:hover:before {
+  background-color: rgb(82, 225, 19);
+  border-color: rgb(82, 225, 19);
+}
+
+.container-modal .form-check {
+  text-align: left;
+  margin-bottom: 14px;
+  padding-left: 65px;
+  padding-left: 65px;
+}
+
+.container-modal .form-check a {
+  color: #ec5965;
+  border-bottom: 1px solid rgba(236,88,100,.8);
+  text-decoration: none;
+}
+
+.container-modal .form-check a:hover {
+  color: #000;
+  border-bottom-color: rgba(0,0,0,.8);
+}
+
+.container-modal .form-check label {
+  padding-left: 0;
+}
+
+.container-modal .form-check label .form-check-control {
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
 }
 
 @media screen and (max-width: 1200px){
