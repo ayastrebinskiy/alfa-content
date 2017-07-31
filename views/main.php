@@ -12,11 +12,11 @@
         <link rel="stylesheet" href="/assets/styles/main.css?v2">
         <link rel="stylesheet" href="/assets/scripts/magnific-popup/magnific-popup.css">
         <link rel="stylesheet" href="/assets/styles/animate.css?">
-        <link rel="stylesheet" href="/assets/styles/style.css">
+        <link rel="stylesheet" href="/assets/styles/style.css?<?=time()?>">
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
         <script type="text/javascript" src="/assets/scripts/main.js?"></script>
-        <script type="text/javascript" src="/assets/scripts/engine.js"></script>
+        <script type="text/javascript" src="/assets/scripts/engine.js?<?=time()?>"></script>
         <script src="/assets/scripts/wow.min.js"></script>
         <script type="text/javascript">new WOW().init();</script>
         <script src="/assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
@@ -876,7 +876,7 @@
                             </div>
                             <div class="row bb1" style="margin: 0">
                               <div class="form-check">
-                                <input type="checkbox" name="confidentialYes" id="confidential" checked>
+                                <input type="checkbox" name="confidentialYes" id="confidential">
                                 <label for="confidential">
                                   <span class="form-check-control">Настоящим я даю <a href="http://alfa-content.ru/confidential/" target="_blank">согласие</a> на использование моих персональных данных.</span>
                                 </label>

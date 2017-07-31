@@ -92,6 +92,14 @@ $(document).ready(function () {
         e.preventDefault();
         data = $form.serializeArray();
         if (checkForm($form) === true) {
+            if(!$('#confidential').is(':checked')){
+                var el = $('.form-check-control', $('#confidential').next());
+                el.addClass('error');
+                $('#confidential').one('click', function(){
+                    el.removeClass('error');
+                });
+                return false;
+            }
             data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
             $.post(url, data, function (result) {
                 if (typeof dataLayer !== 'undefined') {
