@@ -2092,10 +2092,9 @@ a.work-block__link {
 }
 .ac-footer__social-text {
   position: absolute;
-  left: -36px;
-  top: 6px;
+  top: -20px;
   color: #ADB2B2;
-  font-size: 14px;
+  font-size: 12px;
 }
 .ac-footer__right-block {
   text-align: right;
@@ -2106,7 +2105,7 @@ a.work-block__link {
   margin-left: 25px;
 }
 .ac-footer__mail-box {
-  margin-right: 63px;
+  margin-right: 24px;
 }
 .ac-footer__tel-box .footer-tel-link,
 .ac-footer__mail-box .footer-mail-link {
@@ -2128,6 +2127,10 @@ a.work-block__link {
   -ms-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  margin-right: 4px;
+}
+.ac-footer__social-link:last-child {
+  margin-right: 0;
 }
 .ac-footer__social-link .ac-social-ico {
   fill: #e6e7e8;
@@ -2158,6 +2161,8 @@ a.work-block__link {
   fill: #00acee;
   opacity: 0.6;
 }
+
+
 .b-top {
   bottom: 110px;
   right: 15px;
