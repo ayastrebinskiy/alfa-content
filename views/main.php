@@ -934,7 +934,7 @@
                         </div><!-- /.ac-footer__social-box-->
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
                         <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 (495) 374 79 14</a>
-                        <div class="footer__confidential"><a href="/confidential/" target="_blank">Политика конфиденциальности</a></div></div>
+                        <div class="footer__confidential"><a href="/confidential/" target="_blank">Политика конфиденциальности и обработки персональных данных</a></div></div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>

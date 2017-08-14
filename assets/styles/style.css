@@ -281,7 +281,8 @@
   position: absolute;
   width: 230px;
   right: 0;
-  bottom: -20px;
+  bottom: -30px;
+  line-height: 16px;
 }
 
 .footer__confidential a {
