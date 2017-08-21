@@ -31,5 +31,8 @@ AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
 SetOutputFilter DEFLATE
 
-
-
+Redirect 301 /blog/prodvizhenie-aksessuarov-dlya-kompyuternyx-igr-ot-kampanii-proizvoditelya http://alfa-content.ru/case/1
+Redirect 301 /blog/kampaniya-dlya-onlajn-servisa-gruzoperevozok http://alfa-content.ru/case/2
+Redirect 301 /blog/prodvizhenie-konstruktora-sajtov-sredi-vebmasterov-chastnyx-predprinimatelej-i-vladelcev-malogo-biznesa http://alfa-content.ru/case/3
+Redirect 301 /blog/kampaniya-dlya-onlajn-kursov-po-mnogochislennym-vidam-izobrazitelnogo-iskusstva http://alfa-content.ru/case/4
+Redirect 301 /blog/prodvizhenie-stroitelnoj-kompanii http://alfa-content.ru/case/5
