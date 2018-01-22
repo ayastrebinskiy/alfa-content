@@ -3,19 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=1, minimal-ui">
-        <title>Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу</title>
-        <meta name="description" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу.">
+        <title>Интернет продвижение самостоятельно: сервисы и инструменты</title>
+        <meta name="description" content="Реклама у блогеров, в прессе, на популярных сайтах. Долгосрочный эффект, быстрый результат.">
         <meta name="keywords" content="">
         <meta name="csrf" content="<?php echo generateValidationKey() ?>">
         <meta itemprop="image" content="http://alfa-content.ru/favicon-192x192.png">
         <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <link rel="stylesheet" href="/assets/styles/main.css?v2">
+        <link rel="stylesheet" href="/assets/styles/main.css?<?php echo time(); ?>">
         <link rel="stylesheet" href="/assets/scripts/magnific-popup/magnific-popup.css">
         <link rel="stylesheet" href="/assets/styles/animate.css?">
-        <link rel="stylesheet" href="/assets/styles/style.css?<?=time()?>">
+        <link rel="stylesheet" href="/assets/styles/style.css?<?php echo time(); ?>">
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
-        <script type="text/javascript" src="/assets/scripts/main.js?"></script>
+        <script type="text/javascript" src="/assets/scripts/main.js?<?php echo time(); ?>"></script>
         <script type="text/javascript" src="/assets/scripts/engine.js?<?=time()?>"></script>
         <script src="/assets/scripts/wow.min.js"></script>
         <script type="text/javascript">new WOW().init();</script>
@@ -43,18 +43,18 @@
         <link rel="image_src" href="http://alfa-content.ru/assets/images/pic1.png"/>
         <meta name="google-site-verification" content="ssnGtJNMgLZGGsIjTiBHttajzk3RXpKrCmO9tQHJNK4" />
         <meta name="msapplication-TileImage" content="/ifavicon-144x144.png">
-        <meta itemprop="name" content="Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу">
-        <meta itemprop="description" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу.">
+        <meta itemprop="name" content="Интернет продвижение самостоятельно: сервисы и инструменты">
+        <meta itemprop="description" content="Реклама у блогеров, в прессе, на популярных сайтах. Долгосрочный эффект, быстрый результат.">
 
-        <meta property="og:title" content = "Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу"/>
-        <meta property="og:discription" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу."/>
+        <meta property="og:title" content = "Интернет продвижение самостоятельно: сервисы и инструменты"/>
+        <meta property="og:discription" content="Реклама у блогеров, в прессе, на популярных сайтах. Долгосрочный эффект, быстрый результат."/>
         <meta property="og:image" content = "http://alfa-content.ru/assets/images/pic1.png"/>
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="192">
         <meta property="og:image:height" content="192">
 
-        <meta property="twitter:description" content="Что такое контент маркетинг. Рабочие каналы и форматы. Как это работает. Примеры реальных размещений и отдачи. Заказать услугу и получить консультацию по контент-маркетингу."/>
-        <meta property="twitter:title" content="Контент-маркетинг от Alfa-Content: что это такое, как работает, заказать услугу"/>
+        <meta property="twitter:description" content="Реклама у блогеров, в прессе, на популярных сайтах. Долгосрочный эффект, быстрый результат."/>
+        <meta property="twitter:title" content="Интернет продвижение самостоятельно: сервисы и инструменты"/>
         <meta property="twitter:image" content = "http://alfa-content.ru/assets/images/pic1.png"/>
 
 
@@ -101,9 +101,9 @@
 
         <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=JKeBAswzqR3vdPH8HE37yJ02*bGkOpaWrD0/Hvg85pWF/dWVP/DoFbWXL58dvJyEFkbyBeoNLDn99WkmTPuq8M8dnBWNzHZC1*YX8WReKvnhTyJLVoUNzKC6pYg1AFQn*S1cq11WqpJM2LACawTc0x0BBFbZ/86PC7WaPSHIBUo-&pixel_id=1000028784';</script>
     </head>
-    <body class="it-did-not-work">
+    <body class="it-did-not-work"
         <?php require 'counters.php'; ?>
-        <!-- .ac-header-->
+        <!-- /.ac-header -->
         <div class="ac-header">
             <div class="header__bg">
                 <?php require('main-block/_slider-container.html'); ?>
@@ -117,22 +117,22 @@
                                     <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><path id="green" class="logo_ac-green" d="M88.392,70.816a43.582,43.582,0,0,1-44.8-.027L38,80.494a56.046,56.046,0,0,0,56,.017Z" transform="translate(-38 -32)"/><path id="red" class="logo_ac-red" d="M65.942,32L44.993,68.359a41.991,41.991,0,0,0,41.994.029ZM61.361,62.448L66,54c1.383,2.391,2.791,5.227,4.655,8.45A31.23,31.23,0,0,1,66,63,30.851,30.851,0,0,1,61.361,62.448Z" transform="translate(-38 -32)"/></svg>
                                 </div>
                                 <div class="logo-box__text">
-                                    <h2>Alfa-Content</h2><span>Сочный контент-маркетинг</span>
+                                    <h2>Alfa-Content</h2><span>Сочный маркетинг</span>
                                 </div>
                             </div>
                         </a>
                         <ul id="ac-topmenu" class="menu">
-                            <li class="menu-item"><a href="#ac-i-whatformats">каналы<br>контент-<br>маркетинга</a></li>
-                            <li class="menu-item"><a href="#ac-i-wefine">почему мы<br>молодцы</a></li>
-                            <li class="menu-item"><a href="#ac-i-youadv">как проходит<br>рекламная<br>кампания</a></li>
-                            <li class="menu-item"><a href="#ac-i-tariff">тарифы</a></li>
-                            <li class="menu-item"><a href="#ac-i-getresult">Что вы<br>получите</a></li>
-                            <li class="menu-item"><a href="#ac-i-work">примеры<br>работ</a></li>
-                            <li class="menu-item"><a href="#ac-i-faq">вопросы и<br>ответы</a></li>
-                            <li class="menu-item"><a href="/blog">блог</a></li>
+                            <li class="menu-item"><a href="#ac-i-whatformats">Каналы<br>маркетинга</a></li>
+                            <li class="menu-item"><a href="#ac-i-wefine">Почему мы<br>молодцы</a></li>
+                            <li class="menu-item"><a href="#ac-i-youadv">Как проходит<br>рекламная<br>кампания</a></li>
+                            <li class="menu-item"><a href="#ac-i-getresult">Какие задачи<br>решаем</a></li>
+                            <li class="menu-item"><a href="#ac-i-tariff">Что вы<br>получите</a></li>
+                            <li class="menu-item"><a href="#ac-i-work">Примеры<br>работ</a></li>
+                            <li class="menu-item"><a href="#ac-i-faq">FAQ</a></li>
+                            <li class="menu-item"><a href="/blog">Блог</a></li>
                         </ul>
                         <div class="tel">
-                            <a href="tel:+74953747914">+7 (495) 374 79 14</a>
+                            <a href="tel:+74956680815">+7 (495) 668 08 15</a>
                             <a href="mailto:info@alfa-content.ru">info@alfa-content.ru</a>
                         </div>
                     </div>
@@ -152,13 +152,15 @@
                                 <h3 class="ac-head__mini wefine-head_small">и с нами точно стоит сотрудничать</h3>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-4">
-                                <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
+
+                                <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine1.png" alt="В пуле площадок сотни проверенных СМИ"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine7.png" alt="Полный контроль рекламной кампании и расходов"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">В пуле площадок, с которыми мы работаем, сотни проверенных СМИ</span>, блогов, видеоканалов, пабликов, сообществ. И каждый день мы перерабатываем «тонну руды», чтобы находить новые достойные площадки.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">Полный контроль рекламной кампании и расходов</span>. Вам не нужно беспокоиться, что с вас берут деньги за услуги, которые не оказывали. В любой момент вы можете сформировать отчет за выбранный период и увидеть реальные затраты.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -166,9 +168,9 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine2.png" alt="Видим картину всех современных медиа"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine8.png" alt="Холдинг SeoPult, на базе которого работают сервисы"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">Мы очень ясно и реалистично видим картину всех современных медиа</span> Рунета и точно знаем, на что способны одни, чего стоят другие, какого эффекта ждать от третьих и почему, с четвёртыми вообще нет смысла иметь дела.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">Холдинг SeoPult, на базе которого работают сервисы</span>,  — это гарант надежности и качества оказываемых услуг. При этом цены размещения на площадках значительно ниже, чем в агентствах.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -176,21 +178,22 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine3.png" alt="У нас богатейший опыт работы с московским трафиком"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine9.png" alt="Алгоритмы SeoPult"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас богатейший опыт работы с московским трафиком</span>, который считается самым сложным, дорогим, трудно привлекаемым. И не зря.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">Алгоритмы SeoPult</span> позволяют подбирать оптимальные площадки для вашего сайта и бюджета, а штатные специалисты создают контент, который будет полезен вашей целевой аудитории и мотивировать ее перейти на ваш сайт.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine4.png" alt="У нас честный, человеческий подход"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine1.png" alt="В пуле площадок — сотни проверенных СМИ"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас честный, человеческий подход</span>, мы берёмся за проекты с микробюджетами, чего не скажешь об абсолютном большинстве рекламных агентств.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">В пуле площадок — сотни проверенных СМИ</span>, блогов, видеоканалов, пабликов, сообществ. Каждый день база пополняется новыми достойными площадками.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -198,27 +201,28 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine5.png" alt="У нас хорошие ценники, потому что мы работаем в больших объёмах"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine2.png" alt="Автоматизированная система подбора площадок"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас хорошие ценники, потому что мы имеем дело с большими объёмами</span> и есть основание для торга и скидок.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">Автоматизированная система подбора площадок</span>, создания и размещения контента экономит массу времени и позволяет продвигать интернет-бизнес без привлечения дополнительных штатных специалистов и агентств.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
-                                    <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine6.png" alt="Сложнейшие B2B-тематики"></div>
-                                        <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">У нас значительный опыт работы со сложнейшими B2B-тематиками</span></p>
-                                        </div>
-                                    </div>
-                                </div>
+                              <div class="wefine-block wow fadeIn" data-wow-delay=".3s">
+                                  <div class="wefine-block__description">
+                                      <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine4.png" alt="Низкий порог входа"></div>
+                                      <div class="wefine-block__text">
+                                          <p class="wefine-text"><span class="wefine-text-accent">Низкий порог входа</span> — залог того, что продвижение сайта доступно каждому. Нет минимальных платежей и суммы заказа, вы сами определяете рекламный бюджет.</p>
+                                      </div>
+                                  </div>
+                              </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-12">
-                                <div class="wefine-btn-block"><a href="#ac-popup-mini" class="wefine-btn-link popup-modal__order-link" data-screen="Почему мы молодцы">Подобрать площадки</a></div>
+                                <div class="wefine-btn-block"><a href="#ac-i-getresult" class="wefine-btn-link" data-screen="Хочу продвигать сайт">Хочу продвигать сайт</a></div>
                             </div>
                         </div>
                     </div>
@@ -228,256 +232,263 @@
         <!-- /.ac-wefine-->
         <!-- .ac-youadv-->
         <div id="ac-i-youadv" class="ac-youadv" data-block>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="ac-head youadv-head">Как будет проходить<br>ваша рекламная кампания</h2>
-                    </div>
-                    <!-- /.col-12-->
-                </div>
-                <!-- /.row-->
-                <div class="row slider-step-row">
-                    <div class="slider-nav step-blocks-nav" data-slidernav="#sliderStep">
-                        <div class="slider-nav_next" data-route="next">></div>
-                        <div class="slider-nav_prev hide" data-route="prev"><</div>
-                    </div>
-                    <div class="col-12">
-                        <div class="flightroute">
-                            <div class="line-step">
-                                <ul class="step-indicator">
-                                    <li class="step-indicator__item step-indicator__item-completed"><span class="step-indicator__bubble"></span><span class="step-indicator__rocket"><span class="step-indicator__rocket-item">1</span></span></li>
-                                    <li class="step-indicator__item"><span class="step-indicator__bubble"></span></li>
-                                    <li class="step-indicator__item"><span class="step-indicator__bubble"></span></li>
-                                    <li class="step-indicator__item"><span class="step-indicator__bubble"></span></li>
-                                    <li class="step-indicator__item"><span class="step-indicator__bubble"></span></li>
-                                </ul>
-                            </div>
-                            <!-- /.line-step-->
-                        </div>
-                        <!-- /.flightroute-->
-                    </div>
-                    <!-- /.col-12-->
-                </div>
-                <!-- /.row-->
-                <div class="row">
+          <div class="ac-i-youadv_wrapa">
+            <div class="ac-i-youadv_bg">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                          <h2 class="ac-head youadv-head" style="text-align: center;">Как <span class="ac-head-green">будет проходить</span><br>ваша рекламная кампания</h2>
+                      </div>
+                      <!-- /.col-12-->
+                  </div>
+                  <!-- /.row-->
 
-                    <!-- /.col-12-->
-                </div>
-                <!-- /.row-->
+                  <div class="how floor bg-white" id="how">
+                    <div class="container">
+                      <div class="how-box">
+
+                        <div class="how-steps">
+                          <div class="how-steps__bg"></div>
+
+                          <div class="how-step-one">
+
+                            <div class="how-step">
+                              <div class="how-step__box">
+                                <div class="how-step__n"><span>1</span></div>
+                                <div class="how-step__desr">
+                                  <h3>Выбор</h3>
+                                  <p>Определите технологии и каналы продвижения, отвечающие вашим бизнес-задачам.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div><!-- /.how-step-one -->
+
+                          <div class="how-step-two">
+
+                            <div class="how-step">
+                              <div class="how-step__box">
+                                <div class="how-step__n"><span>2</span></div>
+                                <div class="how-step__desr">
+                                  <h3>Заказ</h3>
+                                  <p>Начните работу в автоматизированных <br> сервисах по поисковому <br> продвижению и SERM, контекстной <br> рекламе или контент-маркетингу.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div><!-- /.how-step-two -->
+
+                          <div class="how-step-three">
+
+                            <div class="how-step">
+                              <div class="how-step__box">
+                                <div class="how-step__n"><span>3</span></div>
+                                <div class="how-step__desr">
+                                  <h3>Результат</h3>
+                                  <p>Отслеживайте эффективность <br> рекламной кампании и используемых <br> технологий продвижения.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div><!-- /.how-step-three -->
+
+                          <div class="how-support">
+                            <div class="how-support__box">
+                              <div class="how-support__icon">
+                                <span><img src="/assets/images/goodsupport.png" width="207" height="207" alt="Помощь на каждом этапе"></span>
+                              </div>
+                            </div>
+                            <div class="how-support__descr">
+                              <h3>Помощь на каждом этапе</h3>
+                              <p>Не знаете, какие каналы и технологии подойдут? — Мы вам поможем! <br>
+                              Сомневаетесь в выборе? — Пишите нам! <br>
+                              Не уверены, что все сделали правильно? — Мы не оставим вас в беде!</p>
+                            </div>
+                          </div>
+                          <div class="box-btn">
+                            <a href="#ac-i-getresult" class="how-btn-link">Начать работу</a>
+                          </div><!-- /.box-btn -->
+                        </div>
+
+
+                      </div><!-- /.formats-box -->
+                    </div><!-- /.container -->
+                  </div><!-- /.how -->
+
+              </div>
+              <!-- /.container-->
             </div>
-            <!-- /.container-->
-            <div class="col-12">
-                <div class="step-blocks owl-carousel owl-theme" id="sliderStep">
-                    <div class="step-block">
-                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv1.png" alt="Вы оставляете заявку с указанием сайта"></div>
-                        <!-- /.step-block__ico-->
-                        <div class="step-block__description">
-                            <div class="step-block__description-head">
-                                <div class="step-block__item"><span class="step-item">1</span></div>
-                                <h2 class="step-block__head">Вы оставляете заявку на сайте, после этого с вами связывается наш прекрасный менеджер.</h2>
-                            </div>
-                            <div class="step-block__description-text">
-                                <p class="step-block__text"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-block">
-                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv2.png" alt="Менеджер в течение 3 дней составляет для вас медиаплан"></div>
-                        <!-- /.step-block__ico-->
-                        <div class="step-block__description">
-                            <div class="step-block__description-head">
-                                <div class="step-block__item"><span class="step-item">2</span></div>
-                                <h2 class="step-block__head">Менеджер в течение суток связывается с вами и направляет для заполнения бриф, после чего составляет для вас медиаплан с перечнем площадок, их описанием, форматами размещений. И присылает на согласование.</h2>
-                            </div>
-                            <div class="step-block__description-text">
-                                <p class="step-block__text">В ходе согласований вы можете отказаться от некоторых или всех площадок и попросить заменить их другими. Мы готовы вносить изменения в медиаплан разумное количество раз.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-block">
-                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv3.png" alt="После согласования медиаплана мы начинаем готовить контент"></div>
-                        <!-- /.step-block__ico-->
-                        <div class="step-block__description">
-                            <div class="step-block__description-head">
-                                <div class="step-block__item"><span class="step-item">3</span></div>
-                                <h2 class="step-block__head">После утверждения медиаплана мы начинаем готовить контент и согласовывать его с вами.</h2>
-                            </div>
-                            <div class="step-block__description-text">
-                                <p class="step-block__text">Вы, разумеется, можете указывать, где и какие внести правки. Мы готовы вносить корректировки в тексты разумное количество раз.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.step-block-->
-                    <div class="step-block">
-                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv4.png" alt="После подготовки контента начинается процесс размещения на площадках"></div>
-                        <div class="step-block__description">
-                            <div class="step-block__description-head">
-                                <div class="step-block__item"><span class="step-item">4</span></div>
-                                <h2 class="step-block__head">После подготовки контента начинается процесс размещения на площадках. Он занимает порядка 1-5 недель. После размещения вы сразу получаете ссылку на публикацию/пост/видео и можете работать в комментариях. </h2>
-                            </div>
-                            <div class="step-block__description-text">
-                                <p class="step-block__text">Мы просим работать в комментариях именно вас, потому что вы больше погружены в бизнес. Разумеется, наш менеджер тоже будет следить за ходом обсуждения и в случае необходимости попробует «потушить пожар», но он вряд ли будет настолько хорошо знаком с рынком и продуктом, насколько заказчик.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.step-block-->
-                    <div class="step-block">
-                        <div class="step-block__ico"><img src="/assets/images/youadv/youadv5.png" alt="Как только все размещения выполнены, мы собираем статистику прочтений материалов"></div>
-                        <!-- /.step-block__ico-->
-                        <div class="step-block__description">
-                            <div class="step-block__description-head">
-                                <div class="step-block__item"><span class="step-item">5</span></div>
-                                <!-- /.step-block__item-->
-                                <h2 class="step-block__head">Как только все размещения выполнены, мы собираем статистику прочтений материалов, переходов на ваш сайт, статистику конверсий (если у вас настроены «Цели» или «Электронная коммерция») и сдаём отчёт. </h2>
-                            </div>
-                            <!-- /.step-block__description-head-->
-                            <div class="step-block__description-text">
-                                <p class="step-block__text">Примеры выполненных кампаний с отчётами вы можете посмотреть ниже. </p>
-                            </div>
-                            <!-- /.step-block__description-text-->
-                        </div>
-                        <!-- /.step-block__description-->
-                    </div>
-                    <!-- /.step-block-->
-                </div>
-                <!-- /.step-blocks-->
-            </div>
+          </div>
         </div>
         <!-- /.ac-youadv-->
-
-        <?php require('main-block/_tariff.html'); ?>
-
         <!-- .ac-getresult-->
         <div id="ac-i-getresult" class="ac-getresult" data-block>
             <div class="getresult-warp">
                 <div class="getresult-warp__bg">
-                    <div class="container">
-                        <div class="row bb1">
-                            <div class="row-eq-height">
-                                <div class="col-6 wow fadeIn" data-wow-delay=".1s">
-                                    <h2 class="ac-head getresult-head">Что <span class="ac-head-green">вы получите <br>в результате</span> рекламной кампании</h2>
-                                </div>
-                                <div class="col-3">
-                                    <div class="getresult-block wow fadeIn" data-wow-delay=".2s">
-                                        <div class="getresult-block__header">
-                                            <div class="getresult-block__head">
-                                                <h2 class="getresult-block__head">Плавный рост прямых заходов на сайт</h2>
-                                            </div>
-                                        </div>
-                                        <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">За таким ростом вы можете следить сами по графикам wordstat.yandex.ru. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="getresult-block wow fadeIn" data-wow-delay=".3s">
-                                        <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult1.png" alt="Плавный рост прямых заходов на сайт"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row bb2">
-                            <div class="row-eq-height">
-                                <div class="col-3">
-                                    <div class="getresult-block wow fadeIn" data-wow-delay=".4s">
-                                        <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult2.png" alt="Массовое покрытие новой целевой аудитории"></div>
-                                            <div class="getresult-block__head">
-                                                <h2 class="getresult-block__head">Массовое покрытие новой целевой аудитории уже в первый месяц работы</h2>
-                                            </div>
-                                        </div>
-                                        <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Ни один другой инструмент интернет-рекламы не даёт такого покрытия новой аудитории, как контент-маркетинг. Именно контент-маркетинг уже в первые месяцы работы знакомит с вашим продуктом//услугой десятки тысяч новых людей, которые раньше вообще ничего о вас не знали, а теперь вполне могут оказаться вашими покупателями. Да, понятно, что все эти десятки тысяч не станут вашими покупателями с «первого выстрела». Но такая работа закладывает отличный фундамент для развития.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="getresult-block wow fadeIn" data-wow-delay=".5s">
-                                        <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult3.png" alt="Очень целевые переходы на сайт"></div>
-                                            <div class="getresult-block__head">
-                                                <h2 class="getresult-block__head">Целевые переходы на сайт, которые могут оказаться даже качественнее, чем из контекста</h2>
-                                            </div>
-                                        </div>
-                                        <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Это особенно актуально для сложных и новых продуктов/услуг, о которых человеку надо сначала почитать, понять, что это, зачем именно ему. А также дорогих товаров/услуг. Человек не может купить это сразу, моментально. Например, из контекста. Ему нужно почитать обзоры, посмотреть видеообзоры, изучить отзывы. И только потом он совершит покупку. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="getresult-block wow fadeIn" data-wow-delay=".6s">
-                                        <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult4.png" alt="Плавный рост популярности, узнаваемости"></div>
-                                            <div class="getresult-block__head">
-                                                <h2 class="getresult-block__head">Плавный рост популярности, узнаваемости</h2>
-                                            </div>
-                                        </div>
-                                        <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Не всегда и не везде возможно оставить прямую ссылку на сайт. Не всегда это будет выглядеть уместно. Но, не зависимо от того, как много у вас отзывов со ссылками на сайт или без них, через 3—4 месяца кампаний контент-маркетинга вы начнёте замечать рост прямых заходов на сайт: люди начнут сами искать ваши продукты/услуги. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="getresult-block wow fadeIn" data-wow-delay=".7s">
-                                        <div class="getresult-block__header">
-                                            <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult5.png" alt="SEO-эффект"></div>
-                                            <div class="getresult-block__head">
-                                                <h2 class="getresult-block__head">SEO-эффект</h2>
-                                            </div>
-                                        </div>
-                                        <div class="getresult-block__description">
-                                            <p class="getresult-block__description-text">Так или иначе, но контент-маркетинг тоже подразумевает работу со ссылками. И 7—8 ваших публикаций и постов будут выходить со ссылками на сайт. При этом ссылки будут с очень авторитетных площадок. Так что SEO-эффект неизбежен, но для этого нужно не менее полугода регулярных кампаний контент-маркетинга. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row bb3">
-                            <div class="col-9">
-                                <div class="getresult-block wow fadeIn" data-wow-delay=".8s">
-                                    <div class="getresult-block__header">
-                                        <h2 class="ac-head__mini getresult-head-mini">Чего вы не получите в результате рекламной кампании <br>ни от нас, ни от любого другого исполнителя </h2>
-                                    </div>
-                                    <div class="getresult-block__descriptiono">
-                                        <div class="text">
-                                            <p class="getresult-block__description-text-blod">Мгновенного взрыва продаж, звонков, заявок, обращений</p>
-                                            <p class="getresult-block__description-text">Простите, но не выйдет вечером посадить рубль, а с утра получить денежное дерево. Интернет-реклама в 2016 — это не рог изобилия и не чудо. Конкуренция очень высокая, цена внимания — ещё выше. Да, в интернете есть такие каналы и площадки, после размещения на которых у людей «ложатся» сайты от количества переходов и обрываются телефоны от количества звонков. И мы знаем все такие каналы и площадки наперечёт. Но их — единицы. А тематики, с которыми приходится работать, в большинстве своём — либо сложные (и нужна серия публикаций, пока люди поймут, о чём идёт речь), либо типичные (ещё один магазин духов). Так что лавинообразные эффекты от размещений бывают, мягко говоря, не каждый день. Плюс — такие площадки, конечно же, не дешёвые. Порог входа начинается где-то от 50—80 тыс. руб. за одно размещение.</p>
-                                        </div>
-                                        <div class="ico wow pulse" data-wow-delay=".0s" data-wow-iteration="2"><img src="/assets/images/getresult/getresult6.png" alt="НЕ мгновенный взрыв продаж"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                  <div class="container">
+                    <div class="row" style="padding-bottom: 40px;">
+                      <div class="col-12 wow fadeIn" data-wow-delay=".1s">
+                        <h2 class="ac-head getresult-head">Какие бизнес-задачи <span class="ac-head-green">поможем решить</span>:</h2>
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </div>
+
+                  <div class="container">
+                      <div class="row bb2">
+                          <div class="row-eq-height">
+                              <div class="col-4">
+                                <div class="getresult-block wow fadeIn" data-wow-delay=".6s">
+                                    <div class="getresult-block__header">
+                                        <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult4.png" alt="Повысить узнаваемость бренда или продукта"></div>
+                                        <div class="getresult-block__head">
+                                            <h2 class="getresult-block__head">Повысить узнаваемость бренда или продукта</h2>
+                                        </div>
+                                    </div>
+                                    <div class="getresult-block__description">
+                                      <p><strong>Решение</strong>: PR, нативная реклама, работа с видеоблогерами</p>
+                                      <p>Технология:</p>
+                                      <ol>
+                                        <li>Выбираете подходящие блоги, СМИ или каналы на YouTube.</li>
+                                        <li>Указываете пожелания к контенту.</li>
+                                        <li>Заказываете размещение. </li>
+                                        <li>Получаете
+                                        <ul>
+                                          <li>целевой трафик: по размещенным ссылкам приходит теплая аудитория;</li>
+                                          <li>естественные ссылки, которые позитивно сказываются на росте позиций сайта в поиске</li>
+                                        </ul></li>
+                                      </ol>
+                                    </div>
+                                    <div class="box-btn">
+                                      <a href="https://webartex.ru/?adv=gbzgzlcz" class="how-btn-link" target="_blank">Начать работу</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="getresult-block wow fadeIn" data-wow-delay=".2s">
+                                    <div class="getresult-block__header">
+                                        <div class="getresult-block__ico"><img src="/assets/images/getresult/getresult5.png" alt="Вывести сайт в ТОП Яндекса и Google"></div>
+                                        <div class="getresult-block__head">
+                                            <h2 class="getresult-block__head">Вывести сайт в ТОП Яндекса и Google</h2>
+                                        </div>
+                                    </div>
+                                    <div class="getresult-block__description">
+                                      <p><strong>Решение</strong>: Поисковое продвижение (SEO) и SERM</p>
+                                      <p>Технология:</p>
+                                      <ol>
+                                        <li>Добавляете сайт в систему, которая автоматически подбирает ключевые запросы и распределяет их по страницам</li>
+                                        <li>Запускаете продвижение.</li>
+                                        <li>Наблюдаете за ростом позиций сайта в поисковой выдаче</li>
+                                        <li>Для улучшения результатов выбираете:
+                                          <ul>
+                                          <li>написание оптимизированных текстов</li>
+                                          <li>аудит сайта</li>
+                                          </ul></li>
+                                      </ol>
+                                    </div>
+                                    <div class="box-btn">
+                                      <a href="https://seopult.ru/ref/4e66d92f61404d88" class="how-btn-link" target="_blank">Начать работу</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="getresult-block wow fadeIn" data-wow-delay=".4s">
+                                      <div class="getresult-block__header">
+                                          <div class="getresult-block__ico"><img src="/assets/images/getresult/how-to-help3.png" alt="Быстро увеличить продажи"></div>
+                                          <div class="getresult-block__head">
+                                              <h2 class="getresult-block__head">Быстро увеличить продажи</h2>
+                                          </div>
+                                      </div>
+                                      <div class="getresult-block__description">
+                                        <p><strong>Решение</strong>: Контекстная реклама</p>
+                                        <p>Технология:</p>
+                                        <ol>
+                                          <li>Добавляете сайт и указываете базовые настройки (регион, время показа и т. п.).</li>
+                                          <li>Система:
+                                          <ul>
+                                            <li>подбирает ключевые запросы;</li>
+                                            <li>распределяет их по страницам сайта;</li>
+                                            <li>составляет объявления;</li>
+                                            <li>управляет показами и ставками.</li>
+                                          </ul></li>
+                                          <li>В едином интерфейсе доступна реклама в Яндексе и Google. </li>
+                                          <li>Эффективный алгоритм управления рекламой экономит до 30 % бюджета. </li>
+                                        </ol>
+                                      </div>
+                                      <div class="box-btn">
+                                        <a href="https://seopult.ru/ref/ed601d80440a21c6/L3RlY2hub2xvZ3kvcHBj" class="how-btn-link" target="_blank">Начать работу</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="row-eq-height">
+                              <div class="col-4">
+                                <div class="getresult-block wow fadeIn" data-wow-delay=".6s">
+                                    <div class="getresult-block__header">
+                                        <div class="getresult-block__ico"><img src="/assets/images/getresult/how-to-help4.png" alt="Привлечь клиентов из соцсетей"></div>
+                                        <div class="getresult-block__head">
+                                            <h2 class="getresult-block__head">Привлечь клиентов из соцсетей</h2>
+                                        </div>
+                                    </div>
+                                    <div class="getresult-block__description">
+                                      <p><strong>Решение</strong>: Контент-маркетинг и таргетированная реклама</p>
+                                      <p>Технология:</p>
+                                      <ol>
+                                        <li>Выбираете площадки подходящей тематики и охвата и ждете результата.</li>
+                                        <li>В случае необходимости заказываете подбор площадок менеджером, предварительно описав сферу деятельности и цели, которых хотите достичь</li>
+                                      </ol>
+                                    </div>
+                                    <div class="box-btn">
+                                      <a href="https://seopult.ru/ref/27bbeb38c7555294/L3RlY2hub2xvZ3kvY29udGVudC1tYXJrZXRpbmc" class="how-btn-link" target="_blank">Начать работу</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="getresult-block wow fadeIn" data-wow-delay=".2s">
+                                    <div class="getresult-block__header">
+                                        <div class="getresult-block__ico"><img src="/assets/images/getresult/how-to-help5.png" alt="Научиться продвижению"></div>
+                                        <div class="getresult-block__head">
+                                            <h2 class="getresult-block__head">Научиться продвижению</h2>
+                                        </div>
+                                    </div>
+                                    <div class="getresult-block__description">
+                                      <p><strong>Решение</strong>: Бесплатные курсы по интернет-маркетингу</p>
+                                      <p>Технология:</p>
+                                      <p>Записывайтесь на бесплатные курсы по интернет-маркетингу и научитесь самостоятельно продвигать сайты. <br>Хотите стать профи? Посещайте наши конференции, платные курсы и семинары</p>
+                                    </div>
+                                    <div class="box-btn">
+                                      <a href="https://www.cybermarketing.ru/?ref=b1a3eca4" class="how-btn-link" target="_blank">Начать работу</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="getresult-block wow fadeIn" data-wow-delay=".4s">
+                                      <div class="getresult-block__header">
+                                          <div class="getresult-block__ico"><img src="/assets/images/getresult/how-to-help6.png" alt="Не знаете, что именно вам подойдет?"></div>
+                                          <div class="getresult-block__head">
+                                              <h2 class="getresult-block__head">Не знаете, что именно вам подойдет?</h2>
+                                          </div>
+                                      </div>
+                                      <div class="getresult-block__description">
+                                        <p><strong>Решение</strong>: Оставьте заявку, и наши специалисты свяжутся с вами и предложат оптимальное решение</p>
+                                        <p>Технология:</p>
+                                        <p>Специалист системы SeoPult будет работать индивидуально с вашим сайтом. Ваш персональный помощник выработает рекомендации по настройке рекламных кампаний или может выполнить работы за вас.</p>
+                                      </div>
+                                      <div class="box-btn">
+                                        <a href="#ac-popup-mini" class="how-btn-link popup-modal__order-link" target="_blank">Оставить заявку</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
         <!-- /.ac-getresult-->
-        <!-- .ac-order-->
-        <div class="ac-order">
-            <div class="order-warp">
-                <div class="order-warp__bg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="order-block">
-                                    <h2 class="ac-head__mini order-head-mini">Оставьте заявку и мы подберём <br>для вас идеальное решение</h2>
-                                    <div class="order-block__btn-block"><a href="#ac-popup-mini" class="order-block__btn-link popup-modal__order-link" data-screen="Оставьте заявку и мы подберём для вас идеальное решение">Заказать</a></div>
-                                    <!-- /.order-block__btn-block-->
-                                </div>
-                                <!-- /.order-block-->
-                            </div>
-                            <!-- /.col-12-->
-                        </div>
-                        <!-- /.row-->
-                    </div>
-                    <!-- /.container-->
-                </div>
-                <!-- /.order-warp__bg-->
-            </div>
-            <!-- /.order-warp-->
-        </div>
-        <!-- /.ac-order-->
+        <?php require('main-block/_tariff.html'); ?>
         <!-- .ac-popup-modal-->
         <div id="ac-popup-order" class="ac-popup-modal popup-modal__order mfp-hide">
             <div class="ac-popup-modal__header">
@@ -831,7 +842,7 @@
             <div class="container-modal">
                 <div class="ac-popup-modal__header">
                     <div class="col-12">
-                        <h2 class="ac-head ac-popup-modal__head">Заявка на подбор площадок</h2>
+                        <h2 class="ac-head ac-popup-modal__head">Расскажите о вашей задаче</h2>
                     </div>
                 </div><!-- /.ac-popup-modal__header -->
             </div><!-- /.container-modal -->
@@ -865,7 +876,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea id="goals" placeholder="Цели проекта" name="Client[goals]" class="form-control"></textarea>
+                                        <textarea id="goals" placeholder="Что и когда нужно сделать" name="Client[goals]" class="form-control"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -893,7 +904,6 @@
         <!-- .ac-work-->
         <div id="ac-i-work" class="ac-work" data-block>
             <?php require('main-block/example-works.html'); ?>
-            <?php require('main-block/_case.html'); ?>
         </div>
         <!-- /.ac-work-->
 
@@ -912,7 +922,7 @@
                             </div>
                             <!-- /.logo-box__img-->
                             <div class="logo-box__text">
-                                <h2>Alfa-Content</h2><span>Сочный контент-маркетинг</span>
+                                <h2>Alfa-Content</h2><span>Сочный маркетинг</span>
                             </div>
                             <!-- /.logo-box__text-->
                         </div>
@@ -933,8 +943,9 @@
         										<a href="https://www.instagram.com/webartex/" title="Alfa Content в InstaGramm" target="_blank" class="ac-footer__social-link ac-footer__social-link_vk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3364.7 3364.7" width="30" height="30"><defs><radialGradient id="0" cx="217.76" cy="3290.99" r="4271.92" gradientUnits="userSpaceOnUse"><stop offset=".09" stop-color="#fa8f21"/><stop offset=".78" stop-color="#d82d7e"/></radialGradient><radialGradient id="1" cx="2330.61" cy="3182.95" r="3759.33" gradientUnits="userSpaceOnUse"><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"/><stop offset="1" stop-color="#8c3aaa"/></radialGradient></defs><path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#0)"/><path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#1)"/><path d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57" fill="#fff"/></svg></a>
                         </div><!-- /.ac-footer__social-box-->
                         <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
-                        <div class="ac-footer__tel-box"><a href="tel:+74953747914" class="footer-tel-link">+7 (495) 374 79 14</a>
-                        <div class="footer__confidential"><a href="/confidential/" target="_blank">Политика конфиденциальности и обработки персональных данных</a></div></div>
+                        <div class="ac-footer__tel-box"><a href="tel:+74956680815" class="footer-tel-link">+7 (495) 668 08 15</a>
+                          <div class="footer__confidential"><a href="/confidential/" target="_blank">Политика конфиденциальности и обработки персональных данных</a></div>
+                        </div>
                     </div>
                     <!-- /.ac-footer__right-block-->
                 </div>

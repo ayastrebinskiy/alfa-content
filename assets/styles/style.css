@@ -256,9 +256,9 @@
 #ac-popup-mini .ac-popup-modal__header{
     padding-bottom: 40px;
 }
-.ac-popup-modal .form-group.required input{
+/* .ac-popup-modal .form-group.required input{
     background-color: rgba(236, 89, 101, 0.14);
-}
+} */
 .ac-popup-modal  input.form-control,
 .ac-popup-modal textarea.form-control{
     background-color: #ebebeb;
@@ -281,8 +281,8 @@
   position: absolute;
   width: 230px;
   right: 0;
-  bottom: -30px;
-  line-height: 16px;
+  bottom: -34px;
+  line-height: 14px;
 }
 
 .footer__confidential a {

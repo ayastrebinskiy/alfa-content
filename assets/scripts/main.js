@@ -55,7 +55,15 @@ $(document).ready(function () {
 
     // Anchors corresponding to menu items
     menuItems.click(function (e) {
-        var href = $(this).attr("href");
+        hashClick(e);
+    });
+
+    $('[href="#ac-i-getresult"]').click(function(e){
+        hashClick(e);
+    });
+
+    var hashClick = function(e){
+        var href = $(e.target).attr("href");
         if (href.substring(0, 1) !== '#') {
             return true;
         }
@@ -67,6 +75,7 @@ $(document).ready(function () {
                 offsetTop -= 100;
                 break;
             case '#ac-i-work':
+            case '#ac-i-tariff':
                 offsetTop += 100;
                 break;
         }
@@ -79,9 +88,9 @@ $(document).ready(function () {
             scrollerStart = false;
         });
         menuItems.removeClass('active');
-        $(this).addClass('active');
+        $(e.target).addClass('active');
         e.preventDefault();
-    });
+    };
 
 
 
@@ -97,7 +106,7 @@ $(document).ready(function () {
     $('.popup-modal__mini-link, [href="#ac-popup-mini"]').magnificPopup({
         type: 'inline',
         preloader: false,
-        focus: '#name',
+        focus: false,
         closeOnBgClick: true
     });
 
