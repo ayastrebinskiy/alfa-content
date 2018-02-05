@@ -1,3 +1,16 @@
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".work-types a.work-type").click(function(event) {
+      event.preventDefault();
+      $(this).addClass("active");
+      $(this).siblings().removeClass("active");
+      var tab = $(this).attr("href");
+      $(".works-example").not(tab).css("display", "none");
+      $(tab).fadeIn();
+  });
+});
+</script>
+
 <div class="work-warp">
     <div class="work-warp__bg">
         <div class="container">
@@ -6,214 +19,991 @@
                     <h2 class="ac-head work-head">Примеры работ</h2>
                 </div>
             </div>
-          <?php /*
+
             <div class="row bb1">
               <div class="col-12">
+
                 <div class="work-types">
 
-                  <div class="work-type" id="seo">
+                  <a class="work-type" href="#seo">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work1.png" alt="Примеры работ: SEO"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>SEO</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
-                    <div class="work-type_box">
-                      <div class="work-type_icon">
-                        <div class="work-type_icon-box"><img src="/assets/images/work/work2.png" alt="Примеры работ: Контекстная реклама"></div><!-- /.work-type_icon-box -->
-                      </div><!-- /.work-type_icon -->
-                      <div class="work-type_name"><span>Контекстная <br> реклама</span></div><!-- /.work-type_name -->
-                    </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type active" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type active" href="#inyoutube">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work3.png" alt="Примеры работ: Размещение в роликах YouTube-блогеров"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>Размещение в <br> роликах <br> YouTube-блогеров</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#ppc">
+                    <div class="work-type_box">
+                      <div class="work-type_icon">
+                        <div class="work-type_icon-box"><img src="/assets/images/work/work2.png" alt="Примеры работ: Контекстная реклама"></div><!-- /.work-type_icon-box -->
+                      </div><!-- /.work-type_icon -->
+                      <div class="work-type_name"><span>Контекстная <br> реклама</span></div><!-- /.work-type_name -->
+                    </div><!-- /.work-type_box -->
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#injj">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work4.png" alt="Примеры работ: Публикации на страницах ЖЖ-блогеров"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>Публикации на <br> страницах <br> ЖЖ-блогеров</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#inexperts">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work5.png" alt="Примеры работ: Публикации в экспертных блогах"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>Публикации в <br> экспертных блогах</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#inpublic">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work6.png" alt="Примеры работ: Реклама в пабликах социальных сетей"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>Реклама в пабликах <br> социальных сетей</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#socialtarget">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work7.png" alt="Примеры работ: Таргетированная реклама в социальных сетях"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>Таргетированная <br> реклама в социальных <br> сетях</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#prposts">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work8.png" alt="Примеры работ: PR-статьи"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>PR-статьи</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#communities">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work9.png" alt="Примеры работ: Публикации в сообществах"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>Публикации в <br> сообществах</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
-
-                  <div class="work-type" id="seo">
+                  </a><!-- /.work-type -->
+                  <a class="work-type" href="#linksandnative">
                     <div class="work-type_box">
                       <div class="work-type_icon">
                         <div class="work-type_icon-box"><img src="/assets/images/work/work10.png" alt="Примеры работ: Естественные ссылки и нативная реклама"></div><!-- /.work-type_icon-box -->
                       </div><!-- /.work-type_icon -->
                       <div class="work-type_name"><span>Естественные ссылки <br> и нативная реклама</span></div><!-- /.work-type_name -->
                     </div><!-- /.work-type_box -->
-                  </div><!-- /.work-type -->
+                  </a><!-- /.work-type -->
 
                 </div><!-- /.work-types -->
               </div>
             </div>
-          */ ?>
 
             <div class="row">
 
-              <div class="works-example">
+              <div class="tab">
+                <div class="works-example" id="seo"><div class="works-example-wrap">
 
-                <div class="work-card">
-                  <div class="work-card-box">
-                    <div class="work-card_logo"><img src="/assets/images/work/kichenaid.png" alt=""></div><!-- /.work-card_logo -->
-                    <div class="work-card_url">kichenaid.ru</div><!-- /.work-card_url -->
-                    <div class="work-card_project-info">официальный сайт бренда Китчен Эйд в России <br> (техника для кухни премиум-сегмента).</div><!-- /.work-card_project-info -->
-                    <div class="work-card_info">
+                    <div class="work-card">
+                      <div class="work-card-box">
+                      <div class="work-card_url">olivelove.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">Интернет-магазин натуральной косметики в Москве</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">Площадка:</div>
-                        <div class="work-info-v">кулинарный канал “Покашеварим”</div>
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Задача:</div>
+                          <div class="work-info-v">улучшение поисковой видимости за счет внутренней оптимизации сайта</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Исходные показатели:</div>
+                          <div class="work-info-v work-info-v-mini">30% запросов из семантического ядра в ТОП10 Яндекс;<br>6% запросов из семантического ядра в ТОП10 Google.<br>Трафик из органической выдачи — 1500 визитов в месяц</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Заказанные услуги:</div>
+                          <div class="work-info-v work-info-v-mini">Персональный менеджер</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Выполненные работы:</div>
+                          <div class="work-info-v work-info-v-mini">Анализ сайта для выявления критических ошибок, составление рекомендаций по внутренней оптимизации сайта. <br> Коррекция запросов в семантическом ядре (удаление непопулярных и нетематических и подбор конверсионных запросов). <br> Мониторинг динамики запросов в ТОП10 Яндекса и Google.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Результат (через 1 месяц):</div>
+                          <div class="work-info-v work-info-v-mini">60% запросов из семантического ядра в ТОП10 Яндекса (+ 30 п. п.) <br>17% запросов из семантического ядра в ТОП10 Google (+ 11 п. п.)</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Результат (через 5 месяцев): </div>
+                          <div class="work-info-v work-info-v-mini">95% запросов из семантического ядра в ТОП10 Яндекса (+ 65 п. п.) <br> 60% запросов из семантического ядра в ТОП10 Google (+ 54 п. п.) <br> Трафик из органической выдачи — 9000 визитов в месяц (+ 500 %)</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Стоимость работ:</div>
+                          <div class="work-info-v">3000 рублей в месяц.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Подробнее:</div>
+                          <div class="work-info-v"><a href="https://seopult.ru/subscribe.html?id=342" target="_blank">seopult.ru/subscribe.html?id=342</a></div>
+                        </div>
+
+                      </div>
+                    </div>
+                    </div>
+
+                </div></div>
+                <div class="works-example" id="ppc"><div class="works-example-wrap">
+
+                    <div class="work-card">
+                      <div class="work-card-box">
+                      <div class="work-card_url">olivelove.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">Интернет-магазин натуральной косметики в Москве</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Задача:</div>
+                          <div class="work-info-v">быстрое привлечение целевого трафика</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Исходные показатели:</div>
+                          <div class="work-info-v work-info-v-mini">рекламная система — Google AdWords (только поиск) <br> CTR: 0,26% <br> Цена клика — 15,86 руб. <br> 5 переходов за 2 месяца</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Заказанные услуги:</div>
+                          <div class="work-info-v work-info-v-mini">Аудит и настройка рекламной кампании</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Выполненные работы:</div>
+                          <div class="work-info-v work-info-v-mini">Анализ рекламной кампании. <br> Подбор эффективных ключевых фраз. <br> Определение минус-слов. <br> Настройка оптимальных параметров показа. <br> Составление объявлений. <br> Запуск кампании в поиске и КМС Google.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Результат:</div>
+                          <div class="work-info-v work-info-v-mini">CTR: 13,99 % (рост в 53 раза) <br> Цена клика — 7,99 руб. (- 50 %) <br> 228 переходов за 2 месяца (рост в 45,6 раза) </div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Стоимость работ:</div>
+                          <div class="work-info-v">3000 рублей в месяц.</div>
+                        </div>
+
                       </div>
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">Формат:</div>
-                        <div class="work-info-v work-info-v-mini">упоминание продукта заказчика в видеоролике, анонс акции + активная ссылка в описании</div>
-                      </div>
+                      <div class="work-card_project-info work-card_project-info--img">
+                        <a href="/assets/images/work/oliveloveppc_1.png"><img src="/assets/images/work/oliveloveppc_1.png" alt="SeoPult быстрое привлечение целевого трафика" width="490"></a>
+                        <a href="/assets/images/work/oliveloveppc_2.png"><img src="/assets/images/work/oliveloveppc_2.png" alt="SeoPult быстрое привлечение целевого трафика" width="490"></a>
+                      </div><!-- /.work-card_project-info -->
+                    </div>
+                    </div>
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">стоимость контента и публикации:</div>
-                        <div class="work-info-v">4400 рублей</div>
-                      </div>
+                </div></div>
+                <div class="works-example" id="inyoutube"><div class="works-example-wrap">
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">охват:</div>
-                        <div class="work-info-v">19641 человек</div>
-                      </div>
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_logo"><img src="/assets/images/work/kichenaid.png" alt=""></div><!-- /.work-card_logo -->
+                      <div class="work-card_url">kichenaid.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">официальный сайт бренда Китчен Эйд в России <br> (техника для кухни премиум-сегмента).</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">переходов на сайт заказчика:</div>
-                        <div class="work-info-v">422</div>
-                      </div>
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">кулинарный канал “Покашеварим”</div>
+                        </div>
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">цена за 1 просмотр:</div>
-                        <div class="work-info-v">0,22 руб.</div>
-                      </div>
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">упоминание продукта заказчика в видеоролике, анонс акции + активная ссылка в описании</div>
+                        </div>
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">цена за 1 переход:</div>
-                        <div class="work-info-v">10,42 руб.</div>
-                      </div>
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">4400 рублей</div>
+                        </div>
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">CTR:</div>
-                        <div class="work-info-v">2,1%</div>
-                      </div>
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">19641 человек</div>
+                        </div>
 
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">422</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,22 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">10,42 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">2,1%</div>
+                        </div>
+
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="work-card">
-                  <div class="work-card-box">
-                    <div class="work-card_logo"><img src="/assets/images/work/airpromvent.png" alt=""></div><!-- /.work-card_logo -->
-                    <div class="work-card_url">airpromvent.ru</div><!-- /.work-card_url -->
-                    <div class="work-card_project-info">Вентиляционное и климатическое оборудование</div><!-- /.work-card_project-info -->
-                    <div class="work-card_info">
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_logo"><img src="/assets/images/work/airpromvent.png" alt=""></div><!-- /.work-card_logo -->
+                      <div class="work-card_url">airpromvent.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">Вентиляционное и климатическое оборудование</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
 
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">Площадка:</div>
-                        <div class="work-info-v">авторский канал DIY-тематики с активной взрослой аудиторией</div>
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">авторский канал DIY-тематики с активной взрослой аудиторией</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">упоминание в видеоролике + активная ссылка в описании</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">3895 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">327 940 просмотров</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">4666</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,01 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">0,83 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">1,4%</div>
+                        </div>
+
                       </div>
-
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">Формат:</div>
-                        <div class="work-info-v work-info-v-mini">упоминание в видеоролике + активная ссылка в описании</div>
-                      </div>
-
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">стоимость контента и публикации:</div>
-                        <div class="work-info-v">3895 руб.</div>
-                      </div>
-
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">охват:</div>
-                        <div class="work-info-v">327 940 просмотров</div>
-                      </div>
-
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">переходов на сайт заказчика:</div>
-                        <div class="work-info-v">4666</div>
-                      </div>
-
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">цена за 1 просмотр:</div>
-                        <div class="work-info-v">0,01 руб.</div>
-                      </div>
-
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">цена за 1 переход:</div>
-                        <div class="work-info-v">0,83 руб.</div>
-                      </div>
-
-                      <div class="work-card_info_item">
-                        <div class="work-info-name">CTR:</div>
-                        <div class="work-info-v">1,4%</div>
-                      </div>
-
                     </div>
                   </div>
-                </div>
+
+                </div></div>
+                <div class="works-example" id="injj"><div class="works-example-wrap">
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">yamed.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">многопрофильный медицинский центр</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">miss-tramell.livejournal.com - ТОП3 блогеров ЖЖ. Проект Лены Миро, популярной фитнес-гуру. Женская аудитория, активная, коммуникабельная, живая.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">авторский пост «Когда дети не получаются» с упоминанием проекта заказчика и ссылкой на сайт</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">66000 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">70 000 человек</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">1315</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,94 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">50 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">1,9%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">волшебныйуголок.рф</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">интернет-магазин мебельной фурнитуры</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">flylady-ru.livejournal.com: активное ЖЖ сообщество, посвященное ведению домашнего хозяйства, где обсуждаются различные способы его улучшить и облегчить.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">авторский пост «От хаоса к порядку. Невыносимая легкость - быт и я». Статья-обсуждение об экономии пространства дома и различных фишках хранения вещей. </div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">3125 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">2537 человек</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">88</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">1,23 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">35,51 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">3,5%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div></div>
+                <div class="works-example" id="inexperts"><div class="works-example-wrap">
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">reputazzi.com</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">сервис по управлению репутацией в интернете</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">devaka.ru. Сайт эксперта в области интернет-маркетинга Сергея Кокшарова с активной и лояльной аудиторией.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">авторская статья «Самый базовый алгоритм: как закрыть задачу "присутствия в интернете", если сели делать свой бизнес»</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">35000 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">2063 просмотров</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">287</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">16 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">123 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">13,9%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">vezetvsem.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">сервисная платформа по организации грузоперевозок</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">lleo.me - авторский блог Леонида Каганова, писателя-фантаста, сценариста, лидера мнений. Имеет большую аудиторию лояльных поклонников, зрелая платежеспособная публика 30-45 лет.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">авторская обзорная статья о сервисе грузоперевозок</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">27500 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">14658 просмотра</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">468</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">1,87 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">58,76 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">3,2%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div></div>
+                <div class="works-example" id="inpublic"><div class="works-example-wrap">
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">milleta.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">интернет-магазин товаров для здоровья и красоты</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">паблик в ВКонтакте "Здоровое тело" (vk.com/zdorovoe_telo).</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">креативный пост</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">3700 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">68 249 просмотров</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">188</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,05 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">19,68 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">0,3%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">horizontum.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">интернет-портал онлайн-обучения изобразительному искусству </div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">паблик в ВКонтакте "Тру художник" (vk.com/tru_artist) с активной и вовлеченной аудиторией</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">увлекательный пост с картинкой-мотиватором и ссылкой на сайт заказчика</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">375 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">17 032 просмотра</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">105</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,02 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">3,57 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">0,6%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div></div>
+                <div class="works-example" id="socialtarget"><div class="works-example-wrap">
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">euroluki.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">компания по проектированию и производству ревизионных люков</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">facebook.com</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">таргетированная реклама. креативные посты на тему хитростей ремонта в ленте пользователей из числа целевой аудитории</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">5500 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">15 305 просмотров</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">433</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,36 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">12,7 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">2,8%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">hotwell.com</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">компания по производству домокомплектов и строительству коттеджей из СИП-панелей</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">instagram.com</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">таргетированная реклама. вовлекающие посты в ленте пользователей из числа целевой аудитории на тему строительства частного дома с указанием низкой цены и высокой скорости строительства</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">19800 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">151 519 просмотра</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">3056</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,13 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">6,47 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">2%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div></div>
+                <div class="works-example" id="prposts"><div class="works-example-wrap">
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">baxtel.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">интернет-магазин китайских телефонов</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">trashbox.ru - сайт о гаджетах и технологиях</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">дайджест китайских телефонов со ссылками на каталог сайта</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">8700 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">7869 просмотров</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">538</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">1,1 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">16,1 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">6,8%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">defender.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">интернет-магазин гаджетов и компьютерных аксессуаров</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">keddr.com - сайт о гаджетах и технологиях</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">розыгрыш гарнитур, короткое описание и ссылка на сайт</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">1000 рублей + стоимость призов победителям</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">7110 просмотра</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">77</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,14 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">12,99 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">1,1%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div></div>
+                <div class="works-example" id="communities"><div class="works-example-wrap">
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">avahost.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">услуги хостинга и регистрации доменов</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">seogadget.ru - популярный сервис инструментов для продвижения сайтов с активным форумом и сообществом веб-мастеров и SEO-специалистов</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">обзорный пост-рекомендация с описанием услуг заказчика в разделе популярных инструментов со ссылкой на сайт. размещение на месяц.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">11000 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">15538 просмотров</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">4271</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">0,7 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">2,57 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">27,5%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">airpromvent.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">вентиляционное и климатическое оборудование</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">diy.dirty.ru - DIY-сообщество активных мужчин, интересующихся техникой, IT</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">пост от имени одного из участников сообщества «Как собрать и установить кондиционер»</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">1000 рублей</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">охват:</div>
+                          <div class="work-info-v">996 просмотра</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">67</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 просмотр:</div>
+                          <div class="work-info-v">1 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">14,9 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">CTR:</div>
+                          <div class="work-info-v">6,7%</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div></div>
+                <div class="works-example" id="linksandnative"><div class="works-example-wrap">
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">nebo-v-podarok.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">магазин необычных подарков</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">funfrom.me - сайт, посвященный подаркам</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">встройка короткого текста со ссылкой на сайт заказчика в трафиковую статью (находящуюся в ТОП выдачи поисковых систем) «45 подарков для мужчины на любые праздники»</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">6283 руб.</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">951</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">6,6 руб.</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="work-card">
+                    <div class="work-card-box">
+                      <div class="work-card_url">chinchel.ru</div><!-- /.work-card_url -->
+                      <div class="work-card_project-info">центр китайской косметики</div><!-- /.work-card_project-info -->
+                      <div class="work-card_info">
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Площадка:</div>
+                          <div class="work-info-v">psoric.com - сайт о решении проблем с заболеваниями кожи</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">Формат:</div>
+                          <div class="work-info-v work-info-v-mini">встройка короткого текста со ссылкой на сайт заказчика в трафиковую статью (находящуюся в ТОП выдачи поисковых систем) «Мази от псориаза гормональные»</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">стоимость контента и публикации:</div>
+                          <div class="work-info-v">1500 рублей</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">переходов на сайт заказчика:</div>
+                          <div class="work-info-v">42</div>
+                        </div>
+
+                        <div class="work-card_info_item">
+                          <div class="work-info-name">цена за 1 переход:</div>
+                          <div class="work-info-v">35,7 руб.</div>
+                        </div>
+                    </div>
+                  </div>
+
+                </div></div>
 
               </div>
-
             </div>
         </div>
     </div>

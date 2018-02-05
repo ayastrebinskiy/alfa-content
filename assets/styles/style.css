@@ -365,13 +365,6 @@
   box-sizing: border-box;
   transition: all 0.2s;
 }
-.form-check .form-check-control.error{
-    color:#ec5965;
-}
-.form-check .form-check-control.error:before{
-    border-color: #ec5965;
-}
-
 
 .form-check .form-check-control:hover:before{
   border: 1px solid rgb(195, 200, 204);

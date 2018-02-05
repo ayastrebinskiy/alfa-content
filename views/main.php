@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="/assets/styles/style.css?<?php echo time(); ?>">
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="/assets/scripts/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
-        <script type="text/javascript" src="/assets/scripts/main.js?<?php echo time(); ?>"></script>
-        <script type="text/javascript" src="/assets/scripts/engine.js?<?=time()?>"></script>
+        <script type="text/javascript" src="/assets/scripts/main.js?"></script>
+        <script type="text/javascript" src="/assets/scripts/engine.js"></script>
         <script src="/assets/scripts/wow.min.js"></script>
         <script type="text/javascript">new WOW().init();</script>
         <script src="/assets/scripts/magnific-popup/jquery.magnific-popup.js"></script>
@@ -100,6 +100,14 @@
         <meta name='yandex-verification' content='5a63686111f846b1' />
 
         <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=JKeBAswzqR3vdPH8HE37yJ02*bGkOpaWrD0/Hvg85pWF/dWVP/DoFbWXL58dvJyEFkbyBeoNLDn99WkmTPuq8M8dnBWNzHZC1*YX8WReKvnhTyJLVoUNzKC6pYg1AFQn*S1cq11WqpJM2LACawTc0x0BBFbZ/86PC7WaPSHIBUo-&pixel_id=1000028784';</script>
+
+        <?php
+          /* функция для событий Яндекс.Метрики */
+            function yaMetrikaClick($target){
+              echo ' onclick="yaCounter38100055.reachGoal(\'' . $target . '\'); return true;"';
+            }
+          /* /функция для событий Яндекс.Метрики */
+        ?>
     </head>
     <body class="it-did-not-work"
         <?php require 'counters.php'; ?>
@@ -111,7 +119,7 @@
             <div class="ac-header-warp _ac-header-warp">
                 <div class="ac-header-warp__bg">
                     <div class="container">
-                        <a href="/" class="ac-logo">
+                        <a href="/" class="ac-logo" <?php yaMetrikaClick('LogoInHeader'); ?>>
                             <div class="logo-box">
                                 <div class="logo-box__img">
                                     <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><path id="green" class="logo_ac-green" d="M88.392,70.816a43.582,43.582,0,0,1-44.8-.027L38,80.494a56.046,56.046,0,0,0,56,.017Z" transform="translate(-38 -32)"/><path id="red" class="logo_ac-red" d="M65.942,32L44.993,68.359a41.991,41.991,0,0,0,41.994.029ZM61.361,62.448L66,54c1.383,2.391,2.791,5.227,4.655,8.45A31.23,31.23,0,0,1,66,63,30.851,30.851,0,0,1,61.361,62.448Z" transform="translate(-38 -32)"/></svg>
@@ -129,11 +137,11 @@
                             <li class="menu-item"><a href="#ac-i-tariff">Что вы<br>получите</a></li>
                             <li class="menu-item"><a href="#ac-i-work">Примеры<br>работ</a></li>
                             <li class="menu-item"><a href="#ac-i-faq">FAQ</a></li>
-                            <li class="menu-item"><a href="/blog">Блог</a></li>
+                            <li class="menu-item"><a href="/blog" <?php yaMetrikaClick('LinkToBlog'); ?>>Блог</a></li>
                         </ul>
                         <div class="tel">
                             <a href="tel:+74956680815">+7 (495) 668 08 15</a>
-                            <a href="mailto:info@alfa-content.ru">info@alfa-content.ru</a>
+                            <a href="mailto:info@alfa-content.ru" <?php yaMetrikaClick('ClickToEmail'); ?>>info@alfa-content.ru</a>
                         </div>
                     </div>
                 </div>
@@ -222,7 +230,7 @@
 
                         <div class="row">
                             <div class="col-12">
-                                <div class="wefine-btn-block"><a href="#ac-i-getresult" class="wefine-btn-link" data-screen="Хочу продвигать сайт">Хочу продвигать сайт</a></div>
+                                <div class="wefine-btn-block"><a href="#ac-i-getresult" class="wefine-btn-link" data-screen="Хочу продвигать сайт" <?php yaMetrikaClick('BtnOnWeFine'); ?>>Хочу продвигать сайт</a></div>
                             </div>
                         </div>
                     </div>
@@ -306,7 +314,7 @@
                             </div>
                           </div>
                           <div class="box-btn">
-                            <a href="#ac-i-getresult" class="how-btn-link">Начать работу</a>
+                            <a href="#ac-i-getresult" class="how-btn-link" <?php yaMetrikaClick('BtnOnHowStep'); ?>>Начать работу</a>
                           </div><!-- /.box-btn -->
                         </div>
 
@@ -360,7 +368,7 @@
                                       </ol>
                                     </div>
                                     <div class="box-btn">
-                                      <a href="https://webartex.ru/?adv=gbzgzlcz" class="how-btn-link" target="_blank">Начать работу</a>
+                                      <a href="https://webartex.ru/?adv=gbzgzlcz" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnWrx'); ?>>Начать работу</a>
                                     </div>
                                 </div>
                               </div>
@@ -387,7 +395,7 @@
                                       </ol>
                                     </div>
                                     <div class="box-btn">
-                                      <a href="https://seopult.ru/ref/4e66d92f61404d88" class="how-btn-link" target="_blank">Начать работу</a>
+                                      <a href="https://seopult.ru/ref/4e66d92f61404d88" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpSeo'); ?>>Начать работу</a>
                                     </div>
                                 </div>
                               </div>
@@ -416,7 +424,7 @@
                                         </ol>
                                       </div>
                                       <div class="box-btn">
-                                        <a href="https://seopult.ru/ref/ed601d80440a21c6/L3RlY2hub2xvZ3kvcHBj" class="how-btn-link" target="_blank">Начать работу</a>
+                                        <a href="https://seopult.ru/ref/ed601d80440a21c6/L3RlY2hub2xvZ3kvcHBj" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpPpc'); ?>>Начать работу</a>
                                       </div>
                                   </div>
                               </div>
@@ -441,7 +449,7 @@
                                       </ol>
                                     </div>
                                     <div class="box-btn">
-                                      <a href="https://seopult.ru/ref/27bbeb38c7555294/L3RlY2hub2xvZ3kvY29udGVudC1tYXJrZXRpbmc" class="how-btn-link" target="_blank">Начать работу</a>
+                                      <a href="https://seopult.ru/ref/27bbeb38c7555294/L3RlY2hub2xvZ3kvY29udGVudC1tYXJrZXRpbmc" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpContMarkt'); ?>>Начать работу</a>
                                     </div>
                                 </div>
                               </div>
@@ -459,7 +467,7 @@
                                       <p>Записывайтесь на бесплатные курсы по интернет-маркетингу и научитесь самостоятельно продвигать сайты. <br>Хотите стать профи? Посещайте наши конференции, платные курсы и семинары</p>
                                     </div>
                                     <div class="box-btn">
-                                      <a href="https://www.cybermarketing.ru/?ref=b1a3eca4" class="how-btn-link" target="_blank">Начать работу</a>
+                                      <a href="https://www.cybermarketing.ru/?ref=b1a3eca4" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnCyber'); ?>>Начать работу</a>
                                     </div>
                                 </div>
                               </div>
@@ -477,7 +485,7 @@
                                         <p>Специалист системы SeoPult будет работать индивидуально с вашим сайтом. Ваш персональный помощник выработает рекомендации по настройке рекламных кампаний или может выполнить работы за вас.</p>
                                       </div>
                                       <div class="box-btn">
-                                        <a href="#ac-popup-mini" class="how-btn-link popup-modal__order-link" target="_blank">Оставить заявку</a>
+                                        <a href="#ac-popup-mini" class="how-btn-link popup-modal__order-link" target="_blank" <?php yaMetrikaClick('BtnGoPopup'); ?>>Оставить заявку</a>
                                       </div>
                                   </div>
                               </div>
@@ -856,11 +864,6 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group required">
-                                        <input type="text" id="name" name="Client[name]" placeholder="Контактное лицо" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group required">
                                         <input type="email" id="email" placeholder="E-mail" name="Client[email]" class="form-control">
                                     </div>
                                 </div>
@@ -882,12 +885,12 @@
                             </div>
                             <div class="row bb1">
                                 <div class="form-group">
-                                    <button class="btn">Отправить</button>
+                                    <button class="btn" <?php yaMetrikaClick('BtnSendPopup'); ?>>Отправить</button>
                                 </div>
                             </div>
                             <div class="row bb1" style="margin: 0">
                               <div class="form-check">
-                                <input type="checkbox" name="confidentialYes" id="confidential">
+                                <input type="checkbox" name="confidentialYes" id="confidential" checked>
                                 <label for="confidential">
                                   <span class="form-check-control">Настоящим я даю <a href="http://alfa-content.ru/confidential/" target="_blank">согласие</a> на использование моих персональных данных.</span>
                                 </label>
@@ -928,7 +931,7 @@
                         </div>
                         <div class="click-logobox">
                             <span class="logo-info">Проект представлен:</span>
-                            <a href="//click.ru" class="click-logobox__img" target="_blank">Click.ru</a>
+                            <a href="//click.ru" class="click-logobox__img" target="_blank" <?php yaMetrikaClick('BtnClickFooter'); ?>>Click.ru</a>
                         </div>
                     </div>
                     <!-- /.ac-footer__logo-box-->
@@ -942,7 +945,7 @@
                             <a href="https://t.me/webartex_service" title="Alfa Content в TeleGramm" target="_blank" class="ac-footer__social-link ac-footer__social-link_vk"><svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="30" height="30"><style>.st0{fill:url(#path2995-1-0_1_)}.st1{fill:#c8daea}.st2{fill:#a9c9dd}.st3{fill:url(#path2991_1_)}</style><linearGradient id="path2995-1-0_1_" gradientUnits="userSpaceOnUse" x1="-683.305" y1="534.845" x2="-693.305" y2="511.512" gradientTransform="matrix(6 0 0 -6 4255 3247)"><stop offset="0" stop-color="#37aee2"/><stop offset="1" stop-color="#1e96c8"/></linearGradient><path id="path2995-1-0" class="st0" d="M240 120c0 66.3-53.7 120-120 120S0 186.3 0 120 53.7 0 120 0s120 53.7 120 120z"/><path id="path2993" class="st1" d="M98 175c-3.9 0-3.2-1.5-4.6-5.2L82 132.2 152.8 88l8.3 2.2-6.9 18.8L98 175z"/><path id="path2989" class="st2" d="M98 175c3 0 4.3-1.4 6-3 2.6-2.5 36-35 36-35l-20.5-5-19 12-2.5 30v1z"/><linearGradient id="path2991_1_" gradientUnits="userSpaceOnUse" x1="128.991" y1="118.245" x2="153.991" y2="78.245" gradientTransform="matrix(1 0 0 -1 0 242)"><stop offset="0" stop-color="#eff7fc"/><stop offset="1" stop-color="#fff"/></linearGradient><path id="path2991" class="st3" d="M100 144.4l48.4 35.7c5.5 3 9.5 1.5 10.9-5.1L179 82.2c2-8.1-3.1-11.7-8.4-9.3L55 117.5c-7.9 3.2-7.8 7.6-1.4 9.5l29.7 9.3L152 93c3.2-2 6.2-.9 3.8 1.3L100 144.4z"/></svg></a>
         										<a href="https://www.instagram.com/webartex/" title="Alfa Content в InstaGramm" target="_blank" class="ac-footer__social-link ac-footer__social-link_vk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3364.7 3364.7" width="30" height="30"><defs><radialGradient id="0" cx="217.76" cy="3290.99" r="4271.92" gradientUnits="userSpaceOnUse"><stop offset=".09" stop-color="#fa8f21"/><stop offset=".78" stop-color="#d82d7e"/></radialGradient><radialGradient id="1" cx="2330.61" cy="3182.95" r="3759.33" gradientUnits="userSpaceOnUse"><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"/><stop offset="1" stop-color="#8c3aaa"/></radialGradient></defs><path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#0)"/><path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#1)"/><path d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57" fill="#fff"/></svg></a>
                         </div><!-- /.ac-footer__social-box-->
-                        <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link">info@alfa-content.ru</a></div>
+                        <div class="ac-footer__mail-box"><a href="mailto:info@alfa-content.ru" class="footer-mail-link" <?php yaMetrikaClick('ClickToEmailFooter'); ?>>info@alfa-content.ru</a></div>
                         <div class="ac-footer__tel-box"><a href="tel:+74956680815" class="footer-tel-link">+7 (495) 668 08 15</a>
                           <div class="footer__confidential"><a href="/confidential/" target="_blank">Политика конфиденциальности и обработки персональных данных</a></div>
                         </div>

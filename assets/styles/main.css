@@ -805,9 +805,6 @@ table {
 .ac-header .ac-header-warp.sticky .menu-item a.active {
   background-color: #e8e8e8;
 }
-.ac-header .ac-header-warp.sticky .tel a:hover {
-  background-color: #fff;
-}
 .ac-header-warp__bg {
   -webkit-border-radius: 50%/74%;
   -moz-border-radius: 50%/74%;
@@ -879,8 +876,8 @@ table {
 .ac-header .tel a:last-child {
   margin-bottom: 0;
 }
+
 .ac-header .tel a:hover {
-  background-color: transparent;
   color: #37d300;
 }
 .ac-logo {
@@ -3251,6 +3248,14 @@ box-shadow: 0 10px 0 rgba(0,0,0,0.1);
 }
 
 .works-example {
+  display: none;
+}
+
+#inyoutube {
+  display: block;
+}
+
+.works-example-wrap {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -3259,7 +3264,8 @@ box-shadow: 0 10px 0 rgba(0,0,0,0.1);
   -ms-align-items: stretch;
   align-items: stretch;
   align-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .work-type {
@@ -3275,6 +3281,13 @@ box-shadow: 0 10px 0 rgba(0,0,0,0.1);
   transition: all 0.4s ease;
   border: 1px solid transparent;
   text-align: center;
+}
+a.work-type {
+  border-bottom-color: transparent;
+  text-decoration: none;
+}
+a.work-type:hover {
+  border-bottom-color: transparent;
 }
 .work-type:hover,
 .work-type.hover,
@@ -3313,8 +3326,8 @@ box-shadow: 0 10px 0 rgba(0,0,0,0.1);
 }
 
 .work-card {
-  flex: 1 50%;
-  margin-right: 50px;
+  max-width: 540px;
+  flex-basis: 48%;
   background-color: #fff;
   border: 1px solid transparent;
   -webkit-border-radius: 4px;
@@ -3370,6 +3383,11 @@ text-align: center;
 margin-bottom: 20px;
 }
 
+.work-card_project-info.work-card_project-info--img {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
 .work-card_info {
   display: -webkit-flex;
   display: -moz-flex;
@@ -3396,7 +3414,18 @@ margin-bottom: 20px;
 font-size: 18px;
 font-weight: 700;
 line-height: 26px;
-margin-left: 30px;
+margin-left: 20px;
+}
+
+.work-info-v > a {
+  text-decoration: none;
+  color: #ec5965;
+  border-bottom: 1px solid rgba(236,88,100,.42);
+}
+
+.work-info-v > a:hover {
+  color: #37d300;
+  border-bottom: 1px solid rgba(55,210,0,.33);
 }
 
 .work-info-v.work-info-v-mini {

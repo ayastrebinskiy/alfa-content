@@ -92,14 +92,6 @@ $(document).ready(function () {
         e.preventDefault();
         data = $form.serializeArray();
         if (checkForm($form) === true) {
-            if(!$('#confidential').is(':checked')){
-                var el = $('.form-check-control', $('#confidential').next());
-                el.addClass('error');
-                $('#confidential').one('click', function(){
-                    el.removeClass('error');
-                });
-                return false;
-            }
             data.push({name: "csrf", value: $('meta[name="csrf"]').attr('content')});
             $.post(url, data, function (result) {
                 if (typeof dataLayer !== 'undefined') {
@@ -295,11 +287,11 @@ $(document).ready(function () {
 
 
     //wait popup
-    $('.whatformats-block .whatformats-block__description').on('click', function (e) {
-
+    $('.whatformats-block .ac-more-link,.whatformats-block:has(.ac-more-link)').on('click', function (e) {
         var block = $(this).hasClass('whatformats-block') ? $(this) : $(this).closest('.whatformats-block');
         var clone = block.clone();
         var hide = function (e) {
+            console.log(e);
             $(this).remove();
         };
 
