@@ -864,6 +864,12 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group required">
+                                        <input type="text" id="name" name="Client[name]" placeholder="Контактное лицо"
+                                        class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group required">
                                         <input type="email" id="email" placeholder="E-mail" name="Client[email]" class="form-control">
                                     </div>
                                 </div>

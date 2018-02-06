@@ -97,7 +97,6 @@ $(document).ready(function () {
     $('.popup-modal__mini-link, [href="#ac-popup-mini"]').magnificPopup({
         type: 'inline',
         preloader: false,
-        focus: '#name',
         closeOnBgClick: true
     });
 
