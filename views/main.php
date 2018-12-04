@@ -176,9 +176,9 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".6s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine8.png" alt="Холдинг SeoPult, на базе которого работают сервисы"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine8.png" alt="Холдинг PromoPult, на базе которого работают сервисы"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">Холдинг SeoPult, на базе которого работают сервисы</span>,  — это гарант надежности и качества оказываемых услуг. При этом цены размещения на площадках значительно ниже, чем в агентствах.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">Холдинг PromoPult, на базе которого работают сервисы</span>,  — это гарант надежности и качества оказываемых услуг. При этом цены размещения на площадках значительно ниже, чем в агентствах.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -186,9 +186,9 @@
                             <div class="col-4">
                                 <div class="wefine-block wow fadeIn" data-wow-delay=".9s">
                                     <div class="wefine-block__description">
-                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine9.png" alt="Алгоритмы SeoPult"></div>
+                                        <div class="wefine-block__icon"><img src="/assets/images/wefine/wefine9.png" alt="Алгоритмы PromoPult"></div>
                                         <div class="wefine-block__text">
-                                            <p class="wefine-text"><span class="wefine-text-accent">Алгоритмы SeoPult</span> позволяют подбирать оптимальные площадки для вашего сайта и бюджета, а штатные специалисты создают контент, который будет полезен вашей целевой аудитории и мотивировать ее перейти на ваш сайт.</p>
+                                            <p class="wefine-text"><span class="wefine-text-accent">Алгоритмы PromoPult</span> позволяют подбирать оптимальные площадки для вашего сайта и бюджета, а штатные специалисты создают контент, который будет полезен вашей целевой аудитории и мотивировать ее перейти на ваш сайт.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -395,7 +395,7 @@
                                       </ol>
                                     </div>
                                     <div class="box-btn">
-                                      <a href="https://seopult.ru/ref/4e66d92f61404d88" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpSeo'); ?>>Начать работу</a>
+                                      <a href="https://promopult.ru/ref/4e66d92f61404d88" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpSeo'); ?>>Начать работу</a>
                                     </div>
                                 </div>
                               </div>
@@ -424,7 +424,7 @@
                                         </ol>
                                       </div>
                                       <div class="box-btn">
-                                        <a href="https://seopult.ru/ref/ed601d80440a21c6/L3RlY2hub2xvZ3kvcHBj" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpPpc'); ?>>Начать работу</a>
+                                        <a href="https://promopult.ru/ref/ed601d80440a21c6/L3RlY2hub2xvZ3kvcHBj" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpPpc'); ?>>Начать работу</a>
                                       </div>
                                   </div>
                               </div>
@@ -449,7 +449,7 @@
                                       </ol>
                                     </div>
                                     <div class="box-btn">
-                                      <a href="https://seopult.ru/ref/27bbeb38c7555294/L3RlY2hub2xvZ3kvY29udGVudC1tYXJrZXRpbmc" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpContMarkt'); ?>>Начать работу</a>
+                                      <a href="https://promopult.ru/ref/27bbeb38c7555294/L3RlY2hub2xvZ3kvY29udGVudC1tYXJrZXRpbmc" class="how-btn-link" target="_blank" <?php yaMetrikaClick('BtnSpContMarkt'); ?>>Начать работу</a>
                                     </div>
                                 </div>
                               </div>
@@ -482,7 +482,7 @@
                                       <div class="getresult-block__description">
                                         <p><strong>Решение</strong>: Оставьте заявку, и наши специалисты свяжутся с вами и предложат оптимальное решение</p>
                                         <p>Технология:</p>
-                                        <p>Специалист системы SeoPult будет работать индивидуально с вашим сайтом. Ваш персональный помощник выработает рекомендации по настройке рекламных кампаний или может выполнить работы за вас.</p>
+                                        <p>Специалист системы PromoPult будет работать индивидуально с вашим сайтом. Ваш персональный помощник выработает рекомендации по настройке рекламных кампаний или может выполнить работы за вас.</p>
                                       </div>
                                       <div class="box-btn">
                                         <a href="#ac-popup-mini" class="how-btn-link popup-modal__order-link" target="_blank" <?php yaMetrikaClick('BtnGoPopup'); ?>>Оставить заявку</a>
