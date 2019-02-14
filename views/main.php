@@ -9,7 +9,7 @@
         <meta name="csrf" content="<?php echo generateValidationKey() ?>">
         <meta itemprop="image" content="http://alfa-content.ru/favicon-192x192.png">
         <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <link rel="stylesheet" href="/assets/styles/main.css?<?php echo time(); ?>">
+        <link rel="stylesheet" href="../assets/styles/main.css?<?php echo time(); ?>">
         <link rel="stylesheet" href="/assets/scripts/magnific-popup/magnific-popup.css">
         <link rel="stylesheet" href="/assets/styles/animate.css?">
         <link rel="stylesheet" href="/assets/styles/style.css?<?php echo time(); ?>">
@@ -111,6 +111,144 @@
     </head>
     <body class="it-did-not-work"
         <?php require 'counters.php'; ?>
+
+        <style media="screen">
+          .stretch {
+            background-color: #00a0d6;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+          }
+
+          .stretch_wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 0;
+          }
+
+          .stretch_wrap p {
+            margin: 0;
+            padding: 0;
+            border-bottom: 1px solid transparent;
+            transition: all .2s ease;
+          }
+
+          .stretch_content {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            -ms-align-items: center;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+            color: #fff;
+            text-decoration: none;
+            line-height: 1;
+            font-size: 18px;
+            transition: all .2s ease;
+          }
+
+          .stretch_message {
+            margin-right: 20px;
+          }
+
+          .stretch_content:hover {
+            color: #ffffff;
+          }
+
+          .stretch_content:hover p {
+            border-bottom-color: rgba(255, 255, 255, .35);
+          }
+
+          .stretch_content:hover .stretch-btn {
+            background-color: #fff;
+            color: #00a0d6;
+          }
+
+          .stretch-btn {
+            border: 2px solid #fff;
+            border-radius: 4px;
+            padding: 16px 25px 13px 25px;
+            line-height: 1;
+            font-size: 14px;
+            display: block;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: all .2s ease;
+          }
+
+          @media only screen and (max-width: 575px) {
+
+            .stretch {
+              border-bottom-left-radius: 5px;
+              border-bottom-right-radius: 5px;
+            }
+
+            .stretch_wrap {
+              width: 100%;
+              padding: 10px 20px 15px 20px;
+            }
+
+            .stretch_content {
+              -webkit-flex-direction: column;
+              -moz-flex-direction: column;
+              -ms-flex-direction: column;
+              -o-flex-direction: column;
+              flex-direction: column;
+              -ms-align-items: flex-start;
+              align-items: flex-start;
+              align-content: flex-start;
+
+              font-size: 14px;
+              line-height: 1.42857143;
+            }
+
+            .stretch-btn {
+              font-size: 13px;
+              padding: 11px 15px 8px 15px;
+              font-weight: normal;
+              border-width: 1px;
+              text-transform: none;
+
+              background-color: #fff;
+              color: #000;
+            }
+
+            .stretch_message {
+              margin-right: 0;
+              margin-bottom: 10px;
+            }
+          }
+        </style>
+
+        <!-- begin .stretch -->
+        <div class="stretch">
+          <!-- begin .stretch_wrap -->
+          <div class="stretch_wrap">
+            <!-- begin .stretch_content -->
+            <a class="stretch_content" href="https://puzat.ru/event/arena?utm_source=alfa-content.ru&utm_medium=banner&utm_content=PromoPult&utm_term=2&utm_campaign=Partner" target="_blank">
+
+              <!-- begin .stretch_message -->
+              <div class="stretch_message">
+                <p>Как в 2019 получать больше трафика, превращать его в деньги и делать бизнес на сайтах</p>
+              </div>
+              <!-- end .stretch_message -->
+
+              <!-- begin .stretch_action -->
+              <div class="stretch_action">
+                <span class="stretch-btn">Узнать сейчас!</span>
+              </div>
+              <!-- end .stretch_action -->
+
+            </a>
+            <!-- end .stretch_content -->
+          </div>
+          <!-- end .stretch_wrap -->
+        </div>
+        <!-- end .stretch -->
+
+
         <!-- /.ac-header -->
         <div class="ac-header">
             <div class="header__bg">

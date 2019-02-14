@@ -784,7 +784,7 @@ table {
   display: block;
   overflow: hidden;
   z-index: 1;
-  top: 0;
+  top: 77px;
   *zoom: 1;
 }
 .ac-header-warp:before,
@@ -797,6 +797,7 @@ table {
 }
 .ac-header-warp.sticky {
   z-index: 199;
+  top: 0;
 }
 .ac-header-warp.sticky .ac-header-warp__bg {
   background-color: rgba(255, 255, 255, 0.9);
