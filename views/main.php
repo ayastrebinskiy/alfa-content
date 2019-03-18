@@ -227,11 +227,11 @@
           <!-- begin .stretch_wrap -->
           <div class="stretch_wrap">
             <!-- begin .stretch_content -->
-            <a class="stretch_content" href="https://puzat.ru/event/arena?utm_source=alfa-content.ru&utm_medium=banner&utm_content=PromoPult&utm_term=2&utm_campaign=Partner" target="_blank">
+            <a class="stretch_content" href="https://click.ru?utm_medium=banner&utm_source=alfa-content&utm_campaign=top" target="_blank">
 
               <!-- begin .stretch_message -->
               <div class="stretch_message">
-                <p>Как в 2019 получать больше трафика, превращать его в деньги и делать бизнес на сайтах</p>
+                <p>Как вернуть до 8 % от расходов на контекстную и таргетированную рекламу?</p>
               </div>
               <!-- end .stretch_message -->
 
