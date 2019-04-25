@@ -109,7 +109,7 @@
           /* /функция для событий Яндекс.Метрики */
         ?>
     </head>
-    <body class="it-did-not-work"
+    <body class="it-did-not-work">
         <?php require 'counters.php'; ?>
 
         <?php require('stretch.php'); ?>
